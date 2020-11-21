@@ -1,5 +1,5 @@
 # Query 1 Solution
-**ORDER BY city ASC
+**ORDER BY city ASC** 
 ```sql
 Abancay
 Abeokuta
