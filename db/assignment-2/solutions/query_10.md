@@ -3,6292 +3,6294 @@
 List all matchup (team_1, team_2), where there exists a match (team_1 vs team_2) but no (team_2 vs team_1).
 
 *(6286 rows)*
-
+*ORDER BY team_1 ASC,team_2 ASC*
 | team_1                           | team_2                           |
 | :------------------------------- | :------------------------------- |
-| Qatar                            | Djibouti                         |
-| Cameroon                         | Mexico                           |
-| Colombia                         | France                           |
-| El Salvador                      | South Africa                     |
-| Malaysia                         | Denmark                          |
-| Iran                             | State of Palestine               |
-| Saint Vincent and the Grenadines | Sudan                            |
-| Bolivia                          | Pakistan                         |
-| Italy                            | Kenya                            |
-| United Arab Emirates             | Poland                           |
-| Cape Verde                       | Mali                             |
-| Uzbekistan                       | Eritrea                          |
-| Tanzania                         | Solomon Islands                  |
-| Syria                            | Germany                          |
-| Singapore                        | Sri Lanka                        |
-| Trinidad and Tobago              | Cameroon                         |
-| Bhutan                           | Lithuania                        |
-| Oman                             | Kosovo                           |
-| Vietnam                          | Zimbabwe                         |
-| Mauritania                       | Zimbabwe                         |
-| Bangladesh                       | Bolivia                          |
-| Kenya                            | Bahrain                          |
-| Netherlands                      | Saudi Arabia                     |
-| Vietnam                          | Algeria                          |
-| Rwanda                           | Libya                            |
-| Mexico                           | Slovakia                         |
-| Grenada                          | Uruguay                          |
-| Spain                            | Nigeria                          |
-| Uruguay                          | Uganda                           |
-| Botswana                         | Kazakhstan                       |
-| Mauritius                        | Jordan                           |
-| Mongolia                         | Malaysia                         |
-| Laos                             | France                           |
-| Nepal                            | Norway                           |
-| Malawi                           | Lithuania                        |
-| Croatia                          | Djibouti                         |
-| Benin                            | Saint Kitts and Nevis            |
-| Republic of Abkhazia             | Guernsey                         |
-| Argentina                        | North Macedonia                  |
-| Kosovo                           | Sweden                           |
-| Bangladesh                       | Democratic Republic of the Congo |
-| Moldova                          | Bulgaria                         |
-| Sri Lanka                        | Japan                            |
-| Algeria                          | Nigeria                          |
-| Denmark                          | Cyprus                           |
-| Belgium                          | Nicaragua                        |
-| Gabon                            | Eritrea                          |
-| Canada                           | Mexico                           |
-| Kosovo                           | Rwanda                           |
-| Kazakhstan                       | Israel                           |
-| San Marino                       | Australia                        |
-| Switzerland                      | Uzbekistan                       |
-| Sweden                           | Uzbekistan                       |
-| Saint Vincent and the Grenadines | Faroe Islands                    |
-| Brazil                           | Luxembourg                       |
-| Croatia                          | Denmark                          |
-| Hungary                          | Malta                            |
-| Saint Vincent and the Grenadines | Slovenia                         |
-| Finland                          | Malta                            |
-| Germany                          | Antigua and Barbuda              |
-| Zambia                           | Uzbekistan                       |
-| Germany                          | Suriname                         |
-| Sudan                            | Russia                           |
-| Italy                            | Rwanda                           |
-| Malawi                           | Burkina Faso                     |
-| Saudi Arabia                     | Liberia                          |
-| Saint Vincent and the Grenadines | Republic of Abkhazia             |
-| Israel                           | Saint Lucia                      |
-| Belgium                          | Spain                            |
-| Bulgaria                         | Morocco                          |
-| Trinidad and Tobago              | Liberia                          |
-| Fiji                             | Ireland                          |
-| Ireland                          | Algeria                          |
-| Mali                             | Cuba                             |
-| Jordan                           | Sudan                            |
-| Malta                            | Gabon                            |
-| Ukraine                          | Botswana                         |
-| Myanmar                          | Kyrgyzstan                       |
-| Mauritius                        | Poland                           |
-| Trinidad and Tobago              | Cape Verde                       |
-| Taiwan                           | Luxembourg                       |
-| Czech Republic                   | Iraq                             |
-| Saudi Arabia                     | Bahrain                          |
-| Faroe Islands                    | Azerbaijan                       |
-| Mongolia                         | Latvia                           |
-| Spain                            | Saint Kitts and Nevis            |
-| Paraguay                         | Czech Republic                   |
-| Ivory Coast                      | Laos                             |
-| People's Republic of China       | Angola                           |
-| Saint Kitts and Nevis            | Zimbabwe                         |
-| Costa Rica                       | Luxembourg                       |
-| Kazakhstan                       | Jordan                           |
-| Cameroon                         | Uganda                           |
-| Sri Lanka                        | Afghanistan                      |
-| Brazil                           | Mongolia                         |
-| Iraq                             | British Virgin Islands           |
-| Saint Vincent and the Grenadines | Benin                            |
-| Romania                          | Saint Kitts and Nevis            |
-| Faroe Islands                    | Saint Kitts and Nevis            |
-| State of Palestine               | Trinidad and Tobago              |
-| Ukraine                          | Belgium                          |
-| India                            | South Korea                      |
-| Kuwait                           | Curaçao                          |
-| Papua New Guinea                 | North Korea                      |
-| Brazil                           | Japan                            |
-| Norway                           | Nigeria                          |
-| Antigua and Barbuda              | Saint Kitts and Nevis            |
-| Luxembourg                       | Malta                            |
-| Japan                            | New Zealand                      |
-| Luxembourg                       | Bosnia and Herzegovina           |
-| Trinidad and Tobago              | Slovenia                         |
-| Fiji                             | Trinidad and Tobago              |
-| Turkey                           | Latvia                           |
-| Dominican Republic               | Netherlands                      |
-| Papua New Guinea                 | Cambodia                         |
-| Estonia                          | United Arab Emirates             |
-| Cuba                             | Estonia                          |
-| Qatar                            | Sierra Leone                     |
-| Uganda                           | Latvia                           |
-| Mongolia                         | Mexico                           |
-| Slovakia                         | South Africa                     |
-| Latvia                           | Belarus                          |
-| Algeria                          | South Africa                     |
-| Kazakhstan                       | Dominican Republic               |
-| Armenia                          | State of Palestine               |
-| Mauritania                       | Pakistan                         |
-| El Salvador                      | Nepal                            |
-| Faroe Islands                    | Romania                          |
-| Sierra Leone                     | Mexico                           |
-| Guernsey                         | Kyrgyzstan                       |
-| Bosnia and Herzegovina           | Malta                            |
-| Portugal                         | Papua New Guinea                 |
-| Ukraine                          | Saudi Arabia                     |
-| Cambodia                         | Luxembourg                       |
-| Iran                             | Bolivia                          |
-| Thailand                         | Somalia                          |
-| Saint Lucia                      | Czech Republic                   |
-| Solomon Islands                  | Sierra Leone                     |
-| Saudi Arabia                     | Armenia                          |
-| Uruguay                          | Ghana                            |
-| Mali                             | Switzerland                      |
-| Uganda                           | Liechtenstein                    |
-| Antigua and Barbuda              | Mali                             |
-| Norway                           | Switzerland                      |
-| Rwanda                           | Bolivia                          |
-| United Arab Emirates             | Belgium                          |
-| Eritrea                          | Kuwait                           |
-| Switzerland                      | Iran                             |
-| North Korea                      | Nicaragua                        |
-| Liberia                          | Japan                            |
-| South Korea                      | Sudan                            |
-| Colombia                         | Uganda                           |
-| Netherlands                      | Azerbaijan                       |
-| Slovenia                         | El Salvador                      |
-| Greece                           | Saint Kitts and Nevis            |
-| Lebanon                          | Lithuania                        |
-| Eritrea                          | Papua New Guinea                 |
-| Djibouti                         | Greece                           |
-| São Tomé and Príncipe            | Venezuela                        |
-| Israel                           | Mauritius                        |
-| Italy                            | Iceland                          |
-| Uzbekistan                       | Trinidad and Tobago              |
-| Japan                            | Mali                             |
-| Thailand                         | Nigeria                          |
-| United States of America         | Curaçao                          |
-| North Korea                      | Hungary                          |
-| Nigeria                          | South Sudan                      |
-| Ecuador                          | Malaysia                         |
-| Tajikistan                       | Solomon Islands                  |
-| People's Republic of China       | Bhutan                           |
-| Norway                           | Czech Republic                   |
-| Serbia                           | Nicaragua                        |
-| Zambia                           | Ghana                            |
-| Italy                            | Zimbabwe                         |
-| United Kingdom                   | Norway                           |
-| Belgium                          | Turkmenistan                     |
-| Switzerland                      | San Marino                       |
-| Botswana                         | Japan                            |
-| Philippines                      | Greenland                        |
-| Mali                             | Estonia                          |
-| Estonia                          | Norway                           |
-| Cuba                             | Mongolia                         |
-| Uruguay                          | Argentina                        |
-| Switzerland                      | Slovenia                         |
-| San Marino                       | Malaysia                         |
-| Zimbabwe                         | India                            |
-| Austria                          | Rwanda                           |
-| Nicaragua                        | Slovakia                         |
-| Jordan                           | Croatia                          |
-| Switzerland                      | Gabon                            |
-| India                            | South Sudan                      |
-| Egypt                            | Romania                          |
-| Costa Rica                       | Austria                          |
-| Belarus                          | Cambodia                         |
-| Trinidad and Tobago              | Gabon                            |
-| Republic of Abkhazia             | Cuba                             |
-| Montenegro                       | Austria                          |
-| Iran                             | Rwanda                           |
-| Liberia                          | Russia                           |
-| Canada                           | Estonia                          |
-| Sweden                           | Honduras                         |
-| Montenegro                       | Rwanda                           |
-| Solomon Islands                  | Latvia                           |
-| Kyrgyzstan                       | Faroe Islands                    |
-| Israel                           | Uganda                           |
-| Liberia                          | Syria                            |
-| Syria                            | Venezuela                        |
-| Kyrgyzstan                       | Kazakhstan                       |
-| Poland                           | Botswana                         |
-| Portugal                         | Colombia                         |
-| Turkey                           | Paraguay                         |
-| Armenia                          | Malawi                           |
-| Saint Lucia                      | Malta                            |
-| Paraguay                         | Gabon                            |
-| Ghana                            | Guatemala                        |
-| Saint Lucia                      | Liechtenstein                    |
-| Burkina Faso                     | Panama                           |
-| El Salvador                      | Uzbekistan                       |
-| Guernsey                         | Ethiopia                         |
-| Turkey                           | The Gambia                       |
-| Portugal                         | Bosnia and Herzegovina           |
-| State of Palestine               | Canada                           |
-| Angola                           | Eritrea                          |
-| Jordan                           | Albania                          |
-| El Salvador                      | Cameroon                         |
-| Czech Republic                   | Guatemala                        |
-| Nigeria                          | Democratic Republic of the Congo |
-| Cape Verde                       | Ethiopia                         |
-| Liberia                          | Cuba                             |
-| Estonia                          | Serbia                           |
-| Costa Rica                       | Romania                          |
-| Croatia                          | Portugal                         |
-| Uruguay                          | Tajikistan                       |
-| Saint Kitts and Nevis            | Qatar                            |
-| Kuwait                           | Dominican Republic               |
-| Belarus                          | Sri Lanka                        |
-| Colombia                         | Netherlands                      |
-| Saint Kitts and Nevis            | Argentina                        |
-| Brunei                           | Paraguay                         |
-| Turkey                           | Dominica                         |
-| Myanmar                          | Montenegro                       |
-| Botswana                         | Algeria                          |
-| San Marino                       | Qatar                            |
-| Nicaragua                        | Cape Verde                       |
-| Azerbaijan                       | India                            |
-| Sweden                           | Ivory Coast                      |
-| Jordan                           | Lebanon                          |
-| Lebanon                          | Montenegro                       |
-| Iran                             | Georgia                          |
-| Canada                           | Benin                            |
-| Netherlands                      | Pakistan                         |
-| Burkina Faso                     | São Tomé and Príncipe            |
-| Papua New Guinea                 | Spain                            |
-| Syria                            | Nigeria                          |
-| Ukraine                          | United States of America         |
-| El Salvador                      | Moldova                          |
-| Mexico                           | Libya                            |
-| United States of America         | Portugal                         |
-| Armenia                          | Cape Verde                       |
-| Mauritania                       | Vietnam                          |
-| Albania                          | Australia                        |
-| Armenia                          | Romania                          |
-| Uganda                           | Finland                          |
-| Sudan                            | Japan                            |
-| Uruguay                          | Kenya                            |
-| Georgia                          | Netherlands                      |
-| Grenada                          | Nicaragua                        |
-| Liechtenstein                    | Rwanda                           |
-| Egypt                            | Bhutan                           |
-| Benin                            | Netherlands                      |
-| San Marino                       | United Arab Emirates             |
-| Lebanon                          | Costa Rica                       |
-| Burkina Faso                     | Democratic Republic of the Congo |
-| Poland                           | People's Republic of China       |
-| Cambodia                         | South Sudan                      |
-| Cameroon                         | Uruguay                          |
-| Belarus                          | Bahrain                          |
-| Egypt                            | Democratic Republic of the Congo |
-| Belgium                          | Dominica                         |
-| Albania                          | Burkina Faso                     |
-| Cape Verde                       | Uzbekistan                       |
-| Benin                            | Belgium                          |
-| Democratic Republic of the Congo | Myanmar                          |
-| Russia                           | North Macedonia                  |
-| Algeria                          | Peru                             |
-| Sri Lanka                        | Ireland                          |
-| Latvia                           | Cape Verde                       |
-| Qatar                            | Burundi                          |
-| Mauritania                       | Zambia                           |
-| Bahrain                          | Kosovo                           |
-| Curaçao                          | Philippines                      |
-| Saint Lucia                      | Norway                           |
-| Bangladesh                       | South Sudan                      |
-| Malawi                           | Portugal                         |
-| Somalia                          | Denmark                          |
-| Solomon Islands                  | Sudan                            |
-| Turkey                           | Bosnia and Herzegovina           |
-| Austria                          | Mali                             |
-| Afghanistan                      | Uzbekistan                       |
-| Brazil                           | Australia                        |
-| Tunisia                          | Bahrain                          |
-| Bolivia                          | Costa Rica                       |
-| Kazakhstan                       | Switzerland                      |
-| New Zealand                      | Kuwait                           |
-| Slovenia                         | Chile                            |
-| Curaçao                          | Austria                          |
-| Chile                            | Antigua and Barbuda              |
-| Japan                            | Greenland                        |
-| New Zealand                      | Trinidad and Tobago              |
-| Saint Vincent and the Grenadines | Venezuela                        |
-| Iran                             | Turkey                           |
-| Slovenia                         | Bosnia and Herzegovina           |
-| Turkey                           | Tajikistan                       |
-| Bosnia and Herzegovina           | Republic of Abkhazia             |
-| Benin                            | Uruguay                          |
-| Sweden                           | Portugal                         |
-| Czech Republic                   | Italy                            |
-| Pakistan                         | Honduras                         |
-| Guyana                           | Sudan                            |
-| Costa Rica                       | United States of America         |
-| Iceland                          | United Kingdom                   |
-| Hungary                          | São Tomé and Príncipe            |
-| Grenada                          | Lebanon                          |
-| Turkmenistan                     | Brazil                           |
-| British Virgin Islands           | Ukraine                          |
-| Malaysia                         | Zambia                           |
-| Nigeria                          | Armenia                          |
-| Kuwait                           | Indonesia                        |
-| Zimbabwe                         | Cuba                             |
-| Eritrea                          | Dominica                         |
-| British Virgin Islands           | Solomon Islands                  |
-| Switzerland                      | São Tomé and Príncipe            |
-| Nigeria                          | Japan                            |
-| Serbia                           | Democratic Republic of the Congo |
-| Ivory Coast                      | Papua New Guinea                 |
-| Botswana                         | Estonia                          |
-| Vietnam                          | Chile                            |
-| Turkmenistan                     | Djibouti                         |
-| Botswana                         | Israel                           |
-| Croatia                          | British Virgin Islands           |
-| Saint Kitts and Nevis            | Sierra Leone                     |
-| Fiji                             | Paraguay                         |
-| Georgia                          | Mali                             |
-| Ethiopia                         | United States of America         |
-| Sri Lanka                        | Ukraine                          |
-| Suriname                         | Switzerland                      |
-| Slovakia                         | Lithuania                        |
-| Colombia                         | South Africa                     |
-| Albania                          | Saudi Arabia                     |
-| Cameroon                         | Singapore                        |
-| Kenya                            | Iran                             |
-| Somalia                          | Paraguay                         |
-| Lithuania                        | Austria                          |
-| Guyana                           | Lithuania                        |
-| Uruguay                          | Nigeria                          |
-| Uzbekistan                       | San Marino                       |
-| Venezuela                        | Moldova                          |
-| British Virgin Islands           | Brunei                           |
-| State of Palestine               | Venezuela                        |
-| North Korea                      | Trinidad and Tobago              |
-| Mauritius                        | Netherlands                      |
-| Saint Lucia                      | Germany                          |
-| Venezuela                        | Guernsey                         |
-| Azerbaijan                       | Belgium                          |
-| Bulgaria                         | Denmark                          |
-| Laos                             | Cuba                             |
-| Denmark                          | Antigua and Barbuda              |
-| São Tomé and Príncipe            | Suriname                         |
-| Tunisia                          | Belgium                          |
-| Indonesia                        | Poland                           |
-| Argentina                        | Guyana                           |
-| Bosnia and Herzegovina           | Saudi Arabia                     |
-| Colombia                         | Iran                             |
-| United States of America         | People's Republic of China       |
-| Guyana                           | Czech Republic                   |
-| Sweden                           | Cuba                             |
-| Albania                          | Kenya                            |
-| Liberia                          | Tajikistan                       |
-| Dominican Republic               | Grenada                          |
-| Austria                          | Pakistan                         |
-| Slovakia                         | Australia                        |
-| Belarus                          | Argentina                        |
-| Nepal                            | Armenia                          |
-| Lithuania                        | Cameroon                         |
-| Brazil                           | Morocco                          |
-| Nigeria                          | Sweden                           |
-| United States of America         | São Tomé and Príncipe            |
-| Malawi                           | Cyprus                           |
-| Greenland                        | Uruguay                          |
-| Bhutan                           | Mongolia                         |
-| Bahrain                          | Sierra Leone                     |
-| Taiwan                           | Argentina                        |
-| Romania                          | San Marino                       |
-| Iceland                          | Malawi                           |
-| Costa Rica                       | Cyprus                           |
-| Hungary                          | Qatar                            |
-| South Africa                     | Moldova                          |
-| Republic of Abkhazia             | Panama                           |
-| Kyrgyzstan                       | The Gambia                       |
-| Nigeria                          | São Tomé and Príncipe            |
-| Morocco                          | Grenada                          |
-| Laos                             | Czech Republic                   |
-| Poland                           | Argentina                        |
-| Croatia                          | Kenya                            |
-| Tunisia                          | Sweden                           |
-| Zambia                           | Faroe Islands                    |
-| Papua New Guinea                 | Djibouti                         |
-| Nigeria                          | South Africa                     |
-| Sierra Leone                     | Algeria                          |
-| South Sudan                      | Bulgaria                         |
-| Fiji                             | Latvia                           |
-| Iceland                          | Ethiopia                         |
-| Nicaragua                        | Spain                            |
-| South Africa                     | Singapore                        |
-| United States of America         | Kuwait                           |
-| Sierra Leone                     | Cambodia                         |
-| Montenegro                       | Fiji                             |
-| San Marino                       | Cambodia                         |
-| Honduras                         | Ghana                            |
-| Iceland                          | Costa Rica                       |
-| Bosnia and Herzegovina           | Cape Verde                       |
-| Luxembourg                       | Panama                           |
-| Bolivia                          | Dominican Republic               |
-| Greece                           | Japan                            |
-| South Sudan                      | Cyprus                           |
-| Peru                             | The Gambia                       |
-| Republic of Abkhazia             | Honduras                         |
-| Japan                            | Algeria                          |
-| Fiji                             | Benin                            |
-| Liberia                          | Myanmar                          |
-| Djibouti                         | India                            |
-| British Virgin Islands           | State of Palestine               |
-| Armenia                          | Nicaragua                        |
-| Democratic Republic of the Congo | France                           |
-| Laos                             | Guernsey                         |
-| Algeria                          | Turkey                           |
-| Norway                           | Trinidad and Tobago              |
-| Saint Lucia                      | Thailand                         |
-| Canada                           | Nicaragua                        |
-| Bulgaria                         | Tajikistan                       |
-| Germany                          | Bosnia and Herzegovina           |
-| Ivory Coast                      | Spain                            |
-| Ireland                          | Vietnam                          |
-| São Tomé and Príncipe            | Peru                             |
-| Cuba                             | Philippines                      |
-| Ireland                          | Antigua and Barbuda              |
-| Faroe Islands                    | Moldova                          |
-| Georgia                          | Norway                           |
-| Bulgaria                         | Libya                            |
-| Benin                            | Sudan                            |
-| Rwanda                           | Saint Kitts and Nevis            |
-| Democratic Republic of the Congo | Switzerland                      |
-| France                           | Denmark                          |
-| Russia                           | Kuwait                           |
-| Burkina Faso                     | New Zealand                      |
-| Iceland                          | Denmark                          |
-| Switzerland                      | Myanmar                          |
-| Slovakia                         | Rwanda                           |
-| Kuwait                           | Latvia                           |
-| The Gambia                       | Kenya                            |
-| New Zealand                      | Denmark                          |
-| South Korea                      | Kenya                            |
-| North Korea                      | Cyprus                           |
-| United Kingdom                   | North Korea                      |
-| Vietnam                          | Bangladesh                       |
-| Burundi                          | Tajikistan                       |
-| Sudan                            | Estonia                          |
-| Singapore                        | Solomon Islands                  |
-| Grenada                          | Hungary                          |
-| Republic of Abkhazia             | Germany                          |
-| Guernsey                         | Malawi                           |
-| Peru                             | Djibouti                         |
-| Nepal                            | Iceland                          |
-| Nicaragua                        | Finland                          |
-| Greenland                        | Jordan                           |
-| Denmark                          | Turkmenistan                     |
-| Russia                           | Uruguay                          |
-| Papua New Guinea                 | Brunei                           |
-| South Sudan                      | Azerbaijan                       |
-| Papua New Guinea                 | Hungary                          |
-| Ethiopia                         | Turkey                           |
-| Cyprus                           | Democratic Republic of the Congo |
-| Ethiopia                         | Faroe Islands                    |
-| Germany                          | Myanmar                          |
-| Mongolia                         | Solomon Islands                  |
-| Zambia                           | Mauritius                        |
-| Mexico                           | Iceland                          |
-| Cape Verde                       | Netherlands                      |
-| Curaçao                          | Uganda                           |
-| Nepal                            | Slovenia                         |
-| Uganda                           | Libya                            |
-| Switzerland                      | Guatemala                        |
-| Israel                           | Greece                           |
-| Singapore                        | São Tomé and Príncipe            |
-| Dominica                         | Chile                            |
-| Gabon                            | São Tomé and Príncipe            |
-| British Virgin Islands           | Peru                             |
-| Ukraine                          | Trinidad and Tobago              |
-| Malta                            | Slovakia                         |
-| Mauritius                        | Mexico                           |
-| Brunei                           | Chile                            |
-| Botswana                         | Denmark                          |
-| Azerbaijan                       | Antigua and Barbuda              |
-| Cameroon                         | Liberia                          |
-| El Salvador                      | Afghanistan                      |
-| Sri Lanka                        | Cuba                             |
-| Benin                            | Laos                             |
-| Benin                            | Australia                        |
-| Singapore                        | Cape Verde                       |
-| São Tomé and Príncipe            | Saudi Arabia                     |
-| Rwanda                           | Indonesia                        |
-| Dominican Republic               | Guernsey                         |
-| Faroe Islands                    | Russia                           |
-| Panama                           | Pakistan                         |
-| The Gambia                       | Cuba                             |
-| Serbia                           | South Africa                     |
-| South Korea                      | Guyana                           |
-| Dominican Republic               | Malta                            |
-| Gabon                            | Burundi                          |
-| Cuba                             | Slovenia                         |
-| Saint Lucia                      | Japan                            |
-| Argentina                        | Cape Verde                       |
-| Belarus                          | Netherlands                      |
-| India                            | Argentina                        |
-| Tanzania                         | Algeria                          |
-| North Korea                      | Zimbabwe                         |
-| Curaçao                          | Armenia                          |
-| Poland                           | Liechtenstein                    |
-| Mali                             | Turkmenistan                     |
-| Lebanon                          | Myanmar                          |
-| Belarus                          | Burkina Faso                     |
-| Finland                          | Saint Lucia                      |
-| Greenland                        | Montenegro                       |
-| Malta                            | Ecuador                          |
-| Antigua and Barbuda              | Liberia                          |
-| Ukraine                          | Serbia                           |
-| Oman                             | State of Palestine               |
-| Sudan                            | Suriname                         |
-| Oman                             | Tanzania                         |
-| Democratic Republic of the Congo | Antigua and Barbuda              |
-| Ukraine                          | Ecuador                          |
-| Saint Kitts and Nevis            | Bhutan                           |
-| State of Palestine               | Japan                            |
-| Dominican Republic               | People's Republic of China       |
-| Liechtenstein                    | Papua New Guinea                 |
-| Bhutan                           | Russia                           |
-| Cameroon                         | Saint Lucia                      |
-| Canada                           | Suriname                         |
-| Serbia                           | Saint Lucia                      |
-| Singapore                        | Serbia                           |
-| Antigua and Barbuda              | Albania                          |
-| Panama                           | Nicaragua                        |
-| Suriname                         | Romania                          |
-| Saint Vincent and the Grenadines | Chile                            |
-| Tanzania                         | The Gambia                       |
-| El Salvador                      | Armenia                          |
-| Nigeria                          | Liberia                          |
-| Morocco                          | Belarus                          |
-| Lithuania                        | Republic of Abkhazia             |
-| São Tomé and Príncipe            | Austria                          |
-| Saudi Arabia                     | Saint Lucia                      |
-| Poland                           | Republic of Abkhazia             |
-| Mexico                           | Tanzania                         |
-| Cameroon                         | Azerbaijan                       |
-| Mongolia                         | El Salvador                      |
-| Djibouti                         | United States of America         |
-| Uganda                           | Turkmenistan                     |
-| United Arab Emirates             | Malawi                           |
-| Iraq                             | Fiji                             |
-| Guernsey                         | Australia                        |
-| Vietnam                          | Georgia                          |
-| Lebanon                          | South Sudan                      |
-| Nepal                            | Vietnam                          |
-| Mauritius                        | Myanmar                          |
-| Curaçao                          | Singapore                        |
-| Rwanda                           | Egypt                            |
-| Mongolia                         | Kazakhstan                       |
-| São Tomé and Príncipe            | Syria                            |
-| Israel                           | Albania                          |
-| Netherlands                      | Iceland                          |
-| Austria                          | Gabon                            |
-| Kenya                            | Vietnam                          |
-| Philippines                      | Czech Republic                   |
-| Saint Kitts and Nevis            | Jordan                           |
-| Azerbaijan                       | Colombia                         |
-| Morocco                          | Netherlands                      |
-| Republic of Abkhazia             | Gabon                            |
-| Algeria                          | Poland                           |
-| Jordan                           | Austria                          |
-| United Kingdom                   | Antigua and Barbuda              |
-| Oman                             | Vietnam                          |
-| France                           | Lebanon                          |
-| Zimbabwe                         | Colombia                         |
-| Denmark                          | San Marino                       |
-| Cambodia                         | Belgium                          |
-| Malaysia                         | Cuba                             |
-| Sri Lanka                        | Canada                           |
-| Spain                            | Botswana                         |
-| Ethiopia                         | Ukraine                          |
-| Democratic Republic of the Congo | Oman                             |
-| Laos                             | Papua New Guinea                 |
-| Libya                            | Sri Lanka                        |
-| Taiwan                           | Iraq                             |
-| Saint Kitts and Nevis            | Brunei                           |
-| Uruguay                          | Suriname                         |
-| Venezuela                        | United Arab Emirates             |
-| Saint Vincent and the Grenadines | Kazakhstan                       |
-| Bangladesh                       | Slovenia                         |
-| Djibouti                         | Myanmar                          |
-| South Korea                      | Burkina Faso                     |
-| Taiwan                           | Australia                        |
-| Nepal                            | Rwanda                           |
-| Indonesia                        | Nicaragua                        |
-| Brunei                           | Hungary                          |
-| South Africa                     | Norway                           |
-| Sweden                           | Morocco                          |
-| Saint Kitts and Nevis            | Tanzania                         |
-| Singapore                        | Albania                          |
-| Netherlands                      | Austria                          |
-| Czech Republic                   | Australia                        |
-| Israel                           | Uruguay                          |
-| Ireland                          | Botswana                         |
-| Armenia                          | Solomon Islands                  |
-| Mauritania                       | France                           |
-| Norway                           | Burundi                          |
-| Peru                             | Gabon                            |
-| Costa Rica                       | Bosnia and Herzegovina           |
-| Costa Rica                       | Honduras                         |
-| Antigua and Barbuda              | North Macedonia                  |
-| Germany                          | Jordan                           |
-| Ethiopia                         | Croatia                          |
-| Benin                            | Jordan                           |
-| Lithuania                        | Malta                            |
-| New Zealand                      | Spain                            |
-| Australia                        | Saint Kitts and Nevis            |
-| Mauritius                        | Lithuania                        |
-| Lebanon                          | Saint Vincent and the Grenadines |
-| Tajikistan                       | Japan                            |
-| Bangladesh                       | Pakistan                         |
-| Laos                             | Bahrain                          |
-| Germany                          | El Salvador                      |
-| Estonia                          | Armenia                          |
-| Cuba                             | Kazakhstan                       |
-| State of Palestine               | Croatia                          |
-| Canada                           | Iraq                             |
-| Syria                            | Turkey                           |
-| Sudan                            | Cambodia                         |
-| Dominica                         | Democratic Republic of the Congo |
-| Austria                          | Bangladesh                       |
-| Dominica                         | Ghana                            |
-| Syria                            | Argentina                        |
-| New Zealand                      | Brazil                           |
-| Kyrgyzstan                       | Liberia                          |
-| Lebanon                          | Qatar                            |
-| Djibouti                         | British Virgin Islands           |
-| Chile                            | Algeria                          |
-| Moldova                          | Brazil                           |
-| Iran                             | Uzbekistan                       |
-| Cape Verde                       | South Sudan                      |
-| Turkmenistan                     | South Sudan                      |
-| Bolivia                          | Libya                            |
-| Ukraine                          | Costa Rica                       |
-| Hungary                          | Sweden                           |
-| Pakistan                         | Liberia                          |
-| Hungary                          | Oman                             |
-| Cuba                             | Canada                           |
-| Malawi                           | Denmark                          |
-| Estonia                          | São Tomé and Príncipe            |
-| São Tomé and Príncipe            | Turkmenistan                     |
-| Morocco                          | Nicaragua                        |
-| Malawi                           | Syria                            |
-| Cape Verde                       | Belarus                          |
-| Sierra Leone                     | Cameroon                         |
-| Zimbabwe                         | Saint Vincent and the Grenadines |
-| State of Palestine               | Nicaragua                        |
-| Belarus                          | Poland                           |
-| Faroe Islands                    | Bosnia and Herzegovina           |
-| El Salvador                      | Oman                             |
-| Sudan                            | San Marino                       |
-| Cape Verde                       | Iran                             |
-| Democratic Republic of the Congo | Sweden                           |
-| Guernsey                         | Armenia                          |
-| Norway                           | Denmark                          |
-| Kazakhstan                       | Vietnam                          |
-| United Arab Emirates             | Benin                            |
-| Moldova                          | Turkmenistan                     |
-| Russia                           | Singapore                        |
-| Angola                           | Bulgaria                         |
-| Libya                            | Argentina                        |
-| Guernsey                         | New Zealand                      |
-| Iran                             | Vietnam                          |
-| Zimbabwe                         | Guernsey                         |
-| Rwanda                           | State of Palestine               |
-| Japan                            | Latvia                           |
-| Malawi                           | Guyana                           |
-| Suriname                         | Democratic Republic of the Congo |
-| South Sudan                      | Czech Republic                   |
-| Cape Verde                       | Hungary                          |
-| Sweden                           | Panama                           |
-| Armenia                          | Albania                          |
-| Sri Lanka                        | Germany                          |
-| United Kingdom                   | Thailand                         |
-| Bangladesh                       | Serbia                           |
-| Colombia                         | United States of America         |
-| Tunisia                          | Qatar                            |
-| Brunei                           | Indonesia                        |
-| Ivory Coast                      | Israel                           |
-| United States of America         | Antigua and Barbuda              |
-| Somalia                          | Nicaragua                        |
-| North Korea                      | Thailand                         |
-| Philippines                      | Faroe Islands                    |
-| Qatar                            | Mauritania                       |
-| Sweden                           | Bhutan                           |
-| Austria                          | Thailand                         |
-| Djibouti                         | Dominica                         |
-| Vietnam                          | São Tomé and Príncipe            |
-| Netherlands                      | Ireland                          |
-| Gabon                            | Poland                           |
-| Mongolia                         | Ivory Coast                      |
-| Somalia                          | Pakistan                         |
-| Zambia                           | Brazil                           |
-| Gabon                            | Mongolia                         |
-| Poland                           | Australia                        |
-| Austria                          | Nicaragua                        |
-| Serbia                           | Georgia                          |
-| Honduras                         | Ethiopia                         |
-| Switzerland                      | Sri Lanka                        |
-| Georgia                          | Latvia                           |
-| Kazakhstan                       | Tajikistan                       |
-| United Kingdom                   | Bolivia                          |
-| Bahrain                          | Bulgaria                         |
-| Italy                            | Mexico                           |
-| Mexico                           | Guernsey                         |
-| Afghanistan                      | Bolivia                          |
-| Dominican Republic               | Ivory Coast                      |
-| Nicaragua                        | Poland                           |
-| Australia                        | Netherlands                      |
-| Afghanistan                      | People's Republic of China       |
-| Iceland                          | South Sudan                      |
-| Cameroon                         | Latvia                           |
-| Denmark                          | Angola                           |
-| Switzerland                      | Colombia                         |
-| El Salvador                      | Ethiopia                         |
-| Albania                          | State of Palestine               |
-| India                            | Denmark                          |
-| Portugal                         | Sudan                            |
-| Saint Kitts and Nevis            | Saudi Arabia                     |
-| Lithuania                        | Iraq                             |
-| Nepal                            | Thailand                         |
-| Morocco                          | Egypt                            |
-| Bhutan                           | Rwanda                           |
-| Japan                            | Suriname                         |
-| Taiwan                           | Italy                            |
-| Thailand                         | Oman                             |
-| Bahrain                          | São Tomé and Príncipe            |
-| Netherlands                      | Afghanistan                      |
-| Belarus                          | Uzbekistan                       |
-| Gabon                            | Bulgaria                         |
-| Bangladesh                       | Djibouti                         |
-| Estonia                          | Eritrea                          |
-| Tajikistan                       | Russia                           |
-| Spain                            | Bahrain                          |
-| Cuba                             | Guyana                           |
-| Colombia                         | Iraq                             |
-| Dominican Republic               | Turkey                           |
-| Uganda                           | Switzerland                      |
-| United Arab Emirates             | Bhutan                           |
-| Pakistan                         | Sudan                            |
-| Uruguay                          | Lithuania                        |
-| State of Palestine               | Suriname                         |
-| Malaysia                         | New Zealand                      |
-| Zambia                           | Burkina Faso                     |
-| Tajikistan                       | Iceland                          |
-| Mexico                           | People's Republic of China       |
-| Estonia                          | Gabon                            |
-| Ireland                          | United Arab Emirates             |
-| Saudi Arabia                     | France                           |
-| Tanzania                         | São Tomé and Príncipe            |
-| Nicaragua                        | Kosovo                           |
-| Uganda                           | Gabon                            |
-| Mauritius                        | Somalia                          |
-| Indonesia                        | Guyana                           |
-| Zambia                           | Dominican Republic               |
-| Kenya                            | San Marino                       |
-| Kenya                            | Suriname                         |
-| Guyana                           | Djibouti                         |
-| Kenya                            | Lebanon                          |
-| Burundi                          | Cuba                             |
-| Saudi Arabia                     | Cameroon                         |
-| Tanzania                         | Ethiopia                         |
-| Kosovo                           | Ukraine                          |
-| Bahrain                          | Ireland                          |
-| British Virgin Islands           | North Macedonia                  |
-| Afghanistan                      | Malta                            |
-| Panama                           | Afghanistan                      |
-| Portugal                         | Cape Verde                       |
-| Italy                            | United Kingdom                   |
-| Ireland                          | Laos                             |
-| Djibouti                         | Iran                             |
-| Jordan                           | Bangladesh                       |
-| Cameroon                         | Burundi                          |
-| Finland                          | Egypt                            |
-| Republic of Abkhazia             | Finland                          |
-| Cyprus                           | Panama                           |
-| Mauritania                       | Ireland                          |
-| Kuwait                           | Faroe Islands                    |
-| Indonesia                        | Canada                           |
-| Greenland                        | Trinidad and Tobago              |
-| Syria                            | Morocco                          |
-| Norway                           | Sweden                           |
-| Antigua and Barbuda              | Argentina                        |
-| Hungary                          | State of Palestine               |
-| Mexico                           | United Kingdom                   |
-| Italy                            | South Korea                      |
-| Colombia                         | Bulgaria                         |
-| The Gambia                       | Armenia                          |
-| Vietnam                          | United Kingdom                   |
-| Israel                           | Laos                             |
-| Chile                            | Ukraine                          |
-| Oman                             | Bolivia                          |
-| Albania                          | United States of America         |
-| Tunisia                          | Uzbekistan                       |
-| Hungary                          | Kyrgyzstan                       |
-| United States of America         | Botswana                         |
-| Luxembourg                       | Italy                            |
-| Trinidad and Tobago              | Brazil                           |
-| Israel                           | Japan                            |
-| Benin                            | Mauritius                        |
-| Chile                            | Angola                           |
-| Kazakhstan                       | Denmark                          |
-| United Kingdom                   | Canada                           |
-| Brunei                           | Sri Lanka                        |
-| Uganda                           | British Virgin Islands           |
-| Croatia                          | Iraq                             |
-| Malta                            | San Marino                       |
-| Taiwan                           | Ecuador                          |
-| Papua New Guinea                 | Lebanon                          |
-| Uzbekistan                       | Greece                           |
-| Ghana                            | Lebanon                          |
-| Azerbaijan                       | Spain                            |
-| Rwanda                           | Oman                             |
-| Antigua and Barbuda              | Thailand                         |
-| Ghana                            | Dominican Republic               |
-| Tanzania                         | Spain                            |
-| Antigua and Barbuda              | Bulgaria                         |
-| Portugal                         | San Marino                       |
-| Mexico                           | Belgium                          |
-| Cambodia                         | Curaçao                          |
-| Afghanistan                      | Dominican Republic               |
-| Canada                           | Syria                            |
-| Suriname                         | Kuwait                           |
-| Costa Rica                       | Thailand                         |
-| British Virgin Islands           | Nigeria                          |
-| Benin                            | Malta                            |
-| Paraguay                         | Zambia                           |
-| Uruguay                          | Zimbabwe                         |
-| Belgium                          | British Virgin Islands           |
-| Ghana                            | Iraq                             |
-| Tunisia                          | Mongolia                         |
-| Republic of Abkhazia             | Nigeria                          |
-| Ivory Coast                      | United States of America         |
-| Vietnam                          | South Africa                     |
-| United Arab Emirates             | Lithuania                        |
-| Iraq                             | San Marino                       |
-| Singapore                        | Iraq                             |
-| Costa Rica                       | Uganda                           |
-| Croatia                          | Spain                            |
-| Uruguay                          | Republic of Abkhazia             |
-| New Zealand                      | Uzbekistan                       |
-| Malaysia                         | United States of America         |
-| Japan                            | Indonesia                        |
-| Slovakia                         | Gabon                            |
-| Cape Verde                       | Laos                             |
-| Trinidad and Tobago              | Moldova                          |
-| Argentina                        | Norway                           |
-| Grenada                          | Mali                             |
-| Malawi                           | Hungary                          |
-| Latvia                           | Qatar                            |
-| Australia                        | Burkina Faso                     |
-| Lithuania                        | Estonia                          |
-| Austria                          | Botswana                         |
-| Oman                             | Cyprus                           |
-| United Arab Emirates             | Romania                          |
-| Nigeria                          | Djibouti                         |
-| Ukraine                          | Colombia                         |
-| Romania                          | São Tomé and Príncipe            |
-| Russia                           | Jordan                           |
-| Laos                             | Jordan                           |
-| Czech Republic                   | Spain                            |
-| Austria                          | Nepal                            |
-| Saint Vincent and the Grenadines | Kenya                            |
-| British Virgin Islands           | South Africa                     |
-| Montenegro                       | Turkmenistan                     |
-| Cyprus                           | Greenland                        |
-| Burundi                          | Myanmar                          |
-| United States of America         | Spain                            |
-| Netherlands                      | People's Republic of China       |
-| Malta                            | Kuwait                           |
-| New Zealand                      | Panama                           |
-| Saint Lucia                      | Democratic Republic of the Congo |
-| Paraguay                         | Zimbabwe                         |
-| Japan                            | Myanmar                          |
-| Norway                           | Lebanon                          |
-| Slovakia                         | Paraguay                         |
-| El Salvador                      | Latvia                           |
-| New Zealand                      | Syria                            |
-| Saint Vincent and the Grenadines | Dominica                         |
-| Montenegro                       | Vietnam                          |
-| Papua New Guinea                 | Albania                          |
-| Benin                            | South Korea                      |
-| South Africa                     | Saint Lucia                      |
-| Australia                        | Sudan                            |
-| Kazakhstan                       | Panama                           |
-| Ghana                            | Cyprus                           |
-| Ukraine                          | Greece                           |
-| Dominica                         | Greece                           |
-| Saudi Arabia                     | Malawi                           |
-| Lithuania                        | North Korea                      |
-| Canada                           | Austria                          |
-| Bolivia                          | Colombia                         |
-| Croatia                          | Iceland                          |
-| Armenia                          | Pakistan                         |
-| New Zealand                      | Libya                            |
-| Kyrgyzstan                       | Belarus                          |
-| Sweden                           | Slovenia                         |
-| Brazil                           | Austria                          |
-| Mauritius                        | Nicaragua                        |
-| Bosnia and Herzegovina           | Benin                            |
-| El Salvador                      | North Macedonia                  |
-| Canada                           | Trinidad and Tobago              |
-| Gabon                            | Lithuania                        |
-| Tajikistan                       | Slovenia                         |
-| Eritrea                          | Kenya                            |
-| Kyrgyzstan                       | Iceland                          |
-| Finland                          | Bhutan                           |
-| Somalia                          | Solomon Islands                  |
-| Tunisia                          | Brunei                           |
-| Ghana                            | Afghanistan                      |
-| Egypt                            | Malawi                           |
-| Saudi Arabia                     | Liechtenstein                    |
-| Burundi                          | North Macedonia                  |
-| Australia                        | Iran                             |
-| Portugal                         | Dominica                         |
-| Uzbekistan                       | Zimbabwe                         |
-| São Tomé and Príncipe            | Dominican Republic               |
-| Solomon Islands                  | Laos                             |
-| Iran                             | Taiwan                           |
-| Estonia                          | Saint Lucia                      |
-| Austria                          | Iran                             |
-| Bosnia and Herzegovina           | Australia                        |
-| Afghanistan                      | Laos                             |
-| Malawi                           | Mongolia                         |
-| Cuba                             | Mexico                           |
-| Egypt                            | Nicaragua                        |
-| India                            | Paraguay                         |
-| South Africa                     | Brazil                           |
-| Nigeria                          | Lebanon                          |
-| Moldova                          | Saint Vincent and the Grenadines |
-| Libya                            | Dominica                         |
-| Philippines                      | Democratic Republic of the Congo |
-| Moldova                          | Burkina Faso                     |
-| Sierra Leone                     | Iceland                          |
-| Guernsey                         | Nicaragua                        |
-| Azerbaijan                       | Vietnam                          |
-| Kazakhstan                       | São Tomé and Príncipe            |
-| Guatemala                        | Sweden                           |
-| Norway                           | India                            |
-| Rwanda                           | British Virgin Islands           |
-| Egypt                            | Taiwan                           |
-| Latvia                           | Mauritius                        |
-| Brazil                           | Oman                             |
-| Iceland                          | Cape Verde                       |
-| Burkina Faso                     | Tajikistan                       |
-| Finland                          | Belgium                          |
-| Montenegro                       | San Marino                       |
-| Greece                           | Zimbabwe                         |
-| Singapore                        | Papua New Guinea                 |
-| Bosnia and Herzegovina           | El Salvador                      |
-| Gabon                            | Uzbekistan                       |
-| State of Palestine               | Ghana                            |
-| Croatia                          | Kuwait                           |
-| Uganda                           | Czech Republic                   |
-| Belgium                          | People's Republic of China       |
-| Netherlands                      | Nicaragua                        |
-| Burundi                          | Saint Vincent and the Grenadines |
-| Mauritania                       | South Korea                      |
-| Sierra Leone                     | Australia                        |
-| Turkey                           | Spain                            |
-| Venezuela                        | Malaysia                         |
-| Paraguay                         | Ecuador                          |
-| Ecuador                          | Sweden                           |
-| Trinidad and Tobago              | Saudi Arabia                     |
-| Egypt                            | South Sudan                      |
-| Saint Vincent and the Grenadines | Sierra Leone                     |
-| Switzerland                      | Brazil                           |
-| South Africa                     | Kyrgyzstan                       |
-| Syria                            | Iraq                             |
-| Liechtenstein                    | Portugal                         |
-| Chile                            | Benin                            |
-| Peru                             | Singapore                        |
-| Philippines                      | Trinidad and Tobago              |
-| India                            | Nigeria                          |
-| Finland                          | Syria                            |
-| Thailand                         | São Tomé and Príncipe            |
-| Somalia                          | Kenya                            |
-| Germany                          | Cyprus                           |
-| South Africa                     | Guyana                           |
-| Bahrain                          | Sweden                           |
-| Burundi                          | Cambodia                         |
-| Tanzania                         | Ukraine                          |
-| Sierra Leone                     | Pakistan                         |
-| Pakistan                         | Romania                          |
-| Faroe Islands                    | Vietnam                          |
-| Cyprus                           | San Marino                       |
-| Djibouti                         | North Korea                      |
-| Dominican Republic               | Iraq                             |
-| Canada                           | Singapore                        |
-| Oman                             | Kenya                            |
-| São Tomé and Príncipe            | Canada                           |
-| Tajikistan                       | Honduras                         |
-| Burkina Faso                     | British Virgin Islands           |
-| Gabon                            | United Kingdom                   |
-| Liechtenstein                    | Austria                          |
-| Guatemala                        | Japan                            |
-| Indonesia                        | British Virgin Islands           |
-| Sri Lanka                        | State of Palestine               |
-| Singapore                        | Netherlands                      |
-| São Tomé and Príncipe            | Kyrgyzstan                       |
-| Brazil                           | Georgia                          |
-| Mauritius                        | Bolivia                          |
-| United States of America         | Bosnia and Herzegovina           |
-| Malawi                           | Saint Kitts and Nevis            |
-| Uganda                           | Iran                             |
-| Pakistan                         | Iran                             |
-| Somalia                          | Faroe Islands                    |
-| State of Palestine               | Finland                          |
-| Iran                             | Norway                           |
-| India                            | Saint Vincent and the Grenadines |
-| Saint Vincent and the Grenadines | Grenada                          |
-| Dominica                         | Tajikistan                       |
-| South Africa                     | Ireland                          |
-| Sri Lanka                        | Liechtenstein                    |
-| Brazil                           | Slovakia                         |
-| Paraguay                         | Vietnam                          |
-| Georgia                          | Bhutan                           |
-| Sri Lanka                        | Papua New Guinea                 |
-| Serbia                           | Greenland                        |
-| Qatar                            | South Korea                      |
-| Greece                           | South Korea                      |
-| New Zealand                      | Israel                           |
-| Lebanon                          | Egypt                            |
-| Cameroon                         | Sudan                            |
-| Ukraine                          | South Africa                     |
-| Ukraine                          | Uzbekistan                       |
-| Singapore                        | Kenya                            |
-| Finland                          | Ethiopia                         |
-| British Virgin Islands           | Luxembourg                       |
-| Taiwan                           | South Sudan                      |
-| Uruguay                          | People's Republic of China       |
-| Italy                            | Finland                          |
-| Peru                             | Malaysia                         |
-| Botswana                         | El Salvador                      |
-| Malaysia                         | British Virgin Islands           |
-| Kenya                            | São Tomé and Príncipe            |
-| Chile                            | Luxembourg                       |
-| Libya                            | Malawi                           |
-| Dominica                         | Czech Republic                   |
-| Ethiopia                         | Sudan                            |
-| Brunei                           | Kenya                            |
-| New Zealand                      | People's Republic of China       |
-| Canada                           | Ecuador                          |
-| Morocco                          | Peru                             |
-| Democratic Republic of the Congo | Sudan                            |
-| India                            | Bangladesh                       |
-| Guatemala                        | Morocco                          |
-| Oman                             | Serbia                           |
-| Republic of Abkhazia             | Mali                             |
-| Ghana                            | United States of America         |
-| Paraguay                         | Tajikistan                       |
-| British Virgin Islands           | Turkey                           |
-| Paraguay                         | Guatemala                        |
-| Romania                          | Bhutan                           |
-| Bosnia and Herzegovina           | Dominica                         |
-| Bangladesh                       | Romania                          |
-| South Korea                      | El Salvador                      |
-| Belgium                          | Ivory Coast                      |
-| Morocco                          | Ivory Coast                      |
-| Taiwan                           | British Virgin Islands           |
-| Saudi Arabia                     | Iceland                          |
-| Canada                           | Uruguay                          |
-| Panama                           | Canada                           |
-| Moldova                          | Russia                           |
-| Sweden                           | Gabon                            |
-| State of Palestine               | Belgium                          |
-| Dominican Republic               | Venezuela                        |
-| North Korea                      | El Salvador                      |
-| Netherlands                      | Romania                          |
-| Brunei                           | Zimbabwe                         |
-| Syria                            | Iceland                          |
-| Lithuania                        | Panama                           |
-| Qatar                            | Kosovo                           |
-| North Korea                      | Brazil                           |
-| Ivory Coast                      | Burundi                          |
-| Singapore                        | South Korea                      |
-| Venezuela                        | Estonia                          |
-| Egypt                            | Australia                        |
-| Grenada                          | New Zealand                      |
-| Peru                             | Myanmar                          |
-| Malaysia                         | Singapore                        |
-| Italy                            | Ukraine                          |
-| Uzbekistan                       | Lebanon                          |
-| Ghana                            | Singapore                        |
-| Armenia                          | Malaysia                         |
-| South Sudan                      | Iraq                             |
-| Bangladesh                       | Poland                           |
-| Liberia                          | Cyprus                           |
-| Bahrain                          | United States of America         |
-| Brazil                           | Thailand                         |
-| São Tomé and Príncipe            | People's Republic of China       |
-| Somalia                          | Ivory Coast                      |
-| Taiwan                           | North Macedonia                  |
-| Ukraine                          | Brunei                           |
-| Bangladesh                       | Benin                            |
-| El Salvador                      | Indonesia                        |
-| Libya                            | Cameroon                         |
-| Honduras                         | Lithuania                        |
-| South Korea                      | The Gambia                       |
-| Democratic Republic of the Congo | Colombia                         |
-| Peru                             | Japan                            |
-| Dominican Republic               | Israel                           |
-| Switzerland                      | Bangladesh                       |
-| Thailand                         | Belarus                          |
-| Nigeria                          | Bhutan                           |
-| Iraq                             | Estonia                          |
-| Turkmenistan                     | Grenada                          |
-| Russia                           | Morocco                          |
-| Cameroon                         | Luxembourg                       |
-| Mauritania                       | Grenada                          |
-| Benin                            | Georgia                          |
-| Uzbekistan                       | Antigua and Barbuda              |
-| Armenia                          | San Marino                       |
-| Nicaragua                        | Moldova                          |
-| Chile                            | Gabon                            |
-| Singapore                        | Sweden                           |
-| Dominica                         | Albania                          |
-| Zimbabwe                         | Papua New Guinea                 |
-| Malawi                           | Estonia                          |
-| Cuba                             | Uganda                           |
-| Guatemala                        | Slovakia                         |
-| Netherlands                      | Taiwan                           |
-| Singapore                        | Burkina Faso                     |
-| Suriname                         | Bosnia and Herzegovina           |
-| Jordan                           | Cape Verde                       |
-| Belarus                          | Iceland                          |
-| Saint Vincent and the Grenadines | Saint Kitts and Nevis            |
-| Argentina                        | Israel                           |
-| Ghana                            | Mongolia                         |
-| Georgia                          | Liberia                          |
-| Uruguay                          | Gabon                            |
-| Sweden                           | United States of America         |
-| North Macedonia                  | Malaysia                         |
-| Faroe Islands                    | Singapore                        |
-| Botswana                         | Qatar                            |
-| United States of America         | Republic of Abkhazia             |
-| Curaçao                          | Russia                           |
-| Sudan                            | Ireland                          |
-| Curaçao                          | Solomon Islands                  |
-| Panama                           | Tajikistan                       |
-| Dominica                         | Faroe Islands                    |
-| Kosovo                           | Estonia                          |
-| Saudi Arabia                     | Philippines                      |
-| Belarus                          | Bolivia                          |
-| Malta                            | Saint Kitts and Nevis            |
-| Italy                            | Democratic Republic of the Congo |
-| Brazil                           | Burkina Faso                     |
-| Iran                             | Egypt                            |
-| Cyprus                           | Sierra Leone                     |
-| Moldova                          | Myanmar                          |
-| Chile                            | Kosovo                           |
-| Tajikistan                       | Ethiopia                         |
-| Oman                             | Qatar                            |
-| Guernsey                         | Belarus                          |
-| Ghana                            | Liberia                          |
-| Thailand                         | Indonesia                        |
-| Moldova                          | Georgia                          |
-| Bolivia                          | People's Republic of China       |
-| Slovakia                         | Grenada                          |
-| Malta                            | Moldova                          |
-| Serbia                           | Sweden                           |
-| Greece                           | Uganda                           |
-| Ireland                          | Armenia                          |
-| Ireland                          | State of Palestine               |
-| Australia                        | Mauritius                        |
-| Egypt                            | Tunisia                          |
-| Philippines                      | Djibouti                         |
-| Kuwait                           | Libya                            |
-| Botswana                         | Suriname                         |
-| Mauritius                        | France                           |
-| Ukraine                          | Liechtenstein                    |
-| Luxembourg                       | Zimbabwe                         |
-| Cape Verde                       | Uganda                           |
-| Afghanistan                      | Belgium                          |
-| Grenada                          | Rwanda                           |
-| People's Republic of China       | Uzbekistan                       |
-| Thailand                         | Venezuela                        |
-| Malta                            | Taiwan                           |
-| Romania                          | Hungary                          |
-| Angola                           | Malaysia                         |
-| Georgia                          | Portugal                         |
-| Cape Verde                       | Australia                        |
-| Guatemala                        | Cuba                             |
-| Bolivia                          | Ethiopia                         |
-| Zambia                           | Guernsey                         |
-| North Macedonia                  | Fiji                             |
-| Philippines                      | Slovakia                         |
-| Saint Lucia                      | Russia                           |
-| Suriname                         | Paraguay                         |
-| Tajikistan                       | Luxembourg                       |
-| Montenegro                       | Costa Rica                       |
-| Russia                           | Algeria                          |
-| Saint Kitts and Nevis            | Japan                            |
-| Oman                             | Syria                            |
-| Colombia                         | Uruguay                          |
-| Saint Kitts and Nevis            | Libya                            |
-| Zimbabwe                         | France                           |
-| El Salvador                      | Spain                            |
-| Slovenia                         | Iran                             |
-| Pakistan                         | Turkmenistan                     |
-| Ghana                            | Ireland                          |
-| Moldova                          | Sierra Leone                     |
-| Liechtenstein                    | Albania                          |
-| Belgium                          | Japan                            |
-| Dominica                         | Saint Lucia                      |
-| Poland                           | Ghana                            |
-| Grenada                          | Lithuania                        |
-| Uzbekistan                       | Angola                           |
-| Armenia                          | Sierra Leone                     |
-| Qatar                            | Germany                          |
-| Oman                             | Sierra Leone                     |
-| Iceland                          | Zambia                           |
-| Tajikistan                       | Saint Lucia                      |
-| Finland                          | Liberia                          |
-| Saint Vincent and the Grenadines | Suriname                         |
-| Kazakhstan                       | Nicaragua                        |
-| Saint Lucia                      | Georgia                          |
-| Finland                          | Czech Republic                   |
-| Tunisia                          | Romania                          |
-| North Macedonia                  | Peru                             |
-| Honduras                         | Botswana                         |
-| Venezuela                        | Zambia                           |
-| Ethiopia                         | Sweden                           |
-| Oman                             | Sweden                           |
-| Nigeria                          | Philippines                      |
-| Sierra Leone                     | Mongolia                         |
-| Germany                          | Tanzania                         |
-| Dominican Republic               | Kenya                            |
-| United Kingdom                   | Malta                            |
-| Taiwan                           | Burundi                          |
-| Dominican Republic               | Ethiopia                         |
-| Curaçao                          | South Sudan                      |
-| Kazakhstan                       | Burundi                          |
-| United Arab Emirates             | Spain                            |
-| Luxembourg                       | El Salvador                      |
-| People's Republic of China       | Japan                            |
-| Myanmar                          | Canada                           |
-| Slovenia                         | North Macedonia                  |
-| Kuwait                           | Poland                           |
-| Tunisia                          | Saint Lucia                      |
-| Uganda                           | Oman                             |
-| Qatar                            | Cuba                             |
-| Argentina                        | Morocco                          |
-| Nicaragua                        | Myanmar                          |
-| Dominica                         | Mauritius                        |
-| Costa Rica                       | Nigeria                          |
-| Portugal                         | Slovenia                         |
-| Mauritius                        | Colombia                         |
-| Switzerland                      | Italy                            |
-| Dominican Republic               | Mali                             |
-| Antigua and Barbuda              | Iraq                             |
-| Lithuania                        | Mali                             |
-| Burundi                          | Antigua and Barbuda              |
-| Dominica                         | Liberia                          |
-| United States of America         | Azerbaijan                       |
-| Iran                             | Syria                            |
-| Singapore                        | Uganda                           |
-| Antigua and Barbuda              | Nigeria                          |
-| Kenya                            | Moldova                          |
-| Saint Lucia                      | Djibouti                         |
-| Bangladesh                       | Thailand                         |
-| Solomon Islands                  | The Gambia                       |
-| Sudan                            | British Virgin Islands           |
-| Norway                           | Brazil                           |
-| Dominica                         | Zimbabwe                         |
-| Dominica                         | Philippines                      |
-| Denmark                          | Eritrea                          |
-| Malawi                           | Greenland                        |
-| Thailand                         | Saudi Arabia                     |
-| Bhutan                           | Cuba                             |
-| Kuwait                           | North Macedonia                  |
-| El Salvador                      | Lebanon                          |
-| Ethiopia                         | Armenia                          |
-| New Zealand                      | United States of America         |
-| San Marino                       | Sierra Leone                     |
-| Slovakia                         | Liberia                          |
-| Slovakia                         | Kazakhstan                       |
-| British Virgin Islands           | United Arab Emirates             |
-| New Zealand                      | Georgia                          |
-| Ukraine                          | Slovakia                         |
-| Fiji                             | Liechtenstein                    |
-| Egypt                            | Antigua and Barbuda              |
-| Cameroon                         | Bosnia and Herzegovina           |
-| Kenya                            | Rwanda                           |
-| Paraguay                         | British Virgin Islands           |
-| Sri Lanka                        | Nigeria                          |
-| Iran                             | Mali                             |
-| Turkmenistan                     | Austria                          |
-| Albania                          | Afghanistan                      |
-| San Marino                       | Lebanon                          |
-| Ecuador                          | The Gambia                       |
-| Kuwait                           | Iceland                          |
-| Laos                             | Georgia                          |
-| Denmark                          | Kuwait                           |
-| Germany                          | Dominica                         |
-| Iraq                             | Indonesia                        |
-| Bahrain                          | El Salvador                      |
-| Montenegro                       | Nigeria                          |
-| Australia                        | New Zealand                      |
-| Peru                             | Pakistan                         |
-| Ecuador                          | Latvia                           |
-| Somalia                          | Saint Kitts and Nevis            |
-| Taiwan                           | Uganda                           |
-| Saudi Arabia                     | Kenya                            |
-| Ukraine                          | Singapore                        |
-| Luxembourg                       | North Macedonia                  |
-| Solomon Islands                  | Suriname                         |
-| North Korea                      | Singapore                        |
-| Lebanon                          | Belarus                          |
-| Suriname                         | Algeria                          |
-| Romania                          | Philippines                      |
-| Rwanda                           | Jordan                           |
-| Croatia                          | Cameroon                         |
-| Zambia                           | Fiji                             |
-| Armenia                          | Denmark                          |
-| Colombia                         | Malta                            |
-| Turkmenistan                     | Malta                            |
-| Suriname                         | Poland                           |
-| South Sudan                      | Tajikistan                       |
-| Switzerland                      | Israel                           |
-| Syria                            | Eritrea                          |
-| Spain                            | Burundi                          |
-| Guyana                           | Zimbabwe                         |
-| Australia                        | Armenia                          |
-| Kyrgyzstan                       | Burkina Faso                     |
-| Cambodia                         | Montenegro                       |
-| Vietnam                          | Burkina Faso                     |
-| South Africa                     | Oman                             |
-| Liechtenstein                    | Mauritania                       |
-| Argentina                        | Peru                             |
-| Germany                          | Vietnam                          |
-| Moldova                          | North Korea                      |
-| Greenland                        | Slovenia                         |
-| Colombia                         | Algeria                          |
-| Mexico                           | Slovenia                         |
-| Paraguay                         | Romania                          |
-| Libya                            | Egypt                            |
-| Lithuania                        | South Sudan                      |
-| Tanzania                         | Burkina Faso                     |
-| South Sudan                      | Libya                            |
-| Turkey                           | North Korea                      |
-| Kazakhstan                       | Singapore                        |
-| South Sudan                      | People's Republic of China       |
-| Greenland                        | Nicaragua                        |
-| Paraguay                         | Burundi                          |
-| Suriname                         | Brunei                           |
-| Bulgaria                         | Republic of Abkhazia             |
-| Bosnia and Herzegovina           | Austria                          |
-| Nicaragua                        | Angola                           |
-| Guatemala                        | Finland                          |
-| Ireland                          | India                            |
-| United Kingdom                   | Romania                          |
-| Kosovo                           | Botswana                         |
-| Paraguay                         | Cuba                             |
-| Zambia                           | Sweden                           |
-| North Macedonia                  | Lebanon                          |
-| Malta                            | Russia                           |
-| Mali                             | Panama                           |
-| Mauritius                        | Belarus                          |
-| Saint Kitts and Nevis            | Lebanon                          |
-| Ethiopia                         | United Kingdom                   |
-| Solomon Islands                  | Ecuador                          |
-| Ecuador                          | Armenia                          |
-| Australia                        | Greece                           |
-| Turkey                           | South Korea                      |
-| Cambodia                         | Liberia                          |
-| Malaysia                         | South Africa                     |
-| Saint Lucia                      | San Marino                       |
-| Guyana                           | Fiji                             |
-| Montenegro                       | Ecuador                          |
-| Serbia                           | Guatemala                        |
-| Belgium                          | Mauritania                       |
-| Serbia                           | Iceland                          |
-| Denmark                          | Guyana                           |
-| Serbia                           | Nepal                            |
-| Iran                             | Antigua and Barbuda              |
-| Georgia                          | Brunei                           |
-| Kosovo                           | Brazil                           |
-| Slovakia                         | Albania                          |
-| Zambia                           | Dominica                         |
-| Guyana                           | Albania                          |
-| Uzbekistan                       | Hungary                          |
-| Mongolia                         | Costa Rica                       |
-| San Marino                       | State of Palestine               |
-| Liechtenstein                    | Somalia                          |
-| Antigua and Barbuda              | Cape Verde                       |
-| Malaysia                         | Albania                          |
-| Paraguay                         | Finland                          |
-| Romania                          | Chile                            |
-| Syria                            | Burundi                          |
-| Estonia                          | Kyrgyzstan                       |
-| Papua New Guinea                 | Mauritania                       |
-| Brunei                           | Mexico                           |
-| Hungary                          | Pakistan                         |
-| Uruguay                          | Armenia                          |
-| Fiji                             | Faroe Islands                    |
-| Sweden                           | Peru                             |
-| Ecuador                          | Iraq                             |
-| Australia                        | Sweden                           |
-| Saint Lucia                      | Fiji                             |
-| Sierra Leone                     | Croatia                          |
-| Serbia                           | Ireland                          |
-| Nicaragua                        | Tanzania                         |
-| Iraq                             | Benin                            |
-| Ethiopia                         | Bahrain                          |
-| Brunei                           | El Salvador                      |
-| People's Republic of China       | Djibouti                         |
-| Mongolia                         | Indonesia                        |
-| Afghanistan                      | Sudan                            |
-| Argentina                        | Netherlands                      |
-| Afghanistan                      | Croatia                          |
-| Kazakhstan                       | Myanmar                          |
-| United Arab Emirates             | Afghanistan                      |
-| Bangladesh                       | Azerbaijan                       |
-| Angola                           | Luxembourg                       |
-| Cape Verde                       | Republic of Abkhazia             |
-| Zimbabwe                         | Moldova                          |
-| Nigeria                          | France                           |
-| South Africa                     | North Korea                      |
-| Cyprus                           | Curaçao                          |
-| Kuwait                           | Ukraine                          |
-| Romania                          | Greenland                        |
-| Benin                            | Mongolia                         |
-| Democratic Republic of the Congo | Saint Kitts and Nevis            |
-| Iraq                             | Bangladesh                       |
-| Tanzania                         | Greenland                        |
-| Fiji                             | Syria                            |
-| Eritrea                          | Mauritania                       |
-| Taiwan                           | Qatar                            |
-| Turkmenistan                     | Sweden                           |
-| Luxembourg                       | Fiji                             |
-| Greenland                        | Lebanon                          |
-| Greenland                        | San Marino                       |
-| Saint Lucia                      | Nigeria                          |
-| Australia                        | Azerbaijan                       |
-| Sweden                           | France                           |
-| Mali                             | Egypt                            |
-| Iceland                          | People's Republic of China       |
-| Bosnia and Herzegovina           | Philippines                      |
-| Trinidad and Tobago              | Bosnia and Herzegovina           |
-| Ethiopia                         | Moldova                          |
-| Saint Kitts and Nevis            | Israel                           |
-| Mexico                           | Sudan                            |
-| Lebanon                          | Iraq                             |
-| Morocco                          | Rwanda                           |
-| Latvia                           | Tajikistan                       |
-| Australia                        | Brunei                           |
-| Kyrgyzstan                       | Romania                          |
-| Bahrain                          | Djibouti                         |
-| San Marino                       | Guatemala                        |
-| Nigeria                          | Belarus                          |
-| Grenada                          | Serbia                           |
-| Kuwait                           | Bosnia and Herzegovina           |
-| Liechtenstein                    | Iceland                          |
-| Kuwait                           | Guernsey                         |
-| Ghana                            | Paraguay                         |
-| Syria                            | Kosovo                           |
-| Sudan                            | Denmark                          |
-| Germany                          | Ivory Coast                      |
-| Tajikistan                       | Uganda                           |
-| Austria                          | Belgium                          |
-| State of Palestine               | Sweden                           |
-| Netherlands                      | São Tomé and Príncipe            |
-| Armenia                          | Taiwan                           |
-| Honduras                         | Mongolia                         |
-| Fiji                             | Germany                          |
-| Montenegro                       | Greece                           |
-| Burkina Faso                     | Grenada                          |
-| Kuwait                           | Bulgaria                         |
-| Curaçao                          | Bolivia                          |
-| British Virgin Islands           | Uruguay                          |
-| Saint Lucia                      | Eritrea                          |
-| Slovenia                         | Montenegro                       |
-| New Zealand                      | Malawi                           |
-| Morocco                          | São Tomé and Príncipe            |
-| Romania                          | Mauritania                       |
-| Kenya                            | Algeria                          |
-| Indonesia                        | Greece                           |
-| Belgium                          | The Gambia                       |
-| South Sudan                      | Greece                           |
-| Turkmenistan                     | Democratic Republic of the Congo |
-| Djibouti                         | Finland                          |
-| Netherlands                      | Moldova                          |
-| Philippines                      | Benin                            |
-| Papua New Guinea                 | Latvia                           |
-| Sri Lanka                        | São Tomé and Príncipe            |
-| Papua New Guinea                 | Georgia                          |
-| Syria                            | Lebanon                          |
-| France                           | Greece                           |
-| Antigua and Barbuda              | Bangladesh                       |
-| Malaysia                         | Belarus                          |
-| Benin                            | Nicaragua                        |
-| Indonesia                        | Georgia                          |
-| Benin                            | Bulgaria                         |
-| Malawi                           | Guatemala                        |
-| Peru                             | Canada                           |
-| Iran                             | Guatemala                        |
-| Eritrea                          | Bolivia                          |
-| Austria                          | Antigua and Barbuda              |
-| New Zealand                      | South Sudan                      |
-| Colombia                         | Turkey                           |
-| British Virgin Islands           | Afghanistan                      |
-| The Gambia                       | Uganda                           |
-| Cuba                             | El Salvador                      |
-| Uzbekistan                       | Cyprus                           |
-| Tajikistan                       | Pakistan                         |
-| Malta                            | Ireland                          |
-| Slovakia                         | Kenya                            |
-| Gabon                            | The Gambia                       |
-| Portugal                         | Gabon                            |
-| Lebanon                          | Italy                            |
-| South Sudan                      | Finland                          |
-| Democratic Republic of the Congo | Japan                            |
-| Benin                            | Mauritania                       |
-| Malta                            | Lebanon                          |
-| Germany                          | Uzbekistan                       |
-| Ecuador                          | Somalia                          |
-| Eritrea                          | Morocco                          |
-| Honduras                         | Kenya                            |
-| Australia                        | Pakistan                         |
-| Greece                           | Bolivia                          |
-| Burundi                          | Libya                            |
-| Malawi                           | Oman                             |
-| Ethiopia                         | Kyrgyzstan                       |
-| Serbia                           | British Virgin Islands           |
-| Slovakia                         | Zimbabwe                         |
-| Mauritius                        | United States of America         |
-| Brunei                           | Germany                          |
-| Finland                          | Slovenia                         |
-| Djibouti                         | Nepal                            |
-| Nepal                            | France                           |
-| Ireland                          | Cambodia                         |
-| Sweden                           | Mauritius                        |
-| Honduras                         | Algeria                          |
-| South Korea                      | Greenland                        |
-| Bangladesh                       | Burkina Faso                     |
-| Uganda                           | Morocco                          |
-| Serbia                           | Liechtenstein                    |
-| United States of America         | Italy                            |
-| Cape Verde                       | Grenada                          |
-| Djibouti                         | Venezuela                        |
-| Brunei                           | Japan                            |
-| Ireland                          | Uruguay                          |
-| South Korea                      | Saudi Arabia                     |
-| Bolivia                          | Saint Kitts and Nevis            |
-| Sierra Leone                     | Ukraine                          |
-| Oman                             | Libya                            |
-| United Kingdom                   | Pakistan                         |
-| Hungary                          | United States of America         |
-| British Virgin Islands           | Faroe Islands                    |
-| Nigeria                          | Pakistan                         |
-| Kyrgyzstan                       | Mexico                           |
-| Sierra Leone                     | Montenegro                       |
-| Mauritania                       | Ukraine                          |
-| Guatemala                        | Myanmar                          |
-| Israel                           | Somalia                          |
-| Croatia                          | North Macedonia                  |
-| Tunisia                          | British Virgin Islands           |
-| San Marino                       | Saint Kitts and Nevis            |
-| Luxembourg                       | Bangladesh                       |
-| Georgia                          | Burundi                          |
-| Nicaragua                        | Kuwait                           |
-| Qatar                            | Saudi Arabia                     |
-| Ukraine                          | People's Republic of China       |
-| Panama                           | Mauritania                       |
-| Mongolia                         | Albania                          |
-| Iran                             | Tunisia                          |
-| Mexico                           | Zimbabwe                         |
-| Brazil                           | South Korea                      |
-| Saint Kitts and Nevis            | Iraq                             |
-| El Salvador                      | Sri Lanka                        |
-| Myanmar                          | Tunisia                          |
-| Antigua and Barbuda              | South Korea                      |
-| Rwanda                           | United States of America         |
-| Trinidad and Tobago              | Israel                           |
-| Kyrgyzstan                       | Curaçao                          |
-| United Arab Emirates             | Finland                          |
-| Bosnia and Herzegovina           | Azerbaijan                       |
-| Mongolia                         | Democratic Republic of the Congo |
-| Angola                           | Norway                           |
-| People's Republic of China       | Papua New Guinea                 |
-| Venezuela                        | Brunei                           |
-| Thailand                         | Kazakhstan                       |
-| Honduras                         | Bolivia                          |
-| Italy                            | Austria                          |
-| São Tomé and Príncipe            | Slovenia                         |
-| Venezuela                        | Rwanda                           |
-| Finland                          | People's Republic of China       |
-| Djibouti                         | Costa Rica                       |
-| Saint Lucia                      | Oman                             |
-| Kyrgyzstan                       | Ivory Coast                      |
-| Czech Republic                   | Antigua and Barbuda              |
-| Cameroon                         | Peru                             |
-| Finland                          | Trinidad and Tobago              |
-| Ghana                            | Uganda                           |
-| Burkina Faso                     | The Gambia                       |
-| North Macedonia                  | Japan                            |
-| Saudi Arabia                     | Sri Lanka                        |
-| Ukraine                          | Armenia                          |
-| South Sudan                      | Burundi                          |
-| Fiji                             | Australia                        |
-| Nigeria                          | Bahrain                          |
-| Kyrgyzstan                       | Brazil                           |
-| Suriname                         | Ethiopia                         |
-| State of Palestine               | Gabon                            |
-| Honduras                         | Armenia                          |
-| Ivory Coast                      | Rwanda                           |
-| Faroe Islands                    | Republic of Abkhazia             |
-| Burkina Faso                     | Ecuador                          |
-| Israel                           | Guyana                           |
-| Canada                           | Philippines                      |
-| Afghanistan                      | The Gambia                       |
-| Norway                           | People's Republic of China       |
-| Trinidad and Tobago              | Brunei                           |
-| Bosnia and Herzegovina           | North Korea                      |
-| Kazakhstan                       | San Marino                       |
-| France                           | Israel                           |
-| Tajikistan                       | France                           |
-| Saudi Arabia                     | Mexico                           |
-| Nigeria                          | Egypt                            |
-| Australia                        | Nigeria                          |
-| The Gambia                       | Rwanda                           |
-| Canada                           | Taiwan                           |
-| Eritrea                          | Jordan                           |
-| Papua New Guinea                 | Canada                           |
-| Qatar                            | Finland                          |
-| Guernsey                         | Colombia                         |
-| Russia                           | Uganda                           |
-| British Virgin Islands           | Cyprus                           |
-| Azerbaijan                       | Paraguay                         |
-| Greenland                        | Latvia                           |
-| Israel                           | Montenegro                       |
-| Venezuela                        | Saint Kitts and Nevis            |
-| Mongolia                         | Colombia                         |
-| Sri Lanka                        | Somalia                          |
-| Malta                            | Liechtenstein                    |
-| Russia                           | Kenya                            |
-| Slovenia                         | Saudi Arabia                     |
-| Lithuania                        | Cyprus                           |
-| Croatia                          | Guatemala                        |
-| Cambodia                         | Malta                            |
-| Greece                           | United States of America         |
-| Qatar                            | State of Palestine               |
-| Uzbekistan                       | São Tomé and Príncipe            |
-| Trinidad and Tobago              | Benin                            |
-| Bhutan                           | Dominica                         |
-| Djibouti                         | Burundi                          |
-| Brunei                           | Belarus                          |
-| Canada                           | Ivory Coast                      |
-| Honduras                         | Malawi                           |
-| Cambodia                         | Fiji                             |
-| Cape Verde                       | Lebanon                          |
-| Qatar                            | El Salvador                      |
-| Malaysia                         | Curaçao                          |
-| Norway                           | Australia                        |
-| Iran                             | Israel                           |
-| Brunei                           | Angola                           |
-| Liechtenstein                    | Bahrain                          |
-| Guatemala                        | Armenia                          |
-| Bhutan                           | Moldova                          |
-| Antigua and Barbuda              | Singapore                        |
-| Costa Rica                       | Denmark                          |
-| British Virgin Islands           | Sweden                           |
-| Ireland                          | Burkina Faso                     |
-| Mali                             | Croatia                          |
-| Dominican Republic               | United States of America         |
-| Mexico                           | Colombia                         |
-| South Africa                     | Bolivia                          |
-| Japan                            | France                           |
-| Morocco                          | Vietnam                          |
-| Somalia                          | Sudan                            |
-| Bolivia                          | Kyrgyzstan                       |
-| Argentina                        | Panama                           |
-| Luxembourg                       | Iran                             |
-| Montenegro                       | Grenada                          |
-| Angola                           | Curaçao                          |
-| Faroe Islands                    | Solomon Islands                  |
-| Denmark                          | Kyrgyzstan                       |
-| Sudan                            | Bahrain                          |
-| Peru                             | Zimbabwe                         |
-| Kosovo                           | Spain                            |
-| Kenya                            | Czech Republic                   |
-| Mauritius                        | Burundi                          |
-| Nicaragua                        | Philippines                      |
-| Egypt                            | Solomon Islands                  |
-| Latvia                           | Kyrgyzstan                       |
-| Morocco                          | Colombia                         |
-| Netherlands                      | Costa Rica                       |
-| Uzbekistan                       | Cambodia                         |
-| Suriname                         | Nicaragua                        |
-| Somalia                          | Montenegro                       |
-| Antigua and Barbuda              | Fiji                             |
-| Italy                            | Indonesia                        |
-| Botswana                         | Tanzania                         |
-| Nicaragua                        | Ecuador                          |
-| San Marino                       | Antigua and Barbuda              |
-| Brunei                           | Guyana                           |
-| Greenland                        | Uganda                           |
-| Peru                             | Ivory Coast                      |
-| Angola                           | Kyrgyzstan                       |
-| Sudan                            | Faroe Islands                    |
-| South Africa                     | People's Republic of China       |
-| Benin                            | Turkmenistan                     |
-| Netherlands                      | Liberia                          |
-| Greece                           | Iran                             |
-| Laos                             | Costa Rica                       |
-| Peru                             | Papua New Guinea                 |
-| Armenia                          | Norway                           |
-| Syria                            | Singapore                        |
-| Mali                             | Kosovo                           |
-| Kuwait                           | Bhutan                           |
-| Fiji                             | Morocco                          |
-| Zambia                           | Tunisia                          |
-| Iraq                             | Myanmar                          |
-| Kosovo                           | Costa Rica                       |
-| Zimbabwe                         | Mongolia                         |
-| Burundi                          | Japan                            |
-| State of Palestine               | Egypt                            |
-| India                            | Iraq                             |
-| Ireland                          | Germany                          |
-| Ireland                          | Cuba                             |
-| São Tomé and Príncipe            | Rwanda                           |
-| Guyana                           | Burundi                          |
-| Cuba                             | Germany                          |
-| Austria                          | Saint Vincent and the Grenadines |
-| Iran                             | United Arab Emirates             |
-| Vietnam                          | Peru                             |
-| Trinidad and Tobago              | Dominica                         |
-| Botswana                         | Switzerland                      |
-| Ghana                            | Rwanda                           |
-| Kenya                            | Kyrgyzstan                       |
-| Chile                            | Australia                        |
-| Antigua and Barbuda              | Philippines                      |
-| South Sudan                      | Japan                            |
-| Greece                           | Croatia                          |
-| Slovakia                         | Angola                           |
-| United Arab Emirates             | South Sudan                      |
-| Brunei                           | Azerbaijan                       |
-| Trinidad and Tobago              | Kosovo                           |
-| Grenada                          | Brazil                           |
-| Gabon                            | Lebanon                          |
-| Bulgaria                         | Turkmenistan                     |
-| Bahrain                          | Finland                          |
-| Guatemala                        | Turkmenistan                     |
-| Poland                           | Kazakhstan                       |
-| People's Republic of China       | Brazil                           |
-| Angola                           | Lithuania                        |
-| Belarus                          | Philippines                      |
-| Costa Rica                       | Saudi Arabia                     |
-| Eritrea                          | Botswana                         |
-| Nigeria                          | Malta                            |
-| Mongolia                         | United Kingdom                   |
-| South Africa                     | Cameroon                         |
-| Cyprus                           | France                           |
-| Serbia                           | Trinidad and Tobago              |
-| Nepal                            | São Tomé and Príncipe            |
-| Albania                          | Botswana                         |
-| India                            | Saint Kitts and Nevis            |
-| Finland                          | Nepal                            |
-| Antigua and Barbuda              | Benin                            |
-| Panama                           | Bahrain                          |
-| Norway                           | Rwanda                           |
-| Rwanda                           | Portugal                         |
-| Denmark                          | Lithuania                        |
-| Laos                             | Cyprus                           |
-| Spain                            | Sudan                            |
-| Peru                             | Eritrea                          |
-| Myanmar                          | Trinidad and Tobago              |
-| Panama                           | Iceland                          |
-| Brunei                           | Greenland                        |
-| The Gambia                       | Albania                          |
-| Greece                           | Syria                            |
-| Ireland                          | Slovenia                         |
-| Oman                             | Gabon                            |
-| Fiji                             | Vietnam                          |
-| Faroe Islands                    | Czech Republic                   |
-| Solomon Islands                  | Bolivia                          |
-| Austria                          | Slovakia                         |
-| Curaçao                          | Iraq                             |
-| Japan                            | Thailand                         |
-| Estonia                          | El Salvador                      |
-| Uzbekistan                       | Papua New Guinea                 |
-| Bosnia and Herzegovina           | Mongolia                         |
-| Egypt                            | Canada                           |
-| Brunei                           | Gabon                            |
-| Guernsey                         | Cambodia                         |
-| Fiji                             | South Africa                     |
-| Switzerland                      | Indonesia                        |
-| Denmark                          | Paraguay                         |
-| Djibouti                         | Romania                          |
-| Spain                            | Slovenia                         |
-| Liberia                          | British Virgin Islands           |
-| France                           | Peru                             |
-| Nepal                            | United States of America         |
-| Cyprus                           | Armenia                          |
-| Rwanda                           | Iraq                             |
-| State of Palestine               | Mauritius                        |
-| Vietnam                          | Bhutan                           |
-| Nepal                            | Bahrain                          |
-| Azerbaijan                       | Trinidad and Tobago              |
-| The Gambia                       | Saudi Arabia                     |
-| Greece                           | Cuba                             |
-| Venezuela                        | North Macedonia                  |
-| Afghanistan                      | Egypt                            |
-| Burkina Faso                     | Liechtenstein                    |
-| France                           | Ghana                            |
-| Netherlands                      | Honduras                         |
-| Czech Republic                   | Sri Lanka                        |
-| Cuba                             | Somalia                          |
-| Jordan                           | Montenegro                       |
-| Syria                            | Egypt                            |
-| Spain                            | Democratic Republic of the Congo |
-| Botswana                         | Bulgaria                         |
-| Venezuela                        | Papua New Guinea                 |
-| Australia                        | South Africa                     |
-| Guatemala                        | Gabon                            |
-| Bangladesh                       | Armenia                          |
-| New Zealand                      | Belgium                          |
-| Papua New Guinea                 | Botswana                         |
-| Azerbaijan                       | El Salvador                      |
-| San Marino                       | Finland                          |
-| Nepal                            | Colombia                         |
-| Georgia                          | Lithuania                        |
-| Nicaragua                        | Lithuania                        |
-| Colombia                         | Liberia                          |
-| Grenada                          | Italy                            |
-| Colombia                         | Malawi                           |
-| Nepal                            | Kuwait                           |
-| Kyrgyzstan                       | Tunisia                          |
-| Qatar                            | Sweden                           |
-| Qatar                            | Democratic Republic of the Congo |
-| Curaçao                          | Moldova                          |
-| Iraq                             | Bolivia                          |
-| Dominica                         | El Salvador                      |
-| Kazakhstan                       | Lebanon                          |
-| Netherlands                      | Canada                           |
-| Kazakhstan                       | People's Republic of China       |
-| Lebanon                          | Paraguay                         |
-| Bosnia and Herzegovina           | Guatemala                        |
-| State of Palestine               | Angola                           |
-| Russia                           | Antigua and Barbuda              |
-| Colombia                         | Russia                           |
-| Poland                           | Finland                          |
-| Hungary                          | Estonia                          |
-| Ethiopia                         | France                           |
-| North Macedonia                  | Morocco                          |
-| Taiwan                           | Papua New Guinea                 |
-| New Zealand                      | Lithuania                        |
-| Solomon Islands                  | Liechtenstein                    |
-| Netherlands                      | Zimbabwe                         |
-| São Tomé and Príncipe            | Belarus                          |
-| Kazakhstan                       | Japan                            |
-| Rwanda                           | Bosnia and Herzegovina           |
-| Panama                           | Russia                           |
-| Japan                            | Mongolia                         |
-| Spain                            | Gabon                            |
-| Malawi                           | Sudan                            |
-| Saint Lucia                      | Rwanda                           |
-| San Marino                       | Ghana                            |
-| Guyana                           | Estonia                          |
-| Ireland                          | Guatemala                        |
-| North Korea                      | New Zealand                      |
-| Jordan                           | Fiji                             |
-| France                           | Canada                           |
-| Venezuela                        | Greece                           |
-| Guatemala                        | Bangladesh                       |
-| Mauritius                        | Cuba                             |
-| Nepal                            | Kosovo                           |
-| Cape Verde                       | Somalia                          |
-| El Salvador                      | Tunisia                          |
-| Djibouti                         | Ecuador                          |
-| Mauritius                        | Malawi                           |
-| Sierra Leone                     | United Arab Emirates             |
-| Brazil                           | Guyana                           |
-| People's Republic of China       | Rwanda                           |
-| South Sudan                      | Colombia                         |
-| Ireland                          | Uzbekistan                       |
-| Mauritius                        | Sri Lanka                        |
-| Afghanistan                      | Antigua and Barbuda              |
-| Kenya                            | Brazil                           |
-| Cuba                             | Croatia                          |
-| Jordan                           | Cambodia                         |
-| Ethiopia                         | Taiwan                           |
-| Chile                            | Switzerland                      |
-| Mauritius                        | Algeria                          |
-| Philippines                      | Peru                             |
-| United States of America         | Thailand                         |
-| Saint Lucia                      | Benin                            |
-| Trinidad and Tobago              | South Sudan                      |
-| Canada                           | Iceland                          |
-| Gabon                            | Pakistan                         |
-| Cambodia                         | Greece                           |
-| Angola                           | Thailand                         |
-| Bahrain                          | Bosnia and Herzegovina           |
-| Tunisia                          | Sierra Leone                     |
-| Jordan                           | Dominica                         |
-| The Gambia                       | Kuwait                           |
-| Bosnia and Herzegovina           | Argentina                        |
-| Liberia                          | Dominican Republic               |
-| Italy                            | Papua New Guinea                 |
-| Venezuela                        | Malawi                           |
-| Costa Rica                       | Sierra Leone                     |
-| Peru                             | Zambia                           |
-| Saint Lucia                      | Bolivia                          |
-| Lebanon                          | Austria                          |
-| Kenya                            | Greenland                        |
-| Tanzania                         | Cameroon                         |
-| Papua New Guinea                 | Saint Kitts and Nevis            |
-| South Sudan                      | Venezuela                        |
-| Malta                            | Ethiopia                         |
-| Brazil                           | Libya                            |
-| Liechtenstein                    | Brunei                           |
-| Austria                          | Tanzania                         |
-| Nepal                            | Bolivia                          |
-| Cuba                             | Faroe Islands                    |
-| Morocco                          | Somalia                          |
-| Antigua and Barbuda              | United Arab Emirates             |
-| Norway                           | Ireland                          |
-| Cambodia                         | Austria                          |
-| Papua New Guinea                 | Malta                            |
-| Guernsey                         | Pakistan                         |
-| Republic of Abkhazia             | Burundi                          |
-| Kenya                            | Burundi                          |
-| Ecuador                          | Kuwait                           |
-| Poland                           | Eritrea                          |
-| Belgium                          | Indonesia                        |
-| Kenya                            | Poland                           |
-| Lithuania                        | Slovenia                         |
-| Tajikistan                       | Vietnam                          |
-| Estonia                          | Benin                            |
-| Belarus                          | United Arab Emirates             |
-| Chile                            | Colombia                         |
-| United States of America         | Kenya                            |
-| United Kingdom                   | Fiji                             |
-| Liechtenstein                    | Hungary                          |
-| Italy                            | Zambia                           |
-| Philippines                      | Israel                           |
-| Finland                          | Kosovo                           |
-| Trinidad and Tobago              | Nigeria                          |
-| Israel                           | Austria                          |
-| Pakistan                         | Azerbaijan                       |
-| Belgium                          | Norway                           |
-| Tanzania                         | Iraq                             |
-| Sudan                            | Norway                           |
-| Sri Lanka                        | The Gambia                       |
-| Qatar                            | Slovakia                         |
-| Netherlands                      | Botswana                         |
-| Turkey                           | Canada                           |
-| Kyrgyzstan                       | Iraq                             |
-| Liberia                          | Guyana                           |
-| Nicaragua                        | Saint Lucia                      |
-| Portugal                         | Turkmenistan                     |
-| Saudi Arabia                     | Bangladesh                       |
-| Oman                             | Sri Lanka                        |
-| Czech Republic                   | Suriname                         |
-| Dominican Republic               | Azerbaijan                       |
-| Nigeria                          | Romania                          |
-| Argentina                        | Tajikistan                       |
-| Somalia                          | Colombia                         |
-| Jordan                           | Djibouti                         |
-| Bhutan                           | Indonesia                        |
-| Israel                           | Fiji                             |
-| Georgia                          | Egypt                            |
-| Guernsey                         | Serbia                           |
-| Argentina                        | Indonesia                        |
-| Dominica                         | Moldova                          |
-| Saudi Arabia                     | Dominica                         |
-| Japan                            | Germany                          |
-| Belarus                          | Moldova                          |
-| Azerbaijan                       | Ivory Coast                      |
-| Ivory Coast                      | United Arab Emirates             |
-| Afghanistan                      | Switzerland                      |
-| South Korea                      | Guernsey                         |
-| Iraq                             | Eritrea                          |
-| Portugal                         | Malaysia                         |
-| Myanmar                          | Portugal                         |
-| Sudan                            | Papua New Guinea                 |
-| Malaysia                         | Estonia                          |
-| Turkey                           | Curaçao                          |
-| Japan                            | Saint Vincent and the Grenadines |
-| Guatemala                        | Cameroon                         |
-| Norway                           | Guatemala                        |
-| State of Palestine               | Saudi Arabia                     |
-| Cuba                             | Cameroon                         |
-| Mauritania                       | Myanmar                          |
-| South Korea                      | Laos                             |
-| Tunisia                          | Guernsey                         |
-| Ivory Coast                      | Sudan                            |
-| Austria                          | France                           |
-| Solomon Islands                  | Guernsey                         |
-| Afghanistan                      | Vietnam                          |
-| Luxembourg                       | South Africa                     |
-| Portugal                         | Thailand                         |
-| Antigua and Barbuda              | Spain                            |
-| Italy                            | Argentina                        |
-| Nepal                            | Cyprus                           |
-| Indonesia                        | Ecuador                          |
-| Iran                             | Belarus                          |
-| Georgia                          | Mongolia                         |
-| Iceland                          | Ireland                          |
-| Mauritania                       | United States of America         |
-| Slovenia                         | Denmark                          |
-| Bangladesh                       | Syria                            |
-| Iraq                             | Bulgaria                         |
-| South Sudan                      | Saudi Arabia                     |
-| India                            | Fiji                             |
-| South Korea                      | Democratic Republic of the Congo |
-| Ireland                          | Bosnia and Herzegovina           |
-| Iceland                          | State of Palestine               |
-| Malawi                           | Trinidad and Tobago              |
-| Algeria                          | Ethiopia                         |
-| Suriname                         | Azerbaijan                       |
-| Lithuania                        | Albania                          |
-| Serbia                           | Belarus                          |
-| Bulgaria                         | Estonia                          |
-| Cameroon                         | British Virgin Islands           |
-| Sudan                            | Costa Rica                       |
-| South Sudan                      | Oman                             |
-| Georgia                          | Zambia                           |
-| Armenia                          | Jordan                           |
-| Ivory Coast                      | Nepal                            |
-| Mauritius                        | Libya                            |
-| Argentina                        | Montenegro                       |
-| Guyana                           | Morocco                          |
-| São Tomé and Príncipe            | Egypt                            |
-| Panama                           | Malaysia                         |
-| Liberia                          | São Tomé and Príncipe            |
-| Liechtenstein                    | Dominica                         |
-| Uganda                           | Austria                          |
-| Spain                            | Bolivia                          |
-| Cyprus                           | Burundi                          |
-| Cuba                             | Kuwait                           |
-| Albania                          | Suriname                         |
-| Panama                           | Hungary                          |
-| Myanmar                          | Ecuador                          |
-| Portugal                         | Uruguay                          |
-| Dominica                         | Denmark                          |
-| Luxembourg                       | Cyprus                           |
-| Antigua and Barbuda              | Panama                           |
-| Malawi                           | Zimbabwe                         |
-| Burundi                          | San Marino                       |
-| Slovenia                         | Egypt                            |
-| Syria                            | Trinidad and Tobago              |
-| Honduras                         | Trinidad and Tobago              |
-| Luxembourg                       | Guatemala                        |
-| Latvia                           | Belgium                          |
-| Faroe Islands                    | Colombia                         |
-| Burkina Faso                     | Croatia                          |
-| Grenada                          | Switzerland                      |
-| New Zealand                      | Solomon Islands                  |
-| Panama                           | Costa Rica                       |
-| Nigeria                          | Greece                           |
-| Croatia                          | Gabon                            |
-| Somalia                          | Tajikistan                       |
-| Bangladesh                       | Myanmar                          |
-| Lebanon                          | Albania                          |
-| Switzerland                      | Cambodia                         |
-| Nigeria                          | Turkmenistan                     |
-| Malaysia                         | Republic of Abkhazia             |
-| San Marino                       | Indonesia                        |
-| Lithuania                        | The Gambia                       |
-| State of Palestine               | Liechtenstein                    |
-| Burundi                          | Kuwait                           |
-| Liechtenstein                    | Colombia                         |
-| Belarus                          | Jordan                           |
-| Austria                          | Singapore                        |
-| Colombia                         | Qatar                            |
-| Jordan                           | Syria                            |
-| Morocco                          | Saudi Arabia                     |
-| Sudan                            | Saint Kitts and Nevis            |
-| British Virgin Islands           | Lebanon                          |
-| Sweden                           | Croatia                          |
-| Cambodia                         | Guyana                           |
-| Kenya                            | Afghanistan                      |
-| Moldova                          | Botswana                         |
-| Benin                            | Morocco                          |
-| Mali                             | Brazil                           |
-| Dominica                         | Lebanon                          |
-| Venezuela                        | Paraguay                         |
-| Lithuania                        | Fiji                             |
-| Brazil                           | Pakistan                         |
-| Austria                          | Brunei                           |
-| Zambia                           | Cameroon                         |
-| Algeria                          | Cameroon                         |
-| North Korea                      | Saudi Arabia                     |
-| Somalia                          | Liberia                          |
-| Saint Kitts and Nevis            | Albania                          |
-| Austria                          | Mauritius                        |
-| Luxembourg                       | Czech Republic                   |
-| Netherlands                      | Gabon                            |
-| Cape Verde                       | Burkina Faso                     |
-| United States of America         | Georgia                          |
-| Jordan                           | Pakistan                         |
-| Bulgaria                         | Finland                          |
-| Singapore                        | Israel                           |
-| Greenland                        | Sierra Leone                     |
-| Belgium                          | Laos                             |
-| Saint Lucia                      | Faroe Islands                    |
-| Bangladesh                       | Lithuania                        |
-| Sudan                            | Burkina Faso                     |
-| Ivory Coast                      | Ghana                            |
-| North Korea                      | South Sudan                      |
-| Uruguay                          | Cambodia                         |
-| Singapore                        | Norway                           |
-| Ghana                            | Bosnia and Herzegovina           |
-| Turkmenistan                     | Angola                           |
-| Laos                             | Philippines                      |
-| Jordan                           | United Kingdom                   |
-| The Gambia                       | Tunisia                          |
-| Gabon                            | Bosnia and Herzegovina           |
-| Oman                             | France                           |
-| Eritrea                          | Romania                          |
-| Latvia                           | Germany                          |
-| Gabon                            | Kosovo                           |
-| Greece                           | Belarus                          |
-| Croatia                          | Belarus                          |
-| Saint Lucia                      | Suriname                         |
-| Nigeria                          | Slovakia                         |
-| Slovakia                         | Guernsey                         |
-| Malta                            | Libya                            |
-| Bulgaria                         | Switzerland                      |
-| Laos                             | Taiwan                           |
-| South Sudan                      | Croatia                          |
-| South Africa                     | Italy                            |
-| Iceland                          | Estonia                          |
-| Guernsey                         | Gabon                            |
-| Zambia                           | Saint Vincent and the Grenadines |
-| Curaçao                          | Guatemala                        |
-| Sri Lanka                        | Bangladesh                       |
-| Canada                           | Germany                          |
-| Solomon Islands                  | Switzerland                      |
-| Gabon                            | El Salvador                      |
-| Gabon                            | France                           |
-| Colombia                         | South Korea                      |
-| Fiji                             | State of Palestine               |
-| Iran                             | Bosnia and Herzegovina           |
-| Vietnam                          | Antigua and Barbuda              |
-| Poland                           | Sri Lanka                        |
-| Djibouti                         | Uruguay                          |
-| Ukraine                          | Guatemala                        |
-| Lithuania                        | Nigeria                          |
-| San Marino                       | Fiji                             |
-| Greenland                        | Eritrea                          |
-| Malta                            | Zambia                           |
-| Bolivia                          | Austria                          |
-| Canada                           | Cambodia                         |
-| Jordan                           | Guyana                           |
-| Myanmar                          | Tajikistan                       |
-| Solomon Islands                  | Burkina Faso                     |
-| Pakistan                         | Antigua and Barbuda              |
-| Czech Republic                   | Netherlands                      |
-| Dominican Republic               | Vietnam                          |
-| Bahrain                          | Portugal                         |
-| Mongolia                         | Nigeria                          |
-| Kyrgyzstan                       | Switzerland                      |
-| Poland                           | Greenland                        |
-| Zambia                           | Jordan                           |
-| Guatemala                        | Germany                          |
-| Italy                            | Venezuela                        |
-| Azerbaijan                       | Ukraine                          |
-| Sri Lanka                        | Lebanon                          |
-| Serbia                           | Rwanda                           |
-| United Arab Emirates             | Tajikistan                       |
-| Guatemala                        | Libya                            |
-| North Macedonia                  | Mauritius                        |
-| Norway                           | Panama                           |
-| Kazakhstan                       | France                           |
-| Libya                            | Estonia                          |
-| Liberia                          | North Macedonia                  |
-| Burundi                          | Austria                          |
-| Georgia                          | Greece                           |
-| Luxembourg                       | Romania                          |
-| Bhutan                           | Mali                             |
-| Malawi                           | Mexico                           |
-| Malta                            | Jordan                           |
-| Republic of Abkhazia             | Saint Lucia                      |
-| Mauritius                        | Sudan                            |
-| Libya                            | El Salvador                      |
-| Malawi                           | Japan                            |
-| Dominican Republic               | Singapore                        |
-| Burkina Faso                     | United Arab Emirates             |
-| Kosovo                           | Egypt                            |
-| Moldova                          | Costa Rica                       |
-| Argentina                        | Bolivia                          |
-| Malawi                           | Taiwan                           |
-| Tunisia                          | Vietnam                          |
-| Zambia                           | Czech Republic                   |
-| Lithuania                        | Turkey                           |
-| State of Palestine               | El Salvador                      |
-| Guernsey                         | Thailand                         |
-| Iraq                             | Ukraine                          |
-| Philippines                      | Oman                             |
-| Italy                            | Sudan                            |
-| Finland                          | Ghana                            |
-| Serbia                           | São Tomé and Príncipe            |
-| Saint Kitts and Nevis            | Myanmar                          |
-| Democratic Republic of the Congo | Singapore                        |
-| Gabon                            | Kenya                            |
-| United States of America         | Kazakhstan                       |
-| Switzerland                      | Jordan                           |
-| Nepal                            | Kyrgyzstan                       |
-| Somalia                          | Lebanon                          |
-| Bhutan                           | Gabon                            |
-| Switzerland                      | United States of America         |
-| Israel                           | Zambia                           |
-| Gabon                            | Georgia                          |
-| Mali                             | Sierra Leone                     |
-| Botswana                         | Finland                          |
-| Somalia                          | Iran                             |
-| Myanmar                          | Saint Vincent and the Grenadines |
-| Guatemala                        | South Korea                      |
-| Sri Lanka                        | Syria                            |
-| Nigeria                          | Chile                            |
-| Japan                            | Zimbabwe                         |
-| Nigeria                          | State of Palestine               |
-| Australia                        | Canada                           |
-| Guatemala                        | Chile                            |
-| Cambodia                         | Moldova                          |
-| Thailand                         | Estonia                          |
-| Trinidad and Tobago              | Singapore                        |
-| Finland                          | Switzerland                      |
-| Oman                             | Nigeria                          |
-| Democratic Republic of the Congo | Kenya                            |
-| Sierra Leone                     | British Virgin Islands           |
-| Cyprus                           | Kazakhstan                       |
-| Panama                           | Switzerland                      |
-| Republic of Abkhazia             | Ukraine                          |
-| Guernsey                         | Japan                            |
-| Costa Rica                       | Azerbaijan                       |
-| Czech Republic                   | Guernsey                         |
-| Canada                           | Jordan                           |
-| Curaçao                          | Somalia                          |
-| Albania                          | North Macedonia                  |
-| Uzbekistan                       | Guyana                           |
-| Liechtenstein                    | Kazakhstan                       |
-| Armenia                          | Cambodia                         |
-| Antigua and Barbuda              | Kosovo                           |
-| Angola                           | Montenegro                       |
-| Malawi                           | Qatar                            |
-| San Marino                       | The Gambia                       |
-| Morocco                          | Israel                           |
-| Egypt                            | Serbia                           |
-| People's Republic of China       | Myanmar                          |
-| Trinidad and Tobago              | Libya                            |
-| Guernsey                         | Slovenia                         |
-| Israel                           | Belgium                          |
-| Belarus                          | Malawi                           |
-| Uruguay                          | South Africa                     |
-| North Korea                      | Cameroon                         |
-| Belarus                          | Afghanistan                      |
-| Brazil                           | Mauritius                        |
-| Uruguay                          | Australia                        |
-| Trinidad and Tobago              | Luxembourg                       |
-| Uzbekistan                       | Curaçao                          |
-| Hungary                          | Solomon Islands                  |
-| Liberia                          | Iceland                          |
-| South Africa                     | Poland                           |
-| Rwanda                           | Mauritius                        |
-| Bahrain                          | Colombia                         |
-| Belarus                          | Faroe Islands                    |
-| Sweden                           | Sri Lanka                        |
-| Uruguay                          | Panama                           |
-| Guatemala                        | Sierra Leone                     |
-| Mauritius                        | Republic of Abkhazia             |
-| The Gambia                       | Malaysia                         |
-| Australia                        | Dominica                         |
-| Albania                          | Mauritius                        |
-| Honduras                         | Denmark                          |
-| Tajikistan                       | State of Palestine               |
-| Iraq                             | Vietnam                          |
-| Tanzania                         | Bahrain                          |
-| Papua New Guinea                 | Finland                          |
-| Greece                           | Cameroon                         |
-| South Korea                      | Costa Rica                       |
-| Cape Verde                       | Mexico                           |
-| Mexico                           | Finland                          |
-| Iran                             | India                            |
-| Cyprus                           | Philippines                      |
-| Liechtenstein                    | Argentina                        |
-| Armenia                          | Faroe Islands                    |
-| Montenegro                       | Turkey                           |
-| Czech Republic                   | Ethiopia                         |
-| United Arab Emirates             | Jordan                           |
-| Malawi                           | United Kingdom                   |
-| Sweden                           | Spain                            |
-| India                            | Jordan                           |
-| Israel                           | Malta                            |
-| Guernsey                         | El Salvador                      |
-| Cape Verde                       | North Korea                      |
-| Mali                             | Italy                            |
-| Belarus                          | People's Republic of China       |
-| Myanmar                          | South Africa                     |
-| Djibouti                         | Cambodia                         |
-| Sierra Leone                     | Kenya                            |
-| Uganda                           | Laos                             |
-| Costa Rica                       | Argentina                        |
-| Cape Verde                       | Kuwait                           |
-| Solomon Islands                  | Kenya                            |
-| Kenya                            | Syria                            |
-| Saint Lucia                      | France                           |
-| South Korea                      | Poland                           |
-| Kenya                            | Colombia                         |
-| Lithuania                        | São Tomé and Príncipe            |
-| Georgia                          | Afghanistan                      |
-| State of Palestine               | Bhutan                           |
-| Burundi                          | Latvia                           |
-| Philippines                      | Australia                        |
-| Burkina Faso                     | Venezuela                        |
-| Benin                            | Taiwan                           |
-| Bahrain                          | Zimbabwe                         |
-| Lithuania                        | Tunisia                          |
-| United Kingdom                   | Myanmar                          |
-| Venezuela                        | Belarus                          |
-| Spain                            | Morocco                          |
-| Italy                            | Angola                           |
-| Vietnam                          | Curaçao                          |
-| North Macedonia                  | Burkina Faso                     |
-| North Korea                      | Albania                          |
-| Algeria                          | Libya                            |
-| Israel                           | Saint Vincent and the Grenadines |
-| Republic of Abkhazia             | Morocco                          |
-| Malawi                           | North Korea                      |
-| Botswana                         | Cambodia                         |
-| North Macedonia                  | Iceland                          |
-| Gabon                            | Algeria                          |
-| Mauritius                        | Switzerland                      |
-| Finland                          | Australia                        |
-| Afghanistan                      | Iceland                          |
-| Cameroon                         | New Zealand                      |
-| Mongolia                         | São Tomé and Príncipe            |
-| Honduras                         | Jordan                           |
-| Trinidad and Tobago              | Solomon Islands                  |
-| South Korea                      | Finland                          |
-| Turkey                           | Somalia                          |
-| Angola                           | Suriname                         |
-| Malta                            | Fiji                             |
-| Qatar                            | Malaysia                         |
-| Poland                           | Portugal                         |
-| El Salvador                      | Myanmar                          |
-| Fiji                             | Azerbaijan                       |
-| Mali                             | Libya                            |
-| Malaysia                         | Canada                           |
-| Canada                           | Russia                           |
-| Mexico                           | Bosnia and Herzegovina           |
-| Italy                            | India                            |
-| Zambia                           | Qatar                            |
-| Dominican Republic               | Suriname                         |
-| Australia                        | South Korea                      |
-| Switzerland                      | Egypt                            |
-| Peru                             | Ghana                            |
-| Uganda                           | Indonesia                        |
-| Russia                           | State of Palestine               |
-| Georgia                          | Saudi Arabia                     |
-| Bolivia                          | Fiji                             |
-| Tanzania                         | Cyprus                           |
-| Georgia                          | Antigua and Barbuda              |
-| Estonia                          | Italy                            |
-| Ecuador                          | Laos                             |
-| Ireland                          | Saint Kitts and Nevis            |
-| El Salvador                      | Greenland                        |
-| Iran                             | Nepal                            |
-| Ireland                          | São Tomé and Príncipe            |
-| Ivory Coast                      | Bulgaria                         |
-| Peru                             | Sudan                            |
-| Cambodia                         | Angola                           |
-| Venezuela                        | Slovenia                         |
-| Bulgaria                         | Japan                            |
-| India                            | Honduras                         |
-| Saint Lucia                      | Tanzania                         |
-| Cape Verde                       | Turkmenistan                     |
-| Greenland                        | Syria                            |
-| Belgium                          | Syria                            |
-| Malta                            | Slovenia                         |
-| Azerbaijan                       | Uzbekistan                       |
-| Suriname                         | Malawi                           |
-| Ghana                            | South Africa                     |
-| Bahrain                          | Liberia                          |
-| Lebanon                          | Indonesia                        |
-| Burundi                          | Serbia                           |
-| Bulgaria                         | Cambodia                         |
-| Kosovo                           | Laos                             |
-| Nepal                            | Uruguay                          |
-| South Africa                     | Ivory Coast                      |
-| Bangladesh                       | Papua New Guinea                 |
-| Grenada                          | Venezuela                        |
-| Lithuania                        | North Macedonia                  |
-| Iran                             | Brunei                           |
-| Austria                          | Afghanistan                      |
-| Malta                            | Faroe Islands                    |
-| Jordan                           | Liechtenstein                    |
-| Albania                          | Costa Rica                       |
-| Ireland                          | Ecuador                          |
-| Montenegro                       | Qatar                            |
-| El Salvador                      | Egypt                            |
-| Nicaragua                        | Malawi                           |
-| Liberia                          | Thailand                         |
-| Serbia                           | Greece                           |
-| India                            | Mexico                           |
-| British Virgin Islands           | Montenegro                       |
-| Bahrain                          | Suriname                         |
-| Turkmenistan                     | Nicaragua                        |
-| Tunisia                          | Dominican Republic               |
-| Kuwait                           | Sri Lanka                        |
-| Malawi                           | Nepal                            |
-| Taiwan                           | Thailand                         |
-| State of Palestine               | South Sudan                      |
-| Poland                           | Iraq                             |
-| Nigeria                          | Guernsey                         |
-| Angola                           | North Macedonia                  |
-| Papua New Guinea                 | Iraq                             |
-| Saint Lucia                      | Kenya                            |
-| Turkey                           | Burkina Faso                     |
-| Bulgaria                         | Ireland                          |
-| Benin                            | Czech Republic                   |
-| South Sudan                      | Kuwait                           |
-| Saint Kitts and Nevis            | Luxembourg                       |
-| Belgium                          | Sweden                           |
-| Rwanda                           | Georgia                          |
-| Laos                             | India                            |
-| The Gambia                       | Estonia                          |
-| Zimbabwe                         | Kosovo                           |
-| Laos                             | Azerbaijan                       |
-| Oman                             | Burundi                          |
-| Republic of Abkhazia             | State of Palestine               |
-| Turkey                           | France                           |
-| Turkey                           | Nicaragua                        |
-| San Marino                       | Guernsey                         |
-| Croatia                          | Mauritius                        |
-| Sierra Leone                     | Burundi                          |
-| Armenia                          | New Zealand                      |
-| Panama                           | Brazil                           |
-| Taiwan                           | Lebanon                          |
-| Sweden                           | Botswana                         |
-| South Korea                      | Latvia                           |
-| South Africa                     | Burkina Faso                     |
-| Kyrgyzstan                       | Panama                           |
-| Kazakhstan                       | Serbia                           |
-| Uganda                           | New Zealand                      |
-| Grenada                          | Liberia                          |
-| Malaysia                         | Oman                             |
-| Panama                           | Serbia                           |
-| Grenada                          | Costa Rica                       |
-| Ecuador                          | Burundi                          |
-| Antigua and Barbuda              | Angola                           |
-| Suriname                         | United Arab Emirates             |
-| Mexico                           | United Arab Emirates             |
-| Peru                             | Guatemala                        |
-| South Africa                     | Mauritania                       |
-| Venezuela                        | Cuba                             |
-| Cambodia                         | Ethiopia                         |
-| Sierra Leone                     | Djibouti                         |
-| Jordan                           | Bosnia and Herzegovina           |
-| São Tomé and Príncipe            | Sierra Leone                     |
-| Bahrain                          | Zambia                           |
-| Bolivia                          | Latvia                           |
-| Canada                           | South Africa                     |
-| Mali                             | New Zealand                      |
-| Kazakhstan                       | Mauritius                        |
-| Zimbabwe                         | Philippines                      |
-| Libya                            | Azerbaijan                       |
-| Brazil                           | Spain                            |
-| Ireland                          | Finland                          |
-| Djibouti                         | Saudi Arabia                     |
-| Kosovo                           | Angola                           |
-| Chile                            | New Zealand                      |
-| Portugal                         | Turkey                           |
-| Burundi                          | Dominica                         |
-| Burkina Faso                     | Curaçao                          |
-| Somalia                          | Lithuania                        |
-| Algeria                          | Mexico                           |
-| Uruguay                          | South Sudan                      |
-| Switzerland                      | Dominica                         |
-| Fiji                             | Georgia                          |
-| Latvia                           | Democratic Republic of the Congo |
-| Slovakia                         | Nepal                            |
-| South Sudan                      | Saint Vincent and the Grenadines |
-| Kenya                            | Liberia                          |
-| Estonia                          | Belarus                          |
-| British Virgin Islands           | Spain                            |
-| Argentina                        | Brunei                           |
-| Faroe Islands                    | South Korea                      |
-| United Arab Emirates             | Tunisia                          |
-| Ivory Coast                      | Japan                            |
-| Croatia                          | United Kingdom                   |
-| Tanzania                         | Vietnam                          |
-| Uzbekistan                       | Sierra Leone                     |
-| Angola                           | Bangladesh                       |
-| Denmark                          | Canada                           |
-| Kazakhstan                       | Greenland                        |
-| Trinidad and Tobago              | Sri Lanka                        |
-| Somalia                          | Kazakhstan                       |
-| Moldova                          | Hungary                          |
-| El Salvador                      | Morocco                          |
-| Zambia                           | Finland                          |
-| Turkmenistan                     | Rwanda                           |
-| Indonesia                        | Venezuela                        |
-| State of Palestine               | Singapore                        |
-| Angola                           | Sierra Leone                     |
-| South Sudan                      | Ukraine                          |
-| Latvia                           | India                            |
-| El Salvador                      | Tajikistan                       |
-| Ecuador                          | Denmark                          |
-| United States of America         | Guyana                           |
-| Czech Republic                   | Myanmar                          |
-| France                           | San Marino                       |
-| Eritrea                          | Sweden                           |
-| Slovakia                         | Czech Republic                   |
-| Liberia                          | Kazakhstan                       |
-| British Virgin Islands           | Guatemala                        |
-| Rwanda                           | Japan                            |
-| Saint Kitts and Nevis            | Grenada                          |
-| Indonesia                        | Turkmenistan                     |
-| Ethiopia                         | Lebanon                          |
-| Venezuela                        | British Virgin Islands           |
-| Rwanda                           | North Korea                      |
-| Egypt                            | Guernsey                         |
-| Papua New Guinea                 | Solomon Islands                  |
-| Ecuador                          | Tunisia                          |
-| Bolivia                          | Kazakhstan                       |
-| Fiji                             | Nepal                            |
-| Qatar                            | Venezuela                        |
-| Botswana                         | Burkina Faso                     |
-| Faroe Islands                    | Ireland                          |
-| Tajikistan                       | North Korea                      |
-| Mali                             | Indonesia                        |
-| Vietnam                          | Pakistan                         |
-| Libya                            | Indonesia                        |
-| Serbia                           | Malaysia                         |
-| Turkmenistan                     | Australia                        |
-| Panama                           | Uganda                           |
-| Cameroon                         | Benin                            |
-| Bangladesh                       | Rwanda                           |
-| Brazil                           | Ukraine                          |
-| British Virgin Islands           | Kazakhstan                       |
-| Kosovo                           | Republic of Abkhazia             |
-| Guatemala                        | Syria                            |
-| Montenegro                       | Chile                            |
-| Egypt                            | Cambodia                         |
-| Curaçao                          | Italy                            |
-| Kenya                            | Mauritania                       |
-| Iraq                             | Oman                             |
-| Djibouti                         | Portugal                         |
-| Canada                           | Cameroon                         |
-| Portugal                         | Lithuania                        |
-| Guyana                           | Benin                            |
-| Guernsey                         | Hungary                          |
-| Norway                           | Antigua and Barbuda              |
-| Honduras                         | Egypt                            |
-| Brazil                           | Kuwait                           |
-| Finland                          | Singapore                        |
-| Somalia                          | Bhutan                           |
-| San Marino                       | South Africa                     |
-| Czech Republic                   | Bangladesh                       |
-| Canada                           | Uzbekistan                       |
-| Nicaragua                        | Tajikistan                       |
-| Faroe Islands                    | Argentina                        |
-| Bulgaria                         | Sri Lanka                        |
-| Norway                           | State of Palestine               |
-| Djibouti                         | Uganda                           |
-| Cambodia                         | Afghanistan                      |
-| Peru                             | Fiji                             |
-| Kuwait                           | Japan                            |
-| North Macedonia                  | Faroe Islands                    |
-| Ghana                            | Serbia                           |
-| Peru                             | Slovakia                         |
-| Luxembourg                       | Ethiopia                         |
-| Nicaragua                        | Argentina                        |
-| Honduras                         | United States of America         |
-| Angola                           | Japan                            |
-| Egypt                            | Liechtenstein                    |
-| Mauritania                       | Portugal                         |
-| Benin                            | Afghanistan                      |
-| Tunisia                          | Angola                           |
-| Bulgaria                         | Laos                             |
-| Greenland                        | Cambodia                         |
-| Botswana                         | Greenland                        |
-| Portugal                         | Kosovo                           |
-| Ivory Coast                      | Brunei                           |
-| United Arab Emirates             | Iceland                          |
-| Saudi Arabia                     | Laos                             |
-| Montenegro                       | Bahrain                          |
-| Mauritius                        | Liberia                          |
-| Singapore                        | Denmark                          |
-| Djibouti                         | Antigua and Barbuda              |
-| Malta                            | Grenada                          |
-| Qatar                            | Tanzania                         |
-| Qatar                            | Syria                            |
-| Georgia                          | Djibouti                         |
-| Morocco                          | India                            |
-| Moldova                          | Finland                          |
-| Tajikistan                       | Cambodia                         |
-| Malta                            | Spain                            |
-| Czech Republic                   | Mauritania                       |
-| United Kingdom                   | Nigeria                          |
-| Somalia                          | Eritrea                          |
-| South Africa                     | Taiwan                           |
-| Poland                           | Slovenia                         |
-| Peru                             | Australia                        |
-| Estonia                          | Papua New Guinea                 |
-| Myanmar                          | Cuba                             |
-| Estonia                          | Indonesia                        |
-| Austria                          | Myanmar                          |
-| Cyprus                           | Spain                            |
-| Vietnam                          | Indonesia                        |
-| Dominica                         | Ireland                          |
-| Libya                            | France                           |
-| Albania                          | Malta                            |
-| Philippines                      | Libya                            |
-| Belgium                          | Rwanda                           |
-| Kyrgyzstan                       | Liechtenstein                    |
-| Somalia                          | San Marino                       |
-| Cyprus                           | Croatia                          |
-| Mongolia                         | Hungary                          |
-| Curaçao                          | Rwanda                           |
-| Indonesia                        | Austria                          |
-| United Arab Emirates             | El Salvador                      |
-| Guatemala                        | Argentina                        |
-| Panama                           | Saudi Arabia                     |
-| Portugal                         | Panama                           |
-| Afghanistan                      | Pakistan                         |
-| Libya                            | Kyrgyzstan                       |
-| Angola                           | Philippines                      |
-| Bosnia and Herzegovina           | Kyrgyzstan                       |
-| Honduras                         | Morocco                          |
-| Uzbekistan                       | Sri Lanka                        |
-| Mexico                           | Pakistan                         |
-| Norway                           | France                           |
-| Taiwan                           | Kenya                            |
-| Greece                           | Qatar                            |
-| Mexico                           | São Tomé and Príncipe            |
-| Mexico                           | Brazil                           |
-| Laos                             | Slovenia                         |
-| Republic of Abkhazia             | United Arab Emirates             |
-| Malaysia                         | Lebanon                          |
-| Turkey                           | Thailand                         |
-| Zimbabwe                         | Denmark                          |
-| Kuwait                           | Colombia                         |
-| Ivory Coast                      | Iceland                          |
-| Guatemala                        | Egypt                            |
-| San Marino                       | Afghanistan                      |
-| Papua New Guinea                 | Switzerland                      |
-| Dominican Republic               | Hungary                          |
-| United Kingdom                   | Greenland                        |
-| Cape Verde                       | Indonesia                        |
-| Indonesia                        | Saudi Arabia                     |
-| Guernsey                         | State of Palestine               |
-| The Gambia                       | Latvia                           |
-| Honduras                         | Argentina                        |
-| Spain                            | Mexico                           |
-| Peru                             | South Sudan                      |
-| Canada                           | Liberia                          |
-| Slovenia                         | Philippines                      |
-| Bangladesh                       | Brunei                           |
-| Romania                          | India                            |
-| Benin                            | Singapore                        |
-| Venezuela                        | New Zealand                      |
-| Trinidad and Tobago              | Iraq                             |
-| Saint Vincent and the Grenadines | Uganda                           |
-| Botswana                         | Paraguay                         |
-| Bosnia and Herzegovina           | Saint Kitts and Nevis            |
-| North Macedonia                  | Curaçao                          |
-| Benin                            | Romania                          |
-| Democratic Republic of the Congo | Honduras                         |
-| Tanzania                         | Faroe Islands                    |
-| The Gambia                       | Argentina                        |
-| British Virgin Islands           | Antigua and Barbuda              |
-| Mauritania                       | Mexico                           |
-| Austria                          | Armenia                          |
-| Georgia                          | Australia                        |
-| Thailand                         | Greece                           |
-| Bosnia and Herzegovina           | Democratic Republic of the Congo |
-| Afghanistan                      | New Zealand                      |
-| Romania                          | Papua New Guinea                 |
-| Sweden                           | South Korea                      |
-| Malaysia                         | Guatemala                        |
-| Armenia                          | Italy                            |
-| Kyrgyzstan                       | Brunei                           |
-| Indonesia                        | Ireland                          |
-| Democratic Republic of the Congo | Albania                          |
-| Liechtenstein                    | South Korea                      |
-| Saudi Arabia                     | Poland                           |
-| Morocco                          | Latvia                           |
-| Djibouti                         | Taiwan                           |
-| Albania                          | Tunisia                          |
-| United Kingdom                   | Burkina Faso                     |
-| Germany                          | Angola                           |
-| Armenia                          | Thailand                         |
-| France                           | Papua New Guinea                 |
-| Slovakia                         | Oman                             |
-| Nigeria                          | Italy                            |
-| New Zealand                      | Laos                             |
-| Burkina Faso                     | Austria                          |
-| Malawi                           | Finland                          |
-| Liberia                          | Iraq                             |
-| Antigua and Barbuda              | Burkina Faso                     |
-| Faroe Islands                    | Bhutan                           |
-| Colombia                         | Philippines                      |
-| Greenland                        | Israel                           |
-| Uruguay                          | Sudan                            |
-| Romania                          | Ukraine                          |
-| Sierra Leone                     | Czech Republic                   |
-| Kosovo                           | Montenegro                       |
-| South Korea                      | Netherlands                      |
-| Kyrgyzstan                       | Zimbabwe                         |
-| Moldova                          | Spain                            |
-| Liberia                          | Saint Lucia                      |
-| Bahrain                          | Algeria                          |
-| Oman                             | Colombia                         |
-| Burkina Faso                     | Bahrain                          |
-| Jordan                           | Algeria                          |
-| Portugal                         | Honduras                         |
-| Morocco                          | Turkey                           |
-| Chile                            | Serbia                           |
-| Rwanda                           | Slovenia                         |
-| Guernsey                         | Russia                           |
-| Israel                           | Antigua and Barbuda              |
-| Norway                           | Brunei                           |
-| Bhutan                           | Philippines                      |
-| Colombia                         | Grenada                          |
-| Belgium                          | Kosovo                           |
-| Egypt                            | Colombia                         |
-| Vietnam                          | Myanmar                          |
-| Zambia                           | Kazakhstan                       |
-| Paraguay                         | Canada                           |
-| Papua New Guinea                 | Antigua and Barbuda              |
-| Latvia                           | Liberia                          |
-| Guyana                           | Greenland                        |
-| Grenada                          | Myanmar                          |
-| Israel                           | North Korea                      |
-| Papua New Guinea                 | Armenia                          |
-| Jordan                           | Japan                            |
-| Czech Republic                   | Angola                           |
-| Luxembourg                       | Albania                          |
-| Libya                            | Paraguay                         |
-| Kazakhstan                       | Laos                             |
-| Malaysia                         | Burkina Faso                     |
-| North Korea                      | Estonia                          |
-| Pakistan                         | Ethiopia                         |
-| Ecuador                          | Qatar                            |
-| Belarus                          | Angola                           |
-| India                            | Colombia                         |
-| Armenia                          | Bhutan                           |
-| Philippines                      | Brunei                           |
-| Brazil                           | Peru                             |
-| Montenegro                       | Georgia                          |
-| Kuwait                           | Greenland                        |
-| São Tomé and Príncipe            | Cambodia                         |
-| United Kingdom                   | Peru                             |
-| Sri Lanka                        | Australia                        |
-| Sri Lanka                        | Uruguay                          |
-| Malta                            | Armenia                          |
-| Dominica                         | Croatia                          |
-| New Zealand                      | Peru                             |
-| British Virgin Islands           | Brazil                           |
-| Syria                            | Slovakia                         |
-| Liberia                          | Uruguay                          |
-| Cuba                             | Indonesia                        |
-| Uzbekistan                       | Rwanda                           |
-| Poland                           | Kyrgyzstan                       |
-| Romania                          | Estonia                          |
-| São Tomé and Príncipe            | Faroe Islands                    |
-| Libya                            | Finland                          |
-| Turkmenistan                     | Bangladesh                       |
-| Morocco                          | Kuwait                           |
-| Tajikistan                       | Armenia                          |
-| India                            | Myanmar                          |
-| San Marino                       | Greece                           |
-| Brazil                           | Cyprus                           |
-| Mali                             | Greenland                        |
-| Sri Lanka                        | Nepal                            |
-| State of Palestine               | São Tomé and Príncipe            |
-| Uganda                           | Sudan                            |
-| Bhutan                           | Cameroon                         |
-| Paraguay                         | Faroe Islands                    |
-| Costa Rica                       | Malaysia                         |
-| Saudi Arabia                     | Dominican Republic               |
-| Cyprus                           | Estonia                          |
-| Jordan                           | South Korea                      |
-| Ireland                          | New Zealand                      |
-| Estonia                          | Saudi Arabia                     |
-| Libya                            | Germany                          |
-| Dominica                         | North Korea                      |
-| Panama                           | Belarus                          |
-| Ivory Coast                      | Botswana                         |
-| United States of America         | Benin                            |
-| El Salvador                      | Denmark                          |
-| Kenya                            | Uganda                           |
-| United Kingdom                   | Honduras                         |
-| Cambodia                         | New Zealand                      |
-| Oman                             | Grenada                          |
-| Dominica                         | Bangladesh                       |
-| Panama                           | San Marino                       |
-| Bulgaria                         | Albania                          |
-| Turkey                           | United States of America         |
-| Belarus                          | Montenegro                       |
-| Sweden                           | Algeria                          |
-| Solomon Islands                  | Uganda                           |
-| Kuwait                           | Cambodia                         |
-| South Sudan                      | Sierra Leone                     |
-| Ecuador                          | Kyrgyzstan                       |
-| Colombia                         | Sudan                            |
-| Mauritania                       | Nigeria                          |
-| Denmark                          | Nigeria                          |
-| South Korea                      | Saint Kitts and Nevis            |
-| Spain                            | State of Palestine               |
-| Angola                           | Tanzania                         |
-| Philippines                      | Kazakhstan                       |
-| Guernsey                         | Austria                          |
-| Botswana                         | Kuwait                           |
-| Eritrea                          | Norway                           |
-| Canada                           | Norway                           |
-| Kosovo                           | Bosnia and Herzegovina           |
-| Oman                             | Cuba                             |
-| France                           | Kyrgyzstan                       |
-| Mexico                           | Liechtenstein                    |
-| Malta                            | Australia                        |
-| Dominica                         | Ethiopia                         |
-| Greenland                        | Algeria                          |
-| Kuwait                           | Armenia                          |
-| Tajikistan                       | Brunei                           |
-| People's Republic of China       | Laos                             |
-| Albania                          | British Virgin Islands           |
-| Serbia                           | Slovenia                         |
-| Guyana                           | Ireland                          |
-| Singapore                        | Lebanon                          |
-| Venezuela                        | South Africa                     |
-| Peru                             | Nicaragua                        |
-| Serbia                           | New Zealand                      |
-| The Gambia                       | Sudan                            |
-| United Kingdom                   | Ghana                            |
-| Greece                           | Guernsey                         |
-| Brazil                           | Bulgaria                         |
-| Vietnam                          | Kyrgyzstan                       |
-| State of Palestine               | Lebanon                          |
-| Egypt                            | Denmark                          |
-| Portugal                         | Japan                            |
-| Mauritius                        | Uzbekistan                       |
-| Czech Republic                   | Rwanda                           |
-| Zimbabwe                         | Iceland                          |
-| Burkina Faso                     | Cambodia                         |
-| Republic of Abkhazia             | Spain                            |
-| Ethiopia                         | People's Republic of China       |
-| Ghana                            | Grenada                          |
-| The Gambia                       | United States of America         |
-| Mongolia                         | Italy                            |
-| Estonia                          | Jordan                           |
-| Austria                          | Malawi                           |
-| Germany                          | Afghanistan                      |
-| Liechtenstein                    | São Tomé and Príncipe            |
-| Paraguay                         | The Gambia                       |
-| Azerbaijan                       | Croatia                          |
-| British Virgin Islands           | United States of America         |
-| Israel                           | Uzbekistan                       |
-| Ghana                            | North Macedonia                  |
-| Albania                          | Czech Republic                   |
-| Lebanon                          | Poland                           |
-| North Korea                      | Vietnam                          |
-| Bolivia                          | São Tomé and Príncipe            |
-| Moldova                          | Ivory Coast                      |
-| Mexico                           | Greenland                        |
-| South Korea                      | Vietnam                          |
-| Serbia                           | Laos                             |
-| Bolivia                          | Cuba                             |
-| Greenland                        | Djibouti                         |
-| Dominican Republic               | Cyprus                           |
-| Sierra Leone                     | Ireland                          |
-| Burundi                          | South Africa                     |
-| Sri Lanka                        | Ghana                            |
-| Mongolia                         | Jordan                           |
-| Dominica                         | Norway                           |
-| Venezuela                        | Georgia                          |
-| Cameroon                         | Australia                        |
-| Philippines                      | Turkey                           |
-| Bulgaria                         | United States of America         |
-| Ethiopia                         | San Marino                       |
-| Grenada                          | Honduras                         |
-| Republic of Abkhazia             | Mexico                           |
-| Lithuania                        | Belarus                          |
-| Canada                           | British Virgin Islands           |
-| Denmark                          | South Africa                     |
-| Moldova                          | Guyana                           |
-| Democratic Republic of the Congo | Slovakia                         |
-| Cambodia                         | Tunisia                          |
-| Djibouti                         | San Marino                       |
-| Netherlands                      | Luxembourg                       |
-| San Marino                       | Singapore                        |
-| Curaçao                          | Mauritius                        |
-| Malta                            | Argentina                        |
-| Guyana                           | Russia                           |
-| Bangladesh                       | Egypt                            |
-| Kuwait                           | Benin                            |
-| Honduras                         | North Korea                      |
-| Cyprus                           | Rwanda                           |
-| Slovakia                         | Morocco                          |
-| Italy                            | Azerbaijan                       |
-| The Gambia                       | Benin                            |
-| Mauritania                       | Chile                            |
-| Croatia                          | Fiji                             |
-| Cambodia                         | Bahrain                          |
-| Algeria                          | Uzbekistan                       |
-| Thailand                         | Uganda                           |
-| Bhutan                           | Libya                            |
-| Slovakia                         | Latvia                           |
-| Uzbekistan                       | Brazil                           |
-| Iraq                             | North Korea                      |
-| Oman                             | Belarus                          |
-| Botswana                         | Germany                          |
-| Dominica                         | Angola                           |
-| Ethiopia                         | Peru                             |
-| Germany                          | Bahrain                          |
-| Montenegro                       | Saint Lucia                      |
-| Turkmenistan                     | Solomon Islands                  |
-| Nigeria                          | Jordan                           |
-| Georgia                          | Colombia                         |
-| Guatemala                        | Nicaragua                        |
-| Ivory Coast                      | Italy                            |
-| Nepal                            | United Kingdom                   |
-| Fiji                             | Bosnia and Herzegovina           |
-| Hungary                          | Brazil                           |
-| Iraq                             | Uruguay                          |
-| Estonia                          | Laos                             |
-| Qatar                            | Fiji                             |
-| Guernsey                         | Saint Lucia                      |
-| Greece                           | Ivory Coast                      |
-| Democratic Republic of the Congo | Argentina                        |
-| Lithuania                        | France                           |
-| Liechtenstein                    | United Arab Emirates             |
-| South Korea                      | Uganda                           |
-| Philippines                      | United States of America         |
-| Italy                            | Philippines                      |
-| Ireland                          | Liechtenstein                    |
-| Turkey                           | El Salvador                      |
-| Uganda                           | Italy                            |
-| Gabon                            | Djibouti                         |
-| Tunisia                          | São Tomé and Príncipe            |
-| Bhutan                           | Turkey                           |
-| Malawi                           | Philippines                      |
-| Liechtenstein                    | Bosnia and Herzegovina           |
-| Peru                             | Iraq                             |
-| Sudan                            | North Korea                      |
-| State of Palestine               | Benin                            |
-| Tanzania                         | Bhutan                           |
-| Costa Rica                       | Egypt                            |
-| Curaçao                          | Australia                        |
-| Costa Rica                       | Tunisia                          |
-| Guernsey                         | Ecuador                          |
-| Tanzania                         | Malaysia                         |
-| Japan                            | Austria                          |
-| Trinidad and Tobago              | Guyana                           |
-| Malawi                           | Liberia                          |
-| Poland                           | Bosnia and Herzegovina           |
-| Liechtenstein                    | Panama                           |
-| Mexico                           | Antigua and Barbuda              |
-| Georgia                          | Luxembourg                       |
-| Guatemala                        | Grenada                          |
-| Portugal                         | Antigua and Barbuda              |
-| Dominican Republic               | Belarus                          |
-| State of Palestine               | Cuba                             |
-| France                           | Grenada                          |
-| Liberia                          | Greece                           |
-| Kyrgyzstan                       | Tajikistan                       |
-| Oman                             | Ivory Coast                      |
-| Honduras                         | Benin                            |
-| Portugal                         | Belarus                          |
-| Cyprus                           | Botswana                         |
-| Cyprus                           | Turkey                           |
-| Croatia                          | Thailand                         |
-| Saudi Arabia                     | Oman                             |
-| Brazil                           | Bolivia                          |
-| Solomon Islands                  | Dominica                         |
-| Estonia                          | Nepal                            |
-| Colombia                         | North Korea                      |
-| Brunei                           | Zambia                           |
-| Colombia                         | Sri Lanka                        |
-| Curaçao                          | Paraguay                         |
-| Uruguay                          | Trinidad and Tobago              |
-| Sweden                           | Antigua and Barbuda              |
-| Tajikistan                       | Indonesia                        |
-| India                            | Australia                        |
-| Serbia                           | Mongolia                         |
-| Nepal                            | Papua New Guinea                 |
-| Kosovo                           | Nigeria                          |
-| Moldova                          | Pakistan                         |
-| Rwanda                           | Dominican Republic               |
-| Mauritius                        | Venezuela                        |
-| Netherlands                      | Jordan                           |
-| Argentina                        | Liberia                          |
-| Uganda                           | Kuwait                           |
-| Costa Rica                       | Peru                             |
-| Argentina                        | New Zealand                      |
-| Iraq                             | Kazakhstan                       |
-| Germany                          | Paraguay                         |
-| Taiwan                           | United Kingdom                   |
-| Eritrea                          | Iran                             |
-| North Macedonia                  | Philippines                      |
-| Poland                           | Dominica                         |
-| Antigua and Barbuda              | South Sudan                      |
-| Ukraine                          | Switzerland                      |
-| Syria                            | Mexico                           |
-| Netherlands                      | The Gambia                       |
-| Grenada                          | Libya                            |
-| Uruguay                          | Hungary                          |
-| India                            | United States of America         |
-| Bolivia                          | Grenada                          |
-| Canada                           | Sweden                           |
-| Kosovo                           | Libya                            |
-| Switzerland                      | Denmark                          |
-| Switzerland                      | Malawi                           |
-| Fiji                             | Panama                           |
-| Eritrea                          | Sudan                            |
-| Chile                            | Guernsey                         |
-| Lithuania                        | Egypt                            |
-| Belarus                          | Mexico                           |
-| Vietnam                          | France                           |
-| Cameroon                         | Taiwan                           |
-| Liberia                          | Burundi                          |
-| Belarus                          | Papua New Guinea                 |
-| Saint Lucia                      | Kuwait                           |
-| Mauritania                       | Latvia                           |
-| Philippines                      | France                           |
-| El Salvador                      | Serbia                           |
-| Nigeria                          | Zimbabwe                         |
-| Cyprus                           | Benin                            |
-| Gabon                            | Vietnam                          |
-| Slovakia                         | Saint Vincent and the Grenadines |
-| Nigeria                          | Bosnia and Herzegovina           |
-| Bangladesh                       | Tajikistan                       |
-| Japan                            | United Kingdom                   |
-| Czech Republic                   | Syria                            |
-| State of Palestine               | North Korea                      |
-| Trinidad and Tobago              | Paraguay                         |
-| Thailand                         | Turkmenistan                     |
-| Burkina Faso                     | Kenya                            |
-| North Korea                      | Armenia                          |
-| Kuwait                           | Lebanon                          |
-| Colombia                         | Brunei                           |
-| Latvia                           | Cambodia                         |
-| Nepal                            | Egypt                            |
-| Botswana                         | France                           |
-| Kazakhstan                       | Australia                        |
-| Bhutan                           | Mauritius                        |
-| Bangladesh                       | Mauritania                       |
-| Tanzania                         | Indonesia                        |
-| Turkmenistan                     | El Salvador                      |
-| Romania                          | South Korea                      |
-| Albania                          | Philippines                      |
-| Tajikistan                       | Saint Kitts and Nevis            |
-| Singapore                        | South Sudan                      |
-| Kenya                            | Nepal                            |
-| Poland                           | Panama                           |
-| Saint Kitts and Nevis            | Honduras                         |
-| Afghanistan                      | Botswana                         |
-| Uzbekistan                       | Kyrgyzstan                       |
-| Turkmenistan                     | Ivory Coast                      |
-| Taiwan                           | Latvia                           |
-| Ireland                          | Denmark                          |
-| Bulgaria                         | Syria                            |
-| Belgium                          | Taiwan                           |
-| Vietnam                          | Spain                            |
-| Saudi Arabia                     | Tanzania                         |
-| Mali                             | Mauritania                       |
-| Turkey                           | Rwanda                           |
-| Lithuania                        | Zambia                           |
-| Turkey                           | Eritrea                          |
-| Norway                           | Slovakia                         |
-| Qatar                            | Uzbekistan                       |
-| Sweden                           | Rwanda                           |
-| Indonesia                        | Costa Rica                       |
-| Pakistan                         | Eritrea                          |
-| Oman                             | Ireland                          |
-| North Macedonia                  | Bhutan                           |
-| Papua New Guinea                 | Rwanda                           |
-| United Arab Emirates             | Norway                           |
-| Mali                             | Cambodia                         |
-| Ivory Coast                      | Switzerland                      |
-| North Macedonia                  | Cape Verde                       |
-| Sierra Leone                     | Venezuela                        |
-| Israel                           | Denmark                          |
-| North Korea                      | Suriname                         |
-| Tajikistan                       | Benin                            |
-| Finland                          | Colombia                         |
-| Mali                             | Morocco                          |
-| Italy                            | Brazil                           |
-| Mongolia                         | Israel                           |
-| Belgium                          | Tajikistan                       |
-| Lebanon                          | Curaçao                          |
-| Iceland                          | Jordan                           |
-| Armenia                          | Brazil                           |
-| Suriname                         | Armenia                          |
-| El Salvador                      | Cape Verde                       |
-| Trinidad and Tobago              | Sudan                            |
-| Tunisia                          | Burkina Faso                     |
-| Moldova                          | Colombia                         |
-| Bulgaria                         | Guyana                           |
-| Argentina                        | Brazil                           |
-| Thailand                         | Saint Kitts and Nevis            |
-| Papua New Guinea                 | South Sudan                      |
-| Singapore                        | Liberia                          |
-| Canada                           | Algeria                          |
-| South Korea                      | Bhutan                           |
-| Afghanistan                      | Uruguay                          |
-| Romania                          | Vietnam                          |
-| Ethiopia                         | Libya                            |
-| Kosovo                           | United Arab Emirates             |
-| Mongolia                         | Ecuador                          |
-| Mexico                           | Guyana                           |
-| Denmark                          | Ghana                            |
-| Uganda                           | São Tomé and Príncipe            |
-| Netherlands                      | Sudan                            |
-| United States of America         | Chile                            |
-| Djibouti                         | Bulgaria                         |
-| United Arab Emirates             | Cyprus                           |
-| British Virgin Islands           | Denmark                          |
-| Venezuela                        | Russia                           |
-| Greenland                        | Republic of Abkhazia             |
-| Brazil                           | Israel                           |
-| El Salvador                      | Zimbabwe                         |
-| Mauritania                       | Honduras                         |
-| Cape Verde                       | State of Palestine               |
-| Bulgaria                         | The Gambia                       |
-| Cape Verde                       | South Korea                      |
-| Egypt                            | Gabon                            |
-| Ecuador                          | Suriname                         |
-| Thailand                         | Mauritania                       |
-| Mexico                           | Philippines                      |
-| North Macedonia                  | United Arab Emirates             |
-| Azerbaijan                       | Grenada                          |
-| Kazakhstan                       | Ireland                          |
-| Thailand                         | New Zealand                      |
-| Suriname                         | Cyprus                           |
-| Grenada                          | Bahrain                          |
-| Brazil                           | Romania                          |
-| Germany                          | Greenland                        |
-| Serbia                           | Eritrea                          |
-| San Marino                       | Democratic Republic of the Congo |
-| Jordan                           | Ukraine                          |
-| Tajikistan                       | Switzerland                      |
-| Lithuania                        | Antigua and Barbuda              |
-| Bangladesh                       | Bulgaria                         |
-| Ethiopia                         | Saint Vincent and the Grenadines |
-| Greece                           | Curaçao                          |
-| Uzbekistan                       | Colombia                         |
-| Turkmenistan                     | Hungary                          |
-| Morocco                          | Croatia                          |
-| Brazil                           | Bahrain                          |
-| Afghanistan                      | Liechtenstein                    |
-| Thailand                         | Afghanistan                      |
-| Liberia                          | Indonesia                        |
-| Japan                            | Czech Republic                   |
-| Bangladesh                       | Liberia                          |
-| Libya                            | Lebanon                          |
-| Trinidad and Tobago              | Venezuela                        |
-| State of Palestine               | Indonesia                        |
-| Belarus                          | Zambia                           |
-| Fiji                             | Chile                            |
-| Kosovo                           | India                            |
-| Kuwait                           | Czech Republic                   |
-| Portugal                         | Cameroon                         |
-| Belgium                          | Dominican Republic               |
-| Uruguay                          | Slovenia                         |
-| Spain                            | Venezuela                        |
-| Albania                          | Uganda                           |
-| South Africa                     | Tajikistan                       |
-| Oman                             | Israel                           |
-| Germany                          | Eritrea                          |
-| Malta                            | Liberia                          |
-| Ireland                          | El Salvador                      |
-| Albania                          | Nigeria                          |
-| Armenia                          | Republic of Abkhazia             |
-| Kosovo                           | Luxembourg                       |
-| Costa Rica                       | Papua New Guinea                 |
-| Poland                           | Montenegro                       |
-| Mexico                           | South Sudan                      |
-| Gabon                            | Russia                           |
-| Ecuador                          | Curaçao                          |
-| Algeria                          | Guatemala                        |
-| Germany                          | New Zealand                      |
-| New Zealand                      | Croatia                          |
-| The Gambia                       | Mauritius                        |
-| Sierra Leone                     | South Africa                     |
-| Mongolia                         | Myanmar                          |
-| Cuba                             | Burkina Faso                     |
-| Canada                           | Saint Vincent and the Grenadines |
-| United States of America         | Finland                          |
-| Belarus                          | Vietnam                          |
-| Netherlands                      | Bulgaria                         |
-| United States of America         | Uganda                           |
-| São Tomé and Príncipe            | Uruguay                          |
-| São Tomé and Príncipe            | France                           |
-| Kosovo                           | United States of America         |
-| Brazil                           | Guatemala                        |
-| Peru                             | Liberia                          |
-| Belgium                          | Cameroon                         |
-| Belgium                          | Iraq                             |
-| Vietnam                          | Italy                            |
-| Ivory Coast                      | Saint Kitts and Nevis            |
-| Sweden                           | Burkina Faso                     |
-| Papua New Guinea                 | India                            |
-| Turkey                           | Oman                             |
-| Argentina                        | Cambodia                         |
-| British Virgin Islands           | Armenia                          |
-| Bhutan                           | Croatia                          |
-| New Zealand                      | Republic of Abkhazia             |
-| South Sudan                      | Kazakhstan                       |
-| Saint Vincent and the Grenadines | North Macedonia                  |
-| Peru                             | Mongolia                         |
-| Portugal                         | Lebanon                          |
-| Greenland                        | Antigua and Barbuda              |
-| Serbia                           | Mauritania                       |
-| Sweden                           | North Macedonia                  |
-| Oman                             | Georgia                          |
-| Israel                           | Nicaragua                        |
-| Tajikistan                       | British Virgin Islands           |
-| Mongolia                         | Kosovo                           |
-| Laos                             | State of Palestine               |
-| Israel                           | Ukraine                          |
-| Thailand                         | Trinidad and Tobago              |
-| Mongolia                         | Austria                          |
-| People's Republic of China       | Croatia                          |
-| Mauritania                       | Uzbekistan                       |
-| Finland                          | Tanzania                         |
-| Uruguay                          | El Salvador                      |
-| Romania                          | Fiji                             |
-| Japan                            | Antigua and Barbuda              |
-| Iran                             | Netherlands                      |
-| Nepal                            | Paraguay                         |
-| New Zealand                      | Somalia                          |
-| Vietnam                          | Cyprus                           |
-| United Arab Emirates             | Cambodia                         |
-| Ukraine                          | Solomon Islands                  |
-| Cyprus                           | Ireland                          |
-| Sierra Leone                     | Belgium                          |
-| Bulgaria                         | Democratic Republic of the Congo |
-| Syria                            | Saint Kitts and Nevis            |
-| Nigeria                          | Saudi Arabia                     |
-| Azerbaijan                       | Guyana                           |
-| Nicaragua                        | Ivory Coast                      |
-| Indonesia                        | Mauritania                       |
-| Argentina                        | Myanmar                          |
-| San Marino                       | North Korea                      |
-| Turkmenistan                     | Iran                             |
-| The Gambia                       | Taiwan                           |
-| Fiji                             | Denmark                          |
-| Iran                             | United States of America         |
-| Spain                            | Romania                          |
-| Botswana                         | Malawi                           |
-| Eritrea                          | Kyrgyzstan                       |
-| Iraq                             | Nepal                            |
-| Croatia                          | Germany                          |
-| Bangladesh                       | Saint Kitts and Nevis            |
-| Ethiopia                         | Fiji                             |
-| Oman                             | Uruguay                          |
-| North Korea                      | Bahrain                          |
-| Tunisia                          | Malawi                           |
-| Gabon                            | Syria                            |
-| Ivory Coast                      | Greenland                        |
-| Azerbaijan                       | Guernsey                         |
-| Jordan                           | United States of America         |
-| Laos                             | Suriname                         |
-| Sweden                           | Japan                            |
-| Sri Lanka                        | Bosnia and Herzegovina           |
-| Oman                             | Pakistan                         |
-| Ireland                          | Peru                             |
-| Portugal                         | Saint Vincent and the Grenadines |
-| Malawi                           | Panama                           |
-| Suriname                         | Guyana                           |
-| Trinidad and Tobago              | Peru                             |
-| Angola                           | United States of America         |
-| Pakistan                         | Zimbabwe                         |
-| Kazakhstan                       | Grenada                          |
-| Sri Lanka                        | Finland                          |
-| People's Republic of China       | Mauritania                       |
-| Honduras                         | Tunisia                          |
-| Japan                            | Colombia                         |
-| Malta                            | Curaçao                          |
-| People's Republic of China       | Paraguay                         |
-| Guernsey                         | Malta                            |
-| Nepal                            | The Gambia                       |
-| Australia                        | South Sudan                      |
-| Zimbabwe                         | Costa Rica                       |
-| Colombia                         | Sweden                           |
-| Cape Verde                       | Lithuania                        |
-| Liechtenstein                    | Turkmenistan                     |
-| Slovenia                         | Georgia                          |
-| Hungary                          | Cambodia                         |
-| San Marino                       | Dominica                         |
-| Armenia                          | Guyana                           |
-| Bulgaria                         | Saint Vincent and the Grenadines |
-| Faroe Islands                    | Ecuador                          |
-| United Arab Emirates             | Greece                           |
-| Chile                            | Papua New Guinea                 |
-| Pakistan                         | Benin                            |
-| Venezuela                        | Egypt                            |
-| Saint Lucia                      | State of Palestine               |
-| Chile                            | Spain                            |
-| Romania                          | Czech Republic                   |
-| Norway                           | South Sudan                      |
-| Ivory Coast                      | Djibouti                         |
-| Canada                           | Bulgaria                         |
-| Albania                          | Greece                           |
-| Romania                          | Myanmar                          |
-| Iraq                             | Argentina                        |
-| Bahrain                          | Botswana                         |
-| Syria                            | Brunei                           |
-| São Tomé and Príncipe            | Laos                             |
-| Curaçao                          | Colombia                         |
-| Guyana                           | Singapore                        |
-| Argentina                        | Mauritania                       |
-| Romania                          | South Africa                     |
-| South Korea                      | United States of America         |
-| Sierra Leone                     | Iraq                             |
-| Romania                          | Libya                            |
-| Pakistan                         | Faroe Islands                    |
-| Saint Kitts and Nevis            | Guernsey                         |
-| Tanzania                         | Malawi                           |
-| Somalia                          | Uganda                           |
-| Qatar                            | Iran                             |
-| Lebanon                          | Bulgaria                         |
-| Myanmar                          | Hungary                          |
-| Bosnia and Herzegovina           | Bangladesh                       |
-| Eritrea                          | Guatemala                        |
-| Uzbekistan                       | Bhutan                           |
-| Guatemala                        | Lebanon                          |
-| South Sudan                      | Liberia                          |
-| Poland                           | Hungary                          |
-| South Sudan                      | Vietnam                          |
-| Antigua and Barbuda              | Cuba                             |
-| Kyrgyzstan                       | South Sudan                      |
-| Azerbaijan                       | Malta                            |
-| Bolivia                          | Croatia                          |
-| Belgium                          | Croatia                          |
-| Faroe Islands                    | Suriname                         |
-| Lebanon                          | Romania                          |
-| Poland                           | Cyprus                           |
-| Switzerland                      | Cameroon                         |
-| Tajikistan                       | Morocco                          |
-| New Zealand                      | Czech Republic                   |
-| Tunisia                          | Saudi Arabia                     |
-| India                            | British Virgin Islands           |
-| Burundi                          | India                            |
-| Uganda                           | Romania                          |
-| Russia                           | Georgia                          |
-| Taiwan                           | Lithuania                        |
-| South Korea                      | Oman                             |
-| Cambodia                         | Malawi                           |
-| South Africa                     | Greenland                        |
-| Syria                            | Faroe Islands                    |
-| Syria                            | Kyrgyzstan                       |
-| Dominica                         | Vietnam                          |
-| Tajikistan                       | Philippines                      |
-| Afghanistan                      | Estonia                          |
-| Laos                             | Democratic Republic of the Congo |
-| People's Republic of China       | Vietnam                          |
-| Liechtenstein                    | Grenada                          |
-| Sri Lanka                        | Mongolia                         |
-| Liberia                          | Malaysia                         |
-| Bolivia                          | Papua New Guinea                 |
-| Paraguay                         | Ireland                          |
-| Djibouti                         | Thailand                         |
-| Faroe Islands                    | Saudi Arabia                     |
-| Serbia                           | Liberia                          |
-| Algeria                          | Bangladesh                       |
-| Curaçao                          | Serbia                           |
-| Angola                           | Cape Verde                       |
-| Laos                             | Iran                             |
-| Mali                             | Luxembourg                       |
-| New Zealand                      | Guyana                           |
-| Kuwait                           | Finland                          |
-| Turkey                           | Saudi Arabia                     |
-| Cyprus                           | Serbia                           |
-| Benin                            | Burkina Faso                     |
-| Somalia                          | People's Republic of China       |
-| Canada                           | United Arab Emirates             |
-| Democratic Republic of the Congo | Solomon Islands                  |
-| Dominican Republic               | Czech Republic                   |
-| Romania                          | Bahrain                          |
-| Angola                           | Russia                           |
-| Ireland                          | Malawi                           |
-| Nicaragua                        | Iran                             |
-| Pakistan                         | Ghana                            |
-| Grenada                          | Panama                           |
-| Peru                             | Sri Lanka                        |
-| Malta                            | Portugal                         |
-| Turkmenistan                     | Honduras                         |
-| Montenegro                       | Czech Republic                   |
-| Algeria                          | Cambodia                         |
-| Suriname                         | Saudi Arabia                     |
-| Kyrgyzstan                       | Mongolia                         |
-| Spain                            | Colombia                         |
-| Croatia                          | Ukraine                          |
-| Ivory Coast                      | Myanmar                          |
-| Saint Kitts and Nevis            | Dominica                         |
-| South Korea                      | Egypt                            |
-| Paraguay                         | Iran                             |
-| Brazil                           | Philippines                      |
-| Czech Republic                   | Brazil                           |
-| Turkmenistan                     | Burkina Faso                     |
-| Czech Republic                   | Saint Vincent and the Grenadines |
-| Turkmenistan                     | Costa Rica                       |
-| People's Republic of China       | Morocco                          |
-| Myanmar                          | Sri Lanka                        |
-| Peru                             | Burkina Faso                     |
-| Singapore                        | Mauritania                       |
-| Tunisia                          | Kazakhstan                       |
-| Ukraine                          | Honduras                         |
-| Israel                           | Zimbabwe                         |
-| Austria                          | Cuba                             |
-| Taiwan                           | Slovakia                         |
-| Mexico                           | Jordan                           |
-| Oman                             | Saint Vincent and the Grenadines |
-| Moldova                          | Kazakhstan                       |
-| Austria                          | Honduras                         |
-| Pakistan                         | Fiji                             |
-| Ecuador                          | Saint Vincent and the Grenadines |
-| Uganda                           | Republic of Abkhazia             |
-| United Arab Emirates             | Nicaragua                        |
-| Grenada                          | Austria                          |
-| Angola                           | Georgia                          |
-| Poland                           | Belgium                          |
-| Thailand                         | Solomon Islands                  |
-| United States of America         | Malawi                           |
-| Turkmenistan                     | Saint Vincent and the Grenadines |
-| Mali                             | Thailand                         |
-| Ghana                            | Philippines                      |
-| Georgia                          | Austria                          |
-| Saint Kitts and Nevis            | Kazakhstan                       |
-| Burkina Faso                     | Chile                            |
-| Azerbaijan                       | Sri Lanka                        |
-| Luxembourg                       | Somalia                          |
-| Ecuador                          | Lebanon                          |
-| Dominican Republic               | Malawi                           |
-| Azerbaijan                       | People's Republic of China       |
-| Russia                           | Montenegro                       |
-| United Kingdom                   | Cape Verde                       |
-| New Zealand                      | Sierra Leone                     |
-| Malta                            | Democratic Republic of the Congo |
-| Lebanon                          | Dominican Republic               |
-| Iceland                          | Brunei                           |
-| Australia                        | Bulgaria                         |
-| Taiwan                           | Malaysia                         |
-| Mongolia                         | Rwanda                           |
-| South Africa                     | Indonesia                        |
-| Gabon                            | Faroe Islands                    |
-| United States of America         | Bangladesh                       |
-| Cuba                             | Ivory Coast                      |
-| Antigua and Barbuda              | Sri Lanka                        |
-| Denmark                          | Mauritania                       |
-| Zimbabwe                         | Australia                        |
-| Iceland                          | Myanmar                          |
-| United Kingdom                   | Faroe Islands                    |
-| British Virgin Islands           | Bahrain                          |
-| Mauritania                       | Paraguay                         |
-| Germany                          | Kenya                            |
-| United Arab Emirates             | Georgia                          |
-| Laos                             | Belarus                          |
-| Uganda                           | Mauritius                        |
-| Angola                           | Syria                            |
-| Suriname                         | Trinidad and Tobago              |
-| Ivory Coast                      | North Macedonia                  |
-| Paraguay                         | Croatia                          |
-| Serbia                           | Germany                          |
-| Somalia                          | Slovakia                         |
-| Cambodia                         | Ghana                            |
-| Switzerland                      | Sweden                           |
-| The Gambia                       | Antigua and Barbuda              |
-| Indonesia                        | Slovenia                         |
-| Ivory Coast                      | Eritrea                          |
-| Finland                          | Solomon Islands                  |
-| India                            | United Kingdom                   |
-| Estonia                          | Trinidad and Tobago              |
-| Peru                             | Grenada                          |
-| Suriname                         | Nepal                            |
-| Estonia                          | Ireland                          |
-| Luxembourg                       | New Zealand                      |
-| Saudi Arabia                     | Chile                            |
-| The Gambia                       | Mongolia                         |
-| Latvia                           | United Kingdom                   |
-| Iceland                          | Indonesia                        |
-| Solomon Islands                  | Nicaragua                        |
-| Ghana                            | Ecuador                          |
-| Somalia                          | Poland                           |
-| Democratic Republic of the Congo | Thailand                         |
-| Fiji                             | Tunisia                          |
-| Sweden                           | Ghana                            |
-| Moldova                          | Latvia                           |
-| Saudi Arabia                     | Australia                        |
-| Tajikistan                       | Zimbabwe                         |
-| Liechtenstein                    | Faroe Islands                    |
-| Zimbabwe                         | Liberia                          |
-| Croatia                          | Saint Lucia                      |
-| Bulgaria                         | Hungary                          |
-| Saint Vincent and the Grenadines | Paraguay                         |
-| Cyprus                           | Slovenia                         |
-| Turkmenistan                     | Egypt                            |
-| Burundi                          | Algeria                          |
-| Turkmenistan                     | Greenland                        |
-| Bangladesh                       | Guernsey                         |
-| Jordan                           | Ivory Coast                      |
-| Azerbaijan                       | Austria                          |
-| Benin                            | Iran                             |
-| Panama                           | Dominica                         |
-| Liechtenstein                    | Kenya                            |
-| Cuba                             | Denmark                          |
-| Slovenia                         | France                           |
-| Slovakia                         | Saudi Arabia                     |
-| Kyrgyzstan                       | Netherlands                      |
-| Brunei                           | Malta                            |
-| Panama                           | Indonesia                        |
-| Ukraine                          | El Salvador                      |
-| Solomon Islands                  | Albania                          |
-| North Korea                      | Egypt                            |
-| Cyprus                           | North Macedonia                  |
-| Suriname                         | Netherlands                      |
-| Botswana                         | The Gambia                       |
-| Iceland                          | Mauritius                        |
-| Romania                          | Nepal                            |
-| Latvia                           | North Korea                      |
-| Uzbekistan                       | Serbia                           |
-| Tanzania                         | Ecuador                          |
-| Australia                        | Malawi                           |
-| Papua New Guinea                 | Moldova                          |
-| Albania                          | Saint Vincent and the Grenadines |
-| Iceland                          | Guyana                           |
-| Brunei                           | Thailand                         |
-| North Macedonia                  | Germany                          |
-| San Marino                       | Canada                           |
-| Portugal                         | Fiji                             |
-| Sudan                            | Azerbaijan                       |
-| Algeria                          | Azerbaijan                       |
-| Faroe Islands                    | Venezuela                        |
-| Republic of Abkhazia             | Burkina Faso                     |
-| Tunisia                          | Mauritania                       |
-| Jordan                           | Finland                          |
-| Romania                          | Greece                           |
-| France                           | Liechtenstein                    |
-| Denmark                          | Bhutan                           |
-| France                           | Djibouti                         |
-| Vietnam                          | Lithuania                        |
-| United States of America         | Dominica                         |
-| Uzbekistan                       | Brunei                           |
-| Brazil                           | Nicaragua                        |
-| Libya                            | Armenia                          |
-| Angola                           | Switzerland                      |
-| Nicaragua                        | Curaçao                          |
-| Burundi                          | Saint Kitts and Nevis            |
-| Burundi                          | Israel                           |
-| Cambodia                         | Myanmar                          |
-| Cameroon                         | Kuwait                           |
-| Papua New Guinea                 | Egypt                            |
-| South Africa                     | North Macedonia                  |
-| Liechtenstein                    | Syria                            |
-| Oman                             | Liberia                          |
-| Liberia                          | Eritrea                          |
-| Brazil                           | Bosnia and Herzegovina           |
-| Saint Kitts and Nevis            | Malaysia                         |
-| Jordan                           | Georgia                          |
-| Kosovo                           | Zambia                           |
-| Taiwan                           | San Marino                       |
-| Ivory Coast                      | Guyana                           |
-| Saudi Arabia                     | Papua New Guinea                 |
-| Burkina Faso                     | Nigeria                          |
-| Antigua and Barbuda              | Malawi                           |
-| Saint Lucia                      | Costa Rica                       |
-| The Gambia                       | Turkmenistan                     |
-| Peru                             | Saint Kitts and Nevis            |
-| Lebanon                          | Bolivia                          |
-| Greece                           | Papua New Guinea                 |
-| Gabon                            | Canada                           |
-| Sweden                           | Mexico                           |
-| Moldova                          | Croatia                          |
-| Bahrain                          | Papua New Guinea                 |
-| Germany                          | Czech Republic                   |
-| Dominican Republic               | Colombia                         |
-| Saint Lucia                      | São Tomé and Príncipe            |
-| Russia                           | Denmark                          |
-| Fiji                             | Austria                          |
-| South Sudan                      | Cuba                             |
-| Morocco                          | Italy                            |
-| North Korea                      | India                            |
-| Montenegro                       | Liberia                          |
-| Republic of Abkhazia             | Austria                          |
-| Nigeria                          | Solomon Islands                  |
-| Iran                             | Malaysia                         |
-| United Arab Emirates             | Saudi Arabia                     |
-| United States of America         | Cuba                             |
-| Uzbekistan                       | Philippines                      |
-| Portugal                         | People's Republic of China       |
-| Pakistan                         | Norway                           |
-| Iran                             | Trinidad and Tobago              |
-| Laos                             | Malaysia                         |
-| Faroe Islands                    | Democratic Republic of the Congo |
-| Greenland                        | South Sudan                      |
-| Czech Republic                   | San Marino                       |
-| Hungary                          | Portugal                         |
-| Gabon                            | Luxembourg                       |
-| Chile                            | Netherlands                      |
-| Mexico                           | Austria                          |
-| Ghana                            | People's Republic of China       |
-| Rwanda                           | Mali                             |
-| Burundi                          | Netherlands                      |
-| Turkey                           | Slovakia                         |
-| San Marino                       | Morocco                          |
-| Singapore                        | Brazil                           |
-| Taiwan                           | Philippines                      |
-| People's Republic of China       | Mongolia                         |
-| Ethiopia                         | Morocco                          |
-| Kazakhstan                       | Mexico                           |
-| Peru                             | South Korea                      |
-| Somalia                          | Venezuela                        |
-| Guyana                           | Norway                           |
-| Mauritius                        | Azerbaijan                       |
-| Kenya                            | Jordan                           |
-| Somalia                          | Singapore                        |
-| Mali                             | Latvia                           |
-| Switzerland                      | Turkmenistan                     |
-| Kuwait                           | Switzerland                      |
-| South Africa                     | United States of America         |
-| Algeria                          | Afghanistan                      |
-| Cuba                             | San Marino                       |
-| Zambia                           | Afghanistan                      |
-| People's Republic of China       | Kenya                            |
-| Turkmenistan                     | Finland                          |
-| Egypt                            | Sri Lanka                        |
-| Kosovo                           | Armenia                          |
-| Albania                          | Kuwait                           |
-| Czech Republic                   | Venezuela                        |
-| Libya                            | Czech Republic                   |
-| Mauritius                        | Botswana                         |
-| Germany                          | Malawi                           |
-| Benin                            | Liberia                          |
-| Peru                             | Egypt                            |
-| People's Republic of China       | Liberia                          |
-| Ethiopia                         | Sri Lanka                        |
-| Sudan                            | El Salvador                      |
-| Sri Lanka                        | Djibouti                         |
-| Bhutan                           | Thailand                         |
-| Panama                           | Zambia                           |
-| South Sudan                      | Sri Lanka                        |
-| Liechtenstein                    | Taiwan                           |
-| Saint Lucia                      | Uruguay                          |
-| Democratic Republic of the Congo | Taiwan                           |
-| Switzerland                      | Djibouti                         |
-| North Korea                      | Algeria                          |
-| Kyrgyzstan                       | Peru                             |
-| Kazakhstan                       | Solomon Islands                  |
-| United States of America         | Liechtenstein                    |
-| Faroe Islands                    | Honduras                         |
-| Singapore                        | Nigeria                          |
-| Gabon                            | Dominican Republic               |
-| Nepal                            | Syria                            |
-| Azerbaijan                       | Portugal                         |
-| Guatemala                        | Liberia                          |
-| Iran                             | Finland                          |
-| Pakistan                         | The Gambia                       |
-| Myanmar                          | Syria                            |
-| Benin                            | Kyrgyzstan                       |
-| Mauritania                       | Iraq                             |
-| Zimbabwe                         | Sweden                           |
-| Mali                             | Saint Lucia                      |
-| Afghanistan                      | Latvia                           |
-| Germany                          | Zimbabwe                         |
-| The Gambia                       | Uruguay                          |
-| Georgia                          | Sri Lanka                        |
-| Azerbaijan                       | Eritrea                          |
-| Faroe Islands                    | Qatar                            |
-| Djibouti                         | Ethiopia                         |
-| Afghanistan                      | Malawi                           |
-| The Gambia                       | North Macedonia                  |
-| Jordan                           | Cyprus                           |
-| Mauritius                        | India                            |
-| Uruguay                          | Ukraine                          |
-| Costa Rica                       | Gabon                            |
-| Belgium                          | Denmark                          |
-| Indonesia                        | Dominica                         |
-| Pakistan                         | Egypt                            |
-| Suriname                         | South Sudan                      |
-| Ethiopia                         | South Korea                      |
-| Peru                             | Nigeria                          |
-| Eritrea                          | Hungary                          |
-| Gabon                            | Ukraine                          |
-| Peru                             | Solomon Islands                  |
-| Chile                            | Cuba                             |
-| Sri Lanka                        | Fiji                             |
-| Libya                            | Slovakia                         |
-| Libya                            | Djibouti                         |
-| Chile                            | Suriname                         |
-| Saint Kitts and Nevis            | Colombia                         |
-| Paraguay                         | Jordan                           |
-| Liberia                          | Gabon                            |
-| Saint Vincent and the Grenadines | Switzerland                      |
-| Cuba                             | Grenada                          |
-| Malawi                           | Italy                            |
-| Angola                           | United Arab Emirates             |
-| Switzerland                      | Austria                          |
-| Ivory Coast                      | Saint Vincent and the Grenadines |
-| Romania                          | The Gambia                       |
-| Mali                             | Romania                          |
-| Moldova                          | Cape Verde                       |
-| Ireland                          | Dominican Republic               |
-| Afghanistan                      | Turkmenistan                     |
-| Liechtenstein                    | Netherlands                      |
-| Peru                             | Malta                            |
-| Ecuador                          | Bosnia and Herzegovina           |
-| Solomon Islands                  | Pakistan                         |
-| Malaysia                         | Afghanistan                      |
-| Kazakhstan                       | Ukraine                          |
-| British Virgin Islands           | El Salvador                      |
-| Moldova                          | Djibouti                         |
-| Grenada                          | Malaysia                         |
-| Malaysia                         | Syria                            |
-| Ecuador                          | Belarus                          |
-| Laos                             | Thailand                         |
-| Algeria                          | Switzerland                      |
-| Cyprus                           | Solomon Islands                  |
-| Cameroon                         | Mali                             |
-| Germany                          | Italy                            |
-| Sweden                           | Malawi                           |
-| South Africa                     | Austria                          |
-| Burkina Faso                     | Philippines                      |
-| Mauritius                        | South Africa                     |
-| Thailand                         | Tajikistan                       |
-| Saint Lucia                      | Guyana                           |
-| Malawi                           | Somalia                          |
-| Paraguay                         | Myanmar                          |
 | Afghanistan                      | Angola                           |
-| Sierra Leone                     | Tajikistan                       |
-| Sri Lanka                        | Burundi                          |
-| Qatar                            | United Arab Emirates             |
-| Grenada                          | Netherlands                      |
-| Iran                             | Peru                             |
-| Ghana                            | Tajikistan                       |
-| Saint Vincent and the Grenadines | Rwanda                           |
-| Guyana                           | Costa Rica                       |
-| Libya                            | Vietnam                          |
-| Kuwait                           | Slovakia                         |
-| Moldova                          | Democratic Republic of the Congo |
-| Zimbabwe                         | Venezuela                        |
-| Russia                           | Vietnam                          |
-| Hungary                          | The Gambia                       |
-| Israel                           | Bhutan                           |
-| Solomon Islands                  | Iran                             |
-| San Marino                       | Egypt                            |
-| Malawi                           | Russia                           |
-| Uganda                           | Chile                            |
-| India                            | Zambia                           |
-| Syria                            | North Macedonia                  |
-| Germany                          | Mali                             |
-| France                           | Qatar                            |
-| South Korea                      | Pakistan                         |
-| Djibouti                         | Chile                            |
-| Georgia                          | Belgium                          |
-| Bolivia                          | El Salvador                      |
-| Democratic Republic of the Congo | Afghanistan                      |
-| Greenland                        | Belarus                          |
-| People's Republic of China       | The Gambia                       |
-| Ethiopia                         | Denmark                          |
-| People's Republic of China       | Uganda                           |
-| United Arab Emirates             | Trinidad and Tobago              |
-| Ireland                          | The Gambia                       |
-| Djibouti                         | Azerbaijan                       |
-| Laos                             | Myanmar                          |
-| Ukraine                          | Albania                          |
-| Romania                          | Latvia                           |
-| Saint Vincent and the Grenadines | Azerbaijan                       |
-| Azerbaijan                       | Indonesia                        |
-| Egypt                            | Sweden                           |
-| Guernsey                         | Sudan                            |
-| Bolivia                          | Lithuania                        |
-| Guyana                           | Slovakia                         |
-| Sudan                            | Latvia                           |
-| Sudan                            | Zambia                           |
-| Curaçao                          | Kenya                            |
-| Saudi Arabia                     | Ivory Coast                      |
-| Costa Rica                       | Democratic Republic of the Congo |
-| El Salvador                      | Laos                             |
-| Taiwan                           | Guyana                           |
-| Peru                             | Mauritius                        |
-| United Kingdom                   | Singapore                        |
-| Poland                           | Uganda                           |
-| Saint Vincent and the Grenadines | Angola                           |
-| Taiwan                           | Botswana                         |
-| Nicaragua                        | Ireland                          |
-| Colombia                         | Botswana                         |
-| Japan                            | British Virgin Islands           |
-| Costa Rica                       | Ethiopia                         |
-| Oman                             | Curaçao                          |
-| Estonia                          | Uruguay                          |
-| Azerbaijan                       | Tajikistan                       |
-| Bhutan                           | Mauritania                       |
-| Tajikistan                       | Antigua and Barbuda              |
-| Curaçao                          | Norway                           |
-| Turkey                           | Cambodia                         |
-| Peru                             | Turkey                           |
-| France                           | Iran                             |
-| Austria                          | Greece                           |
-| Trinidad and Tobago              | Burundi                          |
-| Luxembourg                       | Bolivia                          |
-| Botswana                         | Greece                           |
-| Mauritius                        | Saint Lucia                      |
-| Japan                            | Bosnia and Herzegovina           |
-| Tanzania                         | Switzerland                      |
-| Montenegro                       | Suriname                         |
-| Liechtenstein                    | Greenland                        |
-| Ethiopia                         | Qatar                            |
-| Dominica                         | Morocco                          |
-| Kazakhstan                       | Brunei                           |
-| Burkina Faso                     | Greenland                        |
-| Austria                          | Chile                            |
-| India                            | Portugal                         |
-| Papua New Guinea                 | South Africa                     |
-| Sri Lanka                        | Hungary                          |
-| Albania                          | Sri Lanka                        |
-| Montenegro                       | Curaçao                          |
-| Mexico                           | Botswana                         |
-| Tunisia                          | Saint Vincent and the Grenadines |
-| Iran                             | Angola                           |
-| Guyana                           | Belarus                          |
-| Belgium                          | Saint Lucia                      |
-| Singapore                        | Liechtenstein                    |
-| Latvia                           | Australia                        |
-| Cape Verde                       | Venezuela                        |
-| Eritrea                          | Moldova                          |
-| Taiwan                           | Pakistan                         |
-| Somalia                          | Norway                           |
-| Sudan                            | Saudi Arabia                     |
-| Cuba                             | Portugal                         |
-| Brunei                           | Vietnam                          |
-| Liberia                          | Egypt                            |
-| Liechtenstein                    | Saint Vincent and the Grenadines |
-| Democratic Republic of the Congo | Botswana                         |
-| Uzbekistan                       | Peru                             |
-| Moldova                          | Egypt                            |
-| Singapore                        | Spain                            |
-| Solomon Islands                  | South Africa                     |
-| Thailand                         | Gabon                            |
-| North Korea                      | Lebanon                          |
-| Kazakhstan                       | Sweden                           |
-| Czech Republic                   | Djibouti                         |
-| Oman                             | Albania                          |
-| Tunisia                          | Benin                            |
-| Luxembourg                       | United Arab Emirates             |
-| Guatemala                        | Canada                           |
-| Mali                             | Honduras                         |
-| Papua New Guinea                 | Bosnia and Herzegovina           |
-| Belarus                          | Georgia                          |
-| Latvia                           | Benin                            |
-| Bahrain                          | Estonia                          |
-| Argentina                        | Canada                           |
-| San Marino                       | Latvia                           |
-| Pakistan                         | New Zealand                      |
-| Myanmar                          | Sierra Leone                     |
-| Canada                           | Mongolia                         |
-| Germany                          | Oman                             |
-| Ghana                            | South Sudan                      |
-| Brunei                           | Croatia                          |
-| Sudan                            | Angola                           |
-| Turkey                           | Mali                             |
-| Bangladesh                       | Kazakhstan                       |
-| People's Republic of China       | South Korea                      |
-| Saint Lucia                      | Netherlands                      |
-| Slovakia                         | San Marino                       |
-| Azerbaijan                       | Turkey                           |
-| Egypt                            | Eritrea                          |
-| Mongolia                         | Spain                            |
-| Latvia                           | Estonia                          |
-| Trinidad and Tobago              | Indonesia                        |
-| Kazakhstan                       | Ecuador                          |
-| Republic of Abkhazia             | Argentina                        |
-| India                            | Malaysia                         |
-| Portugal                         | Israel                           |
-| Uzbekistan                       | Thailand                         |
-| Rwanda                           | Spain                            |
-| Iraq                             | Nicaragua                        |
-| Austria                          | Trinidad and Tobago              |
-| Dominica                         | Nigeria                          |
-| Ethiopia                         | Nicaragua                        |
-| People's Republic of China       | Burundi                          |
-| Turkmenistan                     | Croatia                          |
-| Guyana                           | Cape Verde                       |
-| Iran                             | Slovakia                         |
-| Brazil                           | Eritrea                          |
-| Germany                          | Israel                           |
-| Morocco                          | Norway                           |
-| Ireland                          | Myanmar                          |
-| Austria                          | Colombia                         |
-| Azerbaijan                       | Slovenia                         |
-| Australia                        | Tanzania                         |
-| Costa Rica                       | Uruguay                          |
-| Vietnam                          | Turkey                           |
-| France                           | Morocco                          |
-| Canada                           | Zimbabwe                         |
-| Malta                            | Canada                           |
-| Kosovo                           | Albania                          |
-| Canada                           | Croatia                          |
-| Belgium                          | Paraguay                         |
-| Cuba                             | Belarus                          |
-| Estonia                          | Croatia                          |
-| Georgia                          | Sierra Leone                     |
-| Uruguay                          | Thailand                         |
-| Bulgaria                         | Nepal                            |
-| Republic of Abkhazia             | Mongolia                         |
-| Kyrgyzstan                       | Nicaragua                        |
-| Bulgaria                         | Myanmar                          |
-| Montenegro                       | State of Palestine               |
-| Zimbabwe                         | State of Palestine               |
-| Qatar                            | Liechtenstein                    |
-| Cuba                             | Malta                            |
-| Greece                           | Peru                             |
-| Estonia                          | Australia                        |
-| Finland                          | Netherlands                      |
-| North Korea                      | Azerbaijan                       |
-| Philippines                      | State of Palestine               |
-| Belgium                          | South Korea                      |
-| Canada                           | Tunisia                          |
-| Mauritania                       | Armenia                          |
-| Portugal                         | Ghana                            |
-| Iran                             | Spain                            |
-| Oman                             | Dominica                         |
-| Belarus                          | State of Palestine               |
-| Albania                          | Myanmar                          |
-| United Arab Emirates             | Kazakhstan                       |
-| Saint Kitts and Nevis            | Uruguay                          |
-| Serbia                           | Tunisia                          |
-| Bulgaria                         | Romania                          |
-| United Kingdom                   | Switzerland                      |
-| Latvia                           | Russia                           |
-| Paraguay                         | Cambodia                         |
-| Greece                           | Jordan                           |
-| Liberia                          | Romania                          |
-| Belgium                          | Greece                           |
-| São Tomé and Príncipe            | Greenland                        |
-| Nepal                            | Netherlands                      |
-| Israel                           | Guernsey                         |
-| France                           | Angola                           |
-| Bulgaria                         | Mongolia                         |
-| Romania                          | Taiwan                           |
-| Japan                            | Dominica                         |
-| Estonia                          | Angola                           |
-| Japan                            | Belarus                          |
-| Grenada                          | Suriname                         |
-| Democratic Republic of the Congo | Nicaragua                        |
-| Mongolia                         | Bahrain                          |
-| Panama                           | Chile                            |
-| Myanmar                          | Solomon Islands                  |
-| United States of America         | Montenegro                       |
-| Panama                           | Djibouti                         |
-| Papua New Guinea                 | Denmark                          |
-| Rwanda                           | Cape Verde                       |
-| Bosnia and Herzegovina           | Greenland                        |
-| Spain                            | Netherlands                      |
-| State of Palestine               | Cyprus                           |
-| Indonesia                        | Serbia                           |
-| Saint Lucia                      | Mexico                           |
-| Guyana                           | Syria                            |
-| Cambodia                         | Japan                            |
-| Switzerland                      | Vietnam                          |
-| Honduras                         | Cambodia                         |
-| Rwanda                           | Ukraine                          |
-| Ghana                            | Antigua and Barbuda              |
-| Brazil                           | India                            |
-| Australia                        | Singapore                        |
-| Tanzania                         | Sweden                           |
-| Slovenia                         | Republic of Abkhazia             |
-| Greece                           | Dominican Republic               |
-| Nicaragua                        | Tunisia                          |
-| Mali                             | Lebanon                          |
-| Slovenia                         | Turkmenistan                     |
-| Cuba                             | Bahrain                          |
-| New Zealand                      | Azerbaijan                       |
-| Lithuania                        | Turkmenistan                     |
-| Taiwan                           | Saint Kitts and Nevis            |
-| Greenland                        | Australia                        |
-| Guernsey                         | Mali                             |
-| New Zealand                      | Angola                           |
-| Oman                             | Brunei                           |
-| Estonia                          | Burkina Faso                     |
-| Finland                          | Democratic Republic of the Congo |
-| Solomon Islands                  | Sri Lanka                        |
-| Philippines                      | Iceland                          |
-| Turkey                           | Mauritania                       |
-| India                            | Egypt                            |
-| Iceland                          | Iraq                             |
-| Ivory Coast                      | Armenia                          |
-| Estonia                          | United Kingdom                   |
-| Mauritius                        | Cambodia                         |
-| Mali                             | Saint Vincent and the Grenadines |
-| Kenya                            | Morocco                          |
-| Argentina                        | Zimbabwe                         |
-| Azerbaijan                       | United Arab Emirates             |
-| New Zealand                      | Eritrea                          |
-| Myanmar                          | Guernsey                         |
-| India                            | Ghana                            |
-| Republic of Abkhazia             | Italy                            |
-| Guernsey                         | Uganda                           |
-| Zambia                           | Moldova                          |
-| Israel                           | Costa Rica                       |
-| Russia                           | Oman                             |
-| Sri Lanka                        | Norway                           |
-| Hungary                          | Georgia                          |
-| Lithuania                        | Saint Lucia                      |
-| Latvia                           | Zimbabwe                         |
-| Saint Lucia                      | Honduras                         |
-| United Kingdom                   | Djibouti                         |
-| Trinidad and Tobago              | Ivory Coast                      |
-| Ivory Coast                      | Tanzania                         |
-| Norway                           | Ghana                            |
-| San Marino                       | Republic of Abkhazia             |
-| Syria                            | Botswana                         |
-| Nigeria                          | South Korea                      |
-| Mauritius                        | Malta                            |
-| Ireland                          | Zimbabwe                         |
-| Benin                            | Dominica                         |
-| The Gambia                       | New Zealand                      |
-| Belgium                          | Solomon Islands                  |
-| Liechtenstein                    | Chile                            |
-| Oman                             | North Korea                      |
-| Gabon                            | Qatar                            |
-| Ivory Coast                      | Australia                        |
-| Mexico                           | United States of America         |
-| Slovakia                         | Russia                           |
-| Russia                           | Liechtenstein                    |
-| Afghanistan                      | Ireland                          |
-| Malaysia                         | Ivory Coast                      |
-| São Tomé and Príncipe            | Jordan                           |
-| Georgia                          | Ivory Coast                      |
-| Germany                          | Poland                           |
-| Sierra Leone                     | Sudan                            |
-| Ukraine                          | Estonia                          |
-| Mexico                           | Ivory Coast                      |
-| Cambodia                         | South Africa                     |
-| Russia                           | Paraguay                         |
-| Eritrea                          | Latvia                           |
-| North Macedonia                  | United States of America         |
-| Cameroon                         | Japan                            |
-| Czech Republic                   | Austria                          |
-| Solomon Islands                  | Taiwan                           |
-| Faroe Islands                    | Rwanda                           |
-| Azerbaijan                       | Benin                            |
-| Finland                          | Uzbekistan                       |
-| Libya                            | Honduras                         |
-| Djibouti                         | Montenegro                       |
-| Hungary                          | Turkey                           |
-| Philippines                      | Algeria                          |
-| Qatar                            | Zimbabwe                         |
-| San Marino                       | El Salvador                      |
-| Ghana                            | Colombia                         |
-| Solomon Islands                  | State of Palestine               |
-| Lithuania                        | Ghana                            |
-| Zambia                           | Guyana                           |
-| Faroe Islands                    | Ghana                            |
-| Malta                            | Iran                             |
-| Peru                             | Democratic Republic of the Congo |
-| Zimbabwe                         | Syria                            |
-| El Salvador                      | Iceland                          |
-| Canada                           | Dominican Republic               |
-| United Arab Emirates             | Algeria                          |
-| Iraq                             | Nigeria                          |
-| Gabon                            | Afghanistan                      |
-| Rwanda                           | Israel                           |
-| Kuwait                           | Somalia                          |
-| Ghana                            | Trinidad and Tobago              |
-| Malawi                           | Belgium                          |
-| Iceland                          | Argentina                        |
-| Uzbekistan                       | Iraq                             |
-| Republic of Abkhazia             | Estonia                          |
-| Cambodia                         | Georgia                          |
-| Trinidad and Tobago              | Panama                           |
-| Pakistan                         | Venezuela                        |
-| Georgia                          | Azerbaijan                       |
-| United Arab Emirates             | Slovakia                         |
-| Kyrgyzstan                       | Colombia                         |
-| Angola                           | Venezuela                        |
-| Sudan                            | Vietnam                          |
-| Germany                          | Malta                            |
-| Belarus                          | Iraq                             |
-| Guernsey                         | United Kingdom                   |
-| Ethiopia                         | Belgium                          |
-| Cambodia                         | Ecuador                          |
-| Botswana                         | Sri Lanka                        |
-| Ireland                          | Panama                           |
-| Bangladesh                       | United Arab Emirates             |
-| Sudan                            | Zimbabwe                         |
-| Burkina Faso                     | Germany                          |
-| South Africa                     | Belgium                          |
-| Nicaragua                        | Djibouti                         |
-| Italy                            | United Arab Emirates             |
-| Philippines                      | Mauritania                       |
-| Liberia                          | Tunisia                          |
-| Hungary                          | Austria                          |
-| Greenland                        | North Macedonia                  |
-| Dominica                         | Slovenia                         |
-| Venezuela                        | Kuwait                           |
-| Malaysia                         | Greenland                        |
-| Bangladesh                       | Hungary                          |
-| British Virgin Islands           | Mauritius                        |
-| Albania                          | Republic of Abkhazia             |
-| United Kingdom                   | Colombia                         |
-| Singapore                        | Italy                            |
-| Somalia                          | Mauritania                       |
-| Mauritius                        | Belgium                          |
-| Australia                        | Uganda                           |
-| Indonesia                        | Singapore                        |
-| Belarus                          | Hungary                          |
-| Germany                          | Saint Kitts and Nevis            |
-| Pakistan                         | Cape Verde                       |
-| Saint Kitts and Nevis            | Saint Lucia                      |
-| Egypt                            | Greece                           |
-| Czech Republic                   | Greenland                        |
-| Albania                          | Japan                            |
-| Antigua and Barbuda              | Sudan                            |
-| Greece                           | Republic of Abkhazia             |
-| Burundi                          | Nigeria                          |
-| Nigeria                          | Botswana                         |
-| Pakistan                         | Algeria                          |
-| Tajikistan                       | Cyprus                           |
-| Morocco                          | Portugal                         |
-| Suriname                         | Serbia                           |
-| Taiwan                           | Vietnam                          |
-| Philippines                      | Vietnam                          |
-| Curaçao                          | Turkmenistan                     |
-| Azerbaijan                       | Czech Republic                   |
-| Ethiopia                         | Burkina Faso                     |
-| Cambodia                         | British Virgin Islands           |
-| Spain                            | Germany                          |
-| Ethiopia                         | North Macedonia                  |
-| Malawi                           | Ghana                            |
-| North Korea                      | Bolivia                          |
-| Costa Rica                       | India                            |
-| Tunisia                          | United Kingdom                   |
-| Tajikistan                       | Kosovo                           |
-| Latvia                           | Montenegro                       |
-| Tanzania                         | Zimbabwe                         |
-| Cameroon                         | Papua New Guinea                 |
-| Bahrain                          | The Gambia                       |
-| Malaysia                         | Zimbabwe                         |
-| Antigua and Barbuda              | Myanmar                          |
-| Sweden                           | Tajikistan                       |
-| Fiji                             | Greece                           |
-| Cameroon                         | Panama                           |
-| Bosnia and Herzegovina           | United Arab Emirates             |
-| Turkey                           | State of Palestine               |
-| Luxembourg                       | Pakistan                         |
-| Liberia                          | Zambia                           |
-| British Virgin Islands           | Guyana                           |
-| Portugal                         | Ecuador                          |
-| Slovakia                         | Estonia                          |
-| Iceland                          | British Virgin Islands           |
-| Ghana                            | Slovakia                         |
-| Uruguay                          | Brunei                           |
-| Fiji                             | Liberia                          |
-| Italy                            | State of Palestine               |
-| Somalia                          | South Africa                     |
-| France                           | Russia                           |
-| Cameroon                         | Egypt                            |
-| Sierra Leone                     | Gabon                            |
-| Bhutan                           | Guatemala                        |
-| Bahrain                          | Switzerland                      |
-| Colombia                         | Tunisia                          |
-| United Arab Emirates             | Uzbekistan                       |
-| Republic of Abkhazia             | Brunei                           |
-| Angola                           | Ethiopia                         |
-| Chile                            | Rwanda                           |
-| Bhutan                           | Sierra Leone                     |
-| Fiji                             | Kenya                            |
-| Taiwan                           | Singapore                        |
-| South Sudan                      | Zimbabwe                         |
-| United Arab Emirates             | Papua New Guinea                 |
-| Azerbaijan                       | Honduras                         |
-| Angola                           | São Tomé and Príncipe            |
-| Suriname                         | Sierra Leone                     |
-| Malaysia                         | Egypt                            |
-| El Salvador                      | Benin                            |
-| Mexico                           | Democratic Republic of the Congo |
-| Russia                           | Malaysia                         |
-| Greenland                        | Benin                            |
-| Angola                           | Malta                            |
-| Djibouti                         | Brunei                           |
-| Rwanda                           | South Sudan                      |
-| Uganda                           | Slovenia                         |
-| Algeria                          | Faroe Islands                    |
-| San Marino                       | Nigeria                          |
-| British Virgin Islands           | Sri Lanka                        |
-| South Sudan                      | Denmark                          |
-| Bangladesh                       | Turkey                           |
-| Papua New Guinea                 | Ghana                            |
-| The Gambia                       | Cyprus                           |
-| Cameroon                         | Kazakhstan                       |
-| Armenia                          | Finland                          |
-| Kyrgyzstan                       | United Arab Emirates             |
-| Sudan                            | Turkmenistan                     |
-| Tanzania                         | State of Palestine               |
-| Democratic Republic of the Congo | Russia                           |
-| Switzerland                      | Belarus                          |
-| Malaysia                         | Sierra Leone                     |
-| Singapore                        | Afghanistan                      |
-| Faroe Islands                    | North Korea                      |
-| People's Republic of China       | Turkmenistan                     |
-| Tanzania                         | Laos                             |
-| India                            | Taiwan                           |
-| Argentina                        | Lithuania                        |
-| Eritrea                          | Ecuador                          |
-| Italy                            | Norway                           |
-| Guernsey                         | Jordan                           |
-| Montenegro                       | Syria                            |
-| Sri Lanka                        | Tanzania                         |
-| Cameroon                         | Poland                           |
-| Thailand                         | Egypt                            |
-| Bangladesh                       | South Korea                      |
-| Egypt                            | Belgium                          |
-| Denmark                          | Faroe Islands                    |
-| Iraq                             | São Tomé and Príncipe            |
-| Latvia                           | British Virgin Islands           |
-| Uzbekistan                       | United Kingdom                   |
-| Suriname                         | Guatemala                        |
-| Australia                        | Lebanon                          |
-| South Africa                     | Suriname                         |
-| Liberia                          | Slovenia                         |
-| Burkina Faso                     | Dominican Republic               |
-| Nicaragua                        | Saudi Arabia                     |
-| Bosnia and Herzegovina           | Mali                             |
-| Tanzania                         | Morocco                          |
-| Somalia                          | Belgium                          |
-| Guatemala                        | United Arab Emirates             |
-| Tanzania                         | Sierra Leone                     |
-| Liberia                          | Kuwait                           |
-| Mali                             | Liechtenstein                    |
-| Democratic Republic of the Congo | Belarus                          |
-| British Virgin Islands           | Honduras                         |
-| Trinidad and Tobago              | Mexico                           |
-| Guyana                           | India                            |
-| Thailand                         | Papua New Guinea                 |
-| Syria                            | Cambodia                         |
-| Greece                           | Chile                            |
-| France                           | Trinidad and Tobago              |
-| United Kingdom                   | Turkmenistan                     |
-| Papua New Guinea                 | Vietnam                          |
-| Bolivia                          | Bulgaria                         |
-| Kuwait                           | Panama                           |
-| Morocco                          | Guernsey                         |
-| Sri Lanka                        | Angola                           |
-| Latvia                           | Sweden                           |
-| Luxembourg                       | Uruguay                          |
-| Laos                             | Mongolia                         |
-| Slovakia                         | Saint Lucia                      |
-| Greenland                        | New Zealand                      |
-| Djibouti                         | Denmark                          |
-| Mauritius                        | Nepal                            |
-| Armenia                          | United States of America         |
-| Paraguay                         | Kenya                            |
-| Thailand                         | Chile                            |
-| Uzbekistan                       | Costa Rica                       |
-| Zimbabwe                         | Botswana                         |
-| Jordan                           | Luxembourg                       |
-| Tajikistan                       | Austria                          |
-| Denmark                          | Pakistan                         |
-| Poland                           | Benin                            |
-| Denmark                          | Slovakia                         |
-| Mali                             | Portugal                         |
-| Mauritius                        | Iraq                             |
-| Kenya                            | Republic of Abkhazia             |
-| Guernsey                         | Philippines                      |
-| Saint Kitts and Nevis            | Belarus                          |
-| Nicaragua                        | Bolivia                          |
-| Somalia                          | Slovenia                         |
-| Guatemala                        | Italy                            |
-| Iceland                          | Albania                          |
-| Slovakia                         | Indonesia                        |
-| Nepal                            | Australia                        |
-| Croatia                          | Curaçao                          |
-| Panama                           | Cambodia                         |
-| Botswana                         | Nepal                            |
-| Portugal                         | Curaçao                          |
-| Poland                           | Ethiopia                         |
-| Malta                            | The Gambia                       |
-| Uruguay                          | New Zealand                      |
-| Pakistan                         | Ukraine                          |
-| Japan                            | Georgia                          |
-| Burundi                          | Lebanon                          |
-| Zambia                           | Bolivia                          |
-| Mali                             | Denmark                          |
-| Uzbekistan                       | Venezuela                        |
-| Canada                           | Saudi Arabia                     |
-| Papua New Guinea                 | Iceland                          |
-| Honduras                         | North Macedonia                  |
-| Cameroon                         | Honduras                         |
-| Saint Lucia                      | Taiwan                           |
-| Peru                             | Indonesia                        |
-| Solomon Islands                  | Brazil                           |
-| Azerbaijan                       | Tanzania                         |
-| Ethiopia                         | Italy                            |
-| Portugal                         | Canada                           |
-| Benin                            | Lithuania                        |
-| Republic of Abkhazia             | Saudi Arabia                     |
-| Vietnam                          | Israel                           |
-| Burundi                          | Rwanda                           |
-| Azerbaijan                       | Bahrain                          |
-| Ireland                          | San Marino                       |
-| Somalia                          | Argentina                        |
-| Bolivia                          | Malta                            |
-| North Korea                      | South Korea                      |
-| Jordan                           | Sri Lanka                        |
-| Argentina                        | Ivory Coast                      |
-| Uganda                           | Venezuela                        |
-| Liechtenstein                    | Algeria                          |
-| Bahrain                          | Malawi                           |
-| Bulgaria                         | Cyprus                           |
-| Turkey                           | Botswana                         |
-| Kosovo                           | Iran                             |
-| Brazil                           | Nepal                            |
-| Somalia                          | Indonesia                        |
-| Taiwan                           | Somalia                          |
-| Tajikistan                       | United States of America         |
-| Belarus                          | North Macedonia                  |
-| Greece                           | Slovenia                         |
-| Lithuania                        | Democratic Republic of the Congo |
-| Greenland                        | Oman                             |
-| South Africa                     | Chile                            |
-| Cuba                             | Greenland                        |
-| Brunei                           | South Africa                     |
-| Ghana                            | Malta                            |
-| Sudan                            | Ghana                            |
-| Italy                            | Afghanistan                      |
-| Albania                          | Benin                            |
-| Pakistan                         | Turkey                           |
-| Liechtenstein                    | Philippines                      |
-| Angola                           | Cuba                             |
-| South Sudan                      | Guernsey                         |
-| Myanmar                          | Jordan                           |
-| Liechtenstein                    | Trinidad and Tobago              |
-| Turkmenistan                     | Algeria                          |
-| Bulgaria                         | Montenegro                       |
-| Saint Vincent and the Grenadines | Cape Verde                       |
-| Mauritius                        | Morocco                          |
-| Croatia                          | Nicaragua                        |
-| People's Republic of China       | Suriname                         |
-| Gabon                            | India                            |
-| Azerbaijan                       | Norway                           |
-| Estonia                          | Kazakhstan                       |
-| France                           | Bosnia and Herzegovina           |
-| Ireland                          | Jordan                           |
-| Liberia                          | Saint Kitts and Nevis            |
-| Germany                          | Gabon                            |
-| Russia                           | Portugal                         |
-| Belgium                          | Turkey                           |
-| Eritrea                          | Slovakia                         |
-| Costa Rica                       | Guernsey                         |
-| South Africa                     | Mongolia                         |
-| Laos                             | Mauritius                        |
-| Cyprus                           | New Zealand                      |
-| South Africa                     | Syria                            |
-| Slovenia                         | Argentina                        |
-| Nepal                            | Mali                             |
-| Ecuador                          | Argentina                        |
-| Spain                            | Guernsey                         |
-| Czech Republic                   | Uruguay                          |
-| Brazil                           | Malawi                           |
-| Vietnam                          | Lebanon                          |
-| Latvia                           | State of Palestine               |
-| São Tomé and Príncipe            | Ukraine                          |
-| Nepal                            | Ethiopia                         |
-| Iceland                          | South Africa                     |
-| France                           | Fiji                             |
-| Georgia                          | Bangladesh                       |
-| Malta                            | Latvia                           |
-| Australia                        | Guatemala                        |
-| Eritrea                          | Algeria                          |
-| Afghanistan                      | Slovakia                         |
-| São Tomé and Príncipe            | Guernsey                         |
-| São Tomé and Príncipe            | Saint Kitts and Nevis            |
-| Burkina Faso                     | Taiwan                           |
-| Israel                           | Qatar                            |
-| Kyrgyzstan                       | Rwanda                           |
-| Qatar                            | New Zealand                      |
-| Canada                           | Italy                            |
-| Dominica                         | Brazil                           |
-| Cyprus                           | Paraguay                         |
-| Republic of Abkhazia             | Guyana                           |
-| Pakistan                         | Poland                           |
-| Zambia                           | Mali                             |
-| Sierra Leone                     | Vietnam                          |
-| North Korea                      | Greenland                        |
-| Belarus                          | Trinidad and Tobago              |
-| Saint Kitts and Nevis            | United Kingdom                   |
-| Angola                           | British Virgin Islands           |
-| Kazakhstan                       | Saudi Arabia                     |
-| Zimbabwe                         | Morocco                          |
-| Uruguay                          | Nicaragua                        |
-| Burkina Faso                     | Canada                           |
-| Vietnam                          | Burundi                          |
-| North Macedonia                  | United Kingdom                   |
-| Israel                           | Tunisia                          |
-| South Africa                     | Eritrea                          |
-| Syria                            | Suriname                         |
-| Honduras                         | Montenegro                       |
-| Djibouti                         | Cuba                             |
-| Switzerland                      | Uruguay                          |
-| Serbia                           | South Korea                      |
-| Cameroon                         | United Kingdom                   |
-| Uzbekistan                       | Kazakhstan                       |
-| Estonia                          | Bosnia and Herzegovina           |
-| Myanmar                          | Estonia                          |
-| Trinidad and Tobago              | Bulgaria                         |
-| Iceland                          | Pakistan                         |
-| Portugal                         | United Kingdom                   |
-| Hungary                          | Ghana                            |
-| North Korea                      | Curaçao                          |
-| Mauritius                        | Bulgaria                         |
-| Nicaragua                        | Germany                          |
-| France                           | Tanzania                         |
-| Sweden                           | Mongolia                         |
-| Hungary                          | Ethiopia                         |
-| Ethiopia                         | British Virgin Islands           |
-| Romania                          | Denmark                          |
-| Algeria                          | Italy                            |
-| Brazil                           | Malaysia                         |
-| Burkina Faso                     | Jordan                           |
-| Turkey                           | Sierra Leone                     |
-| Tunisia                          | Bulgaria                         |
-| Poland                           | Ivory Coast                      |
-| France                           | Burkina Faso                     |
-| Uganda                           | Benin                            |
-| Lebanon                          | Bhutan                           |
-| Burundi                          | Bangladesh                       |
-| Solomon Islands                  | Guatemala                        |
-| Georgia                          | Kenya                            |
-| Liberia                          | Hungary                          |
-| Sweden                           | Vietnam                          |
-| Burundi                          | New Zealand                      |
-| Thailand                         | Paraguay                         |
-| Iceland                          | Hungary                          |
-| Belarus                          | Turkey                           |
-| Armenia                          | Benin                            |
-| France                           | Latvia                           |
-| South Korea                      | Dominican Republic               |
-| Bangladesh                       | Estonia                          |
-| Venezuela                        | Austria                          |
-| Ukraine                          | Eritrea                          |
-| Bulgaria                         | Uganda                           |
-| Greenland                        | Armenia                          |
-| Honduras                         | Nigeria                          |
-| Argentina                        | Sierra Leone                     |
-| Czech Republic                   | Israel                           |
-| Benin                            | Thailand                         |
-| Lebanon                          | Bahrain                          |
-| Liechtenstein                    | Bangladesh                       |
-| Israel                           | India                            |
-| Albania                          | Guatemala                        |
-| Mali                             | Algeria                          |
-| Serbia                           | Albania                          |
-| Malawi                           | Uganda                           |
-| Paraguay                         | Ethiopia                         |
-| Zimbabwe                         | Nepal                            |
-| Moldova                          | Saudi Arabia                     |
-| Poland                           | Tunisia                          |
-| Germany                          | Ethiopia                         |
-| Latvia                           | Israel                           |
-| Tunisia                          | Afghanistan                      |
-| Botswana                         | British Virgin Islands           |
-| Faroe Islands                    | Japan                            |
-| Ghana                            | Republic of Abkhazia             |
-| Lithuania                        | Nepal                            |
-| Italy                            | Libya                            |
-| State of Palestine               | The Gambia                       |
-| Djibouti                         | Israel                           |
-| Israel                           | Saudi Arabia                     |
-| Trinidad and Tobago              | Belgium                          |
-| Gabon                            | Iran                             |
-| Liechtenstein                    | Bolivia                          |
-| Netherlands                      | Libya                            |
-| Suriname                         | New Zealand                      |
-| Paraguay                         | Liberia                          |
-| Kuwait                           | Mauritius                        |
-| Azerbaijan                       | Nigeria                          |
-| Rwanda                           | Paraguay                         |
-| Switzerland                      | Burkina Faso                     |
-| Cape Verde                       | United Arab Emirates             |
-| Armenia                          | Paraguay                         |
-| Grenada                          | Nigeria                          |
-| Grenada                          | Iraq                             |
-| Brunei                           | Ghana                            |
-| Poland                           | Bhutan                           |
-| Bhutan                           | Tajikistan                       |
-| Burundi                          | Peru                             |
-| Faroe Islands                    | South Sudan                      |
-| Honduras                         | Latvia                           |
-| Czech Republic                   | Oman                             |
-| Turkmenistan                     | Saudi Arabia                     |
-| Guatemala                        | Kenya                            |
-| Finland                          | Mongolia                         |
-| Finland                          | Azerbaijan                       |
-| Sierra Leone                     | Nepal                            |
-| Gabon                            | Iceland                          |
-| South Sudan                      | Sudan                            |
-| United Arab Emirates             | Denmark                          |
-| Liberia                          | Panama                           |
-| Bosnia and Herzegovina           | Netherlands                      |
-| Zimbabwe                         | Fiji                             |
-| Uganda                           | State of Palestine               |
-| Thailand                         | Morocco                          |
-| Switzerland                      | Kosovo                           |
-| Panama                           | Philippines                      |
-| South Africa                     | Montenegro                       |
-| Oman                             | Lithuania                        |
-| Tanzania                         | Jordan                           |
-| Spain                            | Ghana                            |
-| United States of America         | France                           |
-| Canada                           | Spain                            |
-| Serbia                           | Zimbabwe                         |
-| Ireland                          | Trinidad and Tobago              |
-| Faroe Islands                    | Greenland                        |
-| Nigeria                          | Papua New Guinea                 |
-| Pakistan                         | Curaçao                          |
-| Curaçao                          | Libya                            |
-| Cape Verde                       | Uruguay                          |
-| Latvia                           | Bhutan                           |
-| Lithuania                        | Laos                             |
-| Portugal                         | Saint Kitts and Nevis            |
-| Antigua and Barbuda              | Saint Lucia                      |
-| Curaçao                          | Mauritania                       |
-| Philippines                      | Republic of Abkhazia             |
-| Spain                            | Armenia                          |
-| Cambodia                         | Iran                             |
-| Brazil                           | Ethiopia                         |
-| Spain                            | Angola                           |
-| Hungary                          | Slovakia                         |
-| Cuba                             | Bulgaria                         |
-| Republic of Abkhazia             | Belarus                          |
-| Algeria                          | Brunei                           |
-| Slovenia                         | Thailand                         |
-| Germany                          | Slovakia                         |
-| Taiwan                           | Nigeria                          |
-| Bolivia                          | Mexico                           |
-| Saudi Arabia                     | Guatemala                        |
-| Mauritius                        | Spain                            |
-| Zambia                           | France                           |
-| Turkmenistan                     | Malawi                           |
-| Fiji                             | Saint Vincent and the Grenadines |
-| Algeria                          | Uruguay                          |
-| Bahrain                          | Canada                           |
-| Rwanda                           | Argentina                        |
-| Czech Republic                   | Tunisia                          |
-| Belgium                          | Bangladesh                       |
-| Qatar                            | Spain                            |
-| Cape Verde                       | Sweden                           |
-| Panama                           | Czech Republic                   |
-| Australia                        | Iceland                          |
-| Syria                            | The Gambia                       |
-| Zimbabwe                         | Nicaragua                        |
-| Zimbabwe                         | Bangladesh                       |
-| San Marino                       | Georgia                          |
-| Saint Vincent and the Grenadines | Eritrea                          |
-| Norway                           | North Macedonia                  |
-| Tanzania                         | Portugal                         |
-| Peru                             | Rwanda                           |
-| Hungary                          | Uganda                           |
-| Japan                            | El Salvador                      |
-| Azerbaijan                       | Saudi Arabia                     |
-| Austria                          | Bahrain                          |
-| Suriname                         | Ivory Coast                      |
-| Mexico                           | Serbia                           |
-| Paraguay                         | Cape Verde                       |
-| United States of America         | Afghanistan                      |
-| Cape Verde                       | Thailand                         |
-| Bosnia and Herzegovina           | Egypt                            |
-| Kyrgyzstan                       | Mauritius                        |
-| Ivory Coast                      | Kazakhstan                       |
-| Iran                             | Republic of Abkhazia             |
-| North Korea                      | Uruguay                          |
-| Honduras                         | Cyprus                           |
-| Angola                           | Dominican Republic               |
-| Faroe Islands                    | Cyprus                           |
-| Qatar                            | Dominica                         |
-| Papua New Guinea                 | State of Palestine               |
-| The Gambia                       | Morocco                          |
-| San Marino                       | Tunisia                          |
-| North Macedonia                  | Portugal                         |
-| Dominican Republic               | Bhutan                           |
-| São Tomé and Príncipe            | South Sudan                      |
-| Zambia                           | Greece                           |
-| Antigua and Barbuda              | Somalia                          |
-| Bosnia and Herzegovina           | Serbia                           |
-| Cambodia                         | Antigua and Barbuda              |
-| Solomon Islands                  | Algeria                          |
-| Taiwan                           | Ukraine                          |
-| Antigua and Barbuda              | Rwanda                           |
-| Dominican Republic               | Bangladesh                       |
-| Qatar                            | Cyprus                           |
-| Liechtenstein                    | Botswana                         |
-| Laos                             | Singapore                        |
-| Egypt                            | United Arab Emirates             |
-| Greenland                        | Ecuador                          |
-| Indonesia                        | Mauritius                        |
-| Republic of Abkhazia             | Myanmar                          |
-| Pakistan                         | North Korea                      |
-| Antigua and Barbuda              | Bolivia                          |
-| France                           | Bhutan                           |
-| Croatia                          | Kazakhstan                       |
-| Guyana                           | United Kingdom                   |
-| Cape Verde                       | People's Republic of China       |
-| Portugal                         | North Korea                      |
-| Libya                            | Montenegro                       |
-| Turkey                           | Taiwan                           |
-| Sweden                           | Turkey                           |
-| Faroe Islands                    | Laos                             |
-| Faroe Islands                    | Australia                        |
-| India                            | Lebanon                          |
-| Guernsey                         | Ghana                            |
-| Portugal                         | Cambodia                         |
-| Slovakia                         | Uzbekistan                       |
-| Belgium                          | Jordan                           |
-| Antigua and Barbuda              | Liechtenstein                    |
-| Bangladesh                       | Tunisia                          |
-| Taiwan                           | Estonia                          |
-| Guyana                           | State of Palestine               |
-| South Korea                      | Syria                            |
-| Tanzania                         | Russia                           |
-| Zambia                           | British Virgin Islands           |
-| Bahrain                          | Dominican Republic               |
-| Uzbekistan                       | Fiji                             |
-| Tajikistan                       | Curaçao                          |
-| Afghanistan                      | Greece                           |
-| Somalia                          | Cameroon                         |
-| Antigua and Barbuda              | Canada                           |
-| Bosnia and Herzegovina           | Burundi                          |
-| Libya                            | Guernsey                         |
-| Malawi                           | San Marino                       |
-| Moldova                          | France                           |
-| United Arab Emirates             | Libya                            |
-| Tunisia                          | Luxembourg                       |
-| Israel                           | Tajikistan                       |
-| Costa Rica                       | France                           |
-| North Macedonia                  | Benin                            |
-| El Salvador                      | Romania                          |
-| Israel                           | Netherlands                      |
-| Gabon                            | Jordan                           |
-| Afghanistan                      | Liberia                          |
-| Estonia                          | Belgium                          |
-| Dominican Republic               | Luxembourg                       |
-| Ecuador                          | Mali                             |
-| Honduras                         | Taiwan                           |
-| Somalia                          | Benin                            |
-| People's Republic of China       | Taiwan                           |
-| Mali                             | San Marino                       |
-| Malaysia                         | Bangladesh                       |
-| Romania                          | New Zealand                      |
-| El Salvador                      | The Gambia                       |
-| Indonesia                        | Ghana                            |
-| Bangladesh                       | Finland                          |
-| Republic of Abkhazia             | Brazil                           |
-| State of Palestine               | Bosnia and Herzegovina           |
-| Zambia                           | Liechtenstein                    |
-| Papua New Guinea                 | Syria                            |
-| Mexico                           | Rwanda                           |
-| Iceland                          | Bahrain                          |
-| Nicaragua                        | Dominican Republic               |
-| Brazil                           | Benin                            |
-| Portugal                         | Republic of Abkhazia             |
-| Guyana                           | United Arab Emirates             |
-| Trinidad and Tobago              | Democratic Republic of the Congo |
-| Luxembourg                       | Dominica                         |
-| Belarus                          | Bangladesh                       |
-| Ukraine                          | Papua New Guinea                 |
-| Slovakia                         | Colombia                         |
-| Belarus                          | Zimbabwe                         |
-| Philippines                      | New Zealand                      |
-| Mali                             | Botswana                         |
-| Curaçao                          | Zambia                           |
-| Peru                             | Botswana                         |
-| Gabon                            | Bahrain                          |
-| Faroe Islands                    | Libya                            |
-| Austria                          | Argentina                        |
-| Honduras                         | Switzerland                      |
-| Australia                        | Hungary                          |
-| El Salvador                      | Switzerland                      |
-| Germany                          | Romania                          |
-| Libya                            | Burkina Faso                     |
-| Iraq                             | Cuba                             |
-| Somalia                          | Malta                            |
-| Cameroon                         | Georgia                          |
-| Qatar                            | British Virgin Islands           |
-| Guatemala                        | Austria                          |
-| Iceland                          | New Zealand                      |
-| Iceland                          | Burkina Faso                     |
-| Turkey                           | Guernsey                         |
-| Papua New Guinea                 | Guyana                           |
-| Netherlands                      | Egypt                            |
-| Morocco                          | Germany                          |
-| South Africa                     | Portugal                         |
-| Eritrea                          | Guernsey                         |
-| San Marino                       | Honduras                         |
-| Mongolia                         | Vietnam                          |
-| Malawi                           | South Sudan                      |
-| Bhutan                           | Turkmenistan                     |
-| Lebanon                          | United States of America         |
-| São Tomé and Príncipe            | Australia                        |
-| Canada                           | The Gambia                       |
-| Ivory Coast                      | Solomon Islands                  |
-| Mexico                           | Taiwan                           |
-| Cambodia                         | Lebanon                          |
-| Oman                             | Italy                            |
-| Venezuela                        | Saudi Arabia                     |
-| Iraq                             | Norway                           |
-| Portugal                         | Pakistan                         |
-| Denmark                          | Venezuela                        |
-| Dominican Republic               | Guyana                           |
-| Ireland                          | Lithuania                        |
-| United States of America         | Liberia                          |
-| Moldova                          | Afghanistan                      |
-| Italy                            | Hungary                          |
-| Egypt                            | South Africa                     |
-| Kenya                            | Lithuania                        |
-| Jordan                           | Denmark                          |
-| Netherlands                      | Trinidad and Tobago              |
-| Estonia                          | Moldova                          |
-| Mauritius                        | Saint Vincent and the Grenadines |
-| Burkina Faso                     | Mauritania                       |
-| Uruguay                          | United States of America         |
-| Guyana                           | Serbia                           |
-| Angola                           | Malawi                           |
-| Kenya                            | India                            |
-| Japan                            | South Africa                     |
-| Bolivia                          | Benin                            |
-| Croatia                          | Ghana                            |
-| Angola                           | Libya                            |
-| Ireland                          | Spain                            |
-| Benin                            | India                            |
-| Colombia                         | Benin                            |
-| Malawi                           | Norway                           |
-| Guatemala                        | Greece                           |
-| Spain                            | Belarus                          |
-| Malta                            | Saint Vincent and the Grenadines |
-| Hungary                          | Greenland                        |
-| Curaçao                          | Saint Vincent and the Grenadines |
-| Indonesia                        | Pakistan                         |
-| Sudan                            | Burundi                          |
-| The Gambia                       | Mauritania                       |
-| Cape Verde                       | Denmark                          |
-| Japan                            | South Korea                      |
-| North Macedonia                  | Italy                            |
-| Burkina Faso                     | Cameroon                         |
-| Panama                           | Iraq                             |
-| Malaysia                         | Kenya                            |
-| Bhutan                           | Bangladesh                       |
-| Nicaragua                        | People's Republic of China       |
-| Indonesia                        | United States of America         |
-| Indonesia                        | New Zealand                      |
-| Afghanistan                      | Republic of Abkhazia             |
-| The Gambia                       | Faroe Islands                    |
-| Cape Verde                       | Ecuador                          |
-| Iraq                             | Israel                           |
-| Singapore                        | Saint Lucia                      |
-| United States of America         | Greenland                        |
-| Peru                             | Georgia                          |
-| Tajikistan                       | Sri Lanka                        |
-| Sweden                           | The Gambia                       |
-| Qatar                            | Solomon Islands                  |
-| Mexico                           | Angola                           |
-| Italy                            | Nicaragua                        |
-| Ireland                          | Rwanda                           |
-| Kenya                            | Switzerland                      |
-| Suriname                         | Kyrgyzstan                       |
-| Nigeria                          | Zambia                           |
-| Brunei                           | Egypt                            |
-| Brazil                           | Saint Kitts and Nevis            |
-| Georgia                          | Nigeria                          |
-| Ecuador                          | Azerbaijan                       |
-| Serbia                           | Taiwan                           |
-| Guernsey                         | Botswana                         |
-| Angola                           | Uruguay                          |
-| Saint Kitts and Nevis            | Turkey                           |
-| Romania                          | Syria                            |
-| Portugal                         | Guyana                           |
-| Taiwan                           | South Korea                      |
-| Liberia                          | Sudan                            |
-| Fiji                             | Kosovo                           |
-| Saint Lucia                      | People's Republic of China       |
-| Denmark                          | Serbia                           |
-| Jordan                           | Afghanistan                      |
-| Zimbabwe                         | Afghanistan                      |
-| Kosovo                           | Ivory Coast                      |
-| Lebanon                          | Fiji                             |
-| Luxembourg                       | Sri Lanka                        |
-| Bosnia and Herzegovina           | Slovakia                         |
-| Sri Lanka                        | People's Republic of China       |
-| Vietnam                          | Qatar                            |
-| Lithuania                        | Sweden                           |
-| Slovakia                         | Burundi                          |
-| Guyana                           | North Korea                      |
-| Dominica                         | Bolivia                          |
-| Republic of Abkhazia             | France                           |
-| Norway                           | Thailand                         |
-| Grenada                          | Japan                            |
-| Dominica                         | Romania                          |
-| Panama                           | Egypt                            |
-| Mauritania                       | Guyana                           |
-| Italy                            | Kazakhstan                       |
-| Honduras                         | Kyrgyzstan                       |
-| Uruguay                          | Venezuela                        |
-| United States of America         | Austria                          |
-| India                            | Sweden                           |
-| Panama                           | Eritrea                          |
-| Saint Kitts and Nevis            | Slovenia                         |
-| Cyprus                           | Ecuador                          |
-| Iran                             | São Tomé and Príncipe            |
-| Laos                             | Syria                            |
-| Eritrea                          | Kosovo                           |
-| Czech Republic                   | Qatar                            |
-| Bhutan                           | Azerbaijan                       |
-| Lebanon                          | Solomon Islands                  |
-| Gabon                            | Mauritius                        |
-| Germany                          | Ghana                            |
-| Tanzania                         | Iceland                          |
-| Sierra Leone                     | Israel                           |
-| Mexico                           | Moldova                          |
-| Ethiopia                         | Portugal                         |
-| Mauritius                        | Bahrain                          |
-| Algeria                          | Somalia                          |
-| Iceland                          | Cyprus                           |
-| Egypt                            | Croatia                          |
-| Cuba                             | France                           |
-| Czech Republic                   | Ireland                          |
-| Ethiopia                         | Zambia                           |
-| Iceland                          | Sri Lanka                        |
-| Iran                             | Montenegro                       |
-| Ghana                            | Netherlands                      |
-| United Arab Emirates             | Ethiopia                         |
-| Qatar                            | Libya                            |
-| United Kingdom                   | People's Republic of China       |
-| Sri Lanka                        | Grenada                          |
-| Iran                             | Honduras                         |
-| Iceland                          | Sudan                            |
-| Chile                            | Sudan                            |
-| Faroe Islands                    | Sri Lanka                        |
-| Cameroon                         | Guyana                           |
-| Kuwait                           | Belgium                          |
-| Zimbabwe                         | Zambia                           |
-| Tunisia                          | Suriname                         |
-| Iran                             | Sri Lanka                        |
-| Japan                            | Laos                             |
-| Democratic Republic of the Congo | Greenland                        |
-| Hungary                          | Canada                           |
-| Romania                          | Indonesia                        |
-| Fiji                             | Serbia                           |
-| Liberia                          | Australia                        |
-| Ethiopia                         | Liechtenstein                    |
-| Serbia                           | Russia                           |
-| Suriname                         | Cambodia                         |
-| Saint Kitts and Nevis            | Gabon                            |
-| United Arab Emirates             | Portugal                         |
-| Iceland                          | Uzbekistan                       |
-| Trinidad and Tobago              | Japan                            |
-| Netherlands                      | Bangladesh                       |
-| Cape Verde                       | Eritrea                          |
-| Angola                           | Ivory Coast                      |
-| Panama                           | Spain                            |
-| Albania                          | Algeria                          |
-| Benin                            | Germany                          |
-| Armenia                          | Zambia                           |
-| Montenegro                       | Colombia                         |
-| Solomon Islands                  | Guyana                           |
-| Bulgaria                         | Croatia                          |
-| Saudi Arabia                     | Somalia                          |
-| Angola                           | Ukraine                          |
-| Vietnam                          | Netherlands                      |
-| Georgia                          | Solomon Islands                  |
-| Thailand                         | Cyprus                           |
-| Qatar                            | South Africa                     |
-| South Korea                      | Germany                          |
-| Chile                            | Ecuador                          |
-| Canada                           | Armenia                          |
-| Syria                            | Cyprus                           |
-| Bolivia                          | Cambodia                         |
-| Tunisia                          | Gabon                            |
-| Thailand                         | Poland                           |
-| Tajikistan                       | Germany                          |
-| Dominican Republic               | Costa Rica                       |
-| Costa Rica                       | Afghanistan                      |
-| Dominican Republic               | Slovakia                         |
-| Faroe Islands                    | Kenya                            |
-| British Virgin Islands           | Gabon                            |
-| Netherlands                      | Sri Lanka                        |
-| Kenya                            | Dominica                         |
-| Somalia                          | North Macedonia                  |
-| France                           | United Kingdom                   |
-| Kyrgyzstan                       | Dominica                         |
-| Moldova                          | Vietnam                          |
-| Solomon Islands                  | Mauritius                        |
-| Fiji                             | Rwanda                           |
-| Greenland                        | Zambia                           |
-| Bulgaria                         | Ecuador                          |
-| South Korea                      | Cuba                             |
-| Jordan                           | Slovakia                         |
-| The Gambia                       | United Arab Emirates             |
-| Italy                            | Russia                           |
-| Uruguay                          | Croatia                          |
-| Oman                             | Denmark                          |
-| Tanzania                         | Turkey                           |
-| Papua New Guinea                 | Panama                           |
-| Tanzania                         | Latvia                           |
-| Australia                        | Croatia                          |
-| United Arab Emirates             | Indonesia                        |
-| Burkina Faso                     | Norway                           |
-| Burkina Faso                     | Ivory Coast                      |
-| Estonia                          | India                            |
-| Uruguay                          | South Korea                      |
-| Montenegro                       | Kyrgyzstan                       |
-| Uzbekistan                       | Ethiopia                         |
-| Eritrea                          | Kazakhstan                       |
-| São Tomé and Príncipe            | Costa Rica                       |
-| Uruguay                          | Faroe Islands                    |
-| Angola                           | Fiji                             |
-| Montenegro                       | Papua New Guinea                 |
-| Ukraine                          | Argentina                        |
-| Faroe Islands                    | Thailand                         |
-| Tunisia                          | Argentina                        |
-| Luxembourg                       | Cuba                             |
-| Thailand                         | Dominican Republic               |
-| Qatar                            | Afghanistan                      |
-| Canada                           | People's Republic of China       |
-| Serbia                           | Cape Verde                       |
-| Saint Vincent and the Grenadines | Indonesia                        |
-| Taiwan                           | Moldova                          |
-| Zambia                           | Luxembourg                       |
-| Kenya                            | Trinidad and Tobago              |
-| Guyana                           | Chile                            |
-| Honduras                         | Djibouti                         |
-| Bulgaria                         | Brunei                           |
-| North Macedonia                  | Dominican Republic               |
-| Tunisia                          | Finland                          |
-| Trinidad and Tobago              | Vietnam                          |
-| Norway                           | Djibouti                         |
-| Uruguay                          | Norway                           |
-| Grenada                          | Germany                          |
-| Benin                            | Sierra Leone                     |
-| Libya                            | State of Palestine               |
-| Malta                            | Italy                            |
-| Libya                            | Japan                            |
-| Finland                          | El Salvador                      |
-| Netherlands                      | North Korea                      |
-| Afghanistan                      | Nepal                            |
-| Malta                            | Philippines                      |
-| Vietnam                          | State of Palestine               |
-| Hungary                          | Croatia                          |
-| Germany                          | Tunisia                          |
-| Mali                             | Gabon                            |
-| Grenada                          | Portugal                         |
-| United Kingdom                   | Guatemala                        |
-| Benin                            | Costa Rica                       |
-| Switzerland                      | Sudan                            |
-| Philippines                      | Cambodia                         |
-| Sierra Leone                     | Laos                             |
-| Kosovo                           | Saint Vincent and the Grenadines |
-| Lithuania                        | Malaysia                         |
-| Israel                           | Taiwan                           |
-| Ivory Coast                      | Malawi                           |
-| Moldova                          | Kyrgyzstan                       |
-| Luxembourg                       | Hungary                          |
-| Cuba                             | Thailand                         |
-| Ireland                          | Philippines                      |
-| Poland                           | India                            |
-| Egypt                            | Russia                           |
-| Libya                            | Saint Lucia                      |
-| Ivory Coast                      | Mauritius                        |
-| The Gambia                       | Belarus                          |
-| North Korea                      | Belarus                          |
-| Mauritius                        | Afghanistan                      |
-| Curaçao                          | El Salvador                      |
-| Brunei                           | Curaçao                          |
-| Montenegro                       | Thailand                         |
-| Norway                           | Bahrain                          |
-| Panama                           | Austria                          |
-| Brazil                           | Belgium                          |
-| Chile                            | Republic of Abkhazia             |
-| Mongolia                         | Singapore                        |
-| Saint Vincent and the Grenadines | United Kingdom                   |
-| Cuba                             | New Zealand                      |
-| El Salvador                      | Somalia                          |
-| Hungary                          | Saudi Arabia                     |
-| Ukraine                          | Belarus                          |
-| Mexico                           | Myanmar                          |
-| Oman                             | Mauritania                       |
-| El Salvador                      | Zambia                           |
-| Slovenia                         | Austria                          |
-| São Tomé and Príncipe            | Qatar                            |
-| Kazakhstan                       | Honduras                         |
-| Russia                           | Djibouti                         |
-| São Tomé and Príncipe            | Luxembourg                       |
-| Czech Republic                   | Cameroon                         |
-| Venezuela                        | South Korea                      |
-| Israel                           | Azerbaijan                       |
-| Kenya                            | Cape Verde                       |
-| Taiwan                           | Montenegro                       |
-| South Korea                      | Somalia                          |
-| Mauritania                       | Mongolia                         |
-| Italy                            | Guernsey                         |
-| Nepal                            | Poland                           |
-| Honduras                         | Cape Verde                       |
-| Azerbaijan                       | Moldova                          |
-| Morocco                          | Indonesia                        |
-| Austria                          | Taiwan                           |
-| Sri Lanka                        | Mauritania                       |
-| New Zealand                      | Zimbabwe                         |
-| Ukraine                          | Philippines                      |
-| Singapore                        | Tanzania                         |
-| Israel                           | Bolivia                          |
-| Serbia                           | Qatar                            |
-| Mexico                           | Fiji                             |
-| Oman                             | Estonia                          |
-| India                            | Lithuania                        |
-| Armenia                          | Burundi                          |
-| Cambodia                         | Czech Republic                   |
-| Rwanda                           | Dominica                         |
-| Brunei                           | Bhutan                           |
-| State of Palestine               | Switzerland                      |
-| Philippines                      | Turkmenistan                     |
-| Hungary                          | Ecuador                          |
-| Bangladesh                       | Albania                          |
-| Ireland                          | Kuwait                           |
-| Mongolia                         | Chile                            |
-| Belarus                          | Pakistan                         |
-| Grenada                          | North Korea                      |
-| Kosovo                           | Singapore                        |
-| Venezuela                        | Iraq                             |
-| Indonesia                        | Grenada                          |
-| Ecuador                          | Kosovo                           |
-| Netherlands                      | Estonia                          |
-| Panama                           | Nepal                            |
-| North Korea                      | Kazakhstan                       |
-| Croatia                          | Japan                            |
-| Moldova                          | Saint Lucia                      |
-| Burkina Faso                     | Latvia                           |
-| Luxembourg                       | Papua New Guinea                 |
-| Faroe Islands                    | Ivory Coast                      |
-| Czech Republic                   | Somalia                          |
-| Canada                           | South Sudan                      |
-| Panama                           | Saint Vincent and the Grenadines |
-| Democratic Republic of the Congo | Ecuador                          |
-| Bhutan                           | Ghana                            |
-| Cyprus                           | Bosnia and Herzegovina           |
-| Suriname                         | United States of America         |
-| The Gambia                       | Norway                           |
-| Qatar                            | Bulgaria                         |
-| Bulgaria                         | Saudi Arabia                     |
-| Belarus                          | Honduras                         |
-| Belarus                          | Colombia                         |
-| São Tomé and Príncipe            | Kosovo                           |
-| Slovakia                         | Myanmar                          |
-| Sri Lanka                        | Liberia                          |
-| Uganda                           | Lebanon                          |
-| San Marino                       | Suriname                         |
-| Cape Verde                       | Ireland                          |
-| Mauritius                        | Brunei                           |
-| Curaçao                          | Laos                             |
-| North Macedonia                  | Mauritania                       |
-| North Macedonia                  | State of Palestine               |
-| Mauritania                       | Republic of Abkhazia             |
-| Colombia                         | Czech Republic                   |
-| Uzbekistan                       | Belgium                          |
-| Iran                             | Bahrain                          |
-| Nicaragua                        | Mauritania                       |
-| Serbia                           | Argentina                        |
-| El Salvador                      | Solomon Islands                  |
-| Mexico                           | Ghana                            |
-| South Korea                      | Ghana                            |
-| Papua New Guinea                 | Ecuador                          |
-| South Korea                      | Saint Lucia                      |
-| Sweden                           | Brazil                           |
-| Bhutan                           | Cape Verde                       |
-| Hungary                          | Vietnam                          |
-| New Zealand                      | Sri Lanka                        |
-| Norway                           | Costa Rica                       |
-| Burkina Faso                     | Afghanistan                      |
-| Benin                            | Guatemala                        |
-| Greece                           | Antigua and Barbuda              |
-| Argentina                        | Qatar                            |
-| Switzerland                      | Liberia                          |
-| Laos                             | Sri Lanka                        |
-| Indonesia                        | Netherlands                      |
-| Mauritius                        | Vietnam                          |
-| Jordan                           | Venezuela                        |
-| Lebanon                          | Latvia                           |
-| Romania                          | Trinidad and Tobago              |
-| Israel                           | Ireland                          |
-| Eritrea                          | Indonesia                        |
-| Liberia                          | Democratic Republic of the Congo |
-| Turkmenistan                     | Qatar                            |
-| Oman                             | Myanmar                          |
-| Greece                           | Panama                           |
-| Switzerland                      | Czech Republic                   |
-| Ireland                          | Ethiopia                         |
-| South Africa                     | Paraguay                         |
-| El Salvador                      | Nicaragua                        |
-| Cuba                             | Armenia                          |
-| Ivory Coast                      | Ireland                          |
-| Gabon                            | Israel                           |
-| Kyrgyzstan                       | Venezuela                        |
-| Bahrain                          | Afghanistan                      |
-| British Virgin Islands           | Georgia                          |
-| Kosovo                           | Saudi Arabia                     |
-| Zimbabwe                         | São Tomé and Príncipe            |
-| Solomon Islands                  | Libya                            |
-| Saint Vincent and the Grenadines | Kuwait                           |
-| Sudan                            | United States of America         |
-| People's Republic of China       | Nigeria                          |
-| South Sudan                      | Belgium                          |
-| El Salvador                      | Cyprus                           |
-| Ethiopia                         | Georgia                          |
-| Poland                           | Iceland                          |
-| Australia                        | Algeria                          |
-| United Kingdom                   | Dominican Republic               |
-| Dominica                         | Estonia                          |
-| Angola                           | Ireland                          |
-| Luxembourg                       | Portugal                         |
-| Saudi Arabia                     | Kuwait                           |
-| Kosovo                           | Djibouti                         |
-| Saint Lucia                      | Switzerland                      |
-| Botswana                         | San Marino                       |
-| Nicaragua                        | Qatar                            |
-| Jordan                           | Iran                             |
-| Egypt                            | Republic of Abkhazia             |
-| San Marino                       | Ivory Coast                      |
-| Portugal                         | Uganda                           |
-| South Africa                     | Slovenia                         |
-| Taiwan                           | Jordan                           |
-| Eritrea                          | Benin                            |
-| Nigeria                          | Liechtenstein                    |
-| Syria                            | Cuba                             |
-| Kazakhstan                       | Belarus                          |
-| Georgia                          | Honduras                         |
-| Guernsey                         | Indonesia                        |
-| Brunei                           | Myanmar                          |
-| South Korea                      | Azerbaijan                       |
-| Poland                           | The Gambia                       |
-| Bosnia and Herzegovina           | Burkina Faso                     |
-| Azerbaijan                       | Uganda                           |
-| Ivory Coast                      | Dominica                         |
-| Uzbekistan                       | Saint Lucia                      |
-| State of Palestine               | Bahrain                          |
-| Turkey                           | Guatemala                        |
-| New Zealand                      | Kyrgyzstan                       |
-| Argentina                        | South Korea                      |
-| Portugal                         | Sierra Leone                     |
-| Greece                           | Greenland                        |
-| Cuba                             | Azerbaijan                       |
-| Mexico                           | Cambodia                         |
-| Morocco                          | Kyrgyzstan                       |
-| Zimbabwe                         | Tunisia                          |
-| Croatia                          | Nepal                            |
-| Algeria                          | El Salvador                      |
-| Italy                            | The Gambia                       |
-| Austria                          | Latvia                           |
-| Kosovo                           | Bulgaria                         |
-| Saudi Arabia                     | Algeria                          |
-| People's Republic of China       | Israel                           |
-| Tunisia                          | Latvia                           |
-| Saint Vincent and the Grenadines | Georgia                          |
-| United States of America         | Luxembourg                       |
-| People's Republic of China       | Luxembourg                       |
-| Greenland                        | Angola                           |
-| Austria                          | Peru                             |
-| Nepal                            | Zambia                           |
-| Curaçao                          | Belgium                          |
-| Guernsey                         | Sweden                           |
-| Libya                            | The Gambia                       |
-| British Virgin Islands           | Burundi                          |
-| Brazil                           | Costa Rica                       |
-| South Korea                      | South Sudan                      |
-| Philippines                      | Sweden                           |
-| Canada                           | Republic of Abkhazia             |
-| North Macedonia                  | Greece                           |
-| Iran                             | South Korea                      |
-| Spain                            | Solomon Islands                  |
-| Ukraine                          | Lithuania                        |
-| Saint Kitts and Nevis            | Burkina Faso                     |
-| Bhutan                           | Fiji                             |
-| Ethiopia                         | New Zealand                      |
-| Thailand                         | Ghana                            |
-| North Korea                      | Ukraine                          |
-| Gabon                            | Saint Lucia                      |
-| Kosovo                           | Saint Lucia                      |
-| Bangladesh                       | Denmark                          |
-| Latvia                           | Saudi Arabia                     |
-| Myanmar                          | Russia                           |
-| Zimbabwe                         | Singapore                        |
-| Israel                           | Turkmenistan                     |
-| Bahrain                          | Eritrea                          |
-| Qatar                            | Mali                             |
-| North Korea                      | Kosovo                           |
-| Australia                        | Japan                            |
-| Grenada                          | Moldova                          |
-| Brunei                           | Malawi                           |
-| Trinidad and Tobago              | Cambodia                         |
-| State of Palestine               | United Kingdom                   |
-| Uzbekistan                       | Portugal                         |
-| Croatia                          | Tajikistan                       |
-| Singapore                        | France                           |
-| Russia                           | Syria                            |
-| Guernsey                         | Trinidad and Tobago              |
-| Benin                            | Egypt                            |
-| Tanzania                         | Armenia                          |
-| Malta                            | Montenegro                       |
-| Sierra Leone                     | Guyana                           |
-| Bangladesh                       | Nicaragua                        |
-| Iran                             | Botswana                         |
-| Benin                            | Indonesia                        |
-| Moldova                          | Belgium                          |
-| Kenya                            | Sweden                           |
-| Mauritania                       | Libya                            |
-| Bhutan                           | Paraguay                         |
-| Kyrgyzstan                       | Laos                             |
-| Bosnia and Herzegovina           | Singapore                        |
-| Cyprus                           | Uganda                           |
-| Bhutan                           | New Zealand                      |
-| United Arab Emirates             | Australia                        |
-| Zambia                           | Suriname                         |
-| State of Palestine               | Syria                            |
-| Rwanda                           | Vietnam                          |
-| Cape Verde                       | Malta                            |
-| Bhutan                           | Botswana                         |
-| Bulgaria                         | Peru                             |
-| Tunisia                          | Pakistan                         |
-| Zambia                           | Saudi Arabia                     |
-| Mongolia                         | North Macedonia                  |
-| Estonia                          | Nigeria                          |
-| Uruguay                          | Bhutan                           |
-| Malta                            | Bhutan                           |
-| Malaysia                         | Poland                           |
-| Cameroon                         | Argentina                        |
-| Chile                            | Nepal                            |
-| Morocco                          | Austria                          |
-| Uruguay                          | Slovakia                         |
-| Libya                            | Ecuador                          |
-| Qatar                            | Papua New Guinea                 |
-| Denmark                          | Saint Lucia                      |
-| Oman                             | Azerbaijan                       |
-| Cape Verde                       | Estonia                          |
-| Burkina Faso                     | Nepal                            |
-| Afghanistan                      | Lithuania                        |
-| Cuba                             | British Virgin Islands           |
-| Bosnia and Herzegovina           | The Gambia                       |
-| Honduras                         | Laos                             |
-| Austria                          | Ukraine                          |
-| Morocco                          | Angola                           |
-| Guyana                           | São Tomé and Príncipe            |
-| Ecuador                          | France                           |
-| Ivory Coast                      | Singapore                        |
-| Jordan                           | Serbia                           |
-| Costa Rica                       | Ghana                            |
-| Finland                          | Ukraine                          |
-| Angola                           | Brazil                           |
-| Democratic Republic of the Congo | Gabon                            |
-| United States of America         | Cambodia                         |
-| Kyrgyzstan                       | Cameroon                         |
-| Jordan                           | Grenada                          |
-| Moldova                          | Qatar                            |
-| Burundi                          | Malaysia                         |
-| Bolivia                          | Democratic Republic of the Congo |
-| Myanmar                          | Fiji                             |
-| Argentina                        | Moldova                          |
-| Mexico                           | Tunisia                          |
-| Mali                             | El Salvador                      |
-| Morocco                          | Lithuania                        |
-| South Africa                     | Kosovo                           |
-| Egypt                            | Faroe Islands                    |
-| Cyprus                           | Zambia                           |
-| Denmark                          | Italy                            |
-| Kyrgyzstan                       | Dominican Republic               |
-| Australia                        | Austria                          |
-| State of Palestine               | New Zealand                      |
-| Turkmenistan                     | Cyprus                           |
-| France                           | Nicaragua                        |
-| Dominica                         | Sudan                            |
-| Saint Vincent and the Grenadines | Solomon Islands                  |
-| Malaysia                         | Tajikistan                       |
-| Belgium                          | Mongolia                         |
-| Japan                            | Nicaragua                        |
-| France                           | Bangladesh                       |
-| Uzbekistan                       | Austria                          |
-| Venezuela                        | Sudan                            |
-| Faroe Islands                    | Austria                          |
-| Mexico                           | South Korea                      |
-| Norway                           | Ethiopia                         |
-| Montenegro                       | Paraguay                         |
-| Romania                          | Cuba                             |
-| Liechtenstein                    | Mauritius                        |
-| Burkina Faso                     | Slovenia                         |
-| Honduras                         | Chile                            |
-| British Virgin Islands           | Israel                           |
-| Cape Verde                       | Greenland                        |
-| Ivory Coast                      | Democratic Republic of the Congo |
-| Poland                           | Taiwan                           |
-| South Korea                      | Tanzania                         |
-| Iceland                          | Saint Kitts and Nevis            |
-| Curaçao                          | Algeria                          |
-| Djibouti                         | Zambia                           |
-| Canada                           | Brunei                           |
-| South Korea                      | Sri Lanka                        |
-| Antigua and Barbuda              | Belgium                          |
-| Cyprus                           | Saint Lucia                      |
-| Turkey                           | South Africa                     |
-| Portugal                         | Botswana                         |
-| Japan                            | Ghana                            |
-| Iran                             | Mauritius                        |
-| North Macedonia                  | Tajikistan                       |
-| Saint Kitts and Nevis            | Eritrea                          |
-| Costa Rica                       | Australia                        |
-| Lithuania                        | Venezuela                        |
-| United States of America         | Saint Vincent and the Grenadines |
-| San Marino                       | Brunei                           |
-| Greece                           | Honduras                         |
-| Sudan                            | Czech Republic                   |
-| Brazil                           | Cameroon                         |
-| Iceland                          | Fiji                             |
-| Dominican Republic               | Libya                            |
-| Papua New Guinea                 | Guernsey                         |
-| Italy                            | Australia                        |
-| Zimbabwe                         | Curaçao                          |
-| Liechtenstein                    | Honduras                         |
-| Netherlands                      | Uganda                           |
-| Uruguay                          | Guyana                           |
-| Mauritania                       | Saudi Arabia                     |
-| Mauritania                       | Ghana                            |
-| Papua New Guinea                 | Tunisia                          |
-| Azerbaijan                       | Cape Verde                       |
-| The Gambia                       | Indonesia                        |
-| Uganda                           | Burkina Faso                     |
-| South Korea                      | Gabon                            |
-| Georgia                          | Dominica                         |
-| Bolivia                          | Liberia                          |
-| Eritrea                          | Myanmar                          |
-| Mali                             | Nigeria                          |
-| Germany                          | Iceland                          |
-| Eritrea                          | Israel                           |
-| Suriname                         | Tajikistan                       |
-| Laos                             | Egypt                            |
-| Liechtenstein                    | Germany                          |
-| Ghana                            | Qatar                            |
-| Slovakia                         | Solomon Islands                  |
-| Saudi Arabia                     | Guernsey                         |
-| Lebanon                          | Sweden                           |
-| Italy                            | Cambodia                         |
-| Iran                             | Chile                            |
-| Uruguay                          | Saudi Arabia                     |
-| Japan                            | Ireland                          |
-| Germany                          | Uganda                           |
-| Turkmenistan                     | Bosnia and Herzegovina           |
-| Pakistan                         | Guatemala                        |
-| Curaçao                          | Malawi                           |
-| British Virgin Islands           | Libya                            |
-| Kenya                            | State of Palestine               |
-| People's Republic of China       | Bahrain                          |
-| Armenia                          | Croatia                          |
-| Russia                           | Ukraine                          |
-| Switzerland                      | Zimbabwe                         |
-| Bolivia                          | Montenegro                       |
-| Egypt                            | North Macedonia                  |
-| Mauritania                       | Brazil                           |
-| Dominican Republic               | Poland                           |
-| Russia                           | Botswana                         |
-| Botswana                         | Solomon Islands                  |
-| North Macedonia                  | Slovakia                         |
-| Ivory Coast                      | Portugal                         |
-| Saint Lucia                      | Latvia                           |
-| Costa Rica                       | Venezuela                        |
-| Slovakia                         | Egypt                            |
-| Saint Vincent and the Grenadines | Ukraine                          |
-| New Zealand                      | Mauritania                       |
-| Nepal                            | Moldova                          |
-| Bosnia and Herzegovina           | Albania                          |
-| Libya                            | Tanzania                         |
-| Ghana                            | Turkey                           |
-| Vietnam                          | Poland                           |
-| South Sudan                      | Iran                             |
-| Saint Vincent and the Grenadines | Cameroon                         |
-| Montenegro                       | Republic of Abkhazia             |
-| Kazakhstan                       | Malaysia                         |
-| India                            | Republic of Abkhazia             |
-| United States of America         | Nigeria                          |
-| Myanmar                          | Belarus                          |
-| Cyprus                           | Mauritania                       |
-| Tajikistan                       | Costa Rica                       |
-| Myanmar                          | Kenya                            |
-| Cameroon                         | Djibouti                         |
-| Israel                           | Moldova                          |
-| Luxembourg                       | Bulgaria                         |
-| France                           | The Gambia                       |
-| Mauritius                        | Burkina Faso                     |
-| United Arab Emirates             | Botswana                         |
-| Belgium                          | Republic of Abkhazia             |
-| Pakistan                         | Bahrain                          |
-| State of Palestine               | South Korea                      |
-| Fiji                             | Libya                            |
-| Denmark                          | Ukraine                          |
-| Sudan                            | Argentina                        |
-| North Korea                      | Guernsey                         |
-| Ivory Coast                      | Bosnia and Herzegovina           |
-| Dominican Republic               | Mauritius                        |
-| Greece                           | Cape Verde                       |
-| Turkey                           | Egypt                            |
-| Singapore                        | Uzbekistan                       |
-| Jordan                           | San Marino                       |
-| Czech Republic                   | Algeria                          |
-| Kenya                            | Portugal                         |
-| Oman                             | Mauritius                        |
-| Myanmar                          | Burkina Faso                     |
-| Bolivia                          | South Korea                      |
-| Trinidad and Tobago              | Bahrain                          |
-| Japan                            | Eritrea                          |
-| Botswana                         | Dominican Republic               |
-| Botswana                         | Latvia                           |
-| Morocco                          | Ireland                          |
-| Romania                          | Lithuania                        |
-| Oman                             | Poland                           |
-| Romania                          | Slovakia                         |
-| Albania                          | Italy                            |
-| Indonesia                        | Uzbekistan                       |
-| Burkina Faso                     | San Marino                       |
-| Montenegro                       | India                            |
-| Bahrain                          | Saint Vincent and the Grenadines |
-| Tunisia                          | Kenya                            |
-| Guyana                           | Democratic Republic of the Congo |
-| Philippines                      | Syria                            |
-| Faroe Islands                    | Belgium                          |
-| Grenada                          | United Arab Emirates             |
-| Portugal                         | South Sudan                      |
-| Kazakhstan                       | Kuwait                           |
-| Philippines                      | Ivory Coast                      |
-| Syria                            | Belarus                          |
-| Guernsey                         | Angola                           |
-| Vietnam                          | Grenada                          |
-| Iceland                          | The Gambia                       |
-| Bahrain                          | Benin                            |
-| Eritrea                          | Colombia                         |
-| Cuba                             | Ethiopia                         |
-| Pakistan                         | Italy                            |
-| Slovakia                         | Panama                           |
-| Faroe Islands                    | Guatemala                        |
-| Solomon Islands                  | Venezuela                        |
-| Luxembourg                       | Iraq                             |
-| Czech Republic                   | Tajikistan                       |
-| New Zealand                      | Mauritius                        |
-| Slovenia                         | Honduras                         |
-| The Gambia                       | Papua New Guinea                 |
-| Philippines                      | United Kingdom                   |
-| People's Republic of China       | Guatemala                        |
-| Ethiopia                         | Argentina                        |
-| Fiji                             | Thailand                         |
-| Saint Kitts and Nevis            | Algeria                          |
-| United Arab Emirates             | Saint Kitts and Nevis            |
-| Switzerland                      | New Zealand                      |
-| Cuba                             | Vietnam                          |
-| Philippines                      | Solomon Islands                  |
-| Oman                             | Cameroon                         |
-| Sudan                            | Taiwan                           |
-| Cambodia                         | Kazakhstan                       |
-| Burundi                          | Poland                           |
-| The Gambia                       | Lebanon                          |
-| Liechtenstein                    | Tunisia                          |
-| Moldova                          | Italy                            |
-| Thailand                         | Serbia                           |
-| Nepal                            | Greenland                        |
-| Iceland                          | Burundi                          |
-| Mexico                           | Turkey                           |
-| Czech Republic                   | United Kingdom                   |
-| Denmark                          | Iraq                             |
-| Dominican Republic               | Slovenia                         |
-| Japan                            | Pakistan                         |
-| Egypt                            | Grenada                          |
-| Guyana                           | Georgia                          |
-| Finland                          | Guyana                           |
-| Lebanon                          | Slovakia                         |
-| Rwanda                           | France                           |
-| Pakistan                         | Papua New Guinea                 |
-| Turkmenistan                     | Estonia                          |
-| South Sudan                      | Mongolia                         |
-| Morocco                          | Ukraine                          |
-| North Macedonia                  | Mali                             |
-| Azerbaijan                       | State of Palestine               |
-| Moldova                          | Republic of Abkhazia             |
-| The Gambia                       | Thailand                         |
-| Tanzania                         | Fiji                             |
-| Kyrgyzstan                       | Germany                          |
-| Switzerland                      | Sierra Leone                     |
-| El Salvador                      | Netherlands                      |
-| Tajikistan                       | Dominican Republic               |
-| Grenada                          | South Korea                      |
-| Tanzania                         | Estonia                          |
-| Peru                             | Saint Lucia                      |
-| Lebanon                          | Republic of Abkhazia             |
-| Botswana                         | Chile                            |
-| Mali                             | Bulgaria                         |
-| Malta                            | Nicaragua                        |
-| Eritrea                          | Malta                            |
-| Jordan                           | Sierra Leone                     |
-| Bolivia                          | Serbia                           |
-| Tanzania                         | Paraguay                         |
-| Kosovo                           | Peru                             |
-| Guernsey                         | Bhutan                           |
-| Kuwait                           | Ethiopia                         |
-| United Arab Emirates             | Myanmar                          |
-| Venezuela                        | Ireland                          |
-| India                            | Cyprus                           |
-| North Korea                      | Brunei                           |
-| Ethiopia                         | Brunei                           |
-| Saudi Arabia                     | Mongolia                         |
-| Kenya                            | Hungary                          |
-| Israel                           | Papua New Guinea                 |
-| Mongolia                         | Lithuania                        |
-| Uzbekistan                       | Solomon Islands                  |
-| Zambia                           | Ukraine                          |
-| Somalia                          | Myanmar                          |
-| Guyana                           | Venezuela                        |
-| Nicaragua                        | Slovenia                         |
-| Sudan                            | Bhutan                           |
-| Tajikistan                       | Republic of Abkhazia             |
-| Kyrgyzstan                       | State of Palestine               |
-| Argentina                        | Russia                           |
-| Democratic Republic of the Congo | Norway                           |
-| People's Republic of China       | Slovakia                         |
-| Poland                           | Azerbaijan                       |
-| Gabon                            | Burkina Faso                     |
-| Slovakia                         | Dominica                         |
-| Democratic Republic of the Congo | Tanzania                         |
-| Slovakia                         | Ethiopia                         |
-| Jordan                           | Mauritania                       |
-| Russia                           | Honduras                         |
-| Uzbekistan                       | Latvia                           |
-| Bolivia                          | Uzbekistan                       |
-| Liberia                          | Curaçao                          |
-| Montenegro                       | Solomon Islands                  |
-| Saudi Arabia                     | Brazil                           |
-| Bhutan                           | Panama                           |
-| Brunei                           | Cyprus                           |
-| Netherlands                      | Albania                          |
-| Switzerland                      | Spain                            |
-| Morocco                          | Algeria                          |
-| Japan                            | Bangladesh                       |
-| Cape Verde                       | Suriname                         |
-| Sri Lanka                        | Burkina Faso                     |
-| Sudan                            | Montenegro                       |
-| Benin                            | Denmark                          |
-| Armenia                          | Morocco                          |
-| Lebanon                          | Mauritius                        |
-| Ireland                          | Sweden                           |
-| Serbia                           | Pakistan                         |
-| United States of America         | Estonia                          |
-| Japan                            | Armenia                          |
-| Myanmar                          | Malawi                           |
-| Sri Lanka                        | Sudan                            |
-| Ivory Coast                      | Uzbekistan                       |
-| Philippines                      | Moldova                          |
-| Bangladesh                       | Montenegro                       |
-| Cyprus                           | Venezuela                        |
-| Romania                          | Curaçao                          |
-| Slovenia                         | Democratic Republic of the Congo |
-| Denmark                          | Democratic Republic of the Congo |
-| Philippines                      | Japan                            |
-| Burkina Faso                     | Romania                          |
-| Suriname                         | Norway                           |
-| Ukraine                          | Cambodia                         |
-| The Gambia                       | Australia                        |
-| Slovenia                         | Liechtenstein                    |
-| Algeria                          | Cuba                             |
-| Saint Lucia                      | Ghana                            |
-| Bangladesh                       | Zambia                           |
-| Brunei                           | Turkey                           |
-| Dominican Republic               | Benin                            |
-| Venezuela                        | Serbia                           |
-| Panama                           | Paraguay                         |
-| South Africa                     | Estonia                          |
-| Australia                        | British Virgin Islands           |
-| Armenia                          | South Africa                     |
-| Ecuador                          | Lithuania                        |
-| Kuwait                           | Syria                            |
-| Kyrgyzstan                       | Mauritania                       |
-| Cape Verde                       | Slovakia                         |
-| Argentina                        | Bahrain                          |
-| Iraq                             | Slovakia                         |
-| Singapore                        | Slovenia                         |
-| Myanmar                          | State of Palestine               |
-| Luxembourg                       | The Gambia                       |
-| Honduras                         | Brazil                           |
-| Taiwan                           | Zambia                           |
-| Latvia                           | Sierra Leone                     |
-| Mauritius                        | Chile                            |
-| Nicaragua                        | Luxembourg                       |
-| Sudan                            | Saint Lucia                      |
-| Myanmar                          | North Macedonia                  |
-| Turkey                           | Saint Lucia                      |
-| São Tomé and Príncipe            | New Zealand                      |
-| Bangladesh                       | Honduras                         |
-| Mongolia                         | Guernsey                         |
-| Cuba                             | Jordan                           |
-| Panama                           | Zimbabwe                         |
-| Uruguay                          | France                           |
-| Papua New Guinea                 | Japan                            |
-| Faroe Islands                    | El Salvador                      |
-| Singapore                        | Belgium                          |
-| Romania                          | Argentina                        |
-| Cameroon                         | People's Republic of China       |
-| Australia                        | Montenegro                       |
-| Sierra Leone                     | Lithuania                        |
-| Latvia                           | Denmark                          |
-| Algeria                          | Croatia                          |
-| Peru                             | Romania                          |
-| Philippines                      | Somalia                          |
-| Libya                            | Suriname                         |
-| Bolivia                          | France                           |
-| Burkina Faso                     | Rwanda                           |
-| Trinidad and Tobago              | Antigua and Barbuda              |
-| Cuba                             | Morocco                          |
-| Ireland                          | Kenya                            |
-| Lebanon                          | South Korea                      |
-| Nigeria                          | Afghanistan                      |
-| Cuba                             | Taiwan                           |
-| Burundi                          | Panama                           |
+| Afghanistan                      | Antigua and Barbuda              |
 | Afghanistan                      | Azerbaijan                       |
-| Hungary                          | Tanzania                         |
-| Canada                           | Romania                          |
-| Honduras                         | South Africa                     |
-| Paraguay                         | Republic of Abkhazia             |
-| Malawi                           | Peru                             |
-| Albania                          | South Africa                     |
-| Vietnam                          | Djibouti                         |
-| Greece                           | Ecuador                          |
-| Sri Lanka                        | Malta                            |
-| Saudi Arabia                     | Myanmar                          |
-| Guyana                           | Vietnam                          |
-| El Salvador                      | Slovakia                         |
-| Burkina Faso                     | Guatemala                        |
-| Iceland                          | Nigeria                          |
-| Honduras                         | Mexico                           |
-| Indonesia                        | Burundi                          |
-| Singapore                        | Zambia                           |
-| Ecuador                          | Philippines                      |
-| Kyrgyzstan                       | Malawi                           |
-| State of Palestine               | People's Republic of China       |
-| Zimbabwe                         | Bosnia and Herzegovina           |
-| Bosnia and Herzegovina           | Spain                            |
-| Greenland                        | Grenada                          |
-| Kyrgyzstan                       | Saint Lucia                      |
-| Lithuania                        | Dominica                         |
-| Bolivia                          | Taiwan                           |
-| Honduras                         | Tanzania                         |
-| Burkina Faso                     | Dominica                         |
-| Iraq                             | Algeria                          |
-| Grenada                          | Mongolia                         |
-| Cape Verde                       | Romania                          |
-| Iran                             | Armenia                          |
-| Tunisia                          | Malaysia                         |
-| Luxembourg                       | Israel                           |
-| Laos                             | Guatemala                        |
-| Belarus                          | Rwanda                           |
-| Colombia                         | Laos                             |
-| Cambodia                         | Albania                          |
-| Egypt                            | Ukraine                          |
-| Saudi Arabia                     | Cuba                             |
-| Philippines                      | Estonia                          |
-| Sudan                            | Slovakia                         |
-| San Marino                       | Syria                            |
-| Guernsey                         | Iraq                             |
-| South Korea                      | Malaysia                         |
-| Kosovo                           | North Macedonia                  |
-| Eritrea                          | Singapore                        |
-| Gabon                            | North Korea                      |
-| Russia                           | Poland                           |
-| Morocco                          | Iran                             |
-| Luxembourg                       | Honduras                         |
-| Uganda                           | Nigeria                          |
-| Kazakhstan                       | Hungary                          |
-| Kosovo                           | Guatemala                        |
-| Lebanon                          | Kyrgyzstan                       |
-| Belarus                          | Bosnia and Herzegovina           |
-| Curaçao                          | Sweden                           |
-| Luxembourg                       | Qatar                            |
-| Luxembourg                       | France                           |
-| Faroe Islands                    | Finland                          |
-| The Gambia                       | Singapore                        |
-| Taiwan                           | Republic of Abkhazia             |
-| Serbia                           | Belgium                          |
-| Croatia                          | Sudan                            |
-| Moldova                          | Austria                          |
-| Portugal                         | New Zealand                      |
-| Peru                             | Turkmenistan                     |
-| South Africa                     | Ethiopia                         |
-| Burundi                          | Dominican Republic               |
-| Faroe Islands                    | Cape Verde                       |
-| Albania                          | Spain                            |
-| Cuba                             | Saint Lucia                      |
-| India                            | Germany                          |
-| Indonesia                        | Curaçao                          |
-| Brazil                           | Greece                           |
-| Lebanon                          | Ivory Coast                      |
-| Albania                          | Gabon                            |
-| State of Palestine               | Liberia                          |
-| Latvia                           | Somalia                          |
-| Norway                           | Venezuela                        |
-| Finland                          | Saint Kitts and Nevis            |
-| Turkmenistan                     | North Korea                      |
-| Laos                             | San Marino                       |
-| Malaysia                         | Ghana                            |
-| Solomon Islands                  | Luxembourg                       |
-| Suriname                         | Venezuela                        |
-| Nicaragua                        | Bahrain                          |
-| Uzbekistan                       | Burundi                          |
-| Azerbaijan                       | Germany                          |
-| Bahrain                          | Cape Verde                       |
-| Serbia                           | Australia                        |
-| Iran                             | People's Republic of China       |
-| Thailand                         | Moldova                          |
-| South Africa                     | United Arab Emirates             |
-| Dominican Republic               | Serbia                           |
-| Indonesia                        | Moldova                          |
-| Latvia                           | People's Republic of China       |
-| Mexico                           | Burundi                          |
-| Jordan                           | Philippines                      |
-| Israel                           | Bulgaria                         |
-| Qatar                            | Cameroon                         |
-| Norway                           | Lithuania                        |
-| Denmark                          | Spain                            |
-| Singapore                        | Guatemala                        |
-| Australia                        | Nicaragua                        |
-| Kazakhstan                       | Algeria                          |
-| Lithuania                        | Indonesia                        |
-| Singapore                        | Honduras                         |
-| Kyrgyzstan                       | Sri Lanka                        |
-| Eritrea                          | Afghanistan                      |
-| Latvia                           | Canada                           |
-| Uganda                           | Bangladesh                       |
-| Guyana                           | Ghana                            |
-| Saudi Arabia                     | Angola                           |
-| Chile                            | Cape Verde                       |
-| Cuba                             | Mauritania                       |
-| Guernsey                         | Brazil                           |
-| Czech Republic                   | Vietnam                          |
-| Zambia                           | Netherlands                      |
-| Ireland                          | Honduras                         |
-| State of Palestine               | Malta                            |
-| Democratic Republic of the Congo | United Kingdom                   |
-| Philippines                      | Saint Vincent and the Grenadines |
-| Rwanda                           | Algeria                          |
-| Burundi                          | The Gambia                       |
-| Oman                             | India                            |
-| Switzerland                      | Estonia                          |
-| Curaçao                          | Faroe Islands                    |
-| Ivory Coast                      | Ecuador                          |
-| São Tomé and Príncipe            | Algeria                          |
-| Paraguay                         | North Macedonia                  |
-| Montenegro                       | Uzbekistan                       |
-| State of Palestine               | Portugal                         |
-| Guyana                           | Rwanda                           |
-| Azerbaijan                       | Malaysia                         |
-| Laos                             | North Macedonia                  |
-| Djibouti                         | State of Palestine               |
-| Serbia                           | Vietnam                          |
-| Faroe Islands                    | San Marino                       |
-| Libya                            | Slovenia                         |
-| Sudan                            | Lithuania                        |
-| Syria                            | Pakistan                         |
-| Romania                          | Australia                        |
-| Saint Lucia                      | Iraq                             |
-| Papua New Guinea                 | Belgium                          |
-| Estonia                          | State of Palestine               |
-| Trinidad and Tobago              | Faroe Islands                    |
-| Bahrain                          | Indonesia                        |
-| Somalia                          | Guernsey                         |
-| Egypt                            | Czech Republic                   |
-| Greece                           | Kenya                            |
-| Cambodia                         | Dominica                         |
-| Austria                          | Zimbabwe                         |
-| Malaysia                         | Nigeria                          |
-| Singapore                        | Kuwait                           |
-| Serbia                           | Afghanistan                      |
-| Serbia                           | Kuwait                           |
-| Trinidad and Tobago              | Iceland                          |
-| Bolivia                          | Sri Lanka                        |
-| Germany                          | Singapore                        |
-| Fiji                             | Iran                             |
-| Libya                            | Cambodia                         |
-| North Macedonia                  | Romania                          |
-| Syria                            | Benin                            |
-| Latvia                           | Luxembourg                       |
-| Saint Lucia                      | Bulgaria                         |
-| Costa Rica                       | Slovenia                         |
-| Belgium                          | Saint Vincent and the Grenadines |
-| Norway                           | Tunisia                          |
-| Somalia                          | Zimbabwe                         |
-| Myanmar                          | Denmark                          |
-| Liechtenstein                    | North Korea                      |
-| Spain                            | San Marino                       |
-| Lithuania                        | Zimbabwe                         |
-| France                           | Turkmenistan                     |
-| Slovakia                         | Armenia                          |
-| Bahrain                          | Russia                           |
-| South Africa                     | Dominican Republic               |
-| Djibouti                         | Curaçao                          |
-| Australia                        | Liechtenstein                    |
-| Sudan                            | Egypt                            |
-| Bulgaria                         | Georgia                          |
-| Solomon Islands                  | Mexico                           |
-| Somalia                          | Finland                          |
-| Belarus                          | Sierra Leone                     |
-| Cameroon                         | Nigeria                          |
-| Botswana                         | Montenegro                       |
-| Georgia                          | Nepal                            |
-| Iraq                             | Iran                             |
-| Tunisia                          | Ghana                            |
-| Albania                          | Ethiopia                         |
-| Mexico                           | Bangladesh                       |
-| Ukraine                          | Ivory Coast                      |
-| Algeria                          | United Kingdom                   |
-| Estonia                          | Israel                           |
-| Bosnia and Herzegovina           | Montenegro                       |
-| Brazil                           | Ireland                          |
-| Laos                             | Denmark                          |
-| Panama                           | British Virgin Islands           |
-| Paraguay                         | North Korea                      |
-| Ghana                            | Uzbekistan                       |
-| Iraq                             | Romania                          |
-| Argentina                        | Sri Lanka                        |
-| Pakistan                         | United Arab Emirates             |
-| Czech Republic                   | Grenada                          |
-| Cameroon                         | Faroe Islands                    |
-| Iceland                          | Venezuela                        |
-| Sudan                            | Liechtenstein                    |
-| Pakistan                         | Sri Lanka                        |
-| North Macedonia                  | Saint Kitts and Nevis            |
-| Romania                          | Singapore                        |
-| Malawi                           | Uruguay                          |
-| Sierra Leone                     | Dominican Republic               |
-| Paraguay                         | Ukraine                          |
-| Iraq                             | Cyprus                           |
-| Iran                             | Liberia                          |
-| Slovenia                         | Albania                          |
-| Mauritius                        | Argentina                        |
-| Montenegro                       | Serbia                           |
-| Thailand                         | Kosovo                           |
-| Vietnam                          | Armenia                          |
-| Norway                           | Laos                             |
-| Malawi                           | Kuwait                           |
-| Tunisia                          | Slovenia                         |
-| Tanzania                         | Suriname                         |
-| Papua New Guinea                 | Gabon                            |
-| Malta                            | Uzbekistan                       |
-| Cyprus                           | Bhutan                           |
-| United States of America         | Sierra Leone                     |
-| Jordan                           | Saudi Arabia                     |
-| Malawi                           | São Tomé and Príncipe            |
-| Egypt                            | Suriname                         |
-| Turkmenistan                     | Cambodia                         |
-| Saudi Arabia                     | Paraguay                         |
-| Bolivia                          | Malaysia                         |
-| Japan                            | Serbia                           |
-| Faroe Islands                    | New Zealand                      |
-| Armenia                          | Sri Lanka                        |
-| Zimbabwe                         | British Virgin Islands           |
-| Latvia                           | Kazakhstan                       |
-| Syria                            | Solomon Islands                  |
-| Colombia                         | Argentina                        |
-| Australia                        | Angola                           |
-| Armenia                          | Kenya                            |
-| Armenia                          | Mauritius                        |
-| Finland                          | Sudan                            |
-| Uruguay                          | Morocco                          |
-| Mauritius                        | Greece                           |
-| Sweden                           | Laos                             |
-| Burkina Faso                     | Honduras                         |
-| Myanmar                          | Iran                             |
-| Uruguay                          | Burkina Faso                     |
-| Russia                           | Mongolia                         |
-| Eritrea                          | United States of America         |
-| Greenland                        | Bolivia                          |
-| Somalia                          | Angola                           |
-| Kuwait                           | Iraq                             |
-| Somalia                          | Djibouti                         |
-| Jordan                           | Saint Vincent and the Grenadines |
-| Slovakia                         | Benin                            |
-| Thailand                         | Cameroon                         |
-| Tanzania                         | Thailand                         |
-| Solomon Islands                  | Cape Verde                       |
-| Myanmar                          | British Virgin Islands           |
-| Cuba                             | Kenya                            |
-| Slovakia                         | Vietnam                          |
-| Argentina                        | United Arab Emirates             |
-| Burundi                          | Liechtenstein                    |
-| New Zealand                      | Mongolia                         |
-| Cuba                             | Kyrgyzstan                       |
-| Ukraine                          | State of Palestine               |
-| Kazakhstan                       | Republic of Abkhazia             |
-| Ghana                            | Botswana                         |
-| Italy                            | Liechtenstein                    |
-| Malta                            | Zimbabwe                         |
-| Mongolia                         | Cape Verde                       |
-| Paraguay                         | Poland                           |
-| Brunei                           | Sudan                            |
-| Republic of Abkhazia             | Guatemala                        |
-| Mauritania                       | Turkmenistan                     |
-| Luxembourg                       | Saint Lucia                      |
-| Netherlands                      | Myanmar                          |
-| Burkina Faso                     | Guyana                           |
-| Djibouti                         | South Sudan                      |
-| Kyrgyzstan                       | Egypt                            |
-| Malawi                           | Gabon                            |
-| Chile                            | Turkey                           |
-| North Macedonia                  | Afghanistan                      |
-| Malawi                           | Rwanda                           |
-| Tanzania                         | Italy                            |
-| Dominica                         | Azerbaijan                       |
-| Finland                          | Greenland                        |
-| Norway                           | Romania                          |
-| Dominica                         | India                            |
-| Ghana                            | Nepal                            |
-| Tanzania                         | San Marino                       |
-| Democratic Republic of the Congo | Djibouti                         |
-| Oman                             | Portugal                         |
-| Mexico                           | Malaysia                         |
-| Lebanon                          | São Tomé and Príncipe            |
-| Colombia                         | Ethiopia                         |
-| Malaysia                         | Saint Lucia                      |
-| Nepal                            | Benin                            |
-| Bolivia                          | Paraguay                         |
-| Guernsey                         | Guyana                           |
-| People's Republic of China       | Saudi Arabia                     |
-| Canada                           | Rwanda                           |
-| Peru                             | Tajikistan                       |
-| Iran                             | Bhutan                           |
-| Malawi                           | Latvia                           |
-| Somalia                          | Estonia                          |
-| Turkey                           | Iraq                             |
-| Cyprus                           | People's Republic of China       |
-| Netherlands                      | Mauritania                       |
-| Eritrea                          | Bulgaria                         |
-| Ukraine                          | Malaysia                         |
-| New Zealand                      | Benin                            |
-| Spain                            | Russia                           |
-| Sierra Leone                     | Singapore                        |
-| Singapore                        | Saint Kitts and Nevis            |
-| Bahrain                          | Malta                            |
-| Republic of Abkhazia             | Netherlands                      |
-| Switzerland                      | Tunisia                          |
-| Tanzania                         | Philippines                      |
-| Algeria                          | Nepal                            |
-| San Marino                       | Lithuania                        |
-| Bahrain                          | Albania                          |
-| Saint Vincent and the Grenadines | São Tomé and Príncipe            |
-| Guernsey                         | Canada                           |
-| Iceland                          | Curaçao                          |
-| Romania                          | Slovenia                         |
-| Japan                            | Solomon Islands                  |
-| Israel                           | Kenya                            |
-| Belgium                          | Cuba                             |
-| Uzbekistan                       | Croatia                          |
-| Nepal                            | Honduras                         |
-| Tanzania                         | Cambodia                         |
-| The Gambia                       | Japan                            |
-| Mali                             | Tanzania                         |
-| Papua New Guinea                 | Netherlands                      |
-| Tajikistan                       | Tanzania                         |
-| Cape Verde                       | South Africa                     |
-| Belgium                          | Ghana                            |
-| Trinidad and Tobago              | Egypt                            |
-| Nicaragua                        | Chile                            |
-| Greece                           | Italy                            |
-| Mongolia                         | Algeria                          |
-| São Tomé and Príncipe            | Montenegro                       |
-| Benin                            | Sri Lanka                        |
-| Mali                             | Ghana                            |
-| Slovenia                         | Oman                             |
-| Ethiopia                         | Uganda                           |
-| Switzerland                      | Fiji                             |
-| Republic of Abkhazia             | Turkey                           |
-| Zimbabwe                         | Ecuador                          |
+| Afghanistan                      | Belgium                          |
+| Afghanistan                      | Bolivia                          |
+| Afghanistan                      | Botswana                         |
 | Afghanistan                      | Cameroon                         |
-| Faroe Islands                    | Bulgaria                         |
-| Honduras                         | Colombia                         |
-| Bosnia and Herzegovina           | Venezuela                        |
-| Moldova                          | Ecuador                          |
-| Saudi Arabia                     | New Zealand                      |
-| Portugal                         | Burkina Faso                     |
-| Myanmar                          | Egypt                            |
-| Nepal                            | Cameroon                         |
-| Burkina Faso                     | Ukraine                          |
-| Latvia                           | Algeria                          |
-| Serbia                           | Colombia                         |
-| Paraguay                         | Nigeria                          |
-| Chile                            | Saint Kitts and Nevis            |
-| Bahrain                          | Bhutan                           |
-| Canada                           | Kyrgyzstan                       |
-| Costa Rica                       | The Gambia                       |
-| Canada                           | Kuwait                           |
-| Argentina                        | Burundi                          |
-| Ireland                          | Nepal                            |
-| Latvia                           | Kenya                            |
-| Peru                             | Slovenia                         |
-| Romania                          | Ireland                          |
-| Indonesia                        | Angola                           |
-| Algeria                          | Tunisia                          |
-| India                            | Faroe Islands                    |
-| Taiwan                           | Suriname                         |
-| Bangladesh                       | The Gambia                       |
-| Armenia                          | Saint Vincent and the Grenadines |
-| Zambia                           | Botswana                         |
-| Mauritius                        | Bangladesh                       |
-| Mexico                           | Zambia                           |
-| People's Republic of China       | Armenia                          |
-| Kenya                            | Panama                           |
-| Iraq                             | Kosovo                           |
-| France                           | Antigua and Barbuda              |
-| United Arab Emirates             | Germany                          |
-| Mexico                           | Ukraine                          |
-| Qatar                            | Estonia                          |
-| Botswana                         | Canada                           |
-| Taiwan                           | Myanmar                          |
-| People's Republic of China       | Liechtenstein                    |
-| Costa Rica                       | Armenia                          |
-| Eritrea                          | Venezuela                        |
-| Sierra Leone                     | Colombia                         |
-| Kenya                            | Antigua and Barbuda              |
-| El Salvador                      | Panama                           |
-| Trinidad and Tobago              | Saint Kitts and Nevis            |
-| Austria                          | Qatar                            |
-| Japan                            | Moldova                          |
-| Eritrea                          | Burundi                          |
-| Oman                             | Uzbekistan                       |
-| Eritrea                          | Sri Lanka                        |
-| India                            | Iceland                          |
-| Uzbekistan                       | Egypt                            |
-| Nepal                            | Denmark                          |
-| Jordan                           | Tajikistan                       |
-| Romania                          | Mexico                           |
-| Colombia                         | São Tomé and Príncipe            |
-| France                           | Serbia                           |
-| Qatar                            | Poland                           |
-| Argentina                        | Philippines                      |
-| Saudi Arabia                     | Ecuador                          |
-| India                            | Malta                            |
-| Switzerland                      | Trinidad and Tobago              |
-| Gabon                            | Turkey                           |
-| Kosovo                           | Burkina Faso                     |
-| People's Republic of China       | Georgia                          |
-| Ireland                          | Somalia                          |
-| Tanzania                         | Turkmenistan                     |
-| Moldova                          | Suriname                         |
-| Ghana                            | Myanmar                          |
-| Belgium                          | Saint Kitts and Nevis            |
-| Argentina                        | Nepal                            |
-| Republic of Abkhazia             | Nepal                            |
-| Mauritius                        | Syria                            |
-| Italy                            | South Sudan                      |
-| Russia                           | India                            |
-| Chile                            | Ghana                            |
-| Tanzania                         | Uzbekistan                       |
-| Burkina Faso                     | Nicaragua                        |
-| Thailand                         | Ukraine                          |
-| Oman                             | São Tomé and Príncipe            |
-| Nepal                            | Burundi                          |
-| Sweden                           | Burundi                          |
-| Burundi                          | Somalia                          |
-| Gabon                            | Libya                            |
-| Syria                            | Denmark                          |
-| British Virgin Islands           | Liechtenstein                    |
-| Sierra Leone                     | Grenada                          |
-| Mali                             | Bangladesh                       |
-| Venezuela                        | Philippines                      |
-| Switzerland                      | Slovakia                         |
-| Australia                        | Antigua and Barbuda              |
-| Papua New Guinea                 | Argentina                        |
-| Malta                            | Egypt                            |
-| Saint Lucia                      | South Sudan                      |
-| Zambia                           | Bosnia and Herzegovina           |
-| Ethiopia                         | Cameroon                         |
-| Botswana                         | Malaysia                         |
-| Denmark                          | Afghanistan                      |
-| Italy                            | Dominican Republic               |
-| Honduras                         | Syria                            |
-| Uganda                           | Dominican Republic               |
-| United Kingdom                   | Belarus                          |
-| Zambia                           | Argentina                        |
-| The Gambia                       | Montenegro                       |
-| Liechtenstein                    | Gabon                            |
-| Rwanda                           | Armenia                          |
-| People's Republic of China       | Eritrea                          |
-| Mauritius                        | Paraguay                         |
-| Nicaragua                        | Cameroon                         |
-| India                            | Greece                           |
-| Philippines                      | Afghanistan                      |
-| Lithuania                        | Brunei                           |
-| Angola                           | Portugal                         |
-| Tanzania                         | Kyrgyzstan                       |
-| People's Republic of China       | Tanzania                         |
-| Tanzania                         | Croatia                          |
-| Estonia                          | Tunisia                          |
-| Mongolia                         | Tajikistan                       |
-| Sri Lanka                        | South Africa                     |
-| British Virgin Islands           | Saint Lucia                      |
-| State of Palestine               | Lithuania                        |
-| Antigua and Barbuda              | Iceland                          |
-| Turkmenistan                     | Czech Republic                   |
-| Sierra Leone                     | Bangladesh                       |
-| Georgia                          | Slovakia                         |
-| Slovakia                         | Sierra Leone                     |
-| Ecuador                          | Sudan                            |
-| Republic of Abkhazia             | Ethiopia                         |
-| Saudi Arabia                     | Switzerland                      |
-| Portugal                         | Austria                          |
-| Costa Rica                       | Bahrain                          |
-| Pakistan                         | Cambodia                         |
-| Honduras                         | Kuwait                           |
-| Peru                             | Syria                            |
-| Democratic Republic of the Congo | Romania                          |
-| Bolivia                          | Vietnam                          |
-| Bangladesh                       | Morocco                          |
-| Serbia                           | Dominica                         |
-| Mauritius                        | Turkmenistan                     |
-| Angola                           | Ghana                            |
-| Greece                           | United Kingdom                   |
-| El Salvador                      | Tanzania                         |
-| Kosovo                           | Australia                        |
-| Greece                           | Mali                             |
-| Lebanon                          | Israel                           |
-| Nepal                            | Ecuador                          |
-| Democratic Republic of the Congo | Germany                          |
-| Zimbabwe                         | Rwanda                           |
-| United Kingdom                   | Solomon Islands                  |
-| Ukraine                          | Canada                           |
-| South Africa                     | Tanzania                         |
-| Somalia                          | United Arab Emirates             |
-| Uzbekistan                       | Mexico                           |
-| Netherlands                      | Kuwait                           |
-| South Sudan                      | Ireland                          |
-| Sierra Leone                     | Zimbabwe                         |
-| Saint Kitts and Nevis            | Dominican Republic               |
-| Peru                             | Mali                             |
-| British Virgin Islands           | Bulgaria                         |
-| Cambodia                         | Israel                           |
-| Algeria                          | Ivory Coast                      |
-| Kazakhstan                       | Portugal                         |
-| Kyrgyzstan                       | Paraguay                         |
-| Somalia                          | Brazil                           |
-| Solomon Islands                  | Chile                            |
-| Cape Verde                       | Peru                             |
-| Malawi                           | Papua New Guinea                 |
-| Bolivia                          | Estonia                          |
-| Indonesia                        | Albania                          |
-| Nepal                            | Brunei                           |
-| Mongolia                         | Saint Lucia                      |
-| Sweden                           | Georgia                          |
-| South Korea                      | Tunisia                          |
-| Estonia                          | Peru                             |
-| Peru                             | Lithuania                        |
-| Cuba                             | Moldova                          |
-| Burundi                          | Grenada                          |
-| Uruguay                          | San Marino                       |
-| Malawi                           | Morocco                          |
-| State of Palestine               | Georgia                          |
-| Turkey                           | Mongolia                         |
-| Lebanon                          | Greece                           |
-| Azerbaijan                       | Malawi                           |
-| Mexico                           | Czech Republic                   |
-| Poland                           | State of Palestine               |
-| Austria                          | Germany                          |
-| Solomon Islands                  | France                           |
-| Chile                            | Afghanistan                      |
-| Rwanda                           | Kazakhstan                       |
-| Luxembourg                       | Malaysia                         |
-| Saint Lucia                      | Albania                          |
-| Singapore                        | Morocco                          |
-| Egypt                            | Cape Verde                       |
-| Greece                           | Trinidad and Tobago              |
-| Philippines                      | Grenada                          |
-| Lebanon                          | People's Republic of China       |
-| Greenland                        | Morocco                          |
-| United States of America         | Cyprus                           |
-| Iraq                             | Burundi                          |
-| Grenada                          | Kyrgyzstan                       |
-| Laos                             | Mexico                           |
-| North Korea                      | Tanzania                         |
-| Kazakhstan                       | Argentina                        |
-| The Gambia                       | Chile                            |
-| Kazakhstan                       | Albania                          |
-| Bahrain                          | New Zealand                      |
-| United Kingdom                   | Moldova                          |
-| Guernsey                         | Malaysia                         |
-| Italy                            | Bulgaria                         |
-| Malaysia                         | Greece                           |
-| Turkmenistan                     | Botswana                         |
-| Netherlands                      | Rwanda                           |
-| Turkmenistan                     | Suriname                         |
-| Argentina                        | Benin                            |
-| Turkmenistan                     | Mongolia                         |
-| Sri Lanka                        | Rwanda                           |
-| Mauritius                        | Mali                             |
-| Sudan                            | Malaysia                         |
-| Croatia                          | Saudi Arabia                     |
-| New Zealand                      | Liberia                          |
-| Philippines                      | Uruguay                          |
-| South Sudan                      | Albania                          |
-| Romania                          | Brunei                           |
-| Greenland                        | Russia                           |
-| The Gambia                       | Egypt                            |
-| Romania                          | Azerbaijan                       |
-| Singapore                        | Grenada                          |
-| Mexico                           | Japan                            |
-| France                           | Iraq                             |
-| Brazil                           | Sudan                            |
+| Afghanistan                      | Croatia                          |
+| Afghanistan                      | Dominican Republic               |
+| Afghanistan                      | Egypt                            |
+| Afghanistan                      | Estonia                          |
+| Afghanistan                      | Greece                           |
+| Afghanistan                      | Iceland                          |
+| Afghanistan                      | Ireland                          |
 | Afghanistan                      | Kuwait                           |
-| Bulgaria                         | New Zealand                      |
-| Uzbekistan                       | Malaysia                         |
-| Romania                          | Ethiopia                         |
-| Botswana                         | Grenada                          |
-| Burkina Faso                     | Liberia                          |
-| North Korea                      | Sierra Leone                     |
-| Indonesia                        | Ethiopia                         |
-| Iraq                             | Morocco                          |
-| Armenia                          | Bosnia and Herzegovina           |
-| Eritrea                          | Luxembourg                       |
-| Qatar                            | Paraguay                         |
-| Djibouti                         | Ghana                            |
-| Poland                           | Austria                          |
-| Suriname                         | Mauritius                        |
-| Belarus                          | Nicaragua                        |
-| Bulgaria                         | Algeria                          |
-| Taiwan                           | Mali                             |
-| Cyprus                           | Japan                            |
-| El Salvador                      | Singapore                        |
-| Canada                           | Laos                             |
-| Moldova                          | United States of America         |
+| Afghanistan                      | Laos                             |
+| Afghanistan                      | Latvia                           |
+| Afghanistan                      | Liberia                          |
+| Afghanistan                      | Liechtenstein                    |
+| Afghanistan                      | Lithuania                        |
+| Afghanistan                      | Malawi                           |
+| Afghanistan                      | Malta                            |
+| Afghanistan                      | Nepal                            |
+| Afghanistan                      | New Zealand                      |
+| Afghanistan                      | Pakistan                         |
+| Afghanistan                      | People's Republic of China       |
+| Afghanistan                      | Republic of Abkhazia             |
+| Afghanistan                      | Slovakia                         |
+| Afghanistan                      | Sudan                            |
+| Afghanistan                      | Switzerland                      |
+| Afghanistan                      | The Gambia                       |
+| Afghanistan                      | Turkmenistan                     |
+| Afghanistan                      | Uruguay                          |
+| Afghanistan                      | Uzbekistan                       |
+| Afghanistan                      | Vietnam                          |
+| Albania                          | Afghanistan                      |
+| Albania                          | Algeria                          |
+| Albania                          | Australia                        |
+| Albania                          | Benin                            |
+| Albania                          | Botswana                         |
+| Albania                          | British Virgin Islands           |
+| Albania                          | Burkina Faso                     |
 | Albania                          | Chile                            |
-| Germany                          | South Africa                     |
-| Estonia                          | Syria                            |
-| Ivory Coast                      | Slovenia                         |
-| Italy                            | Sierra Leone                     |
-| Qatar                            | Russia                           |
-| Iraq                             | Bhutan                           |
-| Saint Lucia                      | Angola                           |
-| Panama                           | Thailand                         |
-| Ivory Coast                      | Finland                          |
-| Iran                             | Ghana                            |
-| Norway                           | Dominican Republic               |
-| Grenada                          | Malawi                           |
-| Myanmar                          | Latvia                           |
-| Uruguay                          | Kuwait                           |
-| Djibouti                         | Argentina                        |
-| Canada                           | Belarus                          |
-| Sweden                           | Dominica                         |
-| Estonia                          | Uganda                           |
-| Mexico                           | Grenada                          |
-| Liberia                          | Philippines                      |
-| Kuwait                           | Qatar                            |
+| Albania                          | Costa Rica                       |
+| Albania                          | Czech Republic                   |
+| Albania                          | Ethiopia                         |
+| Albania                          | Gabon                            |
+| Albania                          | Greece                           |
+| Albania                          | Guatemala                        |
+| Albania                          | Italy                            |
+| Albania                          | Japan                            |
+| Albania                          | Kenya                            |
+| Albania                          | Kuwait                           |
+| Albania                          | Malta                            |
+| Albania                          | Mauritius                        |
+| Albania                          | Myanmar                          |
+| Albania                          | Nigeria                          |
+| Albania                          | North Macedonia                  |
+| Albania                          | Philippines                      |
+| Albania                          | Republic of Abkhazia             |
+| Albania                          | Saint Vincent and the Grenadines |
+| Albania                          | Saudi Arabia                     |
+| Albania                          | South Africa                     |
+| Albania                          | Spain                            |
+| Albania                          | Sri Lanka                        |
+| Albania                          | State of Palestine               |
+| Albania                          | Suriname                         |
+| Albania                          | Tunisia                          |
+| Albania                          | Uganda                           |
+| Albania                          | United States of America         |
+| Algeria                          | Afghanistan                      |
+| Algeria                          | Azerbaijan                       |
+| Algeria                          | Bangladesh                       |
+| Algeria                          | Brunei                           |
+| Algeria                          | Cambodia                         |
+| Algeria                          | Cameroon                         |
+| Algeria                          | Croatia                          |
+| Algeria                          | Cuba                             |
+| Algeria                          | El Salvador                      |
+| Algeria                          | Ethiopia                         |
+| Algeria                          | Faroe Islands                    |
+| Algeria                          | Guatemala                        |
+| Algeria                          | Italy                            |
+| Algeria                          | Ivory Coast                      |
+| Algeria                          | Libya                            |
+| Algeria                          | Mexico                           |
+| Algeria                          | Nepal                            |
+| Algeria                          | Nigeria                          |
+| Algeria                          | Peru                             |
+| Algeria                          | Poland                           |
+| Algeria                          | Somalia                          |
+| Algeria                          | South Africa                     |
+| Algeria                          | Switzerland                      |
+| Algeria                          | Tunisia                          |
+| Algeria                          | Turkey                           |
+| Algeria                          | United Kingdom                   |
+| Algeria                          | Uruguay                          |
+| Algeria                          | Uzbekistan                       |
+| Angola                           | Bangladesh                       |
+| Angola                           | Brazil                           |
+| Angola                           | British Virgin Islands           |
+| Angola                           | Bulgaria                         |
+| Angola                           | Cape Verde                       |
+| Angola                           | Cuba                             |
+| Angola                           | Curaçao                          |
+| Angola                           | Dominican Republic               |
+| Angola                           | Eritrea                          |
+| Angola                           | Ethiopia                         |
+| Angola                           | Fiji                             |
+| Angola                           | Georgia                          |
+| Angola                           | Ghana                            |
+| Angola                           | Ireland                          |
+| Angola                           | Ivory Coast                      |
+| Angola                           | Japan                            |
+| Angola                           | Kyrgyzstan                       |
+| Angola                           | Libya                            |
+| Angola                           | Lithuania                        |
+| Angola                           | Luxembourg                       |
+| Angola                           | Malawi                           |
+| Angola                           | Malaysia                         |
+| Angola                           | Malta                            |
+| Angola                           | Montenegro                       |
+| Angola                           | North Macedonia                  |
+| Angola                           | Norway                           |
+| Angola                           | Philippines                      |
+| Angola                           | Portugal                         |
+| Angola                           | Russia                           |
+| Angola                           | São Tomé and Príncipe            |
+| Angola                           | Sierra Leone                     |
 | Angola                           | South Korea                      |
-| Belarus                          | Slovakia                         |
+| Angola                           | Suriname                         |
+| Angola                           | Switzerland                      |
+| Angola                           | Syria                            |
+| Angola                           | Tanzania                         |
+| Angola                           | Thailand                         |
+| Angola                           | Ukraine                          |
+| Angola                           | United Arab Emirates             |
+| Angola                           | United States of America         |
+| Angola                           | Uruguay                          |
+| Angola                           | Venezuela                        |
+| Antigua and Barbuda              | Albania                          |
 | Antigua and Barbuda              | Algeria                          |
+| Antigua and Barbuda              | Angola                           |
+| Antigua and Barbuda              | Argentina                        |
+| Antigua and Barbuda              | Bangladesh                       |
+| Antigua and Barbuda              | Belgium                          |
+| Antigua and Barbuda              | Benin                            |
+| Antigua and Barbuda              | Bolivia                          |
+| Antigua and Barbuda              | Bulgaria                         |
+| Antigua and Barbuda              | Burkina Faso                     |
+| Antigua and Barbuda              | Canada                           |
+| Antigua and Barbuda              | Cape Verde                       |
+| Antigua and Barbuda              | Cuba                             |
+| Antigua and Barbuda              | Fiji                             |
+| Antigua and Barbuda              | Iceland                          |
+| Antigua and Barbuda              | Iraq                             |
+| Antigua and Barbuda              | Kosovo                           |
+| Antigua and Barbuda              | Liberia                          |
+| Antigua and Barbuda              | Liechtenstein                    |
+| Antigua and Barbuda              | Malawi                           |
+| Antigua and Barbuda              | Mali                             |
+| Antigua and Barbuda              | Myanmar                          |
+| Antigua and Barbuda              | Nigeria                          |
+| Antigua and Barbuda              | North Macedonia                  |
+| Antigua and Barbuda              | Panama                           |
+| Antigua and Barbuda              | Philippines                      |
+| Antigua and Barbuda              | Rwanda                           |
+| Antigua and Barbuda              | Saint Kitts and Nevis            |
+| Antigua and Barbuda              | Saint Lucia                      |
+| Antigua and Barbuda              | Singapore                        |
+| Antigua and Barbuda              | Somalia                          |
+| Antigua and Barbuda              | South Korea                      |
+| Antigua and Barbuda              | South Sudan                      |
+| Antigua and Barbuda              | Spain                            |
+| Antigua and Barbuda              | Sri Lanka                        |
+| Antigua and Barbuda              | Sudan                            |
+| Antigua and Barbuda              | Thailand                         |
+| Antigua and Barbuda              | United Arab Emirates             |
+| Argentina                        | Bahrain                          |
+| Argentina                        | Benin                            |
+| Argentina                        | Bolivia                          |
+| Argentina                        | Brazil                           |
+| Argentina                        | Brunei                           |
+| Argentina                        | Burundi                          |
+| Argentina                        | Cambodia                         |
+| Argentina                        | Canada                           |
+| Argentina                        | Cape Verde                       |
 | Argentina                        | Cuba                             |
+| Argentina                        | Guyana                           |
+| Argentina                        | Indonesia                        |
+| Argentina                        | Israel                           |
+| Argentina                        | Ivory Coast                      |
+| Argentina                        | Liberia                          |
+| Argentina                        | Lithuania                        |
+| Argentina                        | Mauritania                       |
+| Argentina                        | Moldova                          |
+| Argentina                        | Montenegro                       |
+| Argentina                        | Morocco                          |
+| Argentina                        | Myanmar                          |
+| Argentina                        | Nepal                            |
+| Argentina                        | Netherlands                      |
+| Argentina                        | New Zealand                      |
+| Argentina                        | North Macedonia                  |
+| Argentina                        | Norway                           |
+| Argentina                        | Panama                           |
+| Argentina                        | Peru                             |
+| Argentina                        | Philippines                      |
+| Argentina                        | Qatar                            |
+| Argentina                        | Russia                           |
+| Argentina                        | Sierra Leone                     |
+| Argentina                        | South Korea                      |
+| Argentina                        | Sri Lanka                        |
+| Argentina                        | Tajikistan                       |
+| Argentina                        | United Arab Emirates             |
+| Argentina                        | Zimbabwe                         |
+| Armenia                          | Albania                          |
+| Armenia                          | Benin                            |
+| Armenia                          | Bhutan                           |
+| Armenia                          | Bosnia and Herzegovina           |
+| Armenia                          | Brazil                           |
+| Armenia                          | Burundi                          |
+| Armenia                          | Cambodia                         |
+| Armenia                          | Cape Verde                       |
+| Armenia                          | Croatia                          |
+| Armenia                          | Denmark                          |
+| Armenia                          | Faroe Islands                    |
+| Armenia                          | Finland                          |
+| Armenia                          | Guyana                           |
+| Armenia                          | Italy                            |
+| Armenia                          | Jordan                           |
+| Armenia                          | Kenya                            |
+| Armenia                          | Malawi                           |
+| Armenia                          | Malaysia                         |
+| Armenia                          | Mauritius                        |
+| Armenia                          | Morocco                          |
+| Armenia                          | New Zealand                      |
+| Armenia                          | Nicaragua                        |
+| Armenia                          | Norway                           |
+| Armenia                          | Pakistan                         |
+| Armenia                          | Paraguay                         |
+| Armenia                          | Republic of Abkhazia             |
+| Armenia                          | Romania                          |
+| Armenia                          | Saint Vincent and the Grenadines |
+| Armenia                          | San Marino                       |
+| Armenia                          | Sierra Leone                     |
+| Armenia                          | Solomon Islands                  |
+| Armenia                          | South Africa                     |
+| Armenia                          | Sri Lanka                        |
+| Armenia                          | State of Palestine               |
+| Armenia                          | Taiwan                           |
+| Armenia                          | Thailand                         |
+| Armenia                          | United States of America         |
+| Armenia                          | Zambia                           |
+| Australia                        | Algeria                          |
+| Australia                        | Angola                           |
+| Australia                        | Antigua and Barbuda              |
+| Australia                        | Armenia                          |
+| Australia                        | Austria                          |
+| Australia                        | Azerbaijan                       |
+| Australia                        | British Virgin Islands           |
+| Australia                        | Brunei                           |
+| Australia                        | Bulgaria                         |
+| Australia                        | Burkina Faso                     |
+| Australia                        | Canada                           |
+| Australia                        | Croatia                          |
+| Australia                        | Dominica                         |
+| Australia                        | Greece                           |
+| Australia                        | Guatemala                        |
+| Australia                        | Hungary                          |
+| Australia                        | Iceland                          |
+| Australia                        | Iran                             |
+| Australia                        | Japan                            |
+| Australia                        | Lebanon                          |
+| Australia                        | Liechtenstein                    |
+| Australia                        | Malawi                           |
+| Australia                        | Mauritius                        |
+| Australia                        | Montenegro                       |
+| Australia                        | Netherlands                      |
+| Australia                        | New Zealand                      |
+| Australia                        | Nicaragua                        |
+| Australia                        | Nigeria                          |
+| Australia                        | Pakistan                         |
+| Australia                        | Saint Kitts and Nevis            |
+| Australia                        | Singapore                        |
+| Australia                        | South Africa                     |
+| Australia                        | South Korea                      |
+| Australia                        | South Sudan                      |
+| Australia                        | Sudan                            |
+| Australia                        | Sweden                           |
+| Australia                        | Tanzania                         |
+| Australia                        | Uganda                           |
+| Austria                          | Afghanistan                      |
+| Austria                          | Antigua and Barbuda              |
+| Austria                          | Argentina                        |
+| Austria                          | Armenia                          |
+| Austria                          | Bahrain                          |
+| Austria                          | Bangladesh                       |
+| Austria                          | Belgium                          |
+| Austria                          | Botswana                         |
+| Austria                          | Brunei                           |
+| Austria                          | Chile                            |
+| Austria                          | Colombia                         |
+| Austria                          | Cuba                             |
+| Austria                          | France                           |
+| Austria                          | Gabon                            |
+| Austria                          | Germany                          |
+| Austria                          | Greece                           |
+| Austria                          | Honduras                         |
+| Austria                          | Iran                             |
+| Austria                          | Latvia                           |
+| Austria                          | Malawi                           |
+| Austria                          | Mali                             |
+| Austria                          | Mauritius                        |
+| Austria                          | Myanmar                          |
+| Austria                          | Nepal                            |
+| Austria                          | Nicaragua                        |
+| Austria                          | Pakistan                         |
+| Austria                          | Peru                             |
+| Austria                          | Qatar                            |
+| Austria                          | Rwanda                           |
+| Austria                          | Saint Vincent and the Grenadines |
+| Austria                          | Singapore                        |
+| Austria                          | Slovakia                         |
+| Austria                          | Taiwan                           |
+| Austria                          | Tanzania                         |
+| Austria                          | Thailand                         |
+| Austria                          | Trinidad and Tobago              |
+| Austria                          | Ukraine                          |
+| Austria                          | Zimbabwe                         |
+| Azerbaijan                       | Antigua and Barbuda              |
+| Azerbaijan                       | Austria                          |
+| Azerbaijan                       | Bahrain                          |
+| Azerbaijan                       | Belgium                          |
+| Azerbaijan                       | Benin                            |
+| Azerbaijan                       | Cape Verde                       |
+| Azerbaijan                       | Colombia                         |
+| Azerbaijan                       | Croatia                          |
+| Azerbaijan                       | Czech Republic                   |
+| Azerbaijan                       | El Salvador                      |
+| Azerbaijan                       | Eritrea                          |
+| Azerbaijan                       | Germany                          |
+| Azerbaijan                       | Grenada                          |
+| Azerbaijan                       | Guernsey                         |
+| Azerbaijan                       | Guyana                           |
+| Azerbaijan                       | Honduras                         |
+| Azerbaijan                       | India                            |
+| Azerbaijan                       | Indonesia                        |
+| Azerbaijan                       | Ivory Coast                      |
+| Azerbaijan                       | Malawi                           |
+| Azerbaijan                       | Malaysia                         |
+| Azerbaijan                       | Malta                            |
+| Azerbaijan                       | Moldova                          |
+| Azerbaijan                       | Nigeria                          |
+| Azerbaijan                       | Norway                           |
+| Azerbaijan                       | Paraguay                         |
+| Azerbaijan                       | People's Republic of China       |
+| Azerbaijan                       | Portugal                         |
+| Azerbaijan                       | Saudi Arabia                     |
+| Azerbaijan                       | Slovenia                         |
+| Azerbaijan                       | Spain                            |
+| Azerbaijan                       | Sri Lanka                        |
+| Azerbaijan                       | State of Palestine               |
+| Azerbaijan                       | Tajikistan                       |
+| Azerbaijan                       | Tanzania                         |
+| Azerbaijan                       | Trinidad and Tobago              |
+| Azerbaijan                       | Turkey                           |
+| Azerbaijan                       | Uganda                           |
+| Azerbaijan                       | Ukraine                          |
+| Azerbaijan                       | United Arab Emirates             |
+| Azerbaijan                       | Uzbekistan                       |
+| Azerbaijan                       | Vietnam                          |
+| Bahrain                          | Afghanistan                      |
+| Bahrain                          | Albania                          |
+| Bahrain                          | Algeria                          |
+| Bahrain                          | Benin                            |
+| Bahrain                          | Bhutan                           |
+| Bahrain                          | Bosnia and Herzegovina           |
+| Bahrain                          | Botswana                         |
+| Bahrain                          | Bulgaria                         |
+| Bahrain                          | Canada                           |
+| Bahrain                          | Cape Verde                       |
+| Bahrain                          | Colombia                         |
+| Bahrain                          | Djibouti                         |
+| Bahrain                          | Dominican Republic               |
+| Bahrain                          | El Salvador                      |
+| Bahrain                          | Eritrea                          |
+| Bahrain                          | Estonia                          |
+| Bahrain                          | Finland                          |
+| Bahrain                          | Indonesia                        |
+| Bahrain                          | Ireland                          |
+| Bahrain                          | Kosovo                           |
+| Bahrain                          | Liberia                          |
+| Bahrain                          | Malawi                           |
+| Bahrain                          | Malta                            |
+| Bahrain                          | New Zealand                      |
+| Bahrain                          | Papua New Guinea                 |
+| Bahrain                          | Portugal                         |
+| Bahrain                          | Russia                           |
+| Bahrain                          | Saint Vincent and the Grenadines |
+| Bahrain                          | São Tomé and Príncipe            |
+| Bahrain                          | Sierra Leone                     |
+| Bahrain                          | Suriname                         |
+| Bahrain                          | Sweden                           |
+| Bahrain                          | Switzerland                      |
+| Bahrain                          | The Gambia                       |
+| Bahrain                          | United States of America         |
+| Bahrain                          | Zambia                           |
+| Bahrain                          | Zimbabwe                         |
+| Bangladesh                       | Albania                          |
+| Bangladesh                       | Armenia                          |
+| Bangladesh                       | Azerbaijan                       |
+| Bangladesh                       | Benin                            |
+| Bangladesh                       | Bolivia                          |
+| Bangladesh                       | Brunei                           |
+| Bangladesh                       | Bulgaria                         |
+| Bangladesh                       | Burkina Faso                     |
+| Bangladesh                       | Democratic Republic of the Congo |
+| Bangladesh                       | Denmark                          |
+| Bangladesh                       | Djibouti                         |
+| Bangladesh                       | Egypt                            |
+| Bangladesh                       | Estonia                          |
+| Bangladesh                       | Finland                          |
+| Bangladesh                       | Guernsey                         |
+| Bangladesh                       | Honduras                         |
+| Bangladesh                       | Hungary                          |
+| Bangladesh                       | Kazakhstan                       |
+| Bangladesh                       | Liberia                          |
+| Bangladesh                       | Lithuania                        |
+| Bangladesh                       | Mauritania                       |
+| Bangladesh                       | Montenegro                       |
+| Bangladesh                       | Morocco                          |
+| Bangladesh                       | Myanmar                          |
+| Bangladesh                       | Nicaragua                        |
+| Bangladesh                       | Pakistan                         |
+| Bangladesh                       | Papua New Guinea                 |
+| Bangladesh                       | Poland                           |
+| Bangladesh                       | Romania                          |
+| Bangladesh                       | Rwanda                           |
+| Bangladesh                       | Saint Kitts and Nevis            |
+| Bangladesh                       | Serbia                           |
+| Bangladesh                       | Slovenia                         |
+| Bangladesh                       | South Korea                      |
+| Bangladesh                       | South Sudan                      |
+| Bangladesh                       | Syria                            |
+| Bangladesh                       | Tajikistan                       |
+| Bangladesh                       | Thailand                         |
+| Bangladesh                       | The Gambia                       |
+| Bangladesh                       | Tunisia                          |
+| Bangladesh                       | Turkey                           |
+| Bangladesh                       | United Arab Emirates             |
+| Bangladesh                       | Zambia                           |
+| Belarus                          | Afghanistan                      |
+| Belarus                          | Angola                           |
+| Belarus                          | Argentina                        |
+| Belarus                          | Bahrain                          |
+| Belarus                          | Bangladesh                       |
+| Belarus                          | Bolivia                          |
+| Belarus                          | Bosnia and Herzegovina           |
+| Belarus                          | Burkina Faso                     |
+| Belarus                          | Cambodia                         |
+| Belarus                          | Colombia                         |
+| Belarus                          | Faroe Islands                    |
+| Belarus                          | Georgia                          |
+| Belarus                          | Honduras                         |
+| Belarus                          | Hungary                          |
+| Belarus                          | Iceland                          |
+| Belarus                          | Iraq                             |
+| Belarus                          | Jordan                           |
+| Belarus                          | Malawi                           |
+| Belarus                          | Mexico                           |
+| Belarus                          | Moldova                          |
+| Belarus                          | Montenegro                       |
+| Belarus                          | Netherlands                      |
+| Belarus                          | Nicaragua                        |
+| Belarus                          | North Macedonia                  |
+| Belarus                          | Pakistan                         |
+| Belarus                          | Papua New Guinea                 |
+| Belarus                          | People's Republic of China       |
+| Belarus                          | Philippines                      |
+| Belarus                          | Poland                           |
+| Belarus                          | Rwanda                           |
+| Belarus                          | Sierra Leone                     |
+| Belarus                          | Slovakia                         |
+| Belarus                          | Sri Lanka                        |
+| Belarus                          | State of Palestine               |
+| Belarus                          | Trinidad and Tobago              |
+| Belarus                          | Turkey                           |
+| Belarus                          | United Arab Emirates             |
+| Belarus                          | Uzbekistan                       |
+| Belarus                          | Vietnam                          |
+| Belarus                          | Zambia                           |
+| Belarus                          | Zimbabwe                         |
+| Belgium                          | Bangladesh                       |
+| Belgium                          | British Virgin Islands           |
+| Belgium                          | Cameroon                         |
+| Belgium                          | Croatia                          |
+| Belgium                          | Cuba                             |
+| Belgium                          | Denmark                          |
+| Belgium                          | Dominica                         |
+| Belgium                          | Dominican Republic               |
+| Belgium                          | Ghana                            |
+| Belgium                          | Greece                           |
+| Belgium                          | Indonesia                        |
+| Belgium                          | Iraq                             |
+| Belgium                          | Ivory Coast                      |
+| Belgium                          | Japan                            |
+| Belgium                          | Jordan                           |
+| Belgium                          | Kosovo                           |
+| Belgium                          | Laos                             |
+| Belgium                          | Mauritania                       |
+| Belgium                          | Mongolia                         |
+| Belgium                          | Nicaragua                        |
+| Belgium                          | Norway                           |
+| Belgium                          | Paraguay                         |
+| Belgium                          | People's Republic of China       |
+| Belgium                          | Republic of Abkhazia             |
+| Belgium                          | Rwanda                           |
+| Belgium                          | Saint Kitts and Nevis            |
+| Belgium                          | Saint Lucia                      |
+| Belgium                          | Saint Vincent and the Grenadines |
+| Belgium                          | Solomon Islands                  |
+| Belgium                          | South Korea                      |
+| Belgium                          | Spain                            |
+| Belgium                          | Sweden                           |
+| Belgium                          | Syria                            |
+| Belgium                          | Taiwan                           |
+| Belgium                          | Tajikistan                       |
+| Belgium                          | The Gambia                       |
+| Belgium                          | Turkey                           |
+| Belgium                          | Turkmenistan                     |
+| Benin                            | Afghanistan                      |
+| Benin                            | Australia                        |
+| Benin                            | Belgium                          |
+| Benin                            | Bulgaria                         |
+| Benin                            | Burkina Faso                     |
+| Benin                            | Costa Rica                       |
+| Benin                            | Czech Republic                   |
+| Benin                            | Denmark                          |
+| Benin                            | Dominica                         |
+| Benin                            | Egypt                            |
+| Benin                            | Georgia                          |
+| Benin                            | Germany                          |
+| Benin                            | Guatemala                        |
+| Benin                            | India                            |
+| Benin                            | Indonesia                        |
+| Benin                            | Iran                             |
+| Benin                            | Jordan                           |
+| Benin                            | Kyrgyzstan                       |
+| Benin                            | Laos                             |
+| Benin                            | Liberia                          |
+| Benin                            | Lithuania                        |
+| Benin                            | Malta                            |
+| Benin                            | Mauritania                       |
+| Benin                            | Mauritius                        |
+| Benin                            | Mongolia                         |
+| Benin                            | Morocco                          |
+| Benin                            | Netherlands                      |
+| Benin                            | Nicaragua                        |
+| Benin                            | Romania                          |
+| Benin                            | Saint Kitts and Nevis            |
+| Benin                            | Sierra Leone                     |
+| Benin                            | Singapore                        |
+| Benin                            | South Korea                      |
+| Benin                            | Sri Lanka                        |
+| Benin                            | Sudan                            |
+| Benin                            | Taiwan                           |
+| Benin                            | Thailand                         |
+| Benin                            | Turkmenistan                     |
+| Benin                            | Uruguay                          |
+| Bhutan                           | Azerbaijan                       |
+| Bhutan                           | Bangladesh                       |
+| Bhutan                           | Botswana                         |
+| Bhutan                           | Cameroon                         |
+| Bhutan                           | Cape Verde                       |
+| Bhutan                           | Croatia                          |
+| Bhutan                           | Cuba                             |
+| Bhutan                           | Dominica                         |
+| Bhutan                           | Fiji                             |
+| Bhutan                           | Gabon                            |
+| Bhutan                           | Ghana                            |
+| Bhutan                           | Guatemala                        |
+| Bhutan                           | Indonesia                        |
+| Bhutan                           | Libya                            |
+| Bhutan                           | Lithuania                        |
+| Bhutan                           | Mali                             |
+| Bhutan                           | Mauritania                       |
+| Bhutan                           | Mauritius                        |
+| Bhutan                           | Moldova                          |
+| Bhutan                           | Mongolia                         |
+| Bhutan                           | New Zealand                      |
+| Bhutan                           | Panama                           |
+| Bhutan                           | Paraguay                         |
+| Bhutan                           | Philippines                      |
+| Bhutan                           | Russia                           |
+| Bhutan                           | Rwanda                           |
+| Bhutan                           | Sierra Leone                     |
+| Bhutan                           | Tajikistan                       |
+| Bhutan                           | Thailand                         |
+| Bhutan                           | Turkey                           |
+| Bhutan                           | Turkmenistan                     |
+| Bolivia                          | Austria                          |
+| Bolivia                          | Benin                            |
+| Bolivia                          | Bulgaria                         |
+| Bolivia                          | Cambodia                         |
+| Bolivia                          | Colombia                         |
+| Bolivia                          | Costa Rica                       |
+| Bolivia                          | Croatia                          |
+| Bolivia                          | Cuba                             |
+| Bolivia                          | Democratic Republic of the Congo |
+| Bolivia                          | Dominican Republic               |
+| Bolivia                          | El Salvador                      |
+| Bolivia                          | Estonia                          |
+| Bolivia                          | Ethiopia                         |
+| Bolivia                          | Fiji                             |
+| Bolivia                          | France                           |
+| Bolivia                          | Grenada                          |
+| Bolivia                          | Kazakhstan                       |
+| Bolivia                          | Kyrgyzstan                       |
+| Bolivia                          | Latvia                           |
+| Bolivia                          | Liberia                          |
+| Bolivia                          | Libya                            |
+| Bolivia                          | Lithuania                        |
+| Bolivia                          | Malaysia                         |
+| Bolivia                          | Malta                            |
+| Bolivia                          | Mexico                           |
+| Bolivia                          | Montenegro                       |
+| Bolivia                          | Pakistan                         |
+| Bolivia                          | Papua New Guinea                 |
+| Bolivia                          | Paraguay                         |
+| Bolivia                          | People's Republic of China       |
+| Bolivia                          | Saint Kitts and Nevis            |
+| Bolivia                          | São Tomé and Príncipe            |
+| Bolivia                          | Serbia                           |
+| Bolivia                          | South Korea                      |
+| Bolivia                          | Sri Lanka                        |
+| Bolivia                          | Taiwan                           |
+| Bolivia                          | Uzbekistan                       |
+| Bolivia                          | Vietnam                          |
+| Bosnia and Herzegovina           | Albania                          |
+| Bosnia and Herzegovina           | Argentina                        |
+| Bosnia and Herzegovina           | Australia                        |
+| Bosnia and Herzegovina           | Austria                          |
+| Bosnia and Herzegovina           | Azerbaijan                       |
+| Bosnia and Herzegovina           | Bangladesh                       |
+| Bosnia and Herzegovina           | Benin                            |
+| Bosnia and Herzegovina           | Burkina Faso                     |
+| Bosnia and Herzegovina           | Burundi                          |
+| Bosnia and Herzegovina           | Cape Verde                       |
+| Bosnia and Herzegovina           | Democratic Republic of the Congo |
+| Bosnia and Herzegovina           | Dominica                         |
+| Bosnia and Herzegovina           | Egypt                            |
+| Bosnia and Herzegovina           | El Salvador                      |
+| Bosnia and Herzegovina           | Greenland                        |
+| Bosnia and Herzegovina           | Guatemala                        |
+| Bosnia and Herzegovina           | Kyrgyzstan                       |
+| Bosnia and Herzegovina           | Mali                             |
+| Bosnia and Herzegovina           | Malta                            |
+| Bosnia and Herzegovina           | Mongolia                         |
+| Bosnia and Herzegovina           | Montenegro                       |
+| Bosnia and Herzegovina           | Netherlands                      |
+| Bosnia and Herzegovina           | North Korea                      |
+| Bosnia and Herzegovina           | Philippines                      |
+| Bosnia and Herzegovina           | Republic of Abkhazia             |
+| Bosnia and Herzegovina           | Saint Kitts and Nevis            |
+| Bosnia and Herzegovina           | Saudi Arabia                     |
+| Bosnia and Herzegovina           | Serbia                           |
+| Bosnia and Herzegovina           | Singapore                        |
+| Bosnia and Herzegovina           | Slovakia                         |
+| Bosnia and Herzegovina           | Spain                            |
+| Bosnia and Herzegovina           | The Gambia                       |
+| Bosnia and Herzegovina           | United Arab Emirates             |
+| Bosnia and Herzegovina           | Venezuela                        |
+| Botswana                         | Algeria                          |
+| Botswana                         | British Virgin Islands           |
+| Botswana                         | Bulgaria                         |
+| Botswana                         | Burkina Faso                     |
+| Botswana                         | Cambodia                         |
+| Botswana                         | Canada                           |
+| Botswana                         | Chile                            |
+| Botswana                         | Denmark                          |
+| Botswana                         | Dominican Republic               |
+| Botswana                         | El Salvador                      |
+| Botswana                         | Estonia                          |
+| Botswana                         | Finland                          |
+| Botswana                         | France                           |
+| Botswana                         | Germany                          |
+| Botswana                         | Greece                           |
+| Botswana                         | Greenland                        |
+| Botswana                         | Grenada                          |
+| Botswana                         | Israel                           |
+| Botswana                         | Japan                            |
+| Botswana                         | Kazakhstan                       |
+| Botswana                         | Kuwait                           |
+| Botswana                         | Latvia                           |
+| Botswana                         | Malawi                           |
+| Botswana                         | Malaysia                         |
+| Botswana                         | Montenegro                       |
+| Botswana                         | Nepal                            |
+| Botswana                         | Paraguay                         |
+| Botswana                         | Qatar                            |
+| Botswana                         | San Marino                       |
+| Botswana                         | Solomon Islands                  |
+| Botswana                         | Sri Lanka                        |
+| Botswana                         | Suriname                         |
+| Botswana                         | Switzerland                      |
+| Botswana                         | Tanzania                         |
+| Botswana                         | The Gambia                       |
+| Brazil                           | Australia                        |
+| Brazil                           | Austria                          |
+| Brazil                           | Bahrain                          |
+| Brazil                           | Belgium                          |
+| Brazil                           | Benin                            |
+| Brazil                           | Bolivia                          |
+| Brazil                           | Bosnia and Herzegovina           |
+| Brazil                           | Bulgaria                         |
+| Brazil                           | Burkina Faso                     |
+| Brazil                           | Cameroon                         |
+| Brazil                           | Costa Rica                       |
+| Brazil                           | Cyprus                           |
+| Brazil                           | Eritrea                          |
+| Brazil                           | Ethiopia                         |
+| Brazil                           | Georgia                          |
+| Brazil                           | Greece                           |
+| Brazil                           | Guatemala                        |
+| Brazil                           | Guyana                           |
+| Brazil                           | India                            |
+| Brazil                           | Ireland                          |
+| Brazil                           | Israel                           |
+| Brazil                           | Japan                            |
+| Brazil                           | Kuwait                           |
+| Brazil                           | Libya                            |
+| Brazil                           | Luxembourg                       |
+| Brazil                           | Malawi                           |
+| Brazil                           | Malaysia                         |
+| Brazil                           | Mauritius                        |
+| Brazil                           | Mongolia                         |
+| Brazil                           | Morocco                          |
+| Brazil                           | Nepal                            |
+| Brazil                           | Nicaragua                        |
+| Brazil                           | Oman                             |
+| Brazil                           | Pakistan                         |
+| Brazil                           | Peru                             |
+| Brazil                           | Philippines                      |
+| Brazil                           | Romania                          |
+| Brazil                           | Saint Kitts and Nevis            |
+| Brazil                           | Slovakia                         |
+| Brazil                           | South Korea                      |
+| Brazil                           | Spain                            |
+| Brazil                           | Sudan                            |
+| Brazil                           | Thailand                         |
+| Brazil                           | Ukraine                          |
+| British Virgin Islands           | Afghanistan                      |
+| British Virgin Islands           | Antigua and Barbuda              |
+| British Virgin Islands           | Armenia                          |
+| British Virgin Islands           | Bahrain                          |
+| British Virgin Islands           | Brazil                           |
+| British Virgin Islands           | Brunei                           |
+| British Virgin Islands           | Bulgaria                         |
+| British Virgin Islands           | Burundi                          |
+| British Virgin Islands           | Cyprus                           |
+| British Virgin Islands           | Denmark                          |
+| British Virgin Islands           | El Salvador                      |
+| British Virgin Islands           | Faroe Islands                    |
+| British Virgin Islands           | Gabon                            |
+| British Virgin Islands           | Georgia                          |
+| British Virgin Islands           | Guatemala                        |
+| British Virgin Islands           | Guyana                           |
+| British Virgin Islands           | Honduras                         |
+| British Virgin Islands           | Israel                           |
+| British Virgin Islands           | Kazakhstan                       |
+| British Virgin Islands           | Lebanon                          |
+| British Virgin Islands           | Libya                            |
+| British Virgin Islands           | Liechtenstein                    |
+| British Virgin Islands           | Luxembourg                       |
+| British Virgin Islands           | Mauritius                        |
+| British Virgin Islands           | Montenegro                       |
+| British Virgin Islands           | Nigeria                          |
+| British Virgin Islands           | North Macedonia                  |
+| British Virgin Islands           | Peru                             |
+| British Virgin Islands           | Saint Lucia                      |
+| British Virgin Islands           | Solomon Islands                  |
+| British Virgin Islands           | South Africa                     |
+| British Virgin Islands           | Spain                            |
+| British Virgin Islands           | Sri Lanka                        |
+| British Virgin Islands           | State of Palestine               |
+| British Virgin Islands           | Sweden                           |
+| British Virgin Islands           | Turkey                           |
+| British Virgin Islands           | Ukraine                          |
+| British Virgin Islands           | United Arab Emirates             |
+| British Virgin Islands           | United States of America         |
+| British Virgin Islands           | Uruguay                          |
+| Brunei                           | Angola                           |
+| Brunei                           | Azerbaijan                       |
+| Brunei                           | Belarus                          |
+| Brunei                           | Bhutan                           |
+| Brunei                           | Chile                            |
+| Brunei                           | Croatia                          |
+| Brunei                           | Curaçao                          |
+| Brunei                           | Cyprus                           |
+| Brunei                           | Egypt                            |
+| Brunei                           | El Salvador                      |
+| Brunei                           | Gabon                            |
+| Brunei                           | Germany                          |
+| Brunei                           | Ghana                            |
+| Brunei                           | Greenland                        |
+| Brunei                           | Guyana                           |
+| Brunei                           | Hungary                          |
+| Brunei                           | Indonesia                        |
+| Brunei                           | Japan                            |
+| Brunei                           | Kenya                            |
+| Brunei                           | Malawi                           |
+| Brunei                           | Malta                            |
+| Brunei                           | Mexico                           |
+| Brunei                           | Myanmar                          |
+| Brunei                           | Paraguay                         |
+| Brunei                           | South Africa                     |
+| Brunei                           | Sri Lanka                        |
+| Brunei                           | Sudan                            |
+| Brunei                           | Thailand                         |
+| Brunei                           | Turkey                           |
+| Brunei                           | Vietnam                          |
+| Brunei                           | Zambia                           |
+| Brunei                           | Zimbabwe                         |
+| Bulgaria                         | Albania                          |
+| Bulgaria                         | Algeria                          |
+| Bulgaria                         | Brunei                           |
+| Bulgaria                         | Cambodia                         |
+| Bulgaria                         | Croatia                          |
+| Bulgaria                         | Cyprus                           |
+| Bulgaria                         | Democratic Republic of the Congo |
+| Bulgaria                         | Denmark                          |
+| Bulgaria                         | Ecuador                          |
+| Bulgaria                         | Estonia                          |
+| Bulgaria                         | Finland                          |
+| Bulgaria                         | Georgia                          |
+| Bulgaria                         | Guyana                           |
+| Bulgaria                         | Hungary                          |
+| Bulgaria                         | Ireland                          |
+| Bulgaria                         | Japan                            |
+| Bulgaria                         | Laos                             |
+| Bulgaria                         | Libya                            |
+| Bulgaria                         | Mongolia                         |
+| Bulgaria                         | Montenegro                       |
+| Bulgaria                         | Morocco                          |
+| Bulgaria                         | Myanmar                          |
+| Bulgaria                         | Nepal                            |
+| Bulgaria                         | New Zealand                      |
+| Bulgaria                         | Peru                             |
+| Bulgaria                         | Republic of Abkhazia             |
+| Bulgaria                         | Romania                          |
+| Bulgaria                         | Saint Vincent and the Grenadines |
+| Bulgaria                         | Saudi Arabia                     |
+| Bulgaria                         | Sri Lanka                        |
+| Bulgaria                         | Switzerland                      |
+| Bulgaria                         | Syria                            |
+| Bulgaria                         | Tajikistan                       |
+| Bulgaria                         | The Gambia                       |
+| Bulgaria                         | Turkmenistan                     |
+| Bulgaria                         | Uganda                           |
+| Bulgaria                         | United States of America         |
+| Burkina Faso                     | Afghanistan                      |
+| Burkina Faso                     | Austria                          |
+| Burkina Faso                     | Bahrain                          |
+| Burkina Faso                     | British Virgin Islands           |
+| Burkina Faso                     | Cambodia                         |
+| Burkina Faso                     | Cameroon                         |
+| Burkina Faso                     | Canada                           |
+| Burkina Faso                     | Chile                            |
+| Burkina Faso                     | Croatia                          |
+| Burkina Faso                     | Curaçao                          |
+| Burkina Faso                     | Democratic Republic of the Congo |
+| Burkina Faso                     | Dominica                         |
+| Burkina Faso                     | Dominican Republic               |
+| Burkina Faso                     | Ecuador                          |
+| Burkina Faso                     | Germany                          |
+| Burkina Faso                     | Greenland                        |
+| Burkina Faso                     | Grenada                          |
+| Burkina Faso                     | Guatemala                        |
+| Burkina Faso                     | Guyana                           |
+| Burkina Faso                     | Honduras                         |
+| Burkina Faso                     | Ivory Coast                      |
+| Burkina Faso                     | Jordan                           |
+| Burkina Faso                     | Kenya                            |
+| Burkina Faso                     | Latvia                           |
+| Burkina Faso                     | Liberia                          |
+| Burkina Faso                     | Liechtenstein                    |
+| Burkina Faso                     | Mauritania                       |
+| Burkina Faso                     | Nepal                            |
+| Burkina Faso                     | New Zealand                      |
+| Burkina Faso                     | Nicaragua                        |
+| Burkina Faso                     | Nigeria                          |
+| Burkina Faso                     | Norway                           |
+| Burkina Faso                     | Panama                           |
+| Burkina Faso                     | Philippines                      |
+| Burkina Faso                     | Romania                          |
+| Burkina Faso                     | Rwanda                           |
+| Burkina Faso                     | San Marino                       |
+| Burkina Faso                     | São Tomé and Príncipe            |
+| Burkina Faso                     | Slovenia                         |
+| Burkina Faso                     | Taiwan                           |
+| Burkina Faso                     | Tajikistan                       |
+| Burkina Faso                     | The Gambia                       |
+| Burkina Faso                     | Ukraine                          |
+| Burkina Faso                     | United Arab Emirates             |
+| Burkina Faso                     | Venezuela                        |
+| Burundi                          | Algeria                          |
+| Burundi                          | Antigua and Barbuda              |
+| Burundi                          | Austria                          |
+| Burundi                          | Bangladesh                       |
+| Burundi                          | Cambodia                         |
+| Burundi                          | Cuba                             |
+| Burundi                          | Dominica                         |
+| Burundi                          | Dominican Republic               |
+| Burundi                          | Grenada                          |
+| Burundi                          | India                            |
+| Burundi                          | Israel                           |
+| Burundi                          | Japan                            |
+| Burundi                          | Kuwait                           |
+| Burundi                          | Latvia                           |
+| Burundi                          | Lebanon                          |
+| Burundi                          | Libya                            |
+| Burundi                          | Liechtenstein                    |
+| Burundi                          | Malaysia                         |
+| Burundi                          | Myanmar                          |
+| Burundi                          | Netherlands                      |
+| Burundi                          | New Zealand                      |
+| Burundi                          | Nigeria                          |
+| Burundi                          | North Macedonia                  |
+| Burundi                          | Panama                           |
+| Burundi                          | Peru                             |
+| Burundi                          | Poland                           |
+| Burundi                          | Rwanda                           |
+| Burundi                          | Saint Kitts and Nevis            |
+| Burundi                          | Saint Vincent and the Grenadines |
+| Burundi                          | San Marino                       |
+| Burundi                          | Serbia                           |
+| Burundi                          | Somalia                          |
+| Burundi                          | South Africa                     |
+| Burundi                          | Tajikistan                       |
+| Burundi                          | The Gambia                       |
+| Cambodia                         | Afghanistan                      |
+| Cambodia                         | Albania                          |
+| Cambodia                         | Angola                           |
+| Cambodia                         | Antigua and Barbuda              |
+| Cambodia                         | Austria                          |
+| Cambodia                         | Bahrain                          |
+| Cambodia                         | Belgium                          |
+| Cambodia                         | British Virgin Islands           |
+| Cambodia                         | Curaçao                          |
+| Cambodia                         | Czech Republic                   |
+| Cambodia                         | Dominica                         |
+| Cambodia                         | Ecuador                          |
+| Cambodia                         | Ethiopia                         |
+| Cambodia                         | Fiji                             |
+| Cambodia                         | Georgia                          |
+| Cambodia                         | Ghana                            |
+| Cambodia                         | Greece                           |
+| Cambodia                         | Guyana                           |
+| Cambodia                         | Iran                             |
+| Cambodia                         | Israel                           |
+| Cambodia                         | Japan                            |
+| Cambodia                         | Kazakhstan                       |
+| Cambodia                         | Lebanon                          |
+| Cambodia                         | Liberia                          |
+| Cambodia                         | Luxembourg                       |
+| Cambodia                         | Malawi                           |
+| Cambodia                         | Malta                            |
+| Cambodia                         | Moldova                          |
+| Cambodia                         | Montenegro                       |
+| Cambodia                         | Myanmar                          |
+| Cambodia                         | New Zealand                      |
+| Cambodia                         | South Africa                     |
+| Cambodia                         | South Sudan                      |
+| Cambodia                         | Tunisia                          |
+| Cameroon                         | Argentina                        |
+| Cameroon                         | Australia                        |
+| Cameroon                         | Azerbaijan                       |
+| Cameroon                         | Benin                            |
+| Cameroon                         | Bosnia and Herzegovina           |
+| Cameroon                         | British Virgin Islands           |
+| Cameroon                         | Burundi                          |
+| Cameroon                         | Djibouti                         |
+| Cameroon                         | Egypt                            |
+| Cameroon                         | Faroe Islands                    |
+| Cameroon                         | Georgia                          |
+| Cameroon                         | Guyana                           |
+| Cameroon                         | Honduras                         |
+| Cameroon                         | Japan                            |
+| Cameroon                         | Kazakhstan                       |
+| Cameroon                         | Kuwait                           |
+| Cameroon                         | Latvia                           |
+| Cameroon                         | Liberia                          |
+| Cameroon                         | Luxembourg                       |
+| Cameroon                         | Mali                             |
+| Cameroon                         | Mexico                           |
+| Cameroon                         | New Zealand                      |
+| Cameroon                         | Nigeria                          |
+| Cameroon                         | Panama                           |
+| Cameroon                         | Papua New Guinea                 |
+| Cameroon                         | People's Republic of China       |
+| Cameroon                         | Peru                             |
+| Cameroon                         | Poland                           |
+| Cameroon                         | Saint Lucia                      |
+| Cameroon                         | Singapore                        |
+| Cameroon                         | Sudan                            |
+| Cameroon                         | Taiwan                           |
+| Cameroon                         | Uganda                           |
+| Cameroon                         | United Kingdom                   |
+| Cameroon                         | Uruguay                          |
+| Canada                           | Algeria                          |
+| Canada                           | Armenia                          |
+| Canada                           | Austria                          |
+| Canada                           | Belarus                          |
+| Canada                           | Benin                            |
+| Canada                           | British Virgin Islands           |
+| Canada                           | Brunei                           |
+| Canada                           | Bulgaria                         |
+| Canada                           | Cambodia                         |
+| Canada                           | Cameroon                         |
+| Canada                           | Croatia                          |
+| Canada                           | Dominican Republic               |
+| Canada                           | Ecuador                          |
+| Canada                           | Estonia                          |
+| Canada                           | Germany                          |
+| Canada                           | Iceland                          |
+| Canada                           | Iraq                             |
+| Canada                           | Italy                            |
+| Canada                           | Ivory Coast                      |
+| Canada                           | Jordan                           |
+| Canada                           | Kuwait                           |
+| Canada                           | Kyrgyzstan                       |
+| Canada                           | Laos                             |
+| Canada                           | Liberia                          |
+| Canada                           | Mexico                           |
+| Canada                           | Mongolia                         |
+| Canada                           | Nicaragua                        |
+| Canada                           | Norway                           |
+| Canada                           | People's Republic of China       |
+| Canada                           | Philippines                      |
+| Canada                           | Republic of Abkhazia             |
+| Canada                           | Romania                          |
+| Canada                           | Russia                           |
+| Canada                           | Rwanda                           |
+| Canada                           | Saint Vincent and the Grenadines |
+| Canada                           | Saudi Arabia                     |
+| Canada                           | Singapore                        |
+| Canada                           | South Africa                     |
+| Canada                           | South Sudan                      |
+| Canada                           | Spain                            |
+| Canada                           | Suriname                         |
+| Canada                           | Sweden                           |
+| Canada                           | Syria                            |
+| Canada                           | Taiwan                           |
+| Canada                           | The Gambia                       |
+| Canada                           | Trinidad and Tobago              |
+| Canada                           | Tunisia                          |
+| Canada                           | United Arab Emirates             |
+| Canada                           | Uruguay                          |
+| Canada                           | Uzbekistan                       |
+| Canada                           | Zimbabwe                         |
+| Cape Verde                       | Australia                        |
+| Cape Verde                       | Belarus                          |
+| Cape Verde                       | Burkina Faso                     |
+| Cape Verde                       | Denmark                          |
+| Cape Verde                       | Ecuador                          |
+| Cape Verde                       | Eritrea                          |
+| Cape Verde                       | Estonia                          |
+| Cape Verde                       | Ethiopia                         |
+| Cape Verde                       | Greenland                        |
+| Cape Verde                       | Grenada                          |
+| Cape Verde                       | Hungary                          |
+| Cape Verde                       | Indonesia                        |
+| Cape Verde                       | Iran                             |
+| Cape Verde                       | Ireland                          |
+| Cape Verde                       | Kuwait                           |
+| Cape Verde                       | Laos                             |
+| Cape Verde                       | Lebanon                          |
+| Cape Verde                       | Lithuania                        |
+| Cape Verde                       | Mali                             |
+| Cape Verde                       | Malta                            |
+| Cape Verde                       | Mexico                           |
+| Cape Verde                       | Netherlands                      |
+| Cape Verde                       | North Korea                      |
+| Cape Verde                       | People's Republic of China       |
+| Cape Verde                       | Peru                             |
+| Cape Verde                       | Republic of Abkhazia             |
+| Cape Verde                       | Romania                          |
+| Cape Verde                       | Slovakia                         |
+| Cape Verde                       | Somalia                          |
+| Cape Verde                       | South Africa                     |
+| Cape Verde                       | South Korea                      |
+| Cape Verde                       | South Sudan                      |
+| Cape Verde                       | State of Palestine               |
+| Cape Verde                       | Suriname                         |
+| Cape Verde                       | Sweden                           |
+| Cape Verde                       | Thailand                         |
+| Cape Verde                       | Turkmenistan                     |
+| Cape Verde                       | Uganda                           |
+| Cape Verde                       | United Arab Emirates             |
+| Cape Verde                       | Uruguay                          |
+| Cape Verde                       | Uzbekistan                       |
+| Cape Verde                       | Venezuela                        |
+| Chile                            | Afghanistan                      |
+| Chile                            | Algeria                          |
+| Chile                            | Angola                           |
+| Chile                            | Antigua and Barbuda              |
+| Chile                            | Australia                        |
+| Chile                            | Benin                            |
+| Chile                            | Cape Verde                       |
+| Chile                            | Colombia                         |
+| Chile                            | Cuba                             |
+| Chile                            | Ecuador                          |
+| Chile                            | Gabon                            |
+| Chile                            | Ghana                            |
+| Chile                            | Guernsey                         |
+| Chile                            | Kosovo                           |
+| Chile                            | Luxembourg                       |
+| Chile                            | Nepal                            |
+| Chile                            | Netherlands                      |
+| Chile                            | New Zealand                      |
+| Chile                            | Papua New Guinea                 |
+| Chile                            | Republic of Abkhazia             |
+| Chile                            | Rwanda                           |
+| Chile                            | Saint Kitts and Nevis            |
+| Chile                            | Serbia                           |
+| Chile                            | Spain                            |
+| Chile                            | Sudan                            |
+| Chile                            | Suriname                         |
+| Chile                            | Switzerland                      |
+| Chile                            | Turkey                           |
+| Chile                            | Ukraine                          |
+| Colombia                         | Algeria                          |
+| Colombia                         | Argentina                        |
+| Colombia                         | Benin                            |
+| Colombia                         | Botswana                         |
+| Colombia                         | Brunei                           |
+| Colombia                         | Bulgaria                         |
+| Colombia                         | Czech Republic                   |
+| Colombia                         | Ethiopia                         |
+| Colombia                         | France                           |
+| Colombia                         | Grenada                          |
+| Colombia                         | Iran                             |
+| Colombia                         | Iraq                             |
+| Colombia                         | Laos                             |
+| Colombia                         | Liberia                          |
+| Colombia                         | Malawi                           |
+| Colombia                         | Malta                            |
+| Colombia                         | Netherlands                      |
+| Colombia                         | North Korea                      |
+| Colombia                         | Philippines                      |
+| Colombia                         | Qatar                            |
+| Colombia                         | Russia                           |
+| Colombia                         | São Tomé and Príncipe            |
+| Colombia                         | South Africa                     |
+| Colombia                         | South Korea                      |
+| Colombia                         | Sri Lanka                        |
+| Colombia                         | Sudan                            |
+| Colombia                         | Sweden                           |
+| Colombia                         | Tunisia                          |
+| Colombia                         | Turkey                           |
+| Colombia                         | Uganda                           |
+| Colombia                         | United States of America         |
+| Colombia                         | Uruguay                          |
+| Costa Rica                       | Afghanistan                      |
+| Costa Rica                       | Argentina                        |
+| Costa Rica                       | Armenia                          |
+| Costa Rica                       | Australia                        |
+| Costa Rica                       | Austria                          |
+| Costa Rica                       | Azerbaijan                       |
+| Costa Rica                       | Bahrain                          |
+| Costa Rica                       | Bosnia and Herzegovina           |
+| Costa Rica                       | Cyprus                           |
+| Costa Rica                       | Democratic Republic of the Congo |
+| Costa Rica                       | Denmark                          |
+| Costa Rica                       | Egypt                            |
+| Costa Rica                       | Ethiopia                         |
+| Costa Rica                       | France                           |
+| Costa Rica                       | Gabon                            |
+| Costa Rica                       | Ghana                            |
+| Costa Rica                       | Guernsey                         |
+| Costa Rica                       | Honduras                         |
+| Costa Rica                       | India                            |
+| Costa Rica                       | Luxembourg                       |
+| Costa Rica                       | Malaysia                         |
+| Costa Rica                       | Nigeria                          |
+| Costa Rica                       | Papua New Guinea                 |
+| Costa Rica                       | Peru                             |
+| Costa Rica                       | Romania                          |
+| Costa Rica                       | Saudi Arabia                     |
+| Costa Rica                       | Sierra Leone                     |
+| Costa Rica                       | Slovenia                         |
+| Costa Rica                       | Thailand                         |
+| Costa Rica                       | The Gambia                       |
+| Costa Rica                       | Tunisia                          |
+| Costa Rica                       | Uganda                           |
+| Costa Rica                       | United States of America         |
+| Costa Rica                       | Uruguay                          |
+| Costa Rica                       | Venezuela                        |
+| Croatia                          | Belarus                          |
+| Croatia                          | British Virgin Islands           |
+| Croatia                          | Cameroon                         |
+| Croatia                          | Curaçao                          |
+| Croatia                          | Denmark                          |
+| Croatia                          | Djibouti                         |
+| Croatia                          | Fiji                             |
+| Croatia                          | Gabon                            |
+| Croatia                          | Germany                          |
+| Croatia                          | Ghana                            |
+| Croatia                          | Guatemala                        |
+| Croatia                          | Iceland                          |
+| Croatia                          | Iraq                             |
+| Croatia                          | Japan                            |
+| Croatia                          | Kazakhstan                       |
+| Croatia                          | Kenya                            |
+| Croatia                          | Kuwait                           |
+| Croatia                          | Mauritius                        |
+| Croatia                          | Nepal                            |
+| Croatia                          | Nicaragua                        |
+| Croatia                          | North Macedonia                  |
+| Croatia                          | Portugal                         |
+| Croatia                          | Saint Lucia                      |
+| Croatia                          | Saudi Arabia                     |
+| Croatia                          | Spain                            |
+| Croatia                          | Sudan                            |
+| Croatia                          | Tajikistan                       |
+| Croatia                          | Thailand                         |
+| Croatia                          | Ukraine                          |
+| Croatia                          | United Kingdom                   |
+| Cuba                             | Armenia                          |
+| Cuba                             | Azerbaijan                       |
+| Cuba                             | Bahrain                          |
+| Cuba                             | Belarus                          |
+| Cuba                             | British Virgin Islands           |
+| Cuba                             | Bulgaria                         |
+| Cuba                             | Burkina Faso                     |
+| Cuba                             | Cameroon                         |
+| Cuba                             | Canada                           |
+| Cuba                             | Croatia                          |
+| Cuba                             | Denmark                          |
+| Cuba                             | El Salvador                      |
+| Cuba                             | Estonia                          |
+| Cuba                             | Ethiopia                         |
+| Cuba                             | Faroe Islands                    |
+| Cuba                             | France                           |
+| Cuba                             | Germany                          |
+| Cuba                             | Greenland                        |
+| Cuba                             | Grenada                          |
+| Cuba                             | Guyana                           |
+| Cuba                             | Indonesia                        |
+| Cuba                             | Ivory Coast                      |
+| Cuba                             | Jordan                           |
+| Cuba                             | Kazakhstan                       |
+| Cuba                             | Kenya                            |
+| Cuba                             | Kuwait                           |
+| Cuba                             | Kyrgyzstan                       |
+| Cuba                             | Malta                            |
+| Cuba                             | Mauritania                       |
+| Cuba                             | Mexico                           |
+| Cuba                             | Moldova                          |
+| Cuba                             | Mongolia                         |
+| Cuba                             | Morocco                          |
+| Cuba                             | New Zealand                      |
+| Cuba                             | Philippines                      |
+| Cuba                             | Portugal                         |
+| Cuba                             | Saint Lucia                      |
+| Cuba                             | San Marino                       |
+| Cuba                             | Slovenia                         |
+| Cuba                             | Somalia                          |
+| Cuba                             | Taiwan                           |
+| Cuba                             | Thailand                         |
+| Cuba                             | Uganda                           |
+| Cuba                             | Vietnam                          |
+| Curaçao                          | Algeria                          |
+| Curaçao                          | Armenia                          |
+| Curaçao                          | Australia                        |
+| Curaçao                          | Austria                          |
+| Curaçao                          | Belgium                          |
+| Curaçao                          | Bolivia                          |
+| Curaçao                          | Colombia                         |
+| Curaçao                          | El Salvador                      |
+| Curaçao                          | Faroe Islands                    |
+| Curaçao                          | Guatemala                        |
+| Curaçao                          | Iraq                             |
+| Curaçao                          | Italy                            |
+| Curaçao                          | Kenya                            |
+| Curaçao                          | Laos                             |
+| Curaçao                          | Libya                            |
+| Curaçao                          | Malawi                           |
+| Curaçao                          | Mauritania                       |
+| Curaçao                          | Mauritius                        |
+| Curaçao                          | Moldova                          |
+| Curaçao                          | Norway                           |
+| Curaçao                          | Paraguay                         |
+| Curaçao                          | Philippines                      |
+| Curaçao                          | Russia                           |
+| Curaçao                          | Rwanda                           |
+| Curaçao                          | Saint Vincent and the Grenadines |
+| Curaçao                          | Serbia                           |
+| Curaçao                          | Singapore                        |
+| Curaçao                          | Solomon Islands                  |
+| Curaçao                          | Somalia                          |
+| Curaçao                          | South Sudan                      |
+| Curaçao                          | Sweden                           |
+| Curaçao                          | Turkmenistan                     |
+| Curaçao                          | Uganda                           |
+| Curaçao                          | Zambia                           |
+| Cyprus                           | Armenia                          |
+| Cyprus                           | Benin                            |
+| Cyprus                           | Bhutan                           |
+| Cyprus                           | Bosnia and Herzegovina           |
+| Cyprus                           | Botswana                         |
+| Cyprus                           | Burundi                          |
+| Cyprus                           | Croatia                          |
+| Cyprus                           | Curaçao                          |
+| Cyprus                           | Democratic Republic of the Congo |
+| Cyprus                           | Ecuador                          |
+| Cyprus                           | Estonia                          |
+| Cyprus                           | France                           |
+| Cyprus                           | Greenland                        |
+| Cyprus                           | Ireland                          |
+| Cyprus                           | Japan                            |
+| Cyprus                           | Kazakhstan                       |
+| Cyprus                           | Mauritania                       |
+| Cyprus                           | New Zealand                      |
+| Cyprus                           | North Macedonia                  |
+| Cyprus                           | Panama                           |
+| Cyprus                           | Paraguay                         |
+| Cyprus                           | People's Republic of China       |
+| Cyprus                           | Philippines                      |
+| Cyprus                           | Rwanda                           |
+| Cyprus                           | Saint Lucia                      |
+| Cyprus                           | San Marino                       |
+| Cyprus                           | Serbia                           |
+| Cyprus                           | Sierra Leone                     |
+| Cyprus                           | Slovenia                         |
+| Cyprus                           | Solomon Islands                  |
+| Cyprus                           | Spain                            |
+| Cyprus                           | Turkey                           |
+| Cyprus                           | Uganda                           |
+| Cyprus                           | Venezuela                        |
+| Cyprus                           | Zambia                           |
+| Czech Republic                   | Algeria                          |
+| Czech Republic                   | Angola                           |
+| Czech Republic                   | Antigua and Barbuda              |
+| Czech Republic                   | Australia                        |
+| Czech Republic                   | Austria                          |
+| Czech Republic                   | Bangladesh                       |
+| Czech Republic                   | Brazil                           |
+| Czech Republic                   | Cameroon                         |
+| Czech Republic                   | Djibouti                         |
+| Czech Republic                   | Ethiopia                         |
+| Czech Republic                   | Greenland                        |
+| Czech Republic                   | Grenada                          |
+| Czech Republic                   | Guatemala                        |
+| Czech Republic                   | Guernsey                         |
+| Czech Republic                   | Iraq                             |
+| Czech Republic                   | Ireland                          |
+| Czech Republic                   | Israel                           |
+| Czech Republic                   | Italy                            |
+| Czech Republic                   | Mauritania                       |
+| Czech Republic                   | Myanmar                          |
+| Czech Republic                   | Netherlands                      |
+| Czech Republic                   | Oman                             |
+| Czech Republic                   | Qatar                            |
+| Czech Republic                   | Rwanda                           |
+| Czech Republic                   | Saint Vincent and the Grenadines |
+| Czech Republic                   | San Marino                       |
+| Czech Republic                   | Somalia                          |
+| Czech Republic                   | Spain                            |
+| Czech Republic                   | Sri Lanka                        |
+| Czech Republic                   | Suriname                         |
+| Czech Republic                   | Syria                            |
+| Czech Republic                   | Tajikistan                       |
+| Czech Republic                   | Tunisia                          |
+| Czech Republic                   | United Kingdom                   |
+| Czech Republic                   | Uruguay                          |
+| Czech Republic                   | Venezuela                        |
+| Czech Republic                   | Vietnam                          |
+| Democratic Republic of the Congo | Afghanistan                      |
+| Democratic Republic of the Congo | Albania                          |
+| Democratic Republic of the Congo | Antigua and Barbuda              |
+| Democratic Republic of the Congo | Argentina                        |
+| Democratic Republic of the Congo | Belarus                          |
+| Democratic Republic of the Congo | Botswana                         |
+| Democratic Republic of the Congo | Colombia                         |
+| Democratic Republic of the Congo | Djibouti                         |
+| Democratic Republic of the Congo | Ecuador                          |
+| Democratic Republic of the Congo | France                           |
+| Democratic Republic of the Congo | Gabon                            |
+| Democratic Republic of the Congo | Germany                          |
+| Democratic Republic of the Congo | Greenland                        |
+| Democratic Republic of the Congo | Honduras                         |
+| Democratic Republic of the Congo | Japan                            |
+| Democratic Republic of the Congo | Kenya                            |
+| Democratic Republic of the Congo | Myanmar                          |
+| Democratic Republic of the Congo | Nicaragua                        |
+| Democratic Republic of the Congo | Norway                           |
+| Democratic Republic of the Congo | Oman                             |
+| Democratic Republic of the Congo | Romania                          |
+| Democratic Republic of the Congo | Russia                           |
+| Democratic Republic of the Congo | Saint Kitts and Nevis            |
+| Democratic Republic of the Congo | Singapore                        |
+| Democratic Republic of the Congo | Slovakia                         |
+| Democratic Republic of the Congo | Solomon Islands                  |
+| Democratic Republic of the Congo | Sudan                            |
+| Democratic Republic of the Congo | Sweden                           |
+| Democratic Republic of the Congo | Switzerland                      |
+| Democratic Republic of the Congo | Taiwan                           |
+| Democratic Republic of the Congo | Tanzania                         |
+| Democratic Republic of the Congo | Thailand                         |
+| Democratic Republic of the Congo | United Kingdom                   |
+| Denmark                          | Afghanistan                      |
+| Denmark                          | Angola                           |
+| Denmark                          | Antigua and Barbuda              |
+| Denmark                          | Bhutan                           |
+| Denmark                          | Canada                           |
+| Denmark                          | Cyprus                           |
+| Denmark                          | Democratic Republic of the Congo |
+| Denmark                          | Eritrea                          |
+| Denmark                          | Faroe Islands                    |
+| Denmark                          | Ghana                            |
+| Denmark                          | Guyana                           |
+| Denmark                          | Iraq                             |
+| Denmark                          | Italy                            |
+| Denmark                          | Kuwait                           |
+| Denmark                          | Kyrgyzstan                       |
+| Denmark                          | Lithuania                        |
+| Denmark                          | Mauritania                       |
+| Denmark                          | Nigeria                          |
+| Denmark                          | Pakistan                         |
+| Denmark                          | Paraguay                         |
+| Denmark                          | Saint Lucia                      |
+| Denmark                          | San Marino                       |
+| Denmark                          | Serbia                           |
+| Denmark                          | Slovakia                         |
+| Denmark                          | South Africa                     |
+| Denmark                          | Spain                            |
+| Denmark                          | Turkmenistan                     |
+| Denmark                          | Ukraine                          |
+| Denmark                          | Venezuela                        |
+| Djibouti                         | Antigua and Barbuda              |
+| Djibouti                         | Argentina                        |
+| Djibouti                         | Azerbaijan                       |
+| Djibouti                         | British Virgin Islands           |
+| Djibouti                         | Brunei                           |
+| Djibouti                         | Bulgaria                         |
+| Djibouti                         | Burundi                          |
+| Djibouti                         | Cambodia                         |
+| Djibouti                         | Chile                            |
+| Djibouti                         | Costa Rica                       |
+| Djibouti                         | Cuba                             |
+| Djibouti                         | Curaçao                          |
+| Djibouti                         | Denmark                          |
+| Djibouti                         | Dominica                         |
+| Djibouti                         | Ecuador                          |
+| Djibouti                         | Ethiopia                         |
+| Djibouti                         | Finland                          |
+| Djibouti                         | Ghana                            |
+| Djibouti                         | Greece                           |
+| Djibouti                         | India                            |
+| Djibouti                         | Iran                             |
+| Djibouti                         | Israel                           |
+| Djibouti                         | Montenegro                       |
+| Djibouti                         | Myanmar                          |
+| Djibouti                         | Nepal                            |
+| Djibouti                         | North Korea                      |
+| Djibouti                         | Portugal                         |
+| Djibouti                         | Romania                          |
+| Djibouti                         | San Marino                       |
+| Djibouti                         | Saudi Arabia                     |
+| Djibouti                         | South Sudan                      |
+| Djibouti                         | State of Palestine               |
+| Djibouti                         | Taiwan                           |
+| Djibouti                         | Thailand                         |
+| Djibouti                         | Uganda                           |
+| Djibouti                         | United States of America         |
+| Djibouti                         | Uruguay                          |
+| Djibouti                         | Venezuela                        |
+| Djibouti                         | Zambia                           |
+| Dominica                         | Albania                          |
+| Dominica                         | Angola                           |
+| Dominica                         | Azerbaijan                       |
+| Dominica                         | Bangladesh                       |
+| Dominica                         | Bolivia                          |
+| Dominica                         | Brazil                           |
+| Dominica                         | Chile                            |
+| Dominica                         | Croatia                          |
+| Dominica                         | Czech Republic                   |
+| Dominica                         | Democratic Republic of the Congo |
+| Dominica                         | Denmark                          |
+| Dominica                         | El Salvador                      |
+| Dominica                         | Estonia                          |
+| Dominica                         | Ethiopia                         |
+| Dominica                         | Faroe Islands                    |
+| Dominica                         | Ghana                            |
+| Dominica                         | Greece                           |
+| Dominica                         | India                            |
+| Dominica                         | Ireland                          |
+| Dominica                         | Lebanon                          |
+| Dominica                         | Liberia                          |
+| Dominica                         | Mauritius                        |
+| Dominica                         | Moldova                          |
+| Dominica                         | Morocco                          |
+| Dominica                         | Nigeria                          |
+| Dominica                         | North Korea                      |
+| Dominica                         | Norway                           |
+| Dominica                         | Philippines                      |
+| Dominica                         | Romania                          |
+| Dominica                         | Saint Lucia                      |
+| Dominica                         | Slovenia                         |
+| Dominica                         | Sudan                            |
+| Dominica                         | Tajikistan                       |
+| Dominica                         | Vietnam                          |
+| Dominica                         | Zimbabwe                         |
+| Dominican Republic               | Azerbaijan                       |
+| Dominican Republic               | Bangladesh                       |
+| Dominican Republic               | Belarus                          |
+| Dominican Republic               | Benin                            |
+| Dominican Republic               | Bhutan                           |
+| Dominican Republic               | Colombia                         |
+| Dominican Republic               | Costa Rica                       |
+| Dominican Republic               | Cyprus                           |
+| Dominican Republic               | Czech Republic                   |
+| Dominican Republic               | Ethiopia                         |
+| Dominican Republic               | Grenada                          |
+| Dominican Republic               | Guernsey                         |
+| Dominican Republic               | Guyana                           |
+| Dominican Republic               | Hungary                          |
+| Dominican Republic               | Iraq                             |
+| Dominican Republic               | Israel                           |
+| Dominican Republic               | Ivory Coast                      |
+| Dominican Republic               | Kenya                            |
+| Dominican Republic               | Libya                            |
+| Dominican Republic               | Luxembourg                       |
+| Dominican Republic               | Malawi                           |
+| Dominican Republic               | Mali                             |
+| Dominican Republic               | Malta                            |
+| Dominican Republic               | Mauritius                        |
+| Dominican Republic               | Netherlands                      |
+| Dominican Republic               | People's Republic of China       |
+| Dominican Republic               | Poland                           |
+| Dominican Republic               | Serbia                           |
+| Dominican Republic               | Singapore                        |
+| Dominican Republic               | Slovakia                         |
+| Dominican Republic               | Slovenia                         |
+| Dominican Republic               | Suriname                         |
+| Dominican Republic               | Turkey                           |
+| Dominican Republic               | United States of America         |
+| Dominican Republic               | Venezuela                        |
+| Dominican Republic               | Vietnam                          |
+| Ecuador                          | Argentina                        |
+| Ecuador                          | Armenia                          |
+| Ecuador                          | Azerbaijan                       |
+| Ecuador                          | Belarus                          |
+| Ecuador                          | Bosnia and Herzegovina           |
+| Ecuador                          | Burundi                          |
+| Ecuador                          | Curaçao                          |
+| Ecuador                          | Denmark                          |
+| Ecuador                          | France                           |
+| Ecuador                          | Iraq                             |
+| Ecuador                          | Kosovo                           |
+| Ecuador                          | Kuwait                           |
+| Ecuador                          | Kyrgyzstan                       |
+| Ecuador                          | Laos                             |
+| Ecuador                          | Latvia                           |
+| Ecuador                          | Lebanon                          |
+| Ecuador                          | Lithuania                        |
+| Ecuador                          | Malaysia                         |
+| Ecuador                          | Mali                             |
+| Ecuador                          | Philippines                      |
+| Ecuador                          | Qatar                            |
+| Ecuador                          | Saint Vincent and the Grenadines |
+| Ecuador                          | Somalia                          |
+| Ecuador                          | Sudan                            |
+| Ecuador                          | Suriname                         |
+| Ecuador                          | Sweden                           |
+| Ecuador                          | The Gambia                       |
+| Ecuador                          | Tunisia                          |
+| Egypt                            | Antigua and Barbuda              |
+| Egypt                            | Australia                        |
+| Egypt                            | Belgium                          |
+| Egypt                            | Bhutan                           |
+| Egypt                            | Cambodia                         |
+| Egypt                            | Canada                           |
+| Egypt                            | Cape Verde                       |
+| Egypt                            | Colombia                         |
+| Egypt                            | Croatia                          |
+| Egypt                            | Czech Republic                   |
+| Egypt                            | Democratic Republic of the Congo |
+| Egypt                            | Denmark                          |
+| Egypt                            | Eritrea                          |
+| Egypt                            | Faroe Islands                    |
+| Egypt                            | Gabon                            |
+| Egypt                            | Greece                           |
+| Egypt                            | Grenada                          |
+| Egypt                            | Guernsey                         |
+| Egypt                            | Liechtenstein                    |
+| Egypt                            | Malawi                           |
+| Egypt                            | Nicaragua                        |
+| Egypt                            | North Macedonia                  |
+| Egypt                            | Republic of Abkhazia             |
+| Egypt                            | Romania                          |
+| Egypt                            | Russia                           |
+| Egypt                            | Serbia                           |
+| Egypt                            | Solomon Islands                  |
+| Egypt                            | South Africa                     |
+| Egypt                            | South Sudan                      |
+| Egypt                            | Sri Lanka                        |
+| Egypt                            | Suriname                         |
+| Egypt                            | Sweden                           |
+| Egypt                            | Taiwan                           |
+| Egypt                            | Tunisia                          |
+| Egypt                            | Ukraine                          |
+| Egypt                            | United Arab Emirates             |
+| El Salvador                      | Afghanistan                      |
+| El Salvador                      | Armenia                          |
+| El Salvador                      | Benin                            |
+| El Salvador                      | Cameroon                         |
+| El Salvador                      | Cape Verde                       |
+| El Salvador                      | Cyprus                           |
+| El Salvador                      | Denmark                          |
+| El Salvador                      | Egypt                            |
+| El Salvador                      | Ethiopia                         |
+| El Salvador                      | Greenland                        |
+| El Salvador                      | Iceland                          |
+| El Salvador                      | Indonesia                        |
+| El Salvador                      | Laos                             |
+| El Salvador                      | Latvia                           |
+| El Salvador                      | Lebanon                          |
+| El Salvador                      | Moldova                          |
+| El Salvador                      | Morocco                          |
+| El Salvador                      | Myanmar                          |
+| El Salvador                      | Nepal                            |
+| El Salvador                      | Netherlands                      |
+| El Salvador                      | Nicaragua                        |
+| El Salvador                      | North Macedonia                  |
+| El Salvador                      | Oman                             |
+| El Salvador                      | Panama                           |
+| El Salvador                      | Romania                          |
+| El Salvador                      | Serbia                           |
+| El Salvador                      | Singapore                        |
+| El Salvador                      | Slovakia                         |
+| El Salvador                      | Solomon Islands                  |
+| El Salvador                      | Somalia                          |
+| El Salvador                      | South Africa                     |
+| El Salvador                      | Spain                            |
+| El Salvador                      | Sri Lanka                        |
+| El Salvador                      | Switzerland                      |
+| El Salvador                      | Tajikistan                       |
+| El Salvador                      | Tanzania                         |
+| El Salvador                      | The Gambia                       |
+| El Salvador                      | Tunisia                          |
+| El Salvador                      | Uzbekistan                       |
+| El Salvador                      | Zambia                           |
+| El Salvador                      | Zimbabwe                         |
+| Eritrea                          | Afghanistan                      |
+| Eritrea                          | Algeria                          |
+| Eritrea                          | Benin                            |
+| Eritrea                          | Bolivia                          |
+| Eritrea                          | Botswana                         |
+| Eritrea                          | Bulgaria                         |
+| Eritrea                          | Burundi                          |
+| Eritrea                          | Colombia                         |
+| Eritrea                          | Dominica                         |
+| Eritrea                          | Ecuador                          |
+| Eritrea                          | Guatemala                        |
+| Eritrea                          | Guernsey                         |
+| Eritrea                          | Hungary                          |
+| Eritrea                          | Indonesia                        |
+| Eritrea                          | Iran                             |
+| Eritrea                          | Israel                           |
+| Eritrea                          | Jordan                           |
+| Eritrea                          | Kazakhstan                       |
+| Eritrea                          | Kenya                            |
+| Eritrea                          | Kosovo                           |
+| Eritrea                          | Kuwait                           |
+| Eritrea                          | Kyrgyzstan                       |
+| Eritrea                          | Latvia                           |
+| Eritrea                          | Luxembourg                       |
+| Eritrea                          | Malta                            |
+| Eritrea                          | Mauritania                       |
+| Eritrea                          | Moldova                          |
+| Eritrea                          | Morocco                          |
+| Eritrea                          | Myanmar                          |
+| Eritrea                          | Norway                           |
+| Eritrea                          | Papua New Guinea                 |
+| Eritrea                          | Romania                          |
+| Eritrea                          | Singapore                        |
+| Eritrea                          | Slovakia                         |
+| Eritrea                          | Sri Lanka                        |
+| Eritrea                          | Sudan                            |
+| Eritrea                          | Sweden                           |
+| Eritrea                          | United States of America         |
+| Eritrea                          | Venezuela                        |
+| Estonia                          | Angola                           |
+| Estonia                          | Armenia                          |
+| Estonia                          | Australia                        |
+| Estonia                          | Belarus                          |
+| Estonia                          | Belgium                          |
+| Estonia                          | Benin                            |
+| Estonia                          | Bosnia and Herzegovina           |
+| Estonia                          | Burkina Faso                     |
+| Estonia                          | Croatia                          |
+| Estonia                          | El Salvador                      |
+| Estonia                          | Eritrea                          |
+| Estonia                          | Gabon                            |
+| Estonia                          | India                            |
+| Estonia                          | Indonesia                        |
+| Estonia                          | Ireland                          |
+| Estonia                          | Israel                           |
+| Estonia                          | Italy                            |
+| Estonia                          | Jordan                           |
+| Estonia                          | Kazakhstan                       |
+| Estonia                          | Kyrgyzstan                       |
+| Estonia                          | Laos                             |
+| Estonia                          | Moldova                          |
+| Estonia                          | Nepal                            |
+| Estonia                          | Nigeria                          |
+| Estonia                          | Norway                           |
+| Estonia                          | Papua New Guinea                 |
+| Estonia                          | Peru                             |
+| Estonia                          | Saint Lucia                      |
+| Estonia                          | São Tomé and Príncipe            |
+| Estonia                          | Saudi Arabia                     |
+| Estonia                          | Serbia                           |
+| Estonia                          | State of Palestine               |
+| Estonia                          | Syria                            |
+| Estonia                          | Trinidad and Tobago              |
+| Estonia                          | Tunisia                          |
+| Estonia                          | Uganda                           |
+| Estonia                          | United Arab Emirates             |
+| Estonia                          | United Kingdom                   |
+| Estonia                          | Uruguay                          |
+| Ethiopia                         | Argentina                        |
+| Ethiopia                         | Armenia                          |
+| Ethiopia                         | Bahrain                          |
+| Ethiopia                         | Belgium                          |
+| Ethiopia                         | British Virgin Islands           |
+| Ethiopia                         | Brunei                           |
+| Ethiopia                         | Burkina Faso                     |
+| Ethiopia                         | Cameroon                         |
+| Ethiopia                         | Croatia                          |
+| Ethiopia                         | Denmark                          |
+| Ethiopia                         | Faroe Islands                    |
+| Ethiopia                         | Fiji                             |
+| Ethiopia                         | France                           |
+| Ethiopia                         | Georgia                          |
+| Ethiopia                         | Italy                            |
+| Ethiopia                         | Kyrgyzstan                       |
+| Ethiopia                         | Lebanon                          |
+| Ethiopia                         | Libya                            |
+| Ethiopia                         | Liechtenstein                    |
+| Ethiopia                         | Moldova                          |
+| Ethiopia                         | Morocco                          |
+| Ethiopia                         | New Zealand                      |
+| Ethiopia                         | Nicaragua                        |
+| Ethiopia                         | North Macedonia                  |
+| Ethiopia                         | People's Republic of China       |
+| Ethiopia                         | Peru                             |
+| Ethiopia                         | Portugal                         |
+| Ethiopia                         | Qatar                            |
+| Ethiopia                         | Saint Vincent and the Grenadines |
+| Ethiopia                         | San Marino                       |
+| Ethiopia                         | South Korea                      |
+| Ethiopia                         | Sri Lanka                        |
+| Ethiopia                         | Sudan                            |
+| Ethiopia                         | Sweden                           |
+| Ethiopia                         | Taiwan                           |
+| Ethiopia                         | Turkey                           |
+| Ethiopia                         | Uganda                           |
+| Ethiopia                         | Ukraine                          |
+| Ethiopia                         | United Kingdom                   |
+| Ethiopia                         | United States of America         |
+| Ethiopia                         | Zambia                           |
+| Faroe Islands                    | Argentina                        |
+| Faroe Islands                    | Australia                        |
+| Faroe Islands                    | Austria                          |
+| Faroe Islands                    | Azerbaijan                       |
+| Faroe Islands                    | Belgium                          |
+| Faroe Islands                    | Bhutan                           |
+| Faroe Islands                    | Bosnia and Herzegovina           |
+| Faroe Islands                    | Bulgaria                         |
+| Faroe Islands                    | Cape Verde                       |
+| Faroe Islands                    | Colombia                         |
+| Faroe Islands                    | Cyprus                           |
+| Faroe Islands                    | Czech Republic                   |
+| Faroe Islands                    | Democratic Republic of the Congo |
+| Faroe Islands                    | Ecuador                          |
+| Faroe Islands                    | El Salvador                      |
+| Faroe Islands                    | Finland                          |
+| Faroe Islands                    | Ghana                            |
+| Faroe Islands                    | Greenland                        |
+| Faroe Islands                    | Guatemala                        |
+| Faroe Islands                    | Honduras                         |
+| Faroe Islands                    | Ireland                          |
+| Faroe Islands                    | Ivory Coast                      |
+| Faroe Islands                    | Japan                            |
+| Faroe Islands                    | Kenya                            |
+| Faroe Islands                    | Laos                             |
+| Faroe Islands                    | Libya                            |
+| Faroe Islands                    | Moldova                          |
+| Faroe Islands                    | New Zealand                      |
+| Faroe Islands                    | North Korea                      |
+| Faroe Islands                    | Qatar                            |
+| Faroe Islands                    | Republic of Abkhazia             |
+| Faroe Islands                    | Romania                          |
+| Faroe Islands                    | Russia                           |
+| Faroe Islands                    | Rwanda                           |
+| Faroe Islands                    | Saint Kitts and Nevis            |
+| Faroe Islands                    | San Marino                       |
+| Faroe Islands                    | Saudi Arabia                     |
+| Faroe Islands                    | Singapore                        |
+| Faroe Islands                    | Solomon Islands                  |
+| Faroe Islands                    | South Korea                      |
+| Faroe Islands                    | South Sudan                      |
+| Faroe Islands                    | Sri Lanka                        |
+| Faroe Islands                    | Suriname                         |
+| Faroe Islands                    | Thailand                         |
+| Faroe Islands                    | Venezuela                        |
+| Faroe Islands                    | Vietnam                          |
+| Fiji                             | Australia                        |
+| Fiji                             | Austria                          |
+| Fiji                             | Azerbaijan                       |
+| Fiji                             | Benin                            |
+| Fiji                             | Bosnia and Herzegovina           |
+| Fiji                             | Chile                            |
+| Fiji                             | Denmark                          |
+| Fiji                             | Faroe Islands                    |
+| Fiji                             | Georgia                          |
+| Fiji                             | Germany                          |
+| Fiji                             | Greece                           |
+| Fiji                             | Iran                             |
+| Fiji                             | Ireland                          |
+| Fiji                             | Kenya                            |
+| Fiji                             | Kosovo                           |
+| Fiji                             | Latvia                           |
+| Fiji                             | Liberia                          |
+| Fiji                             | Libya                            |
+| Fiji                             | Liechtenstein                    |
+| Fiji                             | Morocco                          |
+| Fiji                             | Nepal                            |
+| Fiji                             | Panama                           |
+| Fiji                             | Paraguay                         |
+| Fiji                             | Rwanda                           |
+| Fiji                             | Saint Vincent and the Grenadines |
+| Fiji                             | Serbia                           |
+| Fiji                             | South Africa                     |
+| Fiji                             | State of Palestine               |
+| Fiji                             | Syria                            |
+| Fiji                             | Thailand                         |
+| Fiji                             | Trinidad and Tobago              |
+| Fiji                             | Tunisia                          |
+| Fiji                             | Vietnam                          |
+| Finland                          | Australia                        |
+| Finland                          | Azerbaijan                       |
+| Finland                          | Belgium                          |
+| Finland                          | Bhutan                           |
+| Finland                          | Colombia                         |
+| Finland                          | Czech Republic                   |
+| Finland                          | Democratic Republic of the Congo |
+| Finland                          | Egypt                            |
+| Finland                          | El Salvador                      |
+| Finland                          | Ethiopia                         |
+| Finland                          | Ghana                            |
+| Finland                          | Greenland                        |
+| Finland                          | Guyana                           |
+| Finland                          | Kosovo                           |
+| Finland                          | Liberia                          |
+| Finland                          | Malta                            |
+| Finland                          | Mongolia                         |
+| Finland                          | Nepal                            |
+| Finland                          | Netherlands                      |
+| Finland                          | People's Republic of China       |
+| Finland                          | Saint Kitts and Nevis            |
+| Finland                          | Saint Lucia                      |
+| Finland                          | Singapore                        |
+| Finland                          | Slovenia                         |
+| Finland                          | Solomon Islands                  |
+| Finland                          | Sudan                            |
+| Finland                          | Switzerland                      |
+| Finland                          | Syria                            |
+| Finland                          | Tanzania                         |
+| Finland                          | Trinidad and Tobago              |
+| Finland                          | Ukraine                          |
+| Finland                          | Uzbekistan                       |
+| France                           | Angola                           |
+| France                           | Antigua and Barbuda              |
+| France                           | Bangladesh                       |
+| France                           | Bhutan                           |
+| France                           | Bosnia and Herzegovina           |
+| France                           | Burkina Faso                     |
+| France                           | Canada                           |
+| France                           | Denmark                          |
+| France                           | Djibouti                         |
+| France                           | Fiji                             |
+| France                           | Ghana                            |
+| France                           | Greece                           |
+| France                           | Grenada                          |
+| France                           | Iran                             |
+| France                           | Iraq                             |
+| France                           | Israel                           |
+| France                           | Kyrgyzstan                       |
+| France                           | Latvia                           |
+| France                           | Lebanon                          |
+| France                           | Liechtenstein                    |
+| France                           | Morocco                          |
+| France                           | Nicaragua                        |
+| France                           | Papua New Guinea                 |
+| France                           | Peru                             |
+| France                           | Qatar                            |
+| France                           | Russia                           |
+| France                           | San Marino                       |
+| France                           | Serbia                           |
+| France                           | Tanzania                         |
+| France                           | The Gambia                       |
+| France                           | Trinidad and Tobago              |
+| France                           | Turkmenistan                     |
+| France                           | United Kingdom                   |
+| Gabon                            | Afghanistan                      |
+| Gabon                            | Algeria                          |
+| Gabon                            | Bahrain                          |
+| Gabon                            | Bosnia and Herzegovina           |
+| Gabon                            | Bulgaria                         |
+| Gabon                            | Burkina Faso                     |
+| Gabon                            | Burundi                          |
+| Gabon                            | Canada                           |
+| Gabon                            | Djibouti                         |
+| Gabon                            | Dominican Republic               |
+| Gabon                            | El Salvador                      |
+| Gabon                            | Eritrea                          |
+| Gabon                            | Faroe Islands                    |
+| Gabon                            | France                           |
+| Gabon                            | Georgia                          |
+| Gabon                            | Iceland                          |
+| Gabon                            | India                            |
+| Gabon                            | Iran                             |
+| Gabon                            | Israel                           |
+| Gabon                            | Jordan                           |
+| Gabon                            | Kenya                            |
+| Gabon                            | Kosovo                           |
+| Gabon                            | Lebanon                          |
+| Gabon                            | Libya                            |
+| Gabon                            | Lithuania                        |
+| Gabon                            | Luxembourg                       |
+| Gabon                            | Mauritius                        |
+| Gabon                            | Mongolia                         |
+| Gabon                            | North Korea                      |
+| Gabon                            | Pakistan                         |
+| Gabon                            | Poland                           |
+| Gabon                            | Qatar                            |
+| Gabon                            | Russia                           |
+| Gabon                            | Saint Lucia                      |
+| Gabon                            | São Tomé and Príncipe            |
+| Gabon                            | Syria                            |
+| Gabon                            | The Gambia                       |
+| Gabon                            | Turkey                           |
+| Gabon                            | Ukraine                          |
+| Gabon                            | United Kingdom                   |
+| Gabon                            | Uzbekistan                       |
+| Gabon                            | Vietnam                          |
+| Georgia                          | Afghanistan                      |
+| Georgia                          | Antigua and Barbuda              |
+| Georgia                          | Australia                        |
+| Georgia                          | Austria                          |
+| Georgia                          | Azerbaijan                       |
+| Georgia                          | Bangladesh                       |
+| Georgia                          | Belgium                          |
+| Georgia                          | Bhutan                           |
+| Georgia                          | Brunei                           |
+| Georgia                          | Burundi                          |
+| Georgia                          | Colombia                         |
+| Georgia                          | Djibouti                         |
+| Georgia                          | Dominica                         |
+| Georgia                          | Egypt                            |
+| Georgia                          | Greece                           |
+| Georgia                          | Honduras                         |
+| Georgia                          | Ivory Coast                      |
+| Georgia                          | Kenya                            |
+| Georgia                          | Latvia                           |
+| Georgia                          | Liberia                          |
+| Georgia                          | Lithuania                        |
+| Georgia                          | Luxembourg                       |
+| Georgia                          | Mali                             |
+| Georgia                          | Mongolia                         |
+| Georgia                          | Nepal                            |
+| Georgia                          | Netherlands                      |
+| Georgia                          | Nigeria                          |
+| Georgia                          | Norway                           |
+| Georgia                          | Portugal                         |
+| Georgia                          | Saudi Arabia                     |
+| Georgia                          | Sierra Leone                     |
+| Georgia                          | Slovakia                         |
+| Georgia                          | Solomon Islands                  |
+| Georgia                          | Sri Lanka                        |
+| Georgia                          | Zambia                           |
+| Germany                          | Afghanistan                      |
+| Germany                          | Angola                           |
+| Germany                          | Antigua and Barbuda              |
+| Germany                          | Bahrain                          |
+| Germany                          | Bosnia and Herzegovina           |
+| Germany                          | Cyprus                           |
+| Germany                          | Czech Republic                   |
+| Germany                          | Dominica                         |
+| Germany                          | El Salvador                      |
+| Germany                          | Eritrea                          |
+| Germany                          | Ethiopia                         |
+| Germany                          | Gabon                            |
+| Germany                          | Ghana                            |
+| Germany                          | Greenland                        |
+| Germany                          | Iceland                          |
+| Germany                          | Israel                           |
+| Germany                          | Italy                            |
+| Germany                          | Ivory Coast                      |
+| Germany                          | Jordan                           |
+| Germany                          | Kenya                            |
+| Germany                          | Malawi                           |
+| Germany                          | Mali                             |
+| Germany                          | Malta                            |
+| Germany                          | Myanmar                          |
+| Germany                          | New Zealand                      |
+| Germany                          | Oman                             |
+| Germany                          | Paraguay                         |
+| Germany                          | Poland                           |
+| Germany                          | Romania                          |
+| Germany                          | Saint Kitts and Nevis            |
+| Germany                          | Singapore                        |
+| Germany                          | Slovakia                         |
+| Germany                          | South Africa                     |
+| Germany                          | Suriname                         |
+| Germany                          | Tanzania                         |
+| Germany                          | Tunisia                          |
+| Germany                          | Uganda                           |
+| Germany                          | Uzbekistan                       |
+| Germany                          | Vietnam                          |
+| Germany                          | Zimbabwe                         |
+| Ghana                            | Afghanistan                      |
+| Ghana                            | Antigua and Barbuda              |
+| Ghana                            | Bosnia and Herzegovina           |
+| Ghana                            | Botswana                         |
+| Ghana                            | Colombia                         |
+| Ghana                            | Cyprus                           |
+| Ghana                            | Dominican Republic               |
+| Ghana                            | Ecuador                          |
+| Ghana                            | Grenada                          |
+| Ghana                            | Guatemala                        |
+| Ghana                            | Iraq                             |
+| Ghana                            | Ireland                          |
+| Ghana                            | Lebanon                          |
+| Ghana                            | Liberia                          |
+| Ghana                            | Malta                            |
+| Ghana                            | Mongolia                         |
+| Ghana                            | Myanmar                          |
+| Ghana                            | Nepal                            |
+| Ghana                            | Netherlands                      |
+| Ghana                            | North Macedonia                  |
+| Ghana                            | Paraguay                         |
+| Ghana                            | People's Republic of China       |
+| Ghana                            | Philippines                      |
+| Ghana                            | Qatar                            |
+| Ghana                            | Republic of Abkhazia             |
+| Ghana                            | Rwanda                           |
+| Ghana                            | Serbia                           |
+| Ghana                            | Singapore                        |
+| Ghana                            | Slovakia                         |
+| Ghana                            | South Africa                     |
+| Ghana                            | South Sudan                      |
+| Ghana                            | Tajikistan                       |
+| Ghana                            | Trinidad and Tobago              |
+| Ghana                            | Turkey                           |
+| Ghana                            | Uganda                           |
+| Ghana                            | United States of America         |
+| Ghana                            | Uzbekistan                       |
+| Greece                           | Antigua and Barbuda              |
+| Greece                           | Belarus                          |
+| Greece                           | Bolivia                          |
+| Greece                           | Cameroon                         |
+| Greece                           | Cape Verde                       |
+| Greece                           | Chile                            |
+| Greece                           | Croatia                          |
+| Greece                           | Cuba                             |
+| Greece                           | Curaçao                          |
+| Greece                           | Dominican Republic               |
+| Greece                           | Ecuador                          |
+| Greece                           | Greenland                        |
+| Greece                           | Guernsey                         |
+| Greece                           | Honduras                         |
+| Greece                           | Iran                             |
+| Greece                           | Italy                            |
+| Greece                           | Ivory Coast                      |
+| Greece                           | Japan                            |
+| Greece                           | Jordan                           |
+| Greece                           | Kenya                            |
+| Greece                           | Mali                             |
+| Greece                           | Panama                           |
+| Greece                           | Papua New Guinea                 |
+| Greece                           | Peru                             |
+| Greece                           | Qatar                            |
+| Greece                           | Republic of Abkhazia             |
+| Greece                           | Saint Kitts and Nevis            |
+| Greece                           | Slovenia                         |
+| Greece                           | South Korea                      |
+| Greece                           | Syria                            |
+| Greece                           | Trinidad and Tobago              |
+| Greece                           | Uganda                           |
+| Greece                           | United Kingdom                   |
+| Greece                           | United States of America         |
+| Greece                           | Zimbabwe                         |
+| Greenland                        | Algeria                          |
+| Greenland                        | Angola                           |
+| Greenland                        | Antigua and Barbuda              |
+| Greenland                        | Armenia                          |
+| Greenland                        | Australia                        |
+| Greenland                        | Belarus                          |
+| Greenland                        | Benin                            |
+| Greenland                        | Bolivia                          |
+| Greenland                        | Cambodia                         |
+| Greenland                        | Djibouti                         |
+| Greenland                        | Ecuador                          |
+| Greenland                        | Eritrea                          |
+| Greenland                        | Grenada                          |
+| Greenland                        | Israel                           |
+| Greenland                        | Jordan                           |
+| Greenland                        | Latvia                           |
+| Greenland                        | Lebanon                          |
+| Greenland                        | Montenegro                       |
+| Greenland                        | Morocco                          |
+| Greenland                        | New Zealand                      |
+| Greenland                        | Nicaragua                        |
+| Greenland                        | North Macedonia                  |
+| Greenland                        | Oman                             |
+| Greenland                        | Republic of Abkhazia             |
+| Greenland                        | Russia                           |
+| Greenland                        | San Marino                       |
+| Greenland                        | Sierra Leone                     |
+| Greenland                        | Slovenia                         |
+| Greenland                        | South Sudan                      |
+| Greenland                        | Syria                            |
+| Greenland                        | Trinidad and Tobago              |
+| Greenland                        | Uganda                           |
+| Greenland                        | Uruguay                          |
+| Greenland                        | Zambia                           |
+| Grenada                          | Austria                          |
+| Grenada                          | Bahrain                          |
+| Grenada                          | Brazil                           |
+| Grenada                          | Costa Rica                       |
+| Grenada                          | Germany                          |
+| Grenada                          | Honduras                         |
+| Grenada                          | Hungary                          |
+| Grenada                          | Iraq                             |
+| Grenada                          | Italy                            |
+| Grenada                          | Japan                            |
+| Grenada                          | Kyrgyzstan                       |
+| Grenada                          | Lebanon                          |
+| Grenada                          | Liberia                          |
+| Grenada                          | Libya                            |
+| Grenada                          | Lithuania                        |
+| Grenada                          | Malawi                           |
+| Grenada                          | Malaysia                         |
+| Grenada                          | Mali                             |
+| Grenada                          | Moldova                          |
+| Grenada                          | Mongolia                         |
+| Grenada                          | Myanmar                          |
+| Grenada                          | Netherlands                      |
+| Grenada                          | New Zealand                      |
+| Grenada                          | Nicaragua                        |
+| Grenada                          | Nigeria                          |
+| Grenada                          | North Korea                      |
+| Grenada                          | Panama                           |
+| Grenada                          | Portugal                         |
+| Grenada                          | Rwanda                           |
+| Grenada                          | Serbia                           |
+| Grenada                          | South Korea                      |
+| Grenada                          | Suriname                         |
+| Grenada                          | Switzerland                      |
+| Grenada                          | United Arab Emirates             |
+| Grenada                          | Uruguay                          |
+| Grenada                          | Venezuela                        |
+| Guatemala                        | Argentina                        |
+| Guatemala                        | Armenia                          |
+| Guatemala                        | Austria                          |
+| Guatemala                        | Bangladesh                       |
+| Guatemala                        | Cameroon                         |
+| Guatemala                        | Canada                           |
+| Guatemala                        | Chile                            |
+| Guatemala                        | Cuba                             |
+| Guatemala                        | Egypt                            |
+| Guatemala                        | Finland                          |
+| Guatemala                        | Gabon                            |
+| Guatemala                        | Germany                          |
+| Guatemala                        | Greece                           |
+| Guatemala                        | Grenada                          |
+| Guatemala                        | Italy                            |
+| Guatemala                        | Japan                            |
+| Guatemala                        | Kenya                            |
+| Guatemala                        | Lebanon                          |
+| Guatemala                        | Liberia                          |
+| Guatemala                        | Libya                            |
+| Guatemala                        | Morocco                          |
+| Guatemala                        | Myanmar                          |
+| Guatemala                        | Nicaragua                        |
+| Guatemala                        | Sierra Leone                     |
+| Guatemala                        | Slovakia                         |
+| Guatemala                        | South Korea                      |
+| Guatemala                        | Sweden                           |
+| Guatemala                        | Syria                            |
+| Guatemala                        | Turkmenistan                     |
+| Guatemala                        | United Arab Emirates             |
+| Guernsey                         | Angola                           |
+| Guernsey                         | Armenia                          |
+| Guernsey                         | Australia                        |
+| Guernsey                         | Austria                          |
+| Guernsey                         | Belarus                          |
+| Guernsey                         | Bhutan                           |
+| Guernsey                         | Botswana                         |
+| Guernsey                         | Brazil                           |
+| Guernsey                         | Cambodia                         |
+| Guernsey                         | Canada                           |
+| Guernsey                         | Colombia                         |
+| Guernsey                         | Ecuador                          |
+| Guernsey                         | El Salvador                      |
+| Guernsey                         | Ethiopia                         |
+| Guernsey                         | Gabon                            |
+| Guernsey                         | Ghana                            |
+| Guernsey                         | Guyana                           |
+| Guernsey                         | Hungary                          |
+| Guernsey                         | Indonesia                        |
+| Guernsey                         | Iraq                             |
+| Guernsey                         | Japan                            |
+| Guernsey                         | Jordan                           |
+| Guernsey                         | Kyrgyzstan                       |
+| Guernsey                         | Malawi                           |
+| Guernsey                         | Malaysia                         |
+| Guernsey                         | Mali                             |
+| Guernsey                         | Malta                            |
+| Guernsey                         | New Zealand                      |
+| Guernsey                         | Nicaragua                        |
+| Guernsey                         | Pakistan                         |
+| Guernsey                         | Philippines                      |
+| Guernsey                         | Russia                           |
+| Guernsey                         | Saint Lucia                      |
+| Guernsey                         | Serbia                           |
+| Guernsey                         | Slovenia                         |
+| Guernsey                         | State of Palestine               |
+| Guernsey                         | Sudan                            |
+| Guernsey                         | Sweden                           |
+| Guernsey                         | Thailand                         |
+| Guernsey                         | Trinidad and Tobago              |
+| Guernsey                         | Uganda                           |
+| Guernsey                         | United Kingdom                   |
+| Guyana                           | Albania                          |
+| Guyana                           | Belarus                          |
+| Guyana                           | Benin                            |
+| Guyana                           | Burundi                          |
+| Guyana                           | Cape Verde                       |
+| Guyana                           | Chile                            |
+| Guyana                           | Costa Rica                       |
+| Guyana                           | Czech Republic                   |
+| Guyana                           | Democratic Republic of the Congo |
+| Guyana                           | Djibouti                         |
+| Guyana                           | Estonia                          |
+| Guyana                           | Fiji                             |
+| Guyana                           | Georgia                          |
+| Guyana                           | Ghana                            |
+| Guyana                           | Greenland                        |
+| Guyana                           | India                            |
+| Guyana                           | Ireland                          |
+| Guyana                           | Lithuania                        |
+| Guyana                           | Morocco                          |
+| Guyana                           | North Korea                      |
+| Guyana                           | Norway                           |
+| Guyana                           | Russia                           |
+| Guyana                           | Rwanda                           |
+| Guyana                           | São Tomé and Príncipe            |
+| Guyana                           | Serbia                           |
+| Guyana                           | Singapore                        |
+| Guyana                           | Slovakia                         |
+| Guyana                           | State of Palestine               |
+| Guyana                           | Sudan                            |
+| Guyana                           | Syria                            |
+| Guyana                           | United Arab Emirates             |
+| Guyana                           | United Kingdom                   |
+| Guyana                           | Venezuela                        |
+| Guyana                           | Vietnam                          |
+| Guyana                           | Zimbabwe                         |
+| Honduras                         | Algeria                          |
+| Honduras                         | Argentina                        |
+| Honduras                         | Armenia                          |
+| Honduras                         | Benin                            |
+| Honduras                         | Bolivia                          |
+| Honduras                         | Botswana                         |
+| Honduras                         | Brazil                           |
+| Honduras                         | Cambodia                         |
+| Honduras                         | Cape Verde                       |
+| Honduras                         | Chile                            |
+| Honduras                         | Colombia                         |
+| Honduras                         | Cyprus                           |
+| Honduras                         | Denmark                          |
+| Honduras                         | Djibouti                         |
+| Honduras                         | Egypt                            |
+| Honduras                         | Ethiopia                         |
+| Honduras                         | Ghana                            |
+| Honduras                         | Jordan                           |
+| Honduras                         | Kenya                            |
+| Honduras                         | Kuwait                           |
+| Honduras                         | Kyrgyzstan                       |
+| Honduras                         | Laos                             |
+| Honduras                         | Latvia                           |
+| Honduras                         | Lithuania                        |
+| Honduras                         | Malawi                           |
+| Honduras                         | Mexico                           |
+| Honduras                         | Mongolia                         |
+| Honduras                         | Montenegro                       |
+| Honduras                         | Morocco                          |
+| Honduras                         | Nigeria                          |
+| Honduras                         | North Korea                      |
+| Honduras                         | North Macedonia                  |
+| Honduras                         | South Africa                     |
+| Honduras                         | Switzerland                      |
+| Honduras                         | Syria                            |
+| Honduras                         | Taiwan                           |
+| Honduras                         | Tanzania                         |
+| Honduras                         | Trinidad and Tobago              |
+| Honduras                         | Tunisia                          |
+| Honduras                         | United States of America         |
+| Hungary                          | Austria                          |
+| Hungary                          | Brazil                           |
+| Hungary                          | Cambodia                         |
+| Hungary                          | Canada                           |
+| Hungary                          | Croatia                          |
+| Hungary                          | Ecuador                          |
+| Hungary                          | Estonia                          |
+| Hungary                          | Ethiopia                         |
+| Hungary                          | Georgia                          |
+| Hungary                          | Ghana                            |
+| Hungary                          | Greenland                        |
+| Hungary                          | Kyrgyzstan                       |
+| Hungary                          | Malta                            |
+| Hungary                          | Oman                             |
+| Hungary                          | Pakistan                         |
+| Hungary                          | Portugal                         |
+| Hungary                          | Qatar                            |
+| Hungary                          | São Tomé and Príncipe            |
+| Hungary                          | Saudi Arabia                     |
+| Hungary                          | Slovakia                         |
+| Hungary                          | Solomon Islands                  |
+| Hungary                          | State of Palestine               |
+| Hungary                          | Sweden                           |
+| Hungary                          | Tanzania                         |
+| Hungary                          | The Gambia                       |
+| Hungary                          | Turkey                           |
+| Hungary                          | Uganda                           |
+| Hungary                          | United States of America         |
+| Hungary                          | Vietnam                          |
+| Iceland                          | Albania                          |
+| Iceland                          | Argentina                        |
+| Iceland                          | Bahrain                          |
+| Iceland                          | British Virgin Islands           |
+| Iceland                          | Brunei                           |
+| Iceland                          | Burkina Faso                     |
+| Iceland                          | Burundi                          |
+| Iceland                          | Cape Verde                       |
+| Iceland                          | Costa Rica                       |
+| Iceland                          | Curaçao                          |
+| Iceland                          | Cyprus                           |
+| Iceland                          | Denmark                          |
+| Iceland                          | Estonia                          |
+| Iceland                          | Ethiopia                         |
+| Iceland                          | Fiji                             |
+| Iceland                          | Guyana                           |
+| Iceland                          | Hungary                          |
+| Iceland                          | Indonesia                        |
+| Iceland                          | Iraq                             |
+| Iceland                          | Ireland                          |
+| Iceland                          | Jordan                           |
+| Iceland                          | Malawi                           |
+| Iceland                          | Mauritius                        |
+| Iceland                          | Myanmar                          |
+| Iceland                          | New Zealand                      |
+| Iceland                          | Nigeria                          |
+| Iceland                          | Pakistan                         |
+| Iceland                          | People's Republic of China       |
+| Iceland                          | Saint Kitts and Nevis            |
+| Iceland                          | South Africa                     |
+| Iceland                          | South Sudan                      |
+| Iceland                          | Sri Lanka                        |
+| Iceland                          | State of Palestine               |
+| Iceland                          | Sudan                            |
+| Iceland                          | The Gambia                       |
+| Iceland                          | United Kingdom                   |
+| Iceland                          | Uzbekistan                       |
+| Iceland                          | Venezuela                        |
+| Iceland                          | Zambia                           |
+| India                            | Argentina                        |
+| India                            | Australia                        |
+| India                            | Bangladesh                       |
+| India                            | British Virgin Islands           |
+| India                            | Colombia                         |
+| India                            | Cyprus                           |
+| India                            | Denmark                          |
+| India                            | Egypt                            |
+| India                            | Faroe Islands                    |
+| India                            | Fiji                             |
+| India                            | Germany                          |
+| India                            | Ghana                            |
+| India                            | Greece                           |
+| India                            | Honduras                         |
+| India                            | Iceland                          |
+| India                            | Iraq                             |
+| India                            | Jordan                           |
+| India                            | Lebanon                          |
+| India                            | Lithuania                        |
+| India                            | Malaysia                         |
+| India                            | Malta                            |
+| India                            | Mexico                           |
+| India                            | Myanmar                          |
+| India                            | Nigeria                          |
+| India                            | Paraguay                         |
+| India                            | Portugal                         |
+| India                            | Republic of Abkhazia             |
+| India                            | Saint Kitts and Nevis            |
+| India                            | Saint Vincent and the Grenadines |
+| India                            | South Korea                      |
+| India                            | South Sudan                      |
+| India                            | Sweden                           |
+| India                            | Taiwan                           |
+| India                            | United Kingdom                   |
+| India                            | United States of America         |
+| India                            | Zambia                           |
+| Indonesia                        | Albania                          |
+| Indonesia                        | Angola                           |
+| Indonesia                        | Austria                          |
+| Indonesia                        | British Virgin Islands           |
+| Indonesia                        | Burundi                          |
+| Indonesia                        | Canada                           |
+| Indonesia                        | Costa Rica                       |
+| Indonesia                        | Curaçao                          |
+| Indonesia                        | Dominica                         |
+| Indonesia                        | Ecuador                          |
+| Indonesia                        | Ethiopia                         |
+| Indonesia                        | Georgia                          |
+| Indonesia                        | Ghana                            |
+| Indonesia                        | Greece                           |
+| Indonesia                        | Grenada                          |
+| Indonesia                        | Guyana                           |
+| Indonesia                        | Ireland                          |
+| Indonesia                        | Mauritania                       |
+| Indonesia                        | Mauritius                        |
+| Indonesia                        | Moldova                          |
+| Indonesia                        | Netherlands                      |
+| Indonesia                        | New Zealand                      |
+| Indonesia                        | Nicaragua                        |
+| Indonesia                        | Pakistan                         |
+| Indonesia                        | Poland                           |
+| Indonesia                        | Saudi Arabia                     |
+| Indonesia                        | Serbia                           |
+| Indonesia                        | Singapore                        |
+| Indonesia                        | Slovenia                         |
+| Indonesia                        | Turkmenistan                     |
+| Indonesia                        | United States of America         |
+| Indonesia                        | Uzbekistan                       |
+| Indonesia                        | Venezuela                        |
+| Iran                             | Angola                           |
+| Iran                             | Antigua and Barbuda              |
+| Iran                             | Armenia                          |
+| Iran                             | Bahrain                          |
+| Iran                             | Belarus                          |
+| Iran                             | Bhutan                           |
+| Iran                             | Bolivia                          |
+| Iran                             | Bosnia and Herzegovina           |
+| Iran                             | Botswana                         |
+| Iran                             | Brunei                           |
+| Iran                             | Chile                            |
+| Iran                             | Egypt                            |
+| Iran                             | Finland                          |
+| Iran                             | Georgia                          |
+| Iran                             | Ghana                            |
+| Iran                             | Guatemala                        |
+| Iran                             | Honduras                         |
+| Iran                             | India                            |
+| Iran                             | Israel                           |
+| Iran                             | Liberia                          |
+| Iran                             | Malaysia                         |
+| Iran                             | Mali                             |
+| Iran                             | Mauritius                        |
+| Iran                             | Montenegro                       |
+| Iran                             | Nepal                            |
+| Iran                             | Netherlands                      |
+| Iran                             | Norway                           |
+| Iran                             | People's Republic of China       |
+| Iran                             | Peru                             |
+| Iran                             | Republic of Abkhazia             |
+| Iran                             | Rwanda                           |
+| Iran                             | São Tomé and Príncipe            |
+| Iran                             | Slovakia                         |
+| Iran                             | South Korea                      |
+| Iran                             | Spain                            |
+| Iran                             | Sri Lanka                        |
+| Iran                             | State of Palestine               |
+| Iran                             | Syria                            |
+| Iran                             | Taiwan                           |
+| Iran                             | Trinidad and Tobago              |
+| Iran                             | Tunisia                          |
+| Iran                             | Turkey                           |
+| Iran                             | United Arab Emirates             |
+| Iran                             | United States of America         |
+| Iran                             | Uzbekistan                       |
+| Iran                             | Vietnam                          |
+| Iraq                             | Algeria                          |
+| Iraq                             | Argentina                        |
+| Iraq                             | Bangladesh                       |
+| Iraq                             | Benin                            |
+| Iraq                             | Bhutan                           |
+| Iraq                             | Bolivia                          |
+| Iraq                             | British Virgin Islands           |
+| Iraq                             | Bulgaria                         |
+| Iraq                             | Burundi                          |
+| Iraq                             | Cuba                             |
+| Iraq                             | Cyprus                           |
+| Iraq                             | Eritrea                          |
+| Iraq                             | Estonia                          |
+| Iraq                             | Fiji                             |
+| Iraq                             | Indonesia                        |
+| Iraq                             | Iran                             |
+| Iraq                             | Israel                           |
+| Iraq                             | Kazakhstan                       |
+| Iraq                             | Kosovo                           |
+| Iraq                             | Morocco                          |
+| Iraq                             | Myanmar                          |
+| Iraq                             | Nepal                            |
+| Iraq                             | Nicaragua                        |
+| Iraq                             | Nigeria                          |
+| Iraq                             | North Korea                      |
+| Iraq                             | Norway                           |
+| Iraq                             | Oman                             |
+| Iraq                             | Romania                          |
+| Iraq                             | San Marino                       |
+| Iraq                             | São Tomé and Príncipe            |
+| Iraq                             | Slovakia                         |
+| Iraq                             | Ukraine                          |
+| Iraq                             | Uruguay                          |
+| Iraq                             | Vietnam                          |
+| Ireland                          | Algeria                          |
+| Ireland                          | Antigua and Barbuda              |
+| Ireland                          | Armenia                          |
+| Ireland                          | Bosnia and Herzegovina           |
+| Ireland                          | Botswana                         |
+| Ireland                          | Burkina Faso                     |
+| Ireland                          | Cambodia                         |
+| Ireland                          | Cuba                             |
+| Ireland                          | Denmark                          |
+| Ireland                          | Dominican Republic               |
+| Ireland                          | Ecuador                          |
+| Ireland                          | El Salvador                      |
+| Ireland                          | Ethiopia                         |
+| Ireland                          | Finland                          |
+| Ireland                          | Germany                          |
+| Ireland                          | Guatemala                        |
+| Ireland                          | Honduras                         |
+| Ireland                          | India                            |
+| Ireland                          | Jordan                           |
+| Ireland                          | Kenya                            |
+| Ireland                          | Kuwait                           |
+| Ireland                          | Laos                             |
+| Ireland                          | Liechtenstein                    |
+| Ireland                          | Lithuania                        |
+| Ireland                          | Malawi                           |
+| Ireland                          | Myanmar                          |
+| Ireland                          | Nepal                            |
+| Ireland                          | New Zealand                      |
+| Ireland                          | Panama                           |
+| Ireland                          | Peru                             |
+| Ireland                          | Philippines                      |
+| Ireland                          | Rwanda                           |
+| Ireland                          | Saint Kitts and Nevis            |
+| Ireland                          | San Marino                       |
+| Ireland                          | São Tomé and Príncipe            |
+| Ireland                          | Slovenia                         |
+| Ireland                          | Somalia                          |
+| Ireland                          | Spain                            |
+| Ireland                          | State of Palestine               |
+| Ireland                          | Sweden                           |
+| Ireland                          | The Gambia                       |
+| Ireland                          | Trinidad and Tobago              |
+| Ireland                          | United Arab Emirates             |
+| Ireland                          | Uruguay                          |
+| Ireland                          | Uzbekistan                       |
+| Ireland                          | Vietnam                          |
+| Ireland                          | Zimbabwe                         |
+| Israel                           | Albania                          |
+| Israel                           | Antigua and Barbuda              |
+| Israel                           | Austria                          |
+| Israel                           | Azerbaijan                       |
+| Israel                           | Belgium                          |
+| Israel                           | Bhutan                           |
+| Israel                           | Bolivia                          |
+| Israel                           | Bulgaria                         |
+| Israel                           | Costa Rica                       |
+| Israel                           | Denmark                          |
+| Israel                           | Fiji                             |
+| Israel                           | Greece                           |
+| Israel                           | Guernsey                         |
+| Israel                           | Guyana                           |
+| Israel                           | India                            |
+| Israel                           | Ireland                          |
+| Israel                           | Japan                            |
+| Israel                           | Kenya                            |
+| Israel                           | Laos                             |
+| Israel                           | Malta                            |
+| Israel                           | Mauritius                        |
+| Israel                           | Moldova                          |
+| Israel                           | Montenegro                       |
+| Israel                           | Netherlands                      |
+| Israel                           | Nicaragua                        |
+| Israel                           | North Korea                      |
+| Israel                           | Papua New Guinea                 |
+| Israel                           | Qatar                            |
+| Israel                           | Saint Lucia                      |
+| Israel                           | Saint Vincent and the Grenadines |
+| Israel                           | Saudi Arabia                     |
+| Israel                           | Somalia                          |
+| Israel                           | Taiwan                           |
+| Israel                           | Tajikistan                       |
+| Israel                           | Tunisia                          |
+| Israel                           | Turkmenistan                     |
+| Israel                           | Uganda                           |
+| Israel                           | Ukraine                          |
+| Israel                           | Uruguay                          |
+| Israel                           | Uzbekistan                       |
+| Israel                           | Zambia                           |
+| Israel                           | Zimbabwe                         |
+| Italy                            | Afghanistan                      |
+| Italy                            | Angola                           |
+| Italy                            | Argentina                        |
+| Italy                            | Australia                        |
+| Italy                            | Austria                          |
+| Italy                            | Azerbaijan                       |
+| Italy                            | Brazil                           |
+| Italy                            | Bulgaria                         |
+| Italy                            | Cambodia                         |
+| Italy                            | Democratic Republic of the Congo |
+| Italy                            | Dominican Republic               |
+| Italy                            | Finland                          |
+| Italy                            | Guernsey                         |
+| Italy                            | Hungary                          |
+| Italy                            | Iceland                          |
+| Italy                            | India                            |
+| Italy                            | Indonesia                        |
+| Italy                            | Kazakhstan                       |
+| Italy                            | Kenya                            |
+| Italy                            | Libya                            |
+| Italy                            | Liechtenstein                    |
+| Italy                            | Mexico                           |
+| Italy                            | Nicaragua                        |
+| Italy                            | Norway                           |
+| Italy                            | Papua New Guinea                 |
+| Italy                            | Philippines                      |
+| Italy                            | Russia                           |
+| Italy                            | Rwanda                           |
+| Italy                            | Sierra Leone                     |
+| Italy                            | South Korea                      |
+| Italy                            | South Sudan                      |
+| Italy                            | State of Palestine               |
+| Italy                            | Sudan                            |
+| Italy                            | The Gambia                       |
+| Italy                            | Ukraine                          |
+| Italy                            | United Arab Emirates             |
+| Italy                            | United Kingdom                   |
+| Italy                            | Venezuela                        |
+| Italy                            | Zambia                           |
+| Italy                            | Zimbabwe                         |
+| Ivory Coast                      | Armenia                          |
+| Ivory Coast                      | Australia                        |
+| Ivory Coast                      | Bosnia and Herzegovina           |
+| Ivory Coast                      | Botswana                         |
+| Ivory Coast                      | Brunei                           |
+| Ivory Coast                      | Bulgaria                         |
+| Ivory Coast                      | Burundi                          |
+| Ivory Coast                      | Democratic Republic of the Congo |
+| Ivory Coast                      | Djibouti                         |
+| Ivory Coast                      | Dominica                         |
+| Ivory Coast                      | Ecuador                          |
+| Ivory Coast                      | Eritrea                          |
+| Ivory Coast                      | Finland                          |
+| Ivory Coast                      | Ghana                            |
+| Ivory Coast                      | Greenland                        |
+| Ivory Coast                      | Guyana                           |
+| Ivory Coast                      | Iceland                          |
+| Ivory Coast                      | Ireland                          |
+| Ivory Coast                      | Israel                           |
+| Ivory Coast                      | Italy                            |
+| Ivory Coast                      | Japan                            |
+| Ivory Coast                      | Kazakhstan                       |
+| Ivory Coast                      | Laos                             |
+| Ivory Coast                      | Malawi                           |
 | Ivory Coast                      | Malta                            |
+| Ivory Coast                      | Mauritius                        |
+| Ivory Coast                      | Myanmar                          |
+| Ivory Coast                      | Nepal                            |
+| Ivory Coast                      | North Macedonia                  |
+| Ivory Coast                      | Papua New Guinea                 |
+| Ivory Coast                      | Portugal                         |
+| Ivory Coast                      | Rwanda                           |
+| Ivory Coast                      | Saint Kitts and Nevis            |
+| Ivory Coast                      | Saint Vincent and the Grenadines |
+| Ivory Coast                      | Singapore                        |
+| Ivory Coast                      | Slovenia                         |
+| Ivory Coast                      | Solomon Islands                  |
+| Ivory Coast                      | Spain                            |
+| Ivory Coast                      | Sudan                            |
+| Ivory Coast                      | Switzerland                      |
+| Ivory Coast                      | Tanzania                         |
+| Ivory Coast                      | United Arab Emirates             |
+| Ivory Coast                      | United States of America         |
+| Ivory Coast                      | Uzbekistan                       |
+| Japan                            | Algeria                          |
+| Japan                            | Antigua and Barbuda              |
+| Japan                            | Armenia                          |
+| Japan                            | Austria                          |
+| Japan                            | Bangladesh                       |
+| Japan                            | Belarus                          |
+| Japan                            | Bosnia and Herzegovina           |
+| Japan                            | British Virgin Islands           |
+| Japan                            | Colombia                         |
+| Japan                            | Czech Republic                   |
+| Japan                            | Dominica                         |
+| Japan                            | El Salvador                      |
+| Japan                            | Eritrea                          |
+| Japan                            | France                           |
+| Japan                            | Georgia                          |
+| Japan                            | Germany                          |
+| Japan                            | Ghana                            |
+| Japan                            | Greenland                        |
+| Japan                            | Indonesia                        |
+| Japan                            | Ireland                          |
+| Japan                            | Laos                             |
+| Japan                            | Latvia                           |
+| Japan                            | Mali                             |
+| Japan                            | Moldova                          |
+| Japan                            | Mongolia                         |
+| Japan                            | Myanmar                          |
+| Japan                            | New Zealand                      |
+| Japan                            | Nicaragua                        |
+| Japan                            | Pakistan                         |
+| Japan                            | Saint Vincent and the Grenadines |
+| Japan                            | Serbia                           |
+| Japan                            | Solomon Islands                  |
+| Japan                            | South Africa                     |
+| Japan                            | South Korea                      |
+| Japan                            | Suriname                         |
+| Japan                            | Thailand                         |
+| Japan                            | United Kingdom                   |
+| Japan                            | Zimbabwe                         |
+| Jordan                           | Afghanistan                      |
+| Jordan                           | Albania                          |
+| Jordan                           | Algeria                          |
+| Jordan                           | Austria                          |
+| Jordan                           | Bangladesh                       |
+| Jordan                           | Bosnia and Herzegovina           |
+| Jordan                           | Cambodia                         |
+| Jordan                           | Cape Verde                       |
+| Jordan                           | Croatia                          |
+| Jordan                           | Cyprus                           |
+| Jordan                           | Denmark                          |
+| Jordan                           | Djibouti                         |
+| Jordan                           | Dominica                         |
+| Jordan                           | Fiji                             |
+| Jordan                           | Finland                          |
+| Jordan                           | Georgia                          |
+| Jordan                           | Grenada                          |
+| Jordan                           | Guyana                           |
+| Jordan                           | Iran                             |
+| Jordan                           | Ivory Coast                      |
+| Jordan                           | Japan                            |
+| Jordan                           | Lebanon                          |
+| Jordan                           | Liechtenstein                    |
+| Jordan                           | Luxembourg                       |
+| Jordan                           | Mauritania                       |
+| Jordan                           | Montenegro                       |
+| Jordan                           | Pakistan                         |
+| Jordan                           | Philippines                      |
+| Jordan                           | Saint Vincent and the Grenadines |
+| Jordan                           | San Marino                       |
+| Jordan                           | Saudi Arabia                     |
+| Jordan                           | Serbia                           |
+| Jordan                           | Sierra Leone                     |
+| Jordan                           | Slovakia                         |
+| Jordan                           | South Korea                      |
+| Jordan                           | Sri Lanka                        |
+| Jordan                           | Sudan                            |
+| Jordan                           | Syria                            |
+| Jordan                           | Tajikistan                       |
+| Jordan                           | Ukraine                          |
+| Jordan                           | United Kingdom                   |
+| Jordan                           | United States of America         |
+| Jordan                           | Venezuela                        |
+| Kazakhstan                       | Albania                          |
+| Kazakhstan                       | Algeria                          |
+| Kazakhstan                       | Argentina                        |
+| Kazakhstan                       | Australia                        |
+| Kazakhstan                       | Belarus                          |
+| Kazakhstan                       | Brunei                           |
+| Kazakhstan                       | Burundi                          |
+| Kazakhstan                       | Denmark                          |
+| Kazakhstan                       | Dominican Republic               |
+| Kazakhstan                       | Ecuador                          |
+| Kazakhstan                       | France                           |
+| Kazakhstan                       | Greenland                        |
+| Kazakhstan                       | Grenada                          |
+| Kazakhstan                       | Honduras                         |
+| Kazakhstan                       | Hungary                          |
+| Kazakhstan                       | Ireland                          |
+| Kazakhstan                       | Israel                           |
+| Kazakhstan                       | Japan                            |
+| Kazakhstan                       | Jordan                           |
+| Kazakhstan                       | Kuwait                           |
+| Kazakhstan                       | Laos                             |
+| Kazakhstan                       | Lebanon                          |
+| Kazakhstan                       | Malaysia                         |
+| Kazakhstan                       | Mauritius                        |
+| Kazakhstan                       | Mexico                           |
+| Kazakhstan                       | Myanmar                          |
+| Kazakhstan                       | Nicaragua                        |
+| Kazakhstan                       | Panama                           |
+| Kazakhstan                       | People's Republic of China       |
+| Kazakhstan                       | Portugal                         |
+| Kazakhstan                       | Republic of Abkhazia             |
+| Kazakhstan                       | San Marino                       |
+| Kazakhstan                       | São Tomé and Príncipe            |
+| Kazakhstan                       | Saudi Arabia                     |
+| Kazakhstan                       | Serbia                           |
+| Kazakhstan                       | Singapore                        |
+| Kazakhstan                       | Solomon Islands                  |
+| Kazakhstan                       | Sweden                           |
+| Kazakhstan                       | Switzerland                      |
+| Kazakhstan                       | Tajikistan                       |
+| Kazakhstan                       | Ukraine                          |
+| Kazakhstan                       | Vietnam                          |
+| Kenya                            | Afghanistan                      |
+| Kenya                            | Algeria                          |
+| Kenya                            | Antigua and Barbuda              |
+| Kenya                            | Bahrain                          |
+| Kenya                            | Brazil                           |
+| Kenya                            | Burundi                          |
+| Kenya                            | Cape Verde                       |
+| Kenya                            | Colombia                         |
+| Kenya                            | Czech Republic                   |
+| Kenya                            | Dominica                         |
+| Kenya                            | Greenland                        |
+| Kenya                            | Hungary                          |
+| Kenya                            | India                            |
+| Kenya                            | Iran                             |
+| Kenya                            | Jordan                           |
+| Kenya                            | Kyrgyzstan                       |
+| Kenya                            | Lebanon                          |
+| Kenya                            | Liberia                          |
+| Kenya                            | Lithuania                        |
+| Kenya                            | Mauritania                       |
+| Kenya                            | Moldova                          |
+| Kenya                            | Morocco                          |
+| Kenya                            | Nepal                            |
+| Kenya                            | Panama                           |
+| Kenya                            | Poland                           |
+| Kenya                            | Portugal                         |
+| Kenya                            | Republic of Abkhazia             |
+| Kenya                            | Rwanda                           |
+| Kenya                            | San Marino                       |
+| Kenya                            | São Tomé and Príncipe            |
+| Kenya                            | State of Palestine               |
+| Kenya                            | Suriname                         |
+| Kenya                            | Sweden                           |
+| Kenya                            | Switzerland                      |
+| Kenya                            | Syria                            |
+| Kenya                            | Trinidad and Tobago              |
+| Kenya                            | Uganda                           |
+| Kenya                            | Vietnam                          |
+| Kosovo                           | Albania                          |
+| Kosovo                           | Angola                           |
+| Kosovo                           | Armenia                          |
+| Kosovo                           | Australia                        |
+| Kosovo                           | Bosnia and Herzegovina           |
+| Kosovo                           | Botswana                         |
+| Kosovo                           | Brazil                           |
+| Kosovo                           | Bulgaria                         |
+| Kosovo                           | Burkina Faso                     |
+| Kosovo                           | Costa Rica                       |
+| Kosovo                           | Djibouti                         |
+| Kosovo                           | Egypt                            |
+| Kosovo                           | Estonia                          |
+| Kosovo                           | Guatemala                        |
+| Kosovo                           | India                            |
+| Kosovo                           | Iran                             |
+| Kosovo                           | Ivory Coast                      |
+| Kosovo                           | Laos                             |
+| Kosovo                           | Libya                            |
+| Kosovo                           | Luxembourg                       |
+| Kosovo                           | Montenegro                       |
+| Kosovo                           | Nigeria                          |
+| Kosovo                           | North Macedonia                  |
+| Kosovo                           | Peru                             |
+| Kosovo                           | Republic of Abkhazia             |
+| Kosovo                           | Rwanda                           |
+| Kosovo                           | Saint Lucia                      |
+| Kosovo                           | Saint Vincent and the Grenadines |
+| Kosovo                           | Saudi Arabia                     |
+| Kosovo                           | Singapore                        |
+| Kosovo                           | Spain                            |
+| Kosovo                           | Sweden                           |
+| Kosovo                           | Ukraine                          |
+| Kosovo                           | United Arab Emirates             |
+| Kosovo                           | United States of America         |
+| Kosovo                           | Zambia                           |
+| Kuwait                           | Armenia                          |
+| Kuwait                           | Belgium                          |
+| Kuwait                           | Benin                            |
+| Kuwait                           | Bhutan                           |
+| Kuwait                           | Bosnia and Herzegovina           |
+| Kuwait                           | Bulgaria                         |
+| Kuwait                           | Cambodia                         |
+| Kuwait                           | Colombia                         |
+| Kuwait                           | Curaçao                          |
+| Kuwait                           | Czech Republic                   |
+| Kuwait                           | Dominican Republic               |
+| Kuwait                           | Ethiopia                         |
+| Kuwait                           | Faroe Islands                    |
+| Kuwait                           | Finland                          |
+| Kuwait                           | Greenland                        |
+| Kuwait                           | Guernsey                         |
+| Kuwait                           | Iceland                          |
+| Kuwait                           | Indonesia                        |
+| Kuwait                           | Iraq                             |
+| Kuwait                           | Japan                            |
+| Kuwait                           | Latvia                           |
+| Kuwait                           | Lebanon                          |
+| Kuwait                           | Libya                            |
+| Kuwait                           | Mauritius                        |
+| Kuwait                           | North Macedonia                  |
+| Kuwait                           | Panama                           |
+| Kuwait                           | Poland                           |
+| Kuwait                           | Qatar                            |
+| Kuwait                           | Slovakia                         |
+| Kuwait                           | Somalia                          |
+| Kuwait                           | Sri Lanka                        |
+| Kuwait                           | Switzerland                      |
+| Kuwait                           | Syria                            |
+| Kuwait                           | Ukraine                          |
+| Kyrgyzstan                       | Belarus                          |
+| Kyrgyzstan                       | Brazil                           |
+| Kyrgyzstan                       | Brunei                           |
+| Kyrgyzstan                       | Burkina Faso                     |
+| Kyrgyzstan                       | Cameroon                         |
+| Kyrgyzstan                       | Colombia                         |
+| Kyrgyzstan                       | Curaçao                          |
+| Kyrgyzstan                       | Dominica                         |
+| Kyrgyzstan                       | Dominican Republic               |
+| Kyrgyzstan                       | Egypt                            |
+| Kyrgyzstan                       | Faroe Islands                    |
+| Kyrgyzstan                       | Germany                          |
+| Kyrgyzstan                       | Iceland                          |
+| Kyrgyzstan                       | Iraq                             |
+| Kyrgyzstan                       | Ivory Coast                      |
+| Kyrgyzstan                       | Kazakhstan                       |
+| Kyrgyzstan                       | Laos                             |
+| Kyrgyzstan                       | Liberia                          |
+| Kyrgyzstan                       | Liechtenstein                    |
+| Kyrgyzstan                       | Malawi                           |
+| Kyrgyzstan                       | Mauritania                       |
+| Kyrgyzstan                       | Mauritius                        |
+| Kyrgyzstan                       | Mexico                           |
+| Kyrgyzstan                       | Mongolia                         |
+| Kyrgyzstan                       | Netherlands                      |
+| Kyrgyzstan                       | Nicaragua                        |
+| Kyrgyzstan                       | Panama                           |
+| Kyrgyzstan                       | Paraguay                         |
+| Kyrgyzstan                       | Peru                             |
+| Kyrgyzstan                       | Romania                          |
+| Kyrgyzstan                       | Rwanda                           |
+| Kyrgyzstan                       | Saint Lucia                      |
+| Kyrgyzstan                       | South Sudan                      |
+| Kyrgyzstan                       | Sri Lanka                        |
+| Kyrgyzstan                       | State of Palestine               |
+| Kyrgyzstan                       | Switzerland                      |
+| Kyrgyzstan                       | Tajikistan                       |
+| Kyrgyzstan                       | The Gambia                       |
+| Kyrgyzstan                       | Tunisia                          |
+| Kyrgyzstan                       | United Arab Emirates             |
+| Kyrgyzstan                       | Venezuela                        |
+| Kyrgyzstan                       | Zimbabwe                         |
+| Laos                             | Azerbaijan                       |
+| Laos                             | Bahrain                          |
+| Laos                             | Belarus                          |
+| Laos                             | Costa Rica                       |
+| Laos                             | Cuba                             |
+| Laos                             | Cyprus                           |
+| Laos                             | Czech Republic                   |
+| Laos                             | Democratic Republic of the Congo |
+| Laos                             | Denmark                          |
+| Laos                             | Egypt                            |
+| Laos                             | France                           |
+| Laos                             | Georgia                          |
+| Laos                             | Guatemala                        |
+| Laos                             | Guernsey                         |
+| Laos                             | India                            |
+| Laos                             | Iran                             |
+| Laos                             | Jordan                           |
+| Laos                             | Malaysia                         |
+| Laos                             | Mauritius                        |
+| Laos                             | Mexico                           |
+| Laos                             | Mongolia                         |
+| Laos                             | Myanmar                          |
+| Laos                             | North Macedonia                  |
+| Laos                             | Papua New Guinea                 |
+| Laos                             | Philippines                      |
+| Laos                             | San Marino                       |
+| Laos                             | Singapore                        |
+| Laos                             | Slovenia                         |
+| Laos                             | Sri Lanka                        |
+| Laos                             | State of Palestine               |
+| Laos                             | Suriname                         |
+| Laos                             | Syria                            |
+| Laos                             | Taiwan                           |
+| Laos                             | Thailand                         |
+| Latvia                           | Algeria                          |
+| Latvia                           | Australia                        |
+| Latvia                           | Belarus                          |
+| Latvia                           | Belgium                          |
+| Latvia                           | Benin                            |
+| Latvia                           | Bhutan                           |
+| Latvia                           | British Virgin Islands           |
+| Latvia                           | Cambodia                         |
+| Latvia                           | Canada                           |
+| Latvia                           | Cape Verde                       |
+| Latvia                           | Democratic Republic of the Congo |
+| Latvia                           | Denmark                          |
+| Latvia                           | Estonia                          |
+| Latvia                           | Germany                          |
+| Latvia                           | India                            |
+| Latvia                           | Israel                           |
+| Latvia                           | Kazakhstan                       |
+| Latvia                           | Kenya                            |
+| Latvia                           | Kyrgyzstan                       |
+| Latvia                           | Liberia                          |
+| Latvia                           | Luxembourg                       |
+| Latvia                           | Mauritius                        |
+| Latvia                           | Montenegro                       |
+| Latvia                           | North Korea                      |
+| Latvia                           | People's Republic of China       |
+| Latvia                           | Qatar                            |
+| Latvia                           | Russia                           |
+| Latvia                           | Saudi Arabia                     |
+| Latvia                           | Sierra Leone                     |
+| Latvia                           | Somalia                          |
+| Latvia                           | State of Palestine               |
+| Latvia                           | Sweden                           |
+| Latvia                           | Tajikistan                       |
+| Latvia                           | United Kingdom                   |
+| Latvia                           | Zimbabwe                         |
+| Lebanon                          | Albania                          |
+| Lebanon                          | Austria                          |
+| Lebanon                          | Bahrain                          |
+| Lebanon                          | Belarus                          |
+| Lebanon                          | Bhutan                           |
+| Lebanon                          | Bolivia                          |
+| Lebanon                          | Bulgaria                         |
+| Lebanon                          | Costa Rica                       |
+| Lebanon                          | Curaçao                          |
+| Lebanon                          | Dominican Republic               |
+| Lebanon                          | Egypt                            |
+| Lebanon                          | Fiji                             |
+| Lebanon                          | Greece                           |
+| Lebanon                          | Indonesia                        |
+| Lebanon                          | Iraq                             |
+| Lebanon                          | Israel                           |
+| Lebanon                          | Italy                            |
+| Lebanon                          | Ivory Coast                      |
+| Lebanon                          | Kyrgyzstan                       |
+| Lebanon                          | Latvia                           |
+| Lebanon                          | Lithuania                        |
+| Lebanon                          | Mauritius                        |
+| Lebanon                          | Montenegro                       |
+| Lebanon                          | Myanmar                          |
+| Lebanon                          | Paraguay                         |
+| Lebanon                          | People's Republic of China       |
+| Lebanon                          | Poland                           |
+| Lebanon                          | Qatar                            |
+| Lebanon                          | Republic of Abkhazia             |
+| Lebanon                          | Romania                          |
+| Lebanon                          | Saint Vincent and the Grenadines |
+| Lebanon                          | São Tomé and Príncipe            |
+| Lebanon                          | Slovakia                         |
+| Lebanon                          | Solomon Islands                  |
+| Lebanon                          | South Korea                      |
+| Lebanon                          | South Sudan                      |
+| Lebanon                          | Sweden                           |
+| Lebanon                          | United States of America         |
+| Liberia                          | Australia                        |
+| Liberia                          | British Virgin Islands           |
+| Liberia                          | Burundi                          |
+| Liberia                          | Cuba                             |
+| Liberia                          | Curaçao                          |
+| Liberia                          | Cyprus                           |
+| Liberia                          | Democratic Republic of the Congo |
+| Liberia                          | Dominican Republic               |
+| Liberia                          | Egypt                            |
+| Liberia                          | Eritrea                          |
+| Liberia                          | Gabon                            |
+| Liberia                          | Greece                           |
+| Liberia                          | Guyana                           |
+| Liberia                          | Hungary                          |
+| Liberia                          | Iceland                          |
+| Liberia                          | Indonesia                        |
+| Liberia                          | Iraq                             |
+| Liberia                          | Japan                            |
+| Liberia                          | Kazakhstan                       |
+| Liberia                          | Kuwait                           |
+| Liberia                          | Malaysia                         |
+| Liberia                          | Myanmar                          |
+| Liberia                          | North Macedonia                  |
+| Liberia                          | Panama                           |
+| Liberia                          | Philippines                      |
+| Liberia                          | Romania                          |
+| Liberia                          | Russia                           |
+| Liberia                          | Saint Kitts and Nevis            |
+| Liberia                          | Saint Lucia                      |
+| Liberia                          | São Tomé and Príncipe            |
+| Liberia                          | Slovenia                         |
+| Liberia                          | Sudan                            |
+| Liberia                          | Syria                            |
+| Liberia                          | Tajikistan                       |
+| Liberia                          | Thailand                         |
+| Liberia                          | Tunisia                          |
+| Liberia                          | Uruguay                          |
+| Liberia                          | Zambia                           |
+| Libya                            | Argentina                        |
+| Libya                            | Armenia                          |
+| Libya                            | Azerbaijan                       |
+| Libya                            | Burkina Faso                     |
+| Libya                            | Cambodia                         |
+| Libya                            | Cameroon                         |
+| Libya                            | Czech Republic                   |
+| Libya                            | Djibouti                         |
+| Libya                            | Dominica                         |
+| Libya                            | Ecuador                          |
+| Libya                            | Egypt                            |
+| Libya                            | El Salvador                      |
+| Libya                            | Estonia                          |
+| Libya                            | Finland                          |
+| Libya                            | France                           |
+| Libya                            | Germany                          |
+| Libya                            | Guernsey                         |
+| Libya                            | Honduras                         |
+| Libya                            | Indonesia                        |
+| Libya                            | Japan                            |
+| Libya                            | Kyrgyzstan                       |
+| Libya                            | Lebanon                          |
+| Libya                            | Malawi                           |
+| Libya                            | Montenegro                       |
+| Libya                            | Paraguay                         |
+| Libya                            | Saint Lucia                      |
+| Libya                            | Slovakia                         |
+| Libya                            | Slovenia                         |
+| Libya                            | Sri Lanka                        |
+| Libya                            | State of Palestine               |
+| Libya                            | Suriname                         |
+| Libya                            | Tanzania                         |
+| Libya                            | The Gambia                       |
+| Libya                            | Vietnam                          |
+| Liechtenstein                    | Albania                          |
+| Liechtenstein                    | Algeria                          |
+| Liechtenstein                    | Argentina                        |
+| Liechtenstein                    | Austria                          |
+| Liechtenstein                    | Bahrain                          |
+| Liechtenstein                    | Bangladesh                       |
+| Liechtenstein                    | Bolivia                          |
+| Liechtenstein                    | Bosnia and Herzegovina           |
+| Liechtenstein                    | Botswana                         |
+| Liechtenstein                    | Brunei                           |
+| Liechtenstein                    | Chile                            |
+| Liechtenstein                    | Colombia                         |
+| Liechtenstein                    | Dominica                         |
+| Liechtenstein                    | Faroe Islands                    |
+| Liechtenstein                    | Gabon                            |
+| Liechtenstein                    | Germany                          |
+| Liechtenstein                    | Greenland                        |
+| Liechtenstein                    | Grenada                          |
+| Liechtenstein                    | Honduras                         |
+| Liechtenstein                    | Hungary                          |
+| Liechtenstein                    | Iceland                          |
+| Liechtenstein                    | Kazakhstan                       |
+| Liechtenstein                    | Kenya                            |
+| Liechtenstein                    | Mauritania                       |
+| Liechtenstein                    | Mauritius                        |
+| Liechtenstein                    | Netherlands                      |
+| Liechtenstein                    | North Korea                      |
+| Liechtenstein                    | Panama                           |
+| Liechtenstein                    | Papua New Guinea                 |
+| Liechtenstein                    | Philippines                      |
+| Liechtenstein                    | Portugal                         |
+| Liechtenstein                    | Rwanda                           |
+| Liechtenstein                    | Saint Vincent and the Grenadines |
+| Liechtenstein                    | São Tomé and Príncipe            |
+| Liechtenstein                    | Somalia                          |
+| Liechtenstein                    | South Korea                      |
+| Liechtenstein                    | Syria                            |
+| Liechtenstein                    | Taiwan                           |
+| Liechtenstein                    | Trinidad and Tobago              |
+| Liechtenstein                    | Tunisia                          |
+| Liechtenstein                    | Turkmenistan                     |
+| Liechtenstein                    | United Arab Emirates             |
+| Lithuania                        | Albania                          |
+| Lithuania                        | Antigua and Barbuda              |
+| Lithuania                        | Austria                          |
+| Lithuania                        | Belarus                          |
+| Lithuania                        | Brunei                           |
+| Lithuania                        | Cameroon                         |
+| Lithuania                        | Cyprus                           |
+| Lithuania                        | Democratic Republic of the Congo |
+| Lithuania                        | Dominica                         |
+| Lithuania                        | Egypt                            |
+| Lithuania                        | Estonia                          |
+| Lithuania                        | Fiji                             |
+| Lithuania                        | France                           |
+| Lithuania                        | Ghana                            |
+| Lithuania                        | Indonesia                        |
+| Lithuania                        | Iraq                             |
+| Lithuania                        | Laos                             |
+| Lithuania                        | Malaysia                         |
+| Lithuania                        | Mali                             |
+| Lithuania                        | Malta                            |
+| Lithuania                        | Nepal                            |
+| Lithuania                        | Nigeria                          |
+| Lithuania                        | North Korea                      |
+| Lithuania                        | North Macedonia                  |
+| Lithuania                        | Panama                           |
+| Lithuania                        | Republic of Abkhazia             |
+| Lithuania                        | Saint Lucia                      |
+| Lithuania                        | São Tomé and Príncipe            |
+| Lithuania                        | Slovenia                         |
+| Lithuania                        | South Sudan                      |
+| Lithuania                        | Sweden                           |
+| Lithuania                        | The Gambia                       |
+| Lithuania                        | Tunisia                          |
+| Lithuania                        | Turkey                           |
+| Lithuania                        | Turkmenistan                     |
+| Lithuania                        | Venezuela                        |
+| Lithuania                        | Zambia                           |
+| Lithuania                        | Zimbabwe                         |
+| Luxembourg                       | Albania                          |
+| Luxembourg                       | Bangladesh                       |
+| Luxembourg                       | Bolivia                          |
+| Luxembourg                       | Bosnia and Herzegovina           |
+| Luxembourg                       | Bulgaria                         |
+| Luxembourg                       | Cuba                             |
+| Luxembourg                       | Cyprus                           |
+| Luxembourg                       | Czech Republic                   |
+| Luxembourg                       | Dominica                         |
+| Luxembourg                       | El Salvador                      |
+| Luxembourg                       | Ethiopia                         |
+| Luxembourg                       | Fiji                             |
+| Luxembourg                       | France                           |
+| Luxembourg                       | Guatemala                        |
+| Luxembourg                       | Honduras                         |
+| Luxembourg                       | Hungary                          |
+| Luxembourg                       | Iran                             |
+| Luxembourg                       | Iraq                             |
+| Luxembourg                       | Israel                           |
+| Luxembourg                       | Italy                            |
+| Luxembourg                       | Malaysia                         |
+| Luxembourg                       | Malta                            |
+| Luxembourg                       | New Zealand                      |
+| Luxembourg                       | North Macedonia                  |
+| Luxembourg                       | Pakistan                         |
+| Luxembourg                       | Panama                           |
+| Luxembourg                       | Papua New Guinea                 |
+| Luxembourg                       | Portugal                         |
+| Luxembourg                       | Qatar                            |
+| Luxembourg                       | Romania                          |
+| Luxembourg                       | Saint Lucia                      |
+| Luxembourg                       | Somalia                          |
+| Luxembourg                       | South Africa                     |
+| Luxembourg                       | Sri Lanka                        |
+| Luxembourg                       | The Gambia                       |
+| Luxembourg                       | United Arab Emirates             |
+| Luxembourg                       | Uruguay                          |
+| Luxembourg                       | Zimbabwe                         |
+| Malawi                           | Belgium                          |
+| Malawi                           | Burkina Faso                     |
+| Malawi                           | Cyprus                           |
+| Malawi                           | Denmark                          |
+| Malawi                           | Estonia                          |
+| Malawi                           | Finland                          |
+| Malawi                           | Gabon                            |
+| Malawi                           | Ghana                            |
+| Malawi                           | Greenland                        |
+| Malawi                           | Guatemala                        |
+| Malawi                           | Guyana                           |
+| Malawi                           | Hungary                          |
+| Malawi                           | Italy                            |
+| Malawi                           | Japan                            |
+| Malawi                           | Kuwait                           |
+| Malawi                           | Latvia                           |
+| Malawi                           | Liberia                          |
+| Malawi                           | Lithuania                        |
+| Malawi                           | Mexico                           |
+| Malawi                           | Mongolia                         |
+| Malawi                           | Morocco                          |
+| Malawi                           | Nepal                            |
+| Malawi                           | North Korea                      |
+| Malawi                           | Norway                           |
+| Malawi                           | Oman                             |
+| Malawi                           | Panama                           |
+| Malawi                           | Papua New Guinea                 |
+| Malawi                           | Peru                             |
+| Malawi                           | Philippines                      |
+| Malawi                           | Portugal                         |
+| Malawi                           | Qatar                            |
+| Malawi                           | Russia                           |
+| Malawi                           | Rwanda                           |
+| Malawi                           | Saint Kitts and Nevis            |
+| Malawi                           | San Marino                       |
+| Malawi                           | São Tomé and Príncipe            |
+| Malawi                           | Somalia                          |
+| Malawi                           | South Sudan                      |
+| Malawi                           | Sudan                            |
+| Malawi                           | Syria                            |
+| Malawi                           | Taiwan                           |
+| Malawi                           | Trinidad and Tobago              |
+| Malawi                           | Uganda                           |
+| Malawi                           | United Kingdom                   |
+| Malawi                           | Uruguay                          |
+| Malawi                           | Zimbabwe                         |
+| Malaysia                         | Afghanistan                      |
+| Malaysia                         | Albania                          |
+| Malaysia                         | Bangladesh                       |
+| Malaysia                         | Belarus                          |
+| Malaysia                         | British Virgin Islands           |
+| Malaysia                         | Burkina Faso                     |
+| Malaysia                         | Canada                           |
+| Malaysia                         | Cuba                             |
+| Malaysia                         | Curaçao                          |
+| Malaysia                         | Denmark                          |
+| Malaysia                         | Egypt                            |
+| Malaysia                         | Estonia                          |
+| Malaysia                         | Ghana                            |
+| Malaysia                         | Greece                           |
+| Malaysia                         | Greenland                        |
+| Malaysia                         | Guatemala                        |
+| Malaysia                         | Ivory Coast                      |
+| Malaysia                         | Kenya                            |
+| Malaysia                         | Lebanon                          |
+| Malaysia                         | New Zealand                      |
+| Malaysia                         | Nigeria                          |
+| Malaysia                         | Oman                             |
+| Malaysia                         | Poland                           |
+| Malaysia                         | Republic of Abkhazia             |
+| Malaysia                         | Saint Lucia                      |
+| Malaysia                         | Sierra Leone                     |
+| Malaysia                         | Singapore                        |
+| Malaysia                         | South Africa                     |
+| Malaysia                         | Syria                            |
+| Malaysia                         | Tajikistan                       |
+| Malaysia                         | United States of America         |
+| Malaysia                         | Zambia                           |
+| Malaysia                         | Zimbabwe                         |
+| Mali                             | Algeria                          |
+| Mali                             | Bangladesh                       |
+| Mali                             | Botswana                         |
+| Mali                             | Brazil                           |
+| Mali                             | Bulgaria                         |
+| Mali                             | Cambodia                         |
+| Mali                             | Croatia                          |
+| Mali                             | Cuba                             |
+| Mali                             | Denmark                          |
+| Mali                             | Egypt                            |
+| Mali                             | El Salvador                      |
+| Mali                             | Estonia                          |
+| Mali                             | Gabon                            |
+| Mali                             | Ghana                            |
+| Mali                             | Greenland                        |
+| Mali                             | Honduras                         |
+| Mali                             | Indonesia                        |
+| Mali                             | Italy                            |
+| Mali                             | Kosovo                           |
+| Mali                             | Latvia                           |
+| Mali                             | Lebanon                          |
+| Mali                             | Libya                            |
+| Mali                             | Liechtenstein                    |
+| Mali                             | Luxembourg                       |
+| Mali                             | Mauritania                       |
+| Mali                             | Morocco                          |
+| Mali                             | New Zealand                      |
+| Mali                             | Nigeria                          |
+| Mali                             | Panama                           |
+| Mali                             | Portugal                         |
+| Mali                             | Romania                          |
+| Mali                             | Saint Lucia                      |
+| Mali                             | Saint Vincent and the Grenadines |
+| Mali                             | San Marino                       |
+| Mali                             | Sierra Leone                     |
+| Mali                             | Switzerland                      |
+| Mali                             | Tanzania                         |
+| Mali                             | Thailand                         |
+| Mali                             | Turkmenistan                     |
+| Malta                            | Argentina                        |
+| Malta                            | Armenia                          |
+| Malta                            | Australia                        |
+| Malta                            | Bhutan                           |
+| Malta                            | Canada                           |
+| Malta                            | Curaçao                          |
+| Malta                            | Democratic Republic of the Congo |
+| Malta                            | Ecuador                          |
+| Malta                            | Egypt                            |
+| Malta                            | Ethiopia                         |
+| Malta                            | Faroe Islands                    |
+| Malta                            | Fiji                             |
+| Malta                            | Gabon                            |
+| Malta                            | Grenada                          |
+| Malta                            | Iran                             |
+| Malta                            | Ireland                          |
+| Malta                            | Italy                            |
+| Malta                            | Jordan                           |
+| Malta                            | Kuwait                           |
+| Malta                            | Latvia                           |
+| Malta                            | Lebanon                          |
+| Malta                            | Liberia                          |
+| Malta                            | Libya                            |
+| Malta                            | Liechtenstein                    |
+| Malta                            | Moldova                          |
+| Malta                            | Montenegro                       |
+| Malta                            | Nicaragua                        |
+| Malta                            | Philippines                      |
+| Malta                            | Portugal                         |
+| Malta                            | Russia                           |
+| Malta                            | Saint Kitts and Nevis            |
+| Malta                            | Saint Vincent and the Grenadines |
+| Malta                            | San Marino                       |
+| Malta                            | Slovakia                         |
+| Malta                            | Slovenia                         |
+| Malta                            | Spain                            |
+| Malta                            | Taiwan                           |
+| Malta                            | The Gambia                       |
+| Malta                            | Uzbekistan                       |
+| Malta                            | Zambia                           |
+| Malta                            | Zimbabwe                         |
+| Mauritania                       | Armenia                          |
+| Mauritania                       | Brazil                           |
+| Mauritania                       | Chile                            |
+| Mauritania                       | France                           |
+| Mauritania                       | Ghana                            |
+| Mauritania                       | Grenada                          |
+| Mauritania                       | Guyana                           |
+| Mauritania                       | Honduras                         |
+| Mauritania                       | Iraq                             |
+| Mauritania                       | Ireland                          |
+| Mauritania                       | Latvia                           |
+| Mauritania                       | Libya                            |
+| Mauritania                       | Mexico                           |
+| Mauritania                       | Mongolia                         |
+| Mauritania                       | Myanmar                          |
+| Mauritania                       | Nigeria                          |
+| Mauritania                       | Pakistan                         |
+| Mauritania                       | Paraguay                         |
+| Mauritania                       | Portugal                         |
+| Mauritania                       | Republic of Abkhazia             |
+| Mauritania                       | Saudi Arabia                     |
+| Mauritania                       | South Korea                      |
+| Mauritania                       | Turkmenistan                     |
+| Mauritania                       | Ukraine                          |
+| Mauritania                       | United States of America         |
+| Mauritania                       | Uzbekistan                       |
+| Mauritania                       | Vietnam                          |
+| Mauritania                       | Zambia                           |
+| Mauritania                       | Zimbabwe                         |
+| Mauritius                        | Afghanistan                      |
+| Mauritius                        | Algeria                          |
+| Mauritius                        | Argentina                        |
+| Mauritius                        | Azerbaijan                       |
+| Mauritius                        | Bahrain                          |
+| Mauritius                        | Bangladesh                       |
+| Mauritius                        | Belarus                          |
+| Mauritius                        | Belgium                          |
+| Mauritius                        | Bolivia                          |
+| Mauritius                        | Botswana                         |
+| Mauritius                        | Brunei                           |
+| Mauritius                        | Bulgaria                         |
+| Mauritius                        | Burkina Faso                     |
+| Mauritius                        | Burundi                          |
+| Mauritius                        | Cambodia                         |
+| Mauritius                        | Chile                            |
+| Mauritius                        | Colombia                         |
+| Mauritius                        | Cuba                             |
+| Mauritius                        | France                           |
+| Mauritius                        | Greece                           |
+| Mauritius                        | India                            |
+| Mauritius                        | Iraq                             |
+| Mauritius                        | Jordan                           |
+| Mauritius                        | Liberia                          |
+| Mauritius                        | Libya                            |
+| Mauritius                        | Lithuania                        |
+| Mauritius                        | Malawi                           |
+| Mauritius                        | Mali                             |
+| Mauritius                        | Malta                            |
+| Mauritius                        | Mexico                           |
+| Mauritius                        | Morocco                          |
+| Mauritius                        | Myanmar                          |
+| Mauritius                        | Nepal                            |
+| Mauritius                        | Netherlands                      |
+| Mauritius                        | Nicaragua                        |
+| Mauritius                        | Paraguay                         |
+| Mauritius                        | Poland                           |
+| Mauritius                        | Republic of Abkhazia             |
+| Mauritius                        | Saint Lucia                      |
+| Mauritius                        | Saint Vincent and the Grenadines |
+| Mauritius                        | Somalia                          |
+| Mauritius                        | South Africa                     |
+| Mauritius                        | Spain                            |
+| Mauritius                        | Sri Lanka                        |
+| Mauritius                        | Sudan                            |
+| Mauritius                        | Switzerland                      |
+| Mauritius                        | Syria                            |
+| Mauritius                        | Turkmenistan                     |
+| Mauritius                        | United States of America         |
+| Mauritius                        | Uzbekistan                       |
+| Mauritius                        | Venezuela                        |
+| Mauritius                        | Vietnam                          |
+| Mexico                           | Angola                           |
+| Mexico                           | Antigua and Barbuda              |
+| Mexico                           | Austria                          |
+| Mexico                           | Bangladesh                       |
+| Mexico                           | Belgium                          |
+| Mexico                           | Bosnia and Herzegovina           |
+| Mexico                           | Botswana                         |
+| Mexico                           | Brazil                           |
+| Mexico                           | Burundi                          |
+| Mexico                           | Cambodia                         |
+| Mexico                           | Colombia                         |
+| Mexico                           | Czech Republic                   |
+| Mexico                           | Democratic Republic of the Congo |
+| Mexico                           | Fiji                             |
+| Mexico                           | Finland                          |
+| Mexico                           | Ghana                            |
+| Mexico                           | Greenland                        |
+| Mexico                           | Grenada                          |
+| Mexico                           | Guernsey                         |
+| Mexico                           | Guyana                           |
+| Mexico                           | Iceland                          |
+| Mexico                           | Ivory Coast                      |
+| Mexico                           | Japan                            |
+| Mexico                           | Jordan                           |
+| Mexico                           | Libya                            |
+| Mexico                           | Liechtenstein                    |
+| Mexico                           | Malaysia                         |
+| Mexico                           | Moldova                          |
+| Mexico                           | Myanmar                          |
+| Mexico                           | Pakistan                         |
+| Mexico                           | People's Republic of China       |
+| Mexico                           | Philippines                      |
+| Mexico                           | Rwanda                           |
+| Mexico                           | São Tomé and Príncipe            |
+| Mexico                           | Serbia                           |
+| Mexico                           | Slovakia                         |
+| Mexico                           | Slovenia                         |
+| Mexico                           | South Korea                      |
+| Mexico                           | South Sudan                      |
+| Mexico                           | Sudan                            |
+| Mexico                           | Taiwan                           |
+| Mexico                           | Tanzania                         |
+| Mexico                           | Tunisia                          |
+| Mexico                           | Turkey                           |
+| Mexico                           | Ukraine                          |
+| Mexico                           | United Arab Emirates             |
+| Mexico                           | United Kingdom                   |
+| Mexico                           | United States of America         |
+| Mexico                           | Zambia                           |
+| Mexico                           | Zimbabwe                         |
+| Moldova                          | Afghanistan                      |
+| Moldova                          | Austria                          |
+| Moldova                          | Belgium                          |
+| Moldova                          | Botswana                         |
+| Moldova                          | Brazil                           |
+| Moldova                          | Bulgaria                         |
+| Moldova                          | Burkina Faso                     |
+| Moldova                          | Cape Verde                       |
+| Moldova                          | Colombia                         |
+| Moldova                          | Costa Rica                       |
+| Moldova                          | Croatia                          |
+| Moldova                          | Democratic Republic of the Congo |
+| Moldova                          | Djibouti                         |
+| Moldova                          | Ecuador                          |
+| Moldova                          | Egypt                            |
+| Moldova                          | Finland                          |
+| Moldova                          | France                           |
+| Moldova                          | Georgia                          |
+| Moldova                          | Guyana                           |
+| Moldova                          | Hungary                          |
+| Moldova                          | Italy                            |
+| Moldova                          | Ivory Coast                      |
+| Moldova                          | Kazakhstan                       |
+| Moldova                          | Kyrgyzstan                       |
+| Moldova                          | Latvia                           |
+| Moldova                          | Myanmar                          |
+| Moldova                          | North Korea                      |
+| Moldova                          | Pakistan                         |
+| Moldova                          | Qatar                            |
+| Moldova                          | Republic of Abkhazia             |
+| Moldova                          | Russia                           |
+| Moldova                          | Saint Lucia                      |
+| Moldova                          | Saint Vincent and the Grenadines |
+| Moldova                          | Saudi Arabia                     |
+| Moldova                          | Sierra Leone                     |
+| Moldova                          | Spain                            |
+| Moldova                          | Suriname                         |
+| Moldova                          | Turkmenistan                     |
+| Moldova                          | United States of America         |
+| Moldova                          | Vietnam                          |
+| Mongolia                         | Albania                          |
+| Mongolia                         | Algeria                          |
+| Mongolia                         | Austria                          |
+| Mongolia                         | Bahrain                          |
+| Mongolia                         | Cape Verde                       |
+| Mongolia                         | Chile                            |
+| Mongolia                         | Colombia                         |
+| Mongolia                         | Costa Rica                       |
+| Mongolia                         | Democratic Republic of the Congo |
+| Mongolia                         | Ecuador                          |
+| Mongolia                         | El Salvador                      |
+| Mongolia                         | Guernsey                         |
+| Mongolia                         | Hungary                          |
+| Mongolia                         | Indonesia                        |
+| Mongolia                         | Israel                           |
+| Mongolia                         | Italy                            |
+| Mongolia                         | Ivory Coast                      |
+| Mongolia                         | Jordan                           |
+| Mongolia                         | Kazakhstan                       |
+| Mongolia                         | Kosovo                           |
+| Mongolia                         | Latvia                           |
+| Mongolia                         | Lithuania                        |
+| Mongolia                         | Malaysia                         |
+| Mongolia                         | Mexico                           |
+| Mongolia                         | Myanmar                          |
+| Mongolia                         | Nigeria                          |
+| Mongolia                         | North Macedonia                  |
+| Mongolia                         | Rwanda                           |
+| Mongolia                         | Saint Lucia                      |
+| Mongolia                         | São Tomé and Príncipe            |
+| Mongolia                         | Singapore                        |
+| Mongolia                         | Solomon Islands                  |
+| Mongolia                         | Spain                            |
+| Mongolia                         | Tajikistan                       |
+| Mongolia                         | United Kingdom                   |
+| Mongolia                         | Vietnam                          |
+| Montenegro                       | Austria                          |
+| Montenegro                       | Bahrain                          |
+| Montenegro                       | Chile                            |
+| Montenegro                       | Colombia                         |
+| Montenegro                       | Costa Rica                       |
+| Montenegro                       | Curaçao                          |
+| Montenegro                       | Czech Republic                   |
+| Montenegro                       | Ecuador                          |
+| Montenegro                       | Fiji                             |
+| Montenegro                       | Georgia                          |
+| Montenegro                       | Greece                           |
+| Montenegro                       | Grenada                          |
+| Montenegro                       | India                            |
+| Montenegro                       | Kyrgyzstan                       |
+| Montenegro                       | Liberia                          |
+| Montenegro                       | Nigeria                          |
+| Montenegro                       | Papua New Guinea                 |
+| Montenegro                       | Paraguay                         |
+| Montenegro                       | Qatar                            |
+| Montenegro                       | Republic of Abkhazia             |
+| Montenegro                       | Rwanda                           |
+| Montenegro                       | Saint Lucia                      |
+| Montenegro                       | San Marino                       |
+| Montenegro                       | Serbia                           |
+| Montenegro                       | Solomon Islands                  |
+| Montenegro                       | State of Palestine               |
+| Montenegro                       | Suriname                         |
+| Montenegro                       | Syria                            |
+| Montenegro                       | Thailand                         |
+| Montenegro                       | Turkey                           |
+| Montenegro                       | Turkmenistan                     |
+| Montenegro                       | Uzbekistan                       |
+| Montenegro                       | Vietnam                          |
+| Morocco                          | Algeria                          |
+| Morocco                          | Angola                           |
+| Morocco                          | Austria                          |
+| Morocco                          | Belarus                          |
+| Morocco                          | Colombia                         |
+| Morocco                          | Croatia                          |
+| Morocco                          | Egypt                            |
+| Morocco                          | Germany                          |
+| Morocco                          | Grenada                          |
+| Morocco                          | Guernsey                         |
+| Morocco                          | India                            |
+| Morocco                          | Indonesia                        |
+| Morocco                          | Iran                             |
+| Morocco                          | Ireland                          |
+| Morocco                          | Israel                           |
+| Morocco                          | Italy                            |
+| Morocco                          | Ivory Coast                      |
+| Morocco                          | Kuwait                           |
+| Morocco                          | Kyrgyzstan                       |
+| Morocco                          | Latvia                           |
+| Morocco                          | Lithuania                        |
+| Morocco                          | Netherlands                      |
+| Morocco                          | Nicaragua                        |
+| Morocco                          | Norway                           |
+| Morocco                          | Peru                             |
+| Morocco                          | Portugal                         |
+| Morocco                          | Rwanda                           |
+| Morocco                          | São Tomé and Príncipe            |
+| Morocco                          | Saudi Arabia                     |
+| Morocco                          | Somalia                          |
+| Morocco                          | Turkey                           |
+| Morocco                          | Ukraine                          |
+| Morocco                          | Vietnam                          |
+| Myanmar                          | Belarus                          |
+| Myanmar                          | British Virgin Islands           |
+| Myanmar                          | Burkina Faso                     |
+| Myanmar                          | Canada                           |
+| Myanmar                          | Cuba                             |
+| Myanmar                          | Denmark                          |
+| Myanmar                          | Ecuador                          |
+| Myanmar                          | Egypt                            |
+| Myanmar                          | Estonia                          |
+| Myanmar                          | Fiji                             |
+| Myanmar                          | Guernsey                         |
+| Myanmar                          | Hungary                          |
+| Myanmar                          | Iran                             |
+| Myanmar                          | Jordan                           |
+| Myanmar                          | Kenya                            |
+| Myanmar                          | Kyrgyzstan                       |
+| Myanmar                          | Latvia                           |
+| Myanmar                          | Malawi                           |
+| Myanmar                          | Montenegro                       |
+| Myanmar                          | North Macedonia                  |
+| Myanmar                          | Portugal                         |
+| Myanmar                          | Russia                           |
+| Myanmar                          | Saint Vincent and the Grenadines |
+| Myanmar                          | Sierra Leone                     |
+| Myanmar                          | Solomon Islands                  |
+| Myanmar                          | South Africa                     |
+| Myanmar                          | Sri Lanka                        |
+| Myanmar                          | State of Palestine               |
+| Myanmar                          | Syria                            |
+| Myanmar                          | Tajikistan                       |
+| Myanmar                          | Trinidad and Tobago              |
+| Myanmar                          | Tunisia                          |
+| Nepal                            | Armenia                          |
+| Nepal                            | Australia                        |
+| Nepal                            | Bahrain                          |
+| Nepal                            | Benin                            |
+| Nepal                            | Bolivia                          |
+| Nepal                            | Brunei                           |
+| Nepal                            | Burundi                          |
 | Nepal                            | Cambodia                         |
+| Nepal                            | Cameroon                         |
+| Nepal                            | Colombia                         |
+| Nepal                            | Cyprus                           |
+| Nepal                            | Denmark                          |
+| Nepal                            | Ecuador                          |
+| Nepal                            | Egypt                            |
+| Nepal                            | Ethiopia                         |
+| Nepal                            | France                           |
+| Nepal                            | Greenland                        |
+| Nepal                            | Honduras                         |
+| Nepal                            | Iceland                          |
+| Nepal                            | Kosovo                           |
+| Nepal                            | Kuwait                           |
+| Nepal                            | Kyrgyzstan                       |
+| Nepal                            | Mali                             |
+| Nepal                            | Moldova                          |
+| Nepal                            | Netherlands                      |
+| Nepal                            | Norway                           |
+| Nepal                            | Papua New Guinea                 |
+| Nepal                            | Paraguay                         |
+| Nepal                            | Poland                           |
+| Nepal                            | Rwanda                           |
+| Nepal                            | São Tomé and Príncipe            |
+| Nepal                            | Slovenia                         |
+| Nepal                            | Syria                            |
+| Nepal                            | Thailand                         |
+| Nepal                            | The Gambia                       |
+| Nepal                            | United Kingdom                   |
+| Nepal                            | United States of America         |
+| Nepal                            | Uruguay                          |
+| Nepal                            | Vietnam                          |
+| Nepal                            | Zambia                           |
+| Netherlands                      | Afghanistan                      |
+| Netherlands                      | Albania                          |
+| Netherlands                      | Austria                          |
+| Netherlands                      | Azerbaijan                       |
+| Netherlands                      | Bangladesh                       |
+| Netherlands                      | Botswana                         |
+| Netherlands                      | Bulgaria                         |
+| Netherlands                      | Canada                           |
+| Netherlands                      | Costa Rica                       |
+| Netherlands                      | Egypt                            |
+| Netherlands                      | Estonia                          |
+| Netherlands                      | Gabon                            |
+| Netherlands                      | Honduras                         |
+| Netherlands                      | Iceland                          |
+| Netherlands                      | Ireland                          |
+| Netherlands                      | Jordan                           |
+| Netherlands                      | Kuwait                           |
+| Netherlands                      | Liberia                          |
+| Netherlands                      | Libya                            |
+| Netherlands                      | Luxembourg                       |
+| Netherlands                      | Mauritania                       |
+| Netherlands                      | Moldova                          |
+| Netherlands                      | Myanmar                          |
+| Netherlands                      | Nicaragua                        |
+| Netherlands                      | North Korea                      |
+| Netherlands                      | Pakistan                         |
+| Netherlands                      | People's Republic of China       |
+| Netherlands                      | Romania                          |
+| Netherlands                      | Rwanda                           |
+| Netherlands                      | São Tomé and Príncipe            |
+| Netherlands                      | Saudi Arabia                     |
+| Netherlands                      | Sri Lanka                        |
+| Netherlands                      | Sudan                            |
+| Netherlands                      | Taiwan                           |
+| Netherlands                      | The Gambia                       |
+| Netherlands                      | Trinidad and Tobago              |
+| Netherlands                      | Uganda                           |
+| Netherlands                      | Zimbabwe                         |
+| New Zealand                      | Angola                           |
+| New Zealand                      | Azerbaijan                       |
+| New Zealand                      | Belgium                          |
+| New Zealand                      | Benin                            |
+| New Zealand                      | Brazil                           |
+| New Zealand                      | Croatia                          |
+| New Zealand                      | Czech Republic                   |
+| New Zealand                      | Denmark                          |
+| New Zealand                      | Eritrea                          |
+| New Zealand                      | Georgia                          |
+| New Zealand                      | Guyana                           |
+| New Zealand                      | Israel                           |
+| New Zealand                      | Kuwait                           |
+| New Zealand                      | Kyrgyzstan                       |
+| New Zealand                      | Laos                             |
+| New Zealand                      | Liberia                          |
+| New Zealand                      | Libya                            |
+| New Zealand                      | Lithuania                        |
+| New Zealand                      | Malawi                           |
+| New Zealand                      | Mauritania                       |
+| New Zealand                      | Mauritius                        |
+| New Zealand                      | Mongolia                         |
+| New Zealand                      | Panama                           |
+| New Zealand                      | People's Republic of China       |
+| New Zealand                      | Peru                             |
+| New Zealand                      | Republic of Abkhazia             |
+| New Zealand                      | Sierra Leone                     |
+| New Zealand                      | Solomon Islands                  |
+| New Zealand                      | Somalia                          |
+| New Zealand                      | South Sudan                      |
+| New Zealand                      | Spain                            |
+| New Zealand                      | Sri Lanka                        |
+| New Zealand                      | Syria                            |
+| New Zealand                      | Trinidad and Tobago              |
+| New Zealand                      | United States of America         |
+| New Zealand                      | Uzbekistan                       |
+| New Zealand                      | Zimbabwe                         |
+| Nicaragua                        | Angola                           |
+| Nicaragua                        | Argentina                        |
+| Nicaragua                        | Bahrain                          |
+| Nicaragua                        | Bolivia                          |
+| Nicaragua                        | Cameroon                         |
+| Nicaragua                        | Cape Verde                       |
+| Nicaragua                        | Chile                            |
+| Nicaragua                        | Curaçao                          |
+| Nicaragua                        | Djibouti                         |
+| Nicaragua                        | Dominican Republic               |
+| Nicaragua                        | Ecuador                          |
+| Nicaragua                        | Finland                          |
+| Nicaragua                        | Germany                          |
+| Nicaragua                        | Iran                             |
+| Nicaragua                        | Ireland                          |
+| Nicaragua                        | Ivory Coast                      |
+| Nicaragua                        | Kosovo                           |
+| Nicaragua                        | Kuwait                           |
+| Nicaragua                        | Lithuania                        |
+| Nicaragua                        | Luxembourg                       |
+| Nicaragua                        | Malawi                           |
+| Nicaragua                        | Mauritania                       |
+| Nicaragua                        | Moldova                          |
+| Nicaragua                        | Myanmar                          |
+| Nicaragua                        | People's Republic of China       |
+| Nicaragua                        | Philippines                      |
+| Nicaragua                        | Poland                           |
+| Nicaragua                        | Qatar                            |
+| Nicaragua                        | Saint Lucia                      |
+| Nicaragua                        | Saudi Arabia                     |
+| Nicaragua                        | Slovakia                         |
+| Nicaragua                        | Slovenia                         |
+| Nicaragua                        | Spain                            |
+| Nicaragua                        | Tajikistan                       |
+| Nicaragua                        | Tanzania                         |
+| Nicaragua                        | Tunisia                          |
+| Nigeria                          | Afghanistan                      |
+| Nigeria                          | Armenia                          |
+| Nigeria                          | Bahrain                          |
+| Nigeria                          | Belarus                          |
+| Nigeria                          | Bhutan                           |
+| Nigeria                          | Bosnia and Herzegovina           |
+| Nigeria                          | Botswana                         |
+| Nigeria                          | Chile                            |
+| Nigeria                          | Democratic Republic of the Congo |
+| Nigeria                          | Djibouti                         |
+| Nigeria                          | Egypt                            |
+| Nigeria                          | France                           |
+| Nigeria                          | Greece                           |
+| Nigeria                          | Guernsey                         |
+| Nigeria                          | Italy                            |
+| Nigeria                          | Japan                            |
+| Nigeria                          | Jordan                           |
+| Nigeria                          | Lebanon                          |
+| Nigeria                          | Liberia                          |
+| Nigeria                          | Liechtenstein                    |
+| Nigeria                          | Malta                            |
+| Nigeria                          | Pakistan                         |
+| Nigeria                          | Papua New Guinea                 |
+| Nigeria                          | Philippines                      |
+| Nigeria                          | Romania                          |
+| Nigeria                          | São Tomé and Príncipe            |
+| Nigeria                          | Saudi Arabia                     |
+| Nigeria                          | Slovakia                         |
+| Nigeria                          | Solomon Islands                  |
+| Nigeria                          | South Africa                     |
+| Nigeria                          | South Korea                      |
+| Nigeria                          | South Sudan                      |
+| Nigeria                          | State of Palestine               |
+| Nigeria                          | Sweden                           |
+| Nigeria                          | Turkmenistan                     |
+| Nigeria                          | Zambia                           |
+| Nigeria                          | Zimbabwe                         |
+| North Korea                      | Albania                          |
+| North Korea                      | Algeria                          |
+| North Korea                      | Armenia                          |
+| North Korea                      | Azerbaijan                       |
+| North Korea                      | Bahrain                          |
+| North Korea                      | Belarus                          |
+| North Korea                      | Bolivia                          |
+| North Korea                      | Brazil                           |
+| North Korea                      | Brunei                           |
+| North Korea                      | Cameroon                         |
+| North Korea                      | Curaçao                          |
+| North Korea                      | Cyprus                           |
+| North Korea                      | Egypt                            |
+| North Korea                      | El Salvador                      |
+| North Korea                      | Estonia                          |
+| North Korea                      | Greenland                        |
+| North Korea                      | Guernsey                         |
+| North Korea                      | Hungary                          |
+| North Korea                      | India                            |
+| North Korea                      | Kazakhstan                       |
+| North Korea                      | Kosovo                           |
+| North Korea                      | Lebanon                          |
+| North Korea                      | New Zealand                      |
+| North Korea                      | Nicaragua                        |
+| North Korea                      | Saudi Arabia                     |
+| North Korea                      | Sierra Leone                     |
+| North Korea                      | Singapore                        |
+| North Korea                      | South Korea                      |
+| North Korea                      | South Sudan                      |
+| North Korea                      | Suriname                         |
+| North Korea                      | Tanzania                         |
+| North Korea                      | Thailand                         |
+| North Korea                      | Trinidad and Tobago              |
+| North Korea                      | Ukraine                          |
+| North Korea                      | Uruguay                          |
+| North Korea                      | Vietnam                          |
+| North Korea                      | Zimbabwe                         |
+| North Macedonia                  | Afghanistan                      |
+| North Macedonia                  | Benin                            |
+| North Macedonia                  | Bhutan                           |
+| North Macedonia                  | Burkina Faso                     |
+| North Macedonia                  | Cape Verde                       |
+| North Macedonia                  | Curaçao                          |
+| North Macedonia                  | Dominican Republic               |
+| North Macedonia                  | Faroe Islands                    |
+| North Macedonia                  | Fiji                             |
+| North Macedonia                  | Germany                          |
+| North Macedonia                  | Greece                           |
+| North Macedonia                  | Iceland                          |
+| North Macedonia                  | Italy                            |
+| North Macedonia                  | Japan                            |
+| North Macedonia                  | Lebanon                          |
+| North Macedonia                  | Malaysia                         |
+| North Macedonia                  | Mali                             |
+| North Macedonia                  | Mauritania                       |
+| North Macedonia                  | Mauritius                        |
+| North Macedonia                  | Morocco                          |
+| North Macedonia                  | Peru                             |
+| North Macedonia                  | Philippines                      |
+| North Macedonia                  | Portugal                         |
+| North Macedonia                  | Romania                          |
+| North Macedonia                  | Saint Kitts and Nevis            |
+| North Macedonia                  | Slovakia                         |
+| North Macedonia                  | State of Palestine               |
+| North Macedonia                  | Tajikistan                       |
+| North Macedonia                  | United Arab Emirates             |
+| North Macedonia                  | United Kingdom                   |
+| North Macedonia                  | United States of America         |
+| Norway                           | Antigua and Barbuda              |
+| Norway                           | Australia                        |
+| Norway                           | Bahrain                          |
+| Norway                           | Brazil                           |
+| Norway                           | Brunei                           |
+| Norway                           | Burundi                          |
+| Norway                           | Costa Rica                       |
+| Norway                           | Czech Republic                   |
+| Norway                           | Denmark                          |
+| Norway                           | Djibouti                         |
+| Norway                           | Dominican Republic               |
+| Norway                           | Ethiopia                         |
+| Norway                           | France                           |
+| Norway                           | Ghana                            |
+| Norway                           | Guatemala                        |
+| Norway                           | India                            |
+| Norway                           | Ireland                          |
+| Norway                           | Laos                             |
+| Norway                           | Lebanon                          |
+| Norway                           | Lithuania                        |
+| Norway                           | Nigeria                          |
+| Norway                           | North Macedonia                  |
+| Norway                           | Panama                           |
+| Norway                           | People's Republic of China       |
+| Norway                           | Romania                          |
+| Norway                           | Rwanda                           |
+| Norway                           | Slovakia                         |
+| Norway                           | South Sudan                      |
+| Norway                           | State of Palestine               |
+| Norway                           | Sweden                           |
+| Norway                           | Switzerland                      |
+| Norway                           | Thailand                         |
+| Norway                           | Trinidad and Tobago              |
+| Norway                           | Tunisia                          |
+| Norway                           | Venezuela                        |
+| Oman                             | Albania                          |
+| Oman                             | Azerbaijan                       |
+| Oman                             | Belarus                          |
+| Oman                             | Bolivia                          |
+| Oman                             | Brunei                           |
+| Oman                             | Burundi                          |
+| Oman                             | Cameroon                         |
+| Oman                             | Colombia                         |
+| Oman                             | Cuba                             |
+| Oman                             | Curaçao                          |
+| Oman                             | Cyprus                           |
+| Oman                             | Denmark                          |
+| Oman                             | Dominica                         |
+| Oman                             | Estonia                          |
+| Oman                             | France                           |
+| Oman                             | Gabon                            |
+| Oman                             | Georgia                          |
+| Oman                             | Grenada                          |
+| Oman                             | India                            |
+| Oman                             | Ireland                          |
+| Oman                             | Israel                           |
+| Oman                             | Italy                            |
+| Oman                             | Ivory Coast                      |
+| Oman                             | Kenya                            |
+| Oman                             | Kosovo                           |
+| Oman                             | Liberia                          |
+| Oman                             | Libya                            |
+| Oman                             | Lithuania                        |
+| Oman                             | Mauritania                       |
+| Oman                             | Mauritius                        |
+| Oman                             | Myanmar                          |
+| Oman                             | Nigeria                          |
+| Oman                             | North Korea                      |
+| Oman                             | Pakistan                         |
+| Oman                             | Poland                           |
+| Oman                             | Portugal                         |
+| Oman                             | Qatar                            |
+| Oman                             | Saint Vincent and the Grenadines |
+| Oman                             | São Tomé and Príncipe            |
+| Oman                             | Serbia                           |
+| Oman                             | Sierra Leone                     |
+| Oman                             | Sri Lanka                        |
+| Oman                             | State of Palestine               |
+| Oman                             | Sweden                           |
+| Oman                             | Syria                            |
+| Oman                             | Tanzania                         |
+| Oman                             | Uruguay                          |
+| Oman                             | Uzbekistan                       |
+| Oman                             | Vietnam                          |
+| Pakistan                         | Algeria                          |
+| Pakistan                         | Antigua and Barbuda              |
+| Pakistan                         | Azerbaijan                       |
+| Pakistan                         | Bahrain                          |
+| Pakistan                         | Benin                            |
+| Pakistan                         | Cambodia                         |
+| Pakistan                         | Cape Verde                       |
+| Pakistan                         | Curaçao                          |
+| Pakistan                         | Egypt                            |
+| Pakistan                         | Eritrea                          |
+| Pakistan                         | Ethiopia                         |
+| Pakistan                         | Faroe Islands                    |
+| Pakistan                         | Fiji                             |
+| Pakistan                         | Ghana                            |
+| Pakistan                         | Guatemala                        |
+| Pakistan                         | Honduras                         |
+| Pakistan                         | Iran                             |
+| Pakistan                         | Italy                            |
+| Pakistan                         | Liberia                          |
+| Pakistan                         | New Zealand                      |
+| Pakistan                         | North Korea                      |
+| Pakistan                         | Norway                           |
+| Pakistan                         | Papua New Guinea                 |
+| Pakistan                         | Poland                           |
+| Pakistan                         | Romania                          |
+| Pakistan                         | Sri Lanka                        |
+| Pakistan                         | Sudan                            |
+| Pakistan                         | The Gambia                       |
+| Pakistan                         | Turkey                           |
+| Pakistan                         | Turkmenistan                     |
+| Pakistan                         | Ukraine                          |
+| Pakistan                         | United Arab Emirates             |
+| Pakistan                         | Venezuela                        |
+| Pakistan                         | Zimbabwe                         |
+| Panama                           | Afghanistan                      |
+| Panama                           | Austria                          |
+| Panama                           | Bahrain                          |
+| Panama                           | Belarus                          |
+| Panama                           | Brazil                           |
+| Panama                           | British Virgin Islands           |
+| Panama                           | Cambodia                         |
+| Panama                           | Canada                           |
+| Panama                           | Chile                            |
+| Panama                           | Costa Rica                       |
+| Panama                           | Czech Republic                   |
+| Panama                           | Djibouti                         |
+| Panama                           | Dominica                         |
+| Panama                           | Egypt                            |
+| Panama                           | Eritrea                          |
+| Panama                           | Hungary                          |
+| Panama                           | Iceland                          |
+| Panama                           | Indonesia                        |
+| Panama                           | Iraq                             |
+| Panama                           | Malaysia                         |
+| Panama                           | Mauritania                       |
+| Panama                           | Nepal                            |
+| Panama                           | Nicaragua                        |
+| Panama                           | Pakistan                         |
+| Panama                           | Paraguay                         |
+| Panama                           | Philippines                      |
+| Panama                           | Russia                           |
+| Panama                           | Saint Vincent and the Grenadines |
+| Panama                           | San Marino                       |
+| Panama                           | Saudi Arabia                     |
+| Panama                           | Serbia                           |
+| Panama                           | Spain                            |
+| Panama                           | Switzerland                      |
+| Panama                           | Tajikistan                       |
+| Panama                           | Thailand                         |
+| Panama                           | Uganda                           |
+| Panama                           | Zambia                           |
+| Panama                           | Zimbabwe                         |
+| Papua New Guinea                 | Albania                          |
+| Papua New Guinea                 | Antigua and Barbuda              |
+| Papua New Guinea                 | Argentina                        |
+| Papua New Guinea                 | Armenia                          |
+| Papua New Guinea                 | Belgium                          |
+| Papua New Guinea                 | Bosnia and Herzegovina           |
+| Papua New Guinea                 | Botswana                         |
+| Papua New Guinea                 | Brunei                           |
+| Papua New Guinea                 | Cambodia                         |
+| Papua New Guinea                 | Canada                           |
+| Papua New Guinea                 | Denmark                          |
+| Papua New Guinea                 | Djibouti                         |
+| Papua New Guinea                 | Ecuador                          |
+| Papua New Guinea                 | Egypt                            |
+| Papua New Guinea                 | Finland                          |
+| Papua New Guinea                 | Gabon                            |
+| Papua New Guinea                 | Georgia                          |
+| Papua New Guinea                 | Ghana                            |
+| Papua New Guinea                 | Guernsey                         |
+| Papua New Guinea                 | Guyana                           |
+| Papua New Guinea                 | Hungary                          |
+| Papua New Guinea                 | Iceland                          |
+| Papua New Guinea                 | India                            |
+| Papua New Guinea                 | Iraq                             |
+| Papua New Guinea                 | Japan                            |
+| Papua New Guinea                 | Latvia                           |
+| Papua New Guinea                 | Lebanon                          |
+| Papua New Guinea                 | Malta                            |
+| Papua New Guinea                 | Mauritania                       |
+| Papua New Guinea                 | Moldova                          |
+| Papua New Guinea                 | Netherlands                      |
+| Papua New Guinea                 | North Korea                      |
+| Papua New Guinea                 | Panama                           |
+| Papua New Guinea                 | Rwanda                           |
+| Papua New Guinea                 | Saint Kitts and Nevis            |
+| Papua New Guinea                 | Solomon Islands                  |
+| Papua New Guinea                 | South Africa                     |
+| Papua New Guinea                 | South Sudan                      |
+| Papua New Guinea                 | Spain                            |
+| Papua New Guinea                 | State of Palestine               |
+| Papua New Guinea                 | Switzerland                      |
+| Papua New Guinea                 | Syria                            |
+| Papua New Guinea                 | Tunisia                          |
+| Papua New Guinea                 | Vietnam                          |
+| Paraguay                         | British Virgin Islands           |
+| Paraguay                         | Burundi                          |
+| Paraguay                         | Cambodia                         |
+| Paraguay                         | Canada                           |
+| Paraguay                         | Cape Verde                       |
+| Paraguay                         | Croatia                          |
+| Paraguay                         | Cuba                             |
+| Paraguay                         | Czech Republic                   |
+| Paraguay                         | Ecuador                          |
+| Paraguay                         | Ethiopia                         |
+| Paraguay                         | Faroe Islands                    |
+| Paraguay                         | Finland                          |
+| Paraguay                         | Gabon                            |
+| Paraguay                         | Guatemala                        |
+| Paraguay                         | Iran                             |
+| Paraguay                         | Ireland                          |
+| Paraguay                         | Jordan                           |
+| Paraguay                         | Kenya                            |
+| Paraguay                         | Liberia                          |
+| Paraguay                         | Myanmar                          |
+| Paraguay                         | Nigeria                          |
+| Paraguay                         | North Korea                      |
+| Paraguay                         | North Macedonia                  |
+| Paraguay                         | Poland                           |
+| Paraguay                         | Republic of Abkhazia             |
+| Paraguay                         | Romania                          |
+| Paraguay                         | Tajikistan                       |
+| Paraguay                         | The Gambia                       |
+| Paraguay                         | Ukraine                          |
+| Paraguay                         | Vietnam                          |
+| Paraguay                         | Zambia                           |
+| Paraguay                         | Zimbabwe                         |
+| People's Republic of China       | Angola                           |
+| People's Republic of China       | Armenia                          |
+| People's Republic of China       | Bahrain                          |
+| People's Republic of China       | Bhutan                           |
+| People's Republic of China       | Brazil                           |
+| People's Republic of China       | Burundi                          |
+| People's Republic of China       | Croatia                          |
+| People's Republic of China       | Djibouti                         |
+| People's Republic of China       | Eritrea                          |
+| People's Republic of China       | Georgia                          |
+| People's Republic of China       | Guatemala                        |
+| People's Republic of China       | Israel                           |
+| People's Republic of China       | Japan                            |
+| People's Republic of China       | Kenya                            |
+| People's Republic of China       | Laos                             |
+| People's Republic of China       | Liberia                          |
+| People's Republic of China       | Liechtenstein                    |
+| People's Republic of China       | Luxembourg                       |
+| People's Republic of China       | Mauritania                       |
+| People's Republic of China       | Mongolia                         |
+| People's Republic of China       | Morocco                          |
+| People's Republic of China       | Myanmar                          |
+| People's Republic of China       | Nigeria                          |
+| People's Republic of China       | Papua New Guinea                 |
+| People's Republic of China       | Paraguay                         |
+| People's Republic of China       | Rwanda                           |
+| People's Republic of China       | Saudi Arabia                     |
+| People's Republic of China       | Slovakia                         |
+| People's Republic of China       | South Korea                      |
+| People's Republic of China       | Suriname                         |
+| People's Republic of China       | Taiwan                           |
+| People's Republic of China       | Tanzania                         |
+| People's Republic of China       | The Gambia                       |
+| People's Republic of China       | Turkmenistan                     |
+| People's Republic of China       | Uganda                           |
+| People's Republic of China       | Uzbekistan                       |
+| People's Republic of China       | Vietnam                          |
+| Peru                             | Australia                        |
+| Peru                             | Botswana                         |
+| Peru                             | Burkina Faso                     |
+| Peru                             | Canada                           |
+| Peru                             | Democratic Republic of the Congo |
+| Peru                             | Djibouti                         |
+| Peru                             | Egypt                            |
+| Peru                             | Eritrea                          |
+| Peru                             | Fiji                             |
+| Peru                             | Gabon                            |
+| Peru                             | Georgia                          |
+| Peru                             | Ghana                            |
+| Peru                             | Grenada                          |
+| Peru                             | Guatemala                        |
+| Peru                             | Indonesia                        |
+| Peru                             | Iraq                             |
+| Peru                             | Ivory Coast                      |
+| Peru                             | Japan                            |
+| Peru                             | Liberia                          |
+| Peru                             | Lithuania                        |
+| Peru                             | Malaysia                         |
+| Peru                             | Mali                             |
+| Peru                             | Malta                            |
+| Peru                             | Mauritius                        |
+| Peru                             | Mongolia                         |
+| Peru                             | Myanmar                          |
+| Peru                             | Nicaragua                        |
+| Peru                             | Nigeria                          |
+| Peru                             | Pakistan                         |
+| Peru                             | Papua New Guinea                 |
+| Peru                             | Romania                          |
+| Peru                             | Rwanda                           |
+| Peru                             | Saint Kitts and Nevis            |
+| Peru                             | Saint Lucia                      |
+| Peru                             | Singapore                        |
+| Peru                             | Slovakia                         |
+| Peru                             | Slovenia                         |
+| Peru                             | Solomon Islands                  |
+| Peru                             | South Korea                      |
+| Peru                             | South Sudan                      |
+| Peru                             | Sri Lanka                        |
+| Peru                             | Sudan                            |
+| Peru                             | Syria                            |
+| Peru                             | Tajikistan                       |
+| Peru                             | The Gambia                       |
+| Peru                             | Turkey                           |
+| Peru                             | Turkmenistan                     |
+| Peru                             | Zambia                           |
+| Peru                             | Zimbabwe                         |
+| Philippines                      | Afghanistan                      |
+| Philippines                      | Algeria                          |
+| Philippines                      | Australia                        |
+| Philippines                      | Benin                            |
+| Philippines                      | Brunei                           |
+| Philippines                      | Cambodia                         |
+| Philippines                      | Czech Republic                   |
+| Philippines                      | Democratic Republic of the Congo |
+| Philippines                      | Djibouti                         |
+| Philippines                      | Estonia                          |
+| Philippines                      | Faroe Islands                    |
+| Philippines                      | France                           |
+| Philippines                      | Greenland                        |
+| Philippines                      | Grenada                          |
+| Philippines                      | Iceland                          |
+| Philippines                      | Israel                           |
+| Philippines                      | Ivory Coast                      |
+| Philippines                      | Japan                            |
+| Philippines                      | Kazakhstan                       |
+| Philippines                      | Libya                            |
+| Philippines                      | Mauritania                       |
+| Philippines                      | Moldova                          |
+| Philippines                      | New Zealand                      |
+| Philippines                      | Oman                             |
+| Philippines                      | Peru                             |
+| Philippines                      | Republic of Abkhazia             |
+| Philippines                      | Saint Vincent and the Grenadines |
+| Philippines                      | Slovakia                         |
+| Philippines                      | Solomon Islands                  |
+| Philippines                      | Somalia                          |
+| Philippines                      | State of Palestine               |
+| Philippines                      | Sweden                           |
+| Philippines                      | Syria                            |
+| Philippines                      | Trinidad and Tobago              |
+| Philippines                      | Turkey                           |
+| Philippines                      | Turkmenistan                     |
+| Philippines                      | United Kingdom                   |
+| Philippines                      | United States of America         |
+| Philippines                      | Uruguay                          |
+| Philippines                      | Vietnam                          |
+| Poland                           | Argentina                        |
+| Poland                           | Australia                        |
+| Poland                           | Austria                          |
+| Poland                           | Azerbaijan                       |
+| Poland                           | Belgium                          |
+| Poland                           | Benin                            |
+| Poland                           | Bhutan                           |
+| Poland                           | Bosnia and Herzegovina           |
+| Poland                           | Botswana                         |
+| Poland                           | Cyprus                           |
+| Poland                           | Dominica                         |
+| Poland                           | Eritrea                          |
+| Poland                           | Ethiopia                         |
+| Poland                           | Finland                          |
+| Poland                           | Ghana                            |
+| Poland                           | Greenland                        |
+| Poland                           | Hungary                          |
+| Poland                           | Iceland                          |
+| Poland                           | India                            |
+| Poland                           | Iraq                             |
+| Poland                           | Ivory Coast                      |
+| Poland                           | Kazakhstan                       |
+| Poland                           | Kyrgyzstan                       |
+| Poland                           | Liechtenstein                    |
+| Poland                           | Montenegro                       |
+| Poland                           | Panama                           |
+| Poland                           | People's Republic of China       |
+| Poland                           | Portugal                         |
+| Poland                           | Republic of Abkhazia             |
+| Poland                           | Slovenia                         |
+| Poland                           | Sri Lanka                        |
+| Poland                           | State of Palestine               |
+| Poland                           | Taiwan                           |
+| Poland                           | The Gambia                       |
+| Poland                           | Tunisia                          |
+| Poland                           | Uganda                           |
+| Portugal                         | Antigua and Barbuda              |
+| Portugal                         | Austria                          |
+| Portugal                         | Belarus                          |
+| Portugal                         | Bosnia and Herzegovina           |
+| Portugal                         | Botswana                         |
+| Portugal                         | Burkina Faso                     |
+| Portugal                         | Cambodia                         |
+| Portugal                         | Cameroon                         |
+| Portugal                         | Canada                           |
+| Portugal                         | Cape Verde                       |
+| Portugal                         | Colombia                         |
+| Portugal                         | Curaçao                          |
+| Portugal                         | Dominica                         |
+| Portugal                         | Ecuador                          |
+| Portugal                         | Fiji                             |
+| Portugal                         | Gabon                            |
+| Portugal                         | Ghana                            |
+| Portugal                         | Guyana                           |
+| Portugal                         | Honduras                         |
+| Portugal                         | Israel                           |
+| Portugal                         | Japan                            |
+| Portugal                         | Kosovo                           |
+| Portugal                         | Lebanon                          |
+| Portugal                         | Lithuania                        |
+| Portugal                         | Malaysia                         |
+| Portugal                         | New Zealand                      |
+| Portugal                         | North Korea                      |
+| Portugal                         | Pakistan                         |
+| Portugal                         | Panama                           |
+| Portugal                         | Papua New Guinea                 |
+| Portugal                         | People's Republic of China       |
+| Portugal                         | Republic of Abkhazia             |
+| Portugal                         | Saint Kitts and Nevis            |
+| Portugal                         | Saint Vincent and the Grenadines |
+| Portugal                         | San Marino                       |
+| Portugal                         | Sierra Leone                     |
+| Portugal                         | Slovenia                         |
+| Portugal                         | South Sudan                      |
+| Portugal                         | Sudan                            |
+| Portugal                         | Thailand                         |
+| Portugal                         | Turkey                           |
+| Portugal                         | Turkmenistan                     |
+| Portugal                         | Uganda                           |
+| Portugal                         | United Kingdom                   |
+| Portugal                         | Uruguay                          |
+| Qatar                            | Afghanistan                      |
+| Qatar                            | British Virgin Islands           |
+| Qatar                            | Bulgaria                         |
+| Qatar                            | Burundi                          |
+| Qatar                            | Cameroon                         |
 | Qatar                            | Cape Verde                       |
+| Qatar                            | Cuba                             |
+| Qatar                            | Cyprus                           |
+| Qatar                            | Democratic Republic of the Congo |
+| Qatar                            | Djibouti                         |
+| Qatar                            | Dominica                         |
+| Qatar                            | El Salvador                      |
+| Qatar                            | Estonia                          |
+| Qatar                            | Fiji                             |
+| Qatar                            | Finland                          |
+| Qatar                            | Germany                          |
+| Qatar                            | Iran                             |
+| Qatar                            | Kosovo                           |
+| Qatar                            | Libya                            |
+| Qatar                            | Liechtenstein                    |
+| Qatar                            | Malaysia                         |
+| Qatar                            | Mali                             |
+| Qatar                            | Mauritania                       |
+| Qatar                            | New Zealand                      |
+| Qatar                            | Papua New Guinea                 |
+| Qatar                            | Paraguay                         |
+| Qatar                            | Poland                           |
+| Qatar                            | Russia                           |
+| Qatar                            | Saudi Arabia                     |
+| Qatar                            | Sierra Leone                     |
+| Qatar                            | Slovakia                         |
+| Qatar                            | Solomon Islands                  |
+| Qatar                            | South Africa                     |
+| Qatar                            | South Korea                      |
+| Qatar                            | Spain                            |
+| Qatar                            | State of Palestine               |
+| Qatar                            | Sweden                           |
+| Qatar                            | Syria                            |
+| Qatar                            | Tanzania                         |
+| Qatar                            | United Arab Emirates             |
+| Qatar                            | Uzbekistan                       |
+| Qatar                            | Venezuela                        |
+| Qatar                            | Zimbabwe                         |
+| Republic of Abkhazia             | Argentina                        |
+| Republic of Abkhazia             | Austria                          |
+| Republic of Abkhazia             | Belarus                          |
+| Republic of Abkhazia             | Brazil                           |
+| Republic of Abkhazia             | Brunei                           |
+| Republic of Abkhazia             | Burkina Faso                     |
+| Republic of Abkhazia             | Burundi                          |
+| Republic of Abkhazia             | Cuba                             |
+| Republic of Abkhazia             | Estonia                          |
+| Republic of Abkhazia             | Ethiopia                         |
+| Republic of Abkhazia             | Finland                          |
+| Republic of Abkhazia             | France                           |
+| Republic of Abkhazia             | Gabon                            |
+| Republic of Abkhazia             | Germany                          |
+| Republic of Abkhazia             | Guatemala                        |
+| Republic of Abkhazia             | Guernsey                         |
+| Republic of Abkhazia             | Guyana                           |
+| Republic of Abkhazia             | Honduras                         |
+| Republic of Abkhazia             | Italy                            |
+| Republic of Abkhazia             | Mali                             |
+| Republic of Abkhazia             | Mexico                           |
+| Republic of Abkhazia             | Mongolia                         |
+| Republic of Abkhazia             | Morocco                          |
+| Republic of Abkhazia             | Myanmar                          |
+| Republic of Abkhazia             | Nepal                            |
+| Republic of Abkhazia             | Netherlands                      |
+| Republic of Abkhazia             | Nigeria                          |
+| Republic of Abkhazia             | Panama                           |
+| Republic of Abkhazia             | Saint Lucia                      |
+| Republic of Abkhazia             | Saudi Arabia                     |
+| Republic of Abkhazia             | Spain                            |
+| Republic of Abkhazia             | State of Palestine               |
+| Republic of Abkhazia             | Turkey                           |
+| Republic of Abkhazia             | Ukraine                          |
+| Republic of Abkhazia             | United Arab Emirates             |
+| Romania                          | Argentina                        |
+| Romania                          | Australia                        |
+| Romania                          | Azerbaijan                       |
+| Romania                          | Bahrain                          |
+| Romania                          | Bhutan                           |
+| Romania                          | Brunei                           |
+| Romania                          | Chile                            |
+| Romania                          | Cuba                             |
+| Romania                          | Curaçao                          |
+| Romania                          | Czech Republic                   |
+| Romania                          | Denmark                          |
+| Romania                          | Estonia                          |
+| Romania                          | Ethiopia                         |
+| Romania                          | Fiji                             |
+| Romania                          | Greece                           |
+| Romania                          | Greenland                        |
+| Romania                          | Hungary                          |
+| Romania                          | India                            |
+| Romania                          | Indonesia                        |
+| Romania                          | Ireland                          |
+| Romania                          | Latvia                           |
+| Romania                          | Libya                            |
+| Romania                          | Lithuania                        |
+| Romania                          | Mauritania                       |
+| Romania                          | Mexico                           |
+| Romania                          | Myanmar                          |
+| Romania                          | Nepal                            |
+| Romania                          | New Zealand                      |
+| Romania                          | Papua New Guinea                 |
+| Romania                          | Philippines                      |
+| Romania                          | Saint Kitts and Nevis            |
+| Romania                          | San Marino                       |
+| Romania                          | São Tomé and Príncipe            |
+| Romania                          | Singapore                        |
+| Romania                          | Slovakia                         |
+| Romania                          | Slovenia                         |
+| Romania                          | South Africa                     |
+| Romania                          | South Korea                      |
+| Romania                          | Syria                            |
+| Romania                          | Taiwan                           |
+| Romania                          | The Gambia                       |
+| Romania                          | Trinidad and Tobago              |
+| Romania                          | Ukraine                          |
+| Romania                          | Vietnam                          |
+| Russia                           | Algeria                          |
+| Russia                           | Antigua and Barbuda              |
+| Russia                           | Botswana                         |
+| Russia                           | Denmark                          |
+| Russia                           | Djibouti                         |
+| Russia                           | Georgia                          |
+| Russia                           | Honduras                         |
+| Russia                           | India                            |
+| Russia                           | Jordan                           |
+| Russia                           | Kenya                            |
+| Russia                           | Kuwait                           |
+| Russia                           | Liechtenstein                    |
+| Russia                           | Malaysia                         |
+| Russia                           | Mongolia                         |
+| Russia                           | Montenegro                       |
+| Russia                           | Morocco                          |
+| Russia                           | North Macedonia                  |
+| Russia                           | Oman                             |
+| Russia                           | Paraguay                         |
+| Russia                           | Poland                           |
+| Russia                           | Portugal                         |
+| Russia                           | Singapore                        |
+| Russia                           | State of Palestine               |
+| Russia                           | Syria                            |
+| Russia                           | Uganda                           |
+| Russia                           | Ukraine                          |
+| Russia                           | Uruguay                          |
+| Russia                           | Vietnam                          |
+| Rwanda                           | Algeria                          |
+| Rwanda                           | Argentina                        |
+| Rwanda                           | Armenia                          |
+| Rwanda                           | Bolivia                          |
+| Rwanda                           | Bosnia and Herzegovina           |
+| Rwanda                           | British Virgin Islands           |
+| Rwanda                           | Cape Verde                       |
+| Rwanda                           | Dominica                         |
+| Rwanda                           | Dominican Republic               |
+| Rwanda                           | Egypt                            |
+| Rwanda                           | France                           |
+| Rwanda                           | Georgia                          |
+| Rwanda                           | Indonesia                        |
+| Rwanda                           | Iraq                             |
+| Rwanda                           | Israel                           |
+| Rwanda                           | Japan                            |
+| Rwanda                           | Jordan                           |
+| Rwanda                           | Kazakhstan                       |
+| Rwanda                           | Libya                            |
+| Rwanda                           | Mali                             |
+| Rwanda                           | Mauritius                        |
+| Rwanda                           | North Korea                      |
+| Rwanda                           | Oman                             |
+| Rwanda                           | Paraguay                         |
+| Rwanda                           | Portugal                         |
+| Rwanda                           | Saint Kitts and Nevis            |
+| Rwanda                           | Slovenia                         |
+| Rwanda                           | South Sudan                      |
+| Rwanda                           | Spain                            |
+| Rwanda                           | State of Palestine               |
+| Rwanda                           | Ukraine                          |
+| Rwanda                           | United States of America         |
+| Rwanda                           | Vietnam                          |
+| Saint Kitts and Nevis            | Albania                          |
+| Saint Kitts and Nevis            | Algeria                          |
+| Saint Kitts and Nevis            | Argentina                        |
+| Saint Kitts and Nevis            | Belarus                          |
+| Saint Kitts and Nevis            | Bhutan                           |
+| Saint Kitts and Nevis            | Brunei                           |
+| Saint Kitts and Nevis            | Burkina Faso                     |
+| Saint Kitts and Nevis            | Colombia                         |
+| Saint Kitts and Nevis            | Dominica                         |
+| Saint Kitts and Nevis            | Dominican Republic               |
+| Saint Kitts and Nevis            | Eritrea                          |
+| Saint Kitts and Nevis            | Gabon                            |
+| Saint Kitts and Nevis            | Grenada                          |
+| Saint Kitts and Nevis            | Guernsey                         |
+| Saint Kitts and Nevis            | Honduras                         |
+| Saint Kitts and Nevis            | Iraq                             |
+| Saint Kitts and Nevis            | Israel                           |
+| Saint Kitts and Nevis            | Japan                            |
+| Saint Kitts and Nevis            | Jordan                           |
+| Saint Kitts and Nevis            | Kazakhstan                       |
+| Saint Kitts and Nevis            | Lebanon                          |
+| Saint Kitts and Nevis            | Libya                            |
+| Saint Kitts and Nevis            | Luxembourg                       |
+| Saint Kitts and Nevis            | Malaysia                         |
+| Saint Kitts and Nevis            | Myanmar                          |
+| Saint Kitts and Nevis            | Qatar                            |
+| Saint Kitts and Nevis            | Saint Lucia                      |
+| Saint Kitts and Nevis            | Saudi Arabia                     |
+| Saint Kitts and Nevis            | Sierra Leone                     |
+| Saint Kitts and Nevis            | Slovenia                         |
+| Saint Kitts and Nevis            | Tanzania                         |
+| Saint Kitts and Nevis            | Turkey                           |
+| Saint Kitts and Nevis            | United Kingdom                   |
+| Saint Kitts and Nevis            | Uruguay                          |
+| Saint Kitts and Nevis            | Zimbabwe                         |
+| Saint Lucia                      | Albania                          |
+| Saint Lucia                      | Angola                           |
+| Saint Lucia                      | Benin                            |
+| Saint Lucia                      | Bolivia                          |
+| Saint Lucia                      | Bulgaria                         |
+| Saint Lucia                      | Costa Rica                       |
+| Saint Lucia                      | Czech Republic                   |
+| Saint Lucia                      | Democratic Republic of the Congo |
+| Saint Lucia                      | Djibouti                         |
+| Saint Lucia                      | Eritrea                          |
+| Saint Lucia                      | Faroe Islands                    |
+| Saint Lucia                      | Fiji                             |
+| Saint Lucia                      | France                           |
+| Saint Lucia                      | Georgia                          |
+| Saint Lucia                      | Germany                          |
+| Saint Lucia                      | Ghana                            |
+| Saint Lucia                      | Guyana                           |
+| Saint Lucia                      | Honduras                         |
+| Saint Lucia                      | Iraq                             |
+| Saint Lucia                      | Japan                            |
+| Saint Lucia                      | Kenya                            |
+| Saint Lucia                      | Kuwait                           |
+| Saint Lucia                      | Latvia                           |
+| Saint Lucia                      | Liechtenstein                    |
+| Saint Lucia                      | Malta                            |
+| Saint Lucia                      | Mexico                           |
+| Saint Lucia                      | Netherlands                      |
+| Saint Lucia                      | Nigeria                          |
+| Saint Lucia                      | Norway                           |
+| Saint Lucia                      | Oman                             |
+| Saint Lucia                      | People's Republic of China       |
+| Saint Lucia                      | Russia                           |
+| Saint Lucia                      | Rwanda                           |
+| Saint Lucia                      | San Marino                       |
+| Saint Lucia                      | São Tomé and Príncipe            |
+| Saint Lucia                      | South Sudan                      |
+| Saint Lucia                      | State of Palestine               |
+| Saint Lucia                      | Suriname                         |
+| Saint Lucia                      | Switzerland                      |
+| Saint Lucia                      | Taiwan                           |
+| Saint Lucia                      | Tanzania                         |
+| Saint Lucia                      | Thailand                         |
+| Saint Lucia                      | Uruguay                          |
+| Saint Vincent and the Grenadines | Angola                           |
+| Saint Vincent and the Grenadines | Azerbaijan                       |
+| Saint Vincent and the Grenadines | Benin                            |
+| Saint Vincent and the Grenadines | Cameroon                         |
+| Saint Vincent and the Grenadines | Cape Verde                       |
+| Saint Vincent and the Grenadines | Chile                            |
+| Saint Vincent and the Grenadines | Dominica                         |
+| Saint Vincent and the Grenadines | Eritrea                          |
+| Saint Vincent and the Grenadines | Faroe Islands                    |
+| Saint Vincent and the Grenadines | Georgia                          |
+| Saint Vincent and the Grenadines | Grenada                          |
+| Saint Vincent and the Grenadines | Indonesia                        |
+| Saint Vincent and the Grenadines | Kazakhstan                       |
+| Saint Vincent and the Grenadines | Kenya                            |
+| Saint Vincent and the Grenadines | Kuwait                           |
+| Saint Vincent and the Grenadines | North Macedonia                  |
+| Saint Vincent and the Grenadines | Paraguay                         |
+| Saint Vincent and the Grenadines | Republic of Abkhazia             |
+| Saint Vincent and the Grenadines | Rwanda                           |
+| Saint Vincent and the Grenadines | Saint Kitts and Nevis            |
+| Saint Vincent and the Grenadines | São Tomé and Príncipe            |
+| Saint Vincent and the Grenadines | Sierra Leone                     |
+| Saint Vincent and the Grenadines | Slovenia                         |
+| Saint Vincent and the Grenadines | Solomon Islands                  |
+| Saint Vincent and the Grenadines | Sudan                            |
+| Saint Vincent and the Grenadines | Suriname                         |
+| Saint Vincent and the Grenadines | Switzerland                      |
+| Saint Vincent and the Grenadines | Uganda                           |
+| Saint Vincent and the Grenadines | Ukraine                          |
+| Saint Vincent and the Grenadines | United Kingdom                   |
+| Saint Vincent and the Grenadines | Venezuela                        |
+| San Marino                       | Afghanistan                      |
+| San Marino                       | Antigua and Barbuda              |
+| San Marino                       | Australia                        |
+| San Marino                       | Brunei                           |
+| San Marino                       | Cambodia                         |
+| San Marino                       | Canada                           |
+| San Marino                       | Democratic Republic of the Congo |
+| San Marino                       | Dominica                         |
+| San Marino                       | Egypt                            |
+| San Marino                       | El Salvador                      |
+| San Marino                       | Fiji                             |
+| San Marino                       | Finland                          |
+| San Marino                       | Georgia                          |
+| San Marino                       | Ghana                            |
+| San Marino                       | Greece                           |
+| San Marino                       | Guatemala                        |
+| San Marino                       | Guernsey                         |
+| San Marino                       | Honduras                         |
+| San Marino                       | Indonesia                        |
+| San Marino                       | Ivory Coast                      |
+| San Marino                       | Latvia                           |
+| San Marino                       | Lebanon                          |
+| San Marino                       | Lithuania                        |
+| San Marino                       | Malaysia                         |
+| San Marino                       | Morocco                          |
+| San Marino                       | Nigeria                          |
+| San Marino                       | North Korea                      |
+| San Marino                       | Qatar                            |
+| San Marino                       | Republic of Abkhazia             |
+| San Marino                       | Saint Kitts and Nevis            |
+| San Marino                       | Sierra Leone                     |
+| San Marino                       | Singapore                        |
+| San Marino                       | South Africa                     |
+| San Marino                       | State of Palestine               |
+| San Marino                       | Suriname                         |
+| San Marino                       | Syria                            |
+| San Marino                       | The Gambia                       |
+| San Marino                       | Tunisia                          |
+| San Marino                       | United Arab Emirates             |
+| São Tomé and Príncipe            | Algeria                          |
+| São Tomé and Príncipe            | Australia                        |
+| São Tomé and Príncipe            | Austria                          |
+| São Tomé and Príncipe            | Belarus                          |
+| São Tomé and Príncipe            | Cambodia                         |
+| São Tomé and Príncipe            | Canada                           |
+| São Tomé and Príncipe            | Costa Rica                       |
+| São Tomé and Príncipe            | Dominican Republic               |
+| São Tomé and Príncipe            | Egypt                            |
+| São Tomé and Príncipe            | Faroe Islands                    |
+| São Tomé and Príncipe            | France                           |
+| São Tomé and Príncipe            | Greenland                        |
+| São Tomé and Príncipe            | Guernsey                         |
+| São Tomé and Príncipe            | Jordan                           |
+| São Tomé and Príncipe            | Kosovo                           |
+| São Tomé and Príncipe            | Kyrgyzstan                       |
+| São Tomé and Príncipe            | Laos                             |
+| São Tomé and Príncipe            | Luxembourg                       |
+| São Tomé and Príncipe            | Montenegro                       |
+| São Tomé and Príncipe            | New Zealand                      |
+| São Tomé and Príncipe            | People's Republic of China       |
+| São Tomé and Príncipe            | Peru                             |
+| São Tomé and Príncipe            | Qatar                            |
+| São Tomé and Príncipe            | Rwanda                           |
+| São Tomé and Príncipe            | Saint Kitts and Nevis            |
+| São Tomé and Príncipe            | Saudi Arabia                     |
+| São Tomé and Príncipe            | Sierra Leone                     |
+| São Tomé and Príncipe            | Slovenia                         |
+| São Tomé and Príncipe            | South Sudan                      |
+| São Tomé and Príncipe            | Suriname                         |
+| São Tomé and Príncipe            | Syria                            |
+| São Tomé and Príncipe            | Turkmenistan                     |
+| São Tomé and Príncipe            | Ukraine                          |
+| São Tomé and Príncipe            | Uruguay                          |
+| São Tomé and Príncipe            | Venezuela                        |
+| Saudi Arabia                     | Algeria                          |
+| Saudi Arabia                     | Angola                           |
+| Saudi Arabia                     | Armenia                          |
+| Saudi Arabia                     | Australia                        |
+| Saudi Arabia                     | Bahrain                          |
+| Saudi Arabia                     | Bangladesh                       |
+| Saudi Arabia                     | Brazil                           |
+| Saudi Arabia                     | Cameroon                         |
+| Saudi Arabia                     | Chile                            |
+| Saudi Arabia                     | Cuba                             |
+| Saudi Arabia                     | Dominica                         |
+| Saudi Arabia                     | Dominican Republic               |
+| Saudi Arabia                     | Ecuador                          |
+| Saudi Arabia                     | France                           |
+| Saudi Arabia                     | Guatemala                        |
+| Saudi Arabia                     | Guernsey                         |
+| Saudi Arabia                     | Iceland                          |
+| Saudi Arabia                     | Ivory Coast                      |
+| Saudi Arabia                     | Kenya                            |
+| Saudi Arabia                     | Kuwait                           |
+| Saudi Arabia                     | Laos                             |
+| Saudi Arabia                     | Liberia                          |
+| Saudi Arabia                     | Liechtenstein                    |
+| Saudi Arabia                     | Malawi                           |
+| Saudi Arabia                     | Mexico                           |
+| Saudi Arabia                     | Mongolia                         |
+| Saudi Arabia                     | Myanmar                          |
+| Saudi Arabia                     | New Zealand                      |
+| Saudi Arabia                     | Oman                             |
+| Saudi Arabia                     | Papua New Guinea                 |
+| Saudi Arabia                     | Paraguay                         |
+| Saudi Arabia                     | Philippines                      |
+| Saudi Arabia                     | Poland                           |
+| Saudi Arabia                     | Saint Lucia                      |
+| Saudi Arabia                     | Somalia                          |
+| Saudi Arabia                     | Sri Lanka                        |
+| Saudi Arabia                     | Switzerland                      |
+| Saudi Arabia                     | Tanzania                         |
+| Serbia                           | Afghanistan                      |
+| Serbia                           | Albania                          |
+| Serbia                           | Argentina                        |
+| Serbia                           | Australia                        |
+| Serbia                           | Belarus                          |
+| Serbia                           | Belgium                          |
+| Serbia                           | British Virgin Islands           |
+| Serbia                           | Cape Verde                       |
+| Serbia                           | Colombia                         |
+| Serbia                           | Democratic Republic of the Congo |
+| Serbia                           | Dominica                         |
+| Serbia                           | Eritrea                          |
+| Serbia                           | Georgia                          |
+| Serbia                           | Germany                          |
+| Serbia                           | Greece                           |
+| Serbia                           | Greenland                        |
+| Serbia                           | Guatemala                        |
+| Serbia                           | Iceland                          |
+| Serbia                           | Ireland                          |
+| Serbia                           | Kuwait                           |
+| Serbia                           | Laos                             |
+| Serbia                           | Liberia                          |
+| Serbia                           | Liechtenstein                    |
+| Serbia                           | Malaysia                         |
+| Serbia                           | Mauritania                       |
+| Serbia                           | Mongolia                         |
+| Serbia                           | Nepal                            |
+| Serbia                           | New Zealand                      |
+| Serbia                           | Nicaragua                        |
+| Serbia                           | Pakistan                         |
+| Serbia                           | Qatar                            |
+| Serbia                           | Russia                           |
+| Serbia                           | Rwanda                           |
+| Serbia                           | Saint Lucia                      |
+| Serbia                           | São Tomé and Príncipe            |
+| Serbia                           | Slovenia                         |
+| Serbia                           | South Africa                     |
+| Serbia                           | South Korea                      |
 | Serbia                           | State of Palestine               |
+| Serbia                           | Sweden                           |
+| Serbia                           | Taiwan                           |
+| Serbia                           | Trinidad and Tobago              |
+| Serbia                           | Tunisia                          |
+| Serbia                           | Vietnam                          |
+| Serbia                           | Zimbabwe                         |
+| Sierra Leone                     | Algeria                          |
+| Sierra Leone                     | Australia                        |
+| Sierra Leone                     | Bangladesh                       |
+| Sierra Leone                     | Belgium                          |
+| Sierra Leone                     | British Virgin Islands           |
+| Sierra Leone                     | Burundi                          |
+| Sierra Leone                     | Cambodia                         |
+| Sierra Leone                     | Cameroon                         |
+| Sierra Leone                     | Colombia                         |
+| Sierra Leone                     | Croatia                          |
+| Sierra Leone                     | Czech Republic                   |
+| Sierra Leone                     | Djibouti                         |
+| Sierra Leone                     | Dominican Republic               |
+| Sierra Leone                     | Gabon                            |
+| Sierra Leone                     | Grenada                          |
+| Sierra Leone                     | Guyana                           |
+| Sierra Leone                     | Iceland                          |
+| Sierra Leone                     | Iraq                             |
+| Sierra Leone                     | Ireland                          |
+| Sierra Leone                     | Israel                           |
+| Sierra Leone                     | Kenya                            |
+| Sierra Leone                     | Laos                             |
+| Sierra Leone                     | Lithuania                        |
+| Sierra Leone                     | Mexico                           |
+| Sierra Leone                     | Mongolia                         |
+| Sierra Leone                     | Montenegro                       |
+| Sierra Leone                     | Nepal                            |
+| Sierra Leone                     | Pakistan                         |
+| Sierra Leone                     | Singapore                        |
+| Sierra Leone                     | South Africa                     |
+| Sierra Leone                     | Sudan                            |
+| Sierra Leone                     | Tajikistan                       |
+| Sierra Leone                     | Ukraine                          |
+| Sierra Leone                     | United Arab Emirates             |
+| Sierra Leone                     | Venezuela                        |
+| Sierra Leone                     | Vietnam                          |
+| Sierra Leone                     | Zimbabwe                         |
+| Singapore                        | Afghanistan                      |
+| Singapore                        | Albania                          |
+| Singapore                        | Belgium                          |
+| Singapore                        | Brazil                           |
+| Singapore                        | Burkina Faso                     |
+| Singapore                        | Cape Verde                       |
+| Singapore                        | Denmark                          |
+| Singapore                        | France                           |
+| Singapore                        | Grenada                          |
+| Singapore                        | Guatemala                        |
+| Singapore                        | Honduras                         |
+| Singapore                        | Iraq                             |
+| Singapore                        | Israel                           |
+| Singapore                        | Italy                            |
+| Singapore                        | Kenya                            |
+| Singapore                        | Kuwait                           |
+| Singapore                        | Lebanon                          |
+| Singapore                        | Liberia                          |
+| Singapore                        | Liechtenstein                    |
+| Singapore                        | Mauritania                       |
+| Singapore                        | Morocco                          |
+| Singapore                        | Netherlands                      |
+| Singapore                        | Nigeria                          |
+| Singapore                        | Norway                           |
+| Singapore                        | Papua New Guinea                 |
+| Singapore                        | Saint Kitts and Nevis            |
+| Singapore                        | Saint Lucia                      |
+| Singapore                        | São Tomé and Príncipe            |
+| Singapore                        | Serbia                           |
+| Singapore                        | Slovenia                         |
+| Singapore                        | Solomon Islands                  |
+| Singapore                        | South Korea                      |
+| Singapore                        | South Sudan                      |
+| Singapore                        | Spain                            |
+| Singapore                        | Sri Lanka                        |
+| Singapore                        | Sweden                           |
+| Singapore                        | Tanzania                         |
+| Singapore                        | Uganda                           |
+| Singapore                        | Uzbekistan                       |
+| Singapore                        | Zambia                           |
+| Slovakia                         | Albania                          |
+| Slovakia                         | Angola                           |
+| Slovakia                         | Armenia                          |
+| Slovakia                         | Australia                        |
+| Slovakia                         | Benin                            |
+| Slovakia                         | Burundi                          |
+| Slovakia                         | Colombia                         |
+| Slovakia                         | Czech Republic                   |
+| Slovakia                         | Dominica                         |
+| Slovakia                         | Egypt                            |
+| Slovakia                         | Estonia                          |
+| Slovakia                         | Ethiopia                         |
+| Slovakia                         | Gabon                            |
+| Slovakia                         | Grenada                          |
+| Slovakia                         | Guernsey                         |
+| Slovakia                         | Indonesia                        |
+| Slovakia                         | Kazakhstan                       |
+| Slovakia                         | Kenya                            |
+| Slovakia                         | Latvia                           |
+| Slovakia                         | Liberia                          |
+| Slovakia                         | Lithuania                        |
+| Slovakia                         | Morocco                          |
+| Slovakia                         | Myanmar                          |
+| Slovakia                         | Nepal                            |
+| Slovakia                         | Oman                             |
+| Slovakia                         | Panama                           |
+| Slovakia                         | Paraguay                         |
+| Slovakia                         | Russia                           |
+| Slovakia                         | Rwanda                           |
+| Slovakia                         | Saint Lucia                      |
+| Slovakia                         | Saint Vincent and the Grenadines |
+| Slovakia                         | San Marino                       |
+| Slovakia                         | Saudi Arabia                     |
+| Slovakia                         | Sierra Leone                     |
+| Slovakia                         | Solomon Islands                  |
+| Slovakia                         | South Africa                     |
+| Slovakia                         | Uzbekistan                       |
+| Slovakia                         | Vietnam                          |
+| Slovakia                         | Zimbabwe                         |
+| Slovenia                         | Albania                          |
+| Slovenia                         | Argentina                        |
+| Slovenia                         | Austria                          |
+| Slovenia                         | Bosnia and Herzegovina           |
+| Slovenia                         | Chile                            |
+| Slovenia                         | Democratic Republic of the Congo |
+| Slovenia                         | Denmark                          |
+| Slovenia                         | Egypt                            |
+| Slovenia                         | El Salvador                      |
+| Slovenia                         | France                           |
+| Slovenia                         | Georgia                          |
+| Slovenia                         | Honduras                         |
+| Slovenia                         | Iran                             |
+| Slovenia                         | Liechtenstein                    |
+| Slovenia                         | Montenegro                       |
+| Slovenia                         | North Macedonia                  |
+| Slovenia                         | Oman                             |
+| Slovenia                         | Philippines                      |
+| Slovenia                         | Republic of Abkhazia             |
+| Slovenia                         | Saudi Arabia                     |
+| Slovenia                         | Thailand                         |
+| Slovenia                         | Turkmenistan                     |
+| Solomon Islands                  | Albania                          |
+| Solomon Islands                  | Algeria                          |
+| Solomon Islands                  | Bolivia                          |
+| Solomon Islands                  | Brazil                           |
+| Solomon Islands                  | Burkina Faso                     |
+| Solomon Islands                  | Cape Verde                       |
+| Solomon Islands                  | Chile                            |
+| Solomon Islands                  | Dominica                         |
+| Solomon Islands                  | Ecuador                          |
+| Solomon Islands                  | France                           |
+| Solomon Islands                  | Guatemala                        |
+| Solomon Islands                  | Guernsey                         |
+| Solomon Islands                  | Guyana                           |
+| Solomon Islands                  | Iran                             |
+| Solomon Islands                  | Kenya                            |
+| Solomon Islands                  | Laos                             |
+| Solomon Islands                  | Latvia                           |
+| Solomon Islands                  | Libya                            |
+| Solomon Islands                  | Liechtenstein                    |
+| Solomon Islands                  | Luxembourg                       |
+| Solomon Islands                  | Mauritius                        |
+| Solomon Islands                  | Mexico                           |
+| Solomon Islands                  | Nicaragua                        |
+| Solomon Islands                  | Pakistan                         |
+| Solomon Islands                  | Sierra Leone                     |
+| Solomon Islands                  | South Africa                     |
+| Solomon Islands                  | Sri Lanka                        |
+| Solomon Islands                  | State of Palestine               |
+| Solomon Islands                  | Sudan                            |
+| Solomon Islands                  | Suriname                         |
+| Solomon Islands                  | Switzerland                      |
+| Solomon Islands                  | Taiwan                           |
+| Solomon Islands                  | The Gambia                       |
+| Solomon Islands                  | Uganda                           |
+| Solomon Islands                  | Venezuela                        |
+| Somalia                          | Angola                           |
+| Somalia                          | Argentina                        |
+| Somalia                          | Belgium                          |
+| Somalia                          | Benin                            |
+| Somalia                          | Bhutan                           |
+| Somalia                          | Brazil                           |
+| Somalia                          | Cameroon                         |
+| Somalia                          | Colombia                         |
+| Somalia                          | Denmark                          |
+| Somalia                          | Djibouti                         |
+| Somalia                          | Eritrea                          |
+| Somalia                          | Estonia                          |
+| Somalia                          | Faroe Islands                    |
+| Somalia                          | Finland                          |
+| Somalia                          | Guernsey                         |
+| Somalia                          | Indonesia                        |
+| Somalia                          | Iran                             |
+| Somalia                          | Ivory Coast                      |
+| Somalia                          | Kazakhstan                       |
+| Somalia                          | Kenya                            |
+| Somalia                          | Lebanon                          |
+| Somalia                          | Liberia                          |
+| Somalia                          | Lithuania                        |
+| Somalia                          | Malta                            |
+| Somalia                          | Mauritania                       |
+| Somalia                          | Montenegro                       |
+| Somalia                          | Myanmar                          |
+| Somalia                          | Nicaragua                        |
+| Somalia                          | North Macedonia                  |
+| Somalia                          | Norway                           |
+| Somalia                          | Pakistan                         |
+| Somalia                          | Paraguay                         |
+| Somalia                          | People's Republic of China       |
+| Somalia                          | Poland                           |
+| Somalia                          | Saint Kitts and Nevis            |
+| Somalia                          | San Marino                       |
+| Somalia                          | Singapore                        |
+| Somalia                          | Slovakia                         |
+| Somalia                          | Slovenia                         |
+| Somalia                          | Solomon Islands                  |
+| Somalia                          | South Africa                     |
+| Somalia                          | Sudan                            |
+| Somalia                          | Tajikistan                       |
+| Somalia                          | Uganda                           |
+| Somalia                          | United Arab Emirates             |
+| Somalia                          | Venezuela                        |
+| Somalia                          | Zimbabwe                         |
+| South Africa                     | Austria                          |
+| South Africa                     | Belgium                          |
+| South Africa                     | Bolivia                          |
+| South Africa                     | Brazil                           |
+| South Africa                     | Burkina Faso                     |
+| South Africa                     | Cameroon                         |
+| South Africa                     | Chile                            |
+| South Africa                     | Dominican Republic               |
+| South Africa                     | Eritrea                          |
+| South Africa                     | Estonia                          |
+| South Africa                     | Ethiopia                         |
+| South Africa                     | Greenland                        |
+| South Africa                     | Guyana                           |
+| South Africa                     | Indonesia                        |
+| South Africa                     | Ireland                          |
+| South Africa                     | Italy                            |
+| South Africa                     | Ivory Coast                      |
+| South Africa                     | Kosovo                           |
+| South Africa                     | Kyrgyzstan                       |
+| South Africa                     | Mauritania                       |
+| South Africa                     | Moldova                          |
+| South Africa                     | Mongolia                         |
+| South Africa                     | Montenegro                       |
+| South Africa                     | North Korea                      |
+| South Africa                     | North Macedonia                  |
+| South Africa                     | Norway                           |
+| South Africa                     | Oman                             |
+| South Africa                     | Paraguay                         |
+| South Africa                     | People's Republic of China       |
+| South Africa                     | Poland                           |
+| South Africa                     | Portugal                         |
+| South Africa                     | Saint Lucia                      |
+| South Africa                     | Singapore                        |
+| South Africa                     | Slovenia                         |
+| South Africa                     | Suriname                         |
+| South Africa                     | Syria                            |
+| South Africa                     | Taiwan                           |
+| South Africa                     | Tajikistan                       |
+| South Africa                     | Tanzania                         |
+| South Africa                     | United Arab Emirates             |
+| South Africa                     | United States of America         |
+| South Korea                      | Azerbaijan                       |
+| South Korea                      | Bhutan                           |
+| South Korea                      | Burkina Faso                     |
+| South Korea                      | Costa Rica                       |
+| South Korea                      | Cuba                             |
+| South Korea                      | Democratic Republic of the Congo |
+| South Korea                      | Dominican Republic               |
+| South Korea                      | Egypt                            |
+| South Korea                      | El Salvador                      |
+| South Korea                      | Finland                          |
+| South Korea                      | Gabon                            |
+| South Korea                      | Germany                          |
+| South Korea                      | Ghana                            |
+| South Korea                      | Greenland                        |
+| South Korea                      | Guernsey                         |
+| South Korea                      | Guyana                           |
+| South Korea                      | Kenya                            |
+| South Korea                      | Laos                             |
+| South Korea                      | Latvia                           |
+| South Korea                      | Malaysia                         |
+| South Korea                      | Netherlands                      |
+| South Korea                      | Oman                             |
+| South Korea                      | Pakistan                         |
+| South Korea                      | Poland                           |
+| South Korea                      | Saint Kitts and Nevis            |
+| South Korea                      | Saint Lucia                      |
+| South Korea                      | Saudi Arabia                     |
+| South Korea                      | Somalia                          |
+| South Korea                      | South Sudan                      |
+| South Korea                      | Sri Lanka                        |
+| South Korea                      | Sudan                            |
+| South Korea                      | Syria                            |
+| South Korea                      | Tanzania                         |
+| South Korea                      | The Gambia                       |
+| South Korea                      | Tunisia                          |
+| South Korea                      | Uganda                           |
+| South Korea                      | United States of America         |
+| South Korea                      | Vietnam                          |
+| South Sudan                      | Albania                          |
+| South Sudan                      | Azerbaijan                       |
+| South Sudan                      | Belgium                          |
+| South Sudan                      | Bulgaria                         |
+| South Sudan                      | Burundi                          |
+| South Sudan                      | Colombia                         |
+| South Sudan                      | Croatia                          |
+| South Sudan                      | Cuba                             |
+| South Sudan                      | Cyprus                           |
+| South Sudan                      | Czech Republic                   |
+| South Sudan                      | Denmark                          |
+| South Sudan                      | Finland                          |
+| South Sudan                      | Greece                           |
+| South Sudan                      | Guernsey                         |
+| South Sudan                      | Iran                             |
+| South Sudan                      | Iraq                             |
+| South Sudan                      | Ireland                          |
+| South Sudan                      | Japan                            |
+| South Sudan                      | Kazakhstan                       |
+| South Sudan                      | Kuwait                           |
+| South Sudan                      | Liberia                          |
+| South Sudan                      | Libya                            |
+| South Sudan                      | Mongolia                         |
+| South Sudan                      | Oman                             |
+| South Sudan                      | People's Republic of China       |
+| South Sudan                      | Saint Vincent and the Grenadines |
+| South Sudan                      | Saudi Arabia                     |
+| South Sudan                      | Sierra Leone                     |
+| South Sudan                      | Sri Lanka                        |
+| South Sudan                      | Sudan                            |
+| South Sudan                      | Tajikistan                       |
+| South Sudan                      | Ukraine                          |
+| South Sudan                      | Venezuela                        |
+| South Sudan                      | Vietnam                          |
+| South Sudan                      | Zimbabwe                         |
+| Spain                            | Angola                           |
+| Spain                            | Armenia                          |
+| Spain                            | Bahrain                          |
+| Spain                            | Belarus                          |
+| Spain                            | Bolivia                          |
+| Spain                            | Botswana                         |
+| Spain                            | Burundi                          |
+| Spain                            | Colombia                         |
+| Spain                            | Democratic Republic of the Congo |
+| Spain                            | Gabon                            |
+| Spain                            | Germany                          |
+| Spain                            | Ghana                            |
+| Spain                            | Guernsey                         |
+| Spain                            | Mexico                           |
+| Spain                            | Morocco                          |
+| Spain                            | Netherlands                      |
+| Spain                            | Nigeria                          |
+| Spain                            | Romania                          |
+| Spain                            | Russia                           |
+| Spain                            | Saint Kitts and Nevis            |
+| Spain                            | San Marino                       |
+| Spain                            | Slovenia                         |
+| Spain                            | Solomon Islands                  |
+| Spain                            | State of Palestine               |
+| Spain                            | Sudan                            |
+| Spain                            | Venezuela                        |
+| Sri Lanka                        | Afghanistan                      |
+| Sri Lanka                        | Angola                           |
+| Sri Lanka                        | Australia                        |
+| Sri Lanka                        | Bangladesh                       |
+| Sri Lanka                        | Bosnia and Herzegovina           |
+| Sri Lanka                        | Burkina Faso                     |
+| Sri Lanka                        | Burundi                          |
+| Sri Lanka                        | Canada                           |
+| Sri Lanka                        | Cuba                             |
+| Sri Lanka                        | Djibouti                         |
+| Sri Lanka                        | Fiji                             |
+| Sri Lanka                        | Finland                          |
+| Sri Lanka                        | Germany                          |
+| Sri Lanka                        | Ghana                            |
+| Sri Lanka                        | Grenada                          |
+| Sri Lanka                        | Hungary                          |
+| Sri Lanka                        | Ireland                          |
+| Sri Lanka                        | Japan                            |
+| Sri Lanka                        | Lebanon                          |
+| Sri Lanka                        | Liberia                          |
+| Sri Lanka                        | Liechtenstein                    |
+| Sri Lanka                        | Malta                            |
+| Sri Lanka                        | Mauritania                       |
+| Sri Lanka                        | Mongolia                         |
+| Sri Lanka                        | Nepal                            |
+| Sri Lanka                        | Nigeria                          |
+| Sri Lanka                        | Norway                           |
+| Sri Lanka                        | Papua New Guinea                 |
+| Sri Lanka                        | People's Republic of China       |
+| Sri Lanka                        | Rwanda                           |
+| Sri Lanka                        | São Tomé and Príncipe            |
+| Sri Lanka                        | Somalia                          |
+| Sri Lanka                        | South Africa                     |
+| Sri Lanka                        | State of Palestine               |
+| Sri Lanka                        | Sudan                            |
+| Sri Lanka                        | Syria                            |
+| Sri Lanka                        | Tanzania                         |
+| Sri Lanka                        | The Gambia                       |
+| Sri Lanka                        | Ukraine                          |
+| Sri Lanka                        | Uruguay                          |
+| State of Palestine               | Angola                           |
+| State of Palestine               | Bahrain                          |
+| State of Palestine               | Belgium                          |
+| State of Palestine               | Benin                            |
+| State of Palestine               | Bhutan                           |
+| State of Palestine               | Bosnia and Herzegovina           |
+| State of Palestine               | Canada                           |
+| State of Palestine               | Croatia                          |
+| State of Palestine               | Cuba                             |
+| State of Palestine               | Cyprus                           |
+| State of Palestine               | Egypt                            |
+| State of Palestine               | El Salvador                      |
+| State of Palestine               | Finland                          |
+| State of Palestine               | Gabon                            |
+| State of Palestine               | Georgia                          |
+| State of Palestine               | Ghana                            |
+| State of Palestine               | Indonesia                        |
+| State of Palestine               | Japan                            |
+| State of Palestine               | Lebanon                          |
+| State of Palestine               | Liberia                          |
+| State of Palestine               | Liechtenstein                    |
+| State of Palestine               | Lithuania                        |
+| State of Palestine               | Malta                            |
+| State of Palestine               | Mauritius                        |
+| State of Palestine               | New Zealand                      |
+| State of Palestine               | Nicaragua                        |
+| State of Palestine               | North Korea                      |
+| State of Palestine               | People's Republic of China       |
+| State of Palestine               | Portugal                         |
+| State of Palestine               | São Tomé and Príncipe            |
+| State of Palestine               | Saudi Arabia                     |
+| State of Palestine               | Singapore                        |
+| State of Palestine               | South Korea                      |
+| State of Palestine               | South Sudan                      |
+| State of Palestine               | Suriname                         |
+| State of Palestine               | Sweden                           |
+| State of Palestine               | Switzerland                      |
+| State of Palestine               | Syria                            |
+| State of Palestine               | The Gambia                       |
+| State of Palestine               | Trinidad and Tobago              |
+| State of Palestine               | United Kingdom                   |
+| State of Palestine               | Venezuela                        |
+| Sudan                            | Angola                           |
+| Sudan                            | Argentina                        |
+| Sudan                            | Azerbaijan                       |
+| Sudan                            | Bahrain                          |
+| Sudan                            | Bhutan                           |
+| Sudan                            | British Virgin Islands           |
+| Sudan                            | Burkina Faso                     |
+| Sudan                            | Burundi                          |
+| Sudan                            | Cambodia                         |
+| Sudan                            | Costa Rica                       |
+| Sudan                            | Czech Republic                   |
+| Sudan                            | Denmark                          |
+| Sudan                            | Egypt                            |
+| Sudan                            | El Salvador                      |
+| Sudan                            | Estonia                          |
+| Sudan                            | Faroe Islands                    |
+| Sudan                            | Ghana                            |
+| Sudan                            | Ireland                          |
+| Sudan                            | Japan                            |
+| Sudan                            | Latvia                           |
+| Sudan                            | Liechtenstein                    |
+| Sudan                            | Lithuania                        |
+| Sudan                            | Malaysia                         |
+| Sudan                            | Montenegro                       |
+| Sudan                            | North Korea                      |
+| Sudan                            | Norway                           |
+| Sudan                            | Papua New Guinea                 |
+| Sudan                            | Russia                           |
+| Sudan                            | Saint Kitts and Nevis            |
+| Sudan                            | Saint Lucia                      |
+| Sudan                            | San Marino                       |
+| Sudan                            | Saudi Arabia                     |
+| Sudan                            | Slovakia                         |
+| Sudan                            | Suriname                         |
+| Sudan                            | Taiwan                           |
+| Sudan                            | Turkmenistan                     |
+| Sudan                            | United States of America         |
+| Sudan                            | Vietnam                          |
+| Sudan                            | Zambia                           |
+| Sudan                            | Zimbabwe                         |
+| Suriname                         | Algeria                          |
+| Suriname                         | Armenia                          |
+| Suriname                         | Azerbaijan                       |
+| Suriname                         | Bosnia and Herzegovina           |
+| Suriname                         | Brunei                           |
+| Suriname                         | Cambodia                         |
+| Suriname                         | Cyprus                           |
+| Suriname                         | Democratic Republic of the Congo |
+| Suriname                         | Ethiopia                         |
+| Suriname                         | Guatemala                        |
+| Suriname                         | Guyana                           |
+| Suriname                         | Ivory Coast                      |
+| Suriname                         | Kuwait                           |
+| Suriname                         | Kyrgyzstan                       |
+| Suriname                         | Malawi                           |
+| Suriname                         | Mauritius                        |
+| Suriname                         | Nepal                            |
+| Suriname                         | Netherlands                      |
+| Suriname                         | New Zealand                      |
+| Suriname                         | Nicaragua                        |
+| Suriname                         | Norway                           |
+| Suriname                         | Paraguay                         |
+| Suriname                         | Poland                           |
+| Suriname                         | Romania                          |
+| Suriname                         | Saudi Arabia                     |
+| Suriname                         | Serbia                           |
+| Suriname                         | Sierra Leone                     |
+| Suriname                         | South Sudan                      |
+| Suriname                         | Switzerland                      |
+| Suriname                         | Tajikistan                       |
+| Suriname                         | Trinidad and Tobago              |
+| Suriname                         | United Arab Emirates             |
+| Suriname                         | United States of America         |
+| Suriname                         | Venezuela                        |
+| Sweden                           | Algeria                          |
+| Sweden                           | Antigua and Barbuda              |
+| Sweden                           | Bhutan                           |
+| Sweden                           | Botswana                         |
+| Sweden                           | Brazil                           |
+| Sweden                           | Burkina Faso                     |
+| Sweden                           | Burundi                          |
+| Sweden                           | Croatia                          |
+| Sweden                           | Cuba                             |
+| Sweden                           | Dominica                         |
+| Sweden                           | France                           |
+| Sweden                           | Gabon                            |
+| Sweden                           | Georgia                          |
+| Sweden                           | Ghana                            |
+| Sweden                           | Honduras                         |
+| Sweden                           | Ivory Coast                      |
+| Sweden                           | Japan                            |
+| Sweden                           | Laos                             |
+| Sweden                           | Malawi                           |
+| Sweden                           | Mauritius                        |
+| Sweden                           | Mexico                           |
+| Sweden                           | Mongolia                         |
+| Sweden                           | Morocco                          |
+| Sweden                           | North Macedonia                  |
+| Sweden                           | Panama                           |
+| Sweden                           | Peru                             |
+| Sweden                           | Portugal                         |
+| Sweden                           | Rwanda                           |
+| Sweden                           | Slovenia                         |
+| Sweden                           | South Korea                      |
+| Sweden                           | Spain                            |
+| Sweden                           | Sri Lanka                        |
+| Sweden                           | Tajikistan                       |
+| Sweden                           | The Gambia                       |
+| Sweden                           | Turkey                           |
+| Sweden                           | United States of America         |
+| Sweden                           | Uzbekistan                       |
+| Sweden                           | Vietnam                          |
+| Switzerland                      | Austria                          |
+| Switzerland                      | Bangladesh                       |
+| Switzerland                      | Belarus                          |
+| Switzerland                      | Brazil                           |
+| Switzerland                      | Burkina Faso                     |
+| Switzerland                      | Cambodia                         |
+| Switzerland                      | Cameroon                         |
+| Switzerland                      | Colombia                         |
+| Switzerland                      | Czech Republic                   |
+| Switzerland                      | Denmark                          |
+| Switzerland                      | Djibouti                         |
+| Switzerland                      | Dominica                         |
+| Switzerland                      | Egypt                            |
+| Switzerland                      | Estonia                          |
+| Switzerland                      | Fiji                             |
+| Switzerland                      | Gabon                            |
+| Switzerland                      | Guatemala                        |
+| Switzerland                      | Indonesia                        |
+| Switzerland                      | Iran                             |
+| Switzerland                      | Israel                           |
+| Switzerland                      | Italy                            |
+| Switzerland                      | Jordan                           |
+| Switzerland                      | Kosovo                           |
+| Switzerland                      | Liberia                          |
+| Switzerland                      | Malawi                           |
+| Switzerland                      | Myanmar                          |
+| Switzerland                      | New Zealand                      |
+| Switzerland                      | San Marino                       |
+| Switzerland                      | São Tomé and Príncipe            |
+| Switzerland                      | Sierra Leone                     |
+| Switzerland                      | Slovakia                         |
+| Switzerland                      | Slovenia                         |
+| Switzerland                      | Spain                            |
+| Switzerland                      | Sri Lanka                        |
+| Switzerland                      | Sudan                            |
+| Switzerland                      | Sweden                           |
+| Switzerland                      | Trinidad and Tobago              |
+| Switzerland                      | Tunisia                          |
+| Switzerland                      | Turkmenistan                     |
+| Switzerland                      | United States of America         |
+| Switzerland                      | Uruguay                          |
+| Switzerland                      | Uzbekistan                       |
+| Switzerland                      | Vietnam                          |
+| Switzerland                      | Zimbabwe                         |
+| Syria                            | Argentina                        |
+| Syria                            | Belarus                          |
+| Syria                            | Benin                            |
+| Syria                            | Botswana                         |
+| Syria                            | Brunei                           |
+| Syria                            | Burundi                          |
+| Syria                            | Cambodia                         |
+| Syria                            | Cuba                             |
+| Syria                            | Cyprus                           |
+| Syria                            | Denmark                          |
+| Syria                            | Egypt                            |
+| Syria                            | Eritrea                          |
+| Syria                            | Faroe Islands                    |
+| Syria                            | Germany                          |
+| Syria                            | Iceland                          |
+| Syria                            | Iraq                             |
+| Syria                            | Kosovo                           |
+| Syria                            | Kyrgyzstan                       |
+| Syria                            | Lebanon                          |
+| Syria                            | Mexico                           |
+| Syria                            | Morocco                          |
+| Syria                            | Nigeria                          |
+| Syria                            | North Macedonia                  |
+| Syria                            | Pakistan                         |
+| Syria                            | Saint Kitts and Nevis            |
+| Syria                            | Singapore                        |
+| Syria                            | Slovakia                         |
+| Syria                            | Solomon Islands                  |
+| Syria                            | Suriname                         |
+| Syria                            | The Gambia                       |
+| Syria                            | Trinidad and Tobago              |
+| Syria                            | Turkey                           |
+| Syria                            | Venezuela                        |
+| Taiwan                           | Argentina                        |
+| Taiwan                           | Australia                        |
+| Taiwan                           | Botswana                         |
+| Taiwan                           | British Virgin Islands           |
+| Taiwan                           | Burundi                          |
+| Taiwan                           | Ecuador                          |
+| Taiwan                           | Estonia                          |
+| Taiwan                           | Guyana                           |
+| Taiwan                           | Iraq                             |
+| Taiwan                           | Italy                            |
+| Taiwan                           | Jordan                           |
+| Taiwan                           | Kenya                            |
+| Taiwan                           | Latvia                           |
+| Taiwan                           | Lebanon                          |
+| Taiwan                           | Lithuania                        |
+| Taiwan                           | Luxembourg                       |
+| Taiwan                           | Malaysia                         |
+| Taiwan                           | Mali                             |
+| Taiwan                           | Moldova                          |
+| Taiwan                           | Montenegro                       |
+| Taiwan                           | Myanmar                          |
+| Taiwan                           | Nigeria                          |
+| Taiwan                           | North Macedonia                  |
+| Taiwan                           | Pakistan                         |
+| Taiwan                           | Papua New Guinea                 |
+| Taiwan                           | Philippines                      |
+| Taiwan                           | Qatar                            |
+| Taiwan                           | Republic of Abkhazia             |
+| Taiwan                           | Saint Kitts and Nevis            |
+| Taiwan                           | San Marino                       |
+| Taiwan                           | Singapore                        |
+| Taiwan                           | Slovakia                         |
+| Taiwan                           | Somalia                          |
+| Taiwan                           | South Korea                      |
+| Taiwan                           | South Sudan                      |
+| Taiwan                           | Suriname                         |
+| Taiwan                           | Thailand                         |
+| Taiwan                           | Uganda                           |
+| Taiwan                           | Ukraine                          |
+| Taiwan                           | United Kingdom                   |
+| Taiwan                           | Vietnam                          |
+| Taiwan                           | Zambia                           |
+| Tajikistan                       | Antigua and Barbuda              |
+| Tajikistan                       | Armenia                          |
+| Tajikistan                       | Austria                          |
+| Tajikistan                       | Benin                            |
+| Tajikistan                       | British Virgin Islands           |
+| Tajikistan                       | Brunei                           |
+| Tajikistan                       | Cambodia                         |
+| Tajikistan                       | Costa Rica                       |
+| Tajikistan                       | Curaçao                          |
+| Tajikistan                       | Cyprus                           |
+| Tajikistan                       | Dominican Republic               |
+| Tajikistan                       | Ethiopia                         |
+| Tajikistan                       | France                           |
+| Tajikistan                       | Germany                          |
+| Tajikistan                       | Honduras                         |
+| Tajikistan                       | Iceland                          |
+| Tajikistan                       | Indonesia                        |
+| Tajikistan                       | Japan                            |
+| Tajikistan                       | Kosovo                           |
+| Tajikistan                       | Luxembourg                       |
+| Tajikistan                       | Morocco                          |
+| Tajikistan                       | North Korea                      |
+| Tajikistan                       | Pakistan                         |
+| Tajikistan                       | Philippines                      |
+| Tajikistan                       | Republic of Abkhazia             |
+| Tajikistan                       | Russia                           |
+| Tajikistan                       | Saint Kitts and Nevis            |
+| Tajikistan                       | Saint Lucia                      |
+| Tajikistan                       | Slovenia                         |
+| Tajikistan                       | Solomon Islands                  |
+| Tajikistan                       | Sri Lanka                        |
+| Tajikistan                       | State of Palestine               |
+| Tajikistan                       | Switzerland                      |
+| Tajikistan                       | Tanzania                         |
+| Tajikistan                       | Uganda                           |
+| Tajikistan                       | United States of America         |
+| Tajikistan                       | Vietnam                          |
+| Tajikistan                       | Zimbabwe                         |
+| Tanzania                         | Algeria                          |
+| Tanzania                         | Armenia                          |
+| Tanzania                         | Bahrain                          |
+| Tanzania                         | Bhutan                           |
+| Tanzania                         | Burkina Faso                     |
+| Tanzania                         | Cambodia                         |
+| Tanzania                         | Cameroon                         |
+| Tanzania                         | Croatia                          |
+| Tanzania                         | Cyprus                           |
+| Tanzania                         | Ecuador                          |
+| Tanzania                         | Estonia                          |
+| Tanzania                         | Ethiopia                         |
+| Tanzania                         | Faroe Islands                    |
+| Tanzania                         | Fiji                             |
+| Tanzania                         | Greenland                        |
+| Tanzania                         | Iceland                          |
+| Tanzania                         | Indonesia                        |
+| Tanzania                         | Iraq                             |
+| Tanzania                         | Italy                            |
+| Tanzania                         | Jordan                           |
+| Tanzania                         | Kyrgyzstan                       |
+| Tanzania                         | Laos                             |
+| Tanzania                         | Latvia                           |
+| Tanzania                         | Malawi                           |
+| Tanzania                         | Malaysia                         |
+| Tanzania                         | Morocco                          |
+| Tanzania                         | Paraguay                         |
+| Tanzania                         | Philippines                      |
+| Tanzania                         | Portugal                         |
+| Tanzania                         | Russia                           |
+| Tanzania                         | San Marino                       |
+| Tanzania                         | São Tomé and Príncipe            |
+| Tanzania                         | Sierra Leone                     |
+| Tanzania                         | Solomon Islands                  |
+| Tanzania                         | Spain                            |
+| Tanzania                         | State of Palestine               |
+| Tanzania                         | Suriname                         |
+| Tanzania                         | Sweden                           |
+| Tanzania                         | Switzerland                      |
+| Tanzania                         | Thailand                         |
+| Tanzania                         | The Gambia                       |
+| Tanzania                         | Turkey                           |
+| Tanzania                         | Turkmenistan                     |
+| Tanzania                         | Ukraine                          |
+| Tanzania                         | Uzbekistan                       |
+| Tanzania                         | Vietnam                          |
+| Tanzania                         | Zimbabwe                         |
+| Thailand                         | Afghanistan                      |
+| Thailand                         | Belarus                          |
+| Thailand                         | Cameroon                         |
+| Thailand                         | Chile                            |
+| Thailand                         | Cyprus                           |
+| Thailand                         | Dominican Republic               |
+| Thailand                         | Egypt                            |
+| Thailand                         | Estonia                          |
+| Thailand                         | Gabon                            |
+| Thailand                         | Ghana                            |
+| Thailand                         | Greece                           |
+| Thailand                         | Indonesia                        |
+| Thailand                         | Kazakhstan                       |
+| Thailand                         | Kosovo                           |
+| Thailand                         | Mauritania                       |
+| Thailand                         | Moldova                          |
+| Thailand                         | Morocco                          |
+| Thailand                         | New Zealand                      |
+| Thailand                         | Nigeria                          |
+| Thailand                         | Oman                             |
+| Thailand                         | Papua New Guinea                 |
+| Thailand                         | Paraguay                         |
+| Thailand                         | Poland                           |
+| Thailand                         | Saint Kitts and Nevis            |
+| Thailand                         | São Tomé and Príncipe            |
+| Thailand                         | Saudi Arabia                     |
+| Thailand                         | Serbia                           |
+| Thailand                         | Solomon Islands                  |
+| Thailand                         | Somalia                          |
+| Thailand                         | Tajikistan                       |
+| Thailand                         | Trinidad and Tobago              |
+| Thailand                         | Turkmenistan                     |
+| Thailand                         | Uganda                           |
+| Thailand                         | Ukraine                          |
+| Thailand                         | Venezuela                        |
+| The Gambia                       | Albania                          |
+| The Gambia                       | Antigua and Barbuda              |
+| The Gambia                       | Argentina                        |
+| The Gambia                       | Armenia                          |
+| The Gambia                       | Australia                        |
+| The Gambia                       | Belarus                          |
+| The Gambia                       | Benin                            |
+| The Gambia                       | Chile                            |
+| The Gambia                       | Cuba                             |
+| The Gambia                       | Cyprus                           |
+| The Gambia                       | Egypt                            |
+| The Gambia                       | Estonia                          |
+| The Gambia                       | Faroe Islands                    |
+| The Gambia                       | Indonesia                        |
+| The Gambia                       | Japan                            |
+| The Gambia                       | Kenya                            |
+| The Gambia                       | Kuwait                           |
+| The Gambia                       | Latvia                           |
+| The Gambia                       | Lebanon                          |
+| The Gambia                       | Malaysia                         |
+| The Gambia                       | Mauritania                       |
+| The Gambia                       | Mauritius                        |
+| The Gambia                       | Mongolia                         |
+| The Gambia                       | Montenegro                       |
+| The Gambia                       | Morocco                          |
+| The Gambia                       | New Zealand                      |
+| The Gambia                       | North Macedonia                  |
+| The Gambia                       | Norway                           |
+| The Gambia                       | Papua New Guinea                 |
+| The Gambia                       | Rwanda                           |
+| The Gambia                       | Saudi Arabia                     |
+| The Gambia                       | Singapore                        |
+| The Gambia                       | Sudan                            |
+| The Gambia                       | Taiwan                           |
+| The Gambia                       | Thailand                         |
+| The Gambia                       | Tunisia                          |
+| The Gambia                       | Turkmenistan                     |
+| The Gambia                       | Uganda                           |
+| The Gambia                       | United Arab Emirates             |
+| The Gambia                       | United States of America         |
+| The Gambia                       | Uruguay                          |
+| Trinidad and Tobago              | Antigua and Barbuda              |
+| Trinidad and Tobago              | Bahrain                          |
+| Trinidad and Tobago              | Belgium                          |
+| Trinidad and Tobago              | Benin                            |
+| Trinidad and Tobago              | Bosnia and Herzegovina           |
+| Trinidad and Tobago              | Brazil                           |
+| Trinidad and Tobago              | Brunei                           |
+| Trinidad and Tobago              | Bulgaria                         |
+| Trinidad and Tobago              | Burundi                          |
+| Trinidad and Tobago              | Cambodia                         |
+| Trinidad and Tobago              | Cameroon                         |
+| Trinidad and Tobago              | Cape Verde                       |
+| Trinidad and Tobago              | Democratic Republic of the Congo |
+| Trinidad and Tobago              | Dominica                         |
+| Trinidad and Tobago              | Egypt                            |
+| Trinidad and Tobago              | Faroe Islands                    |
+| Trinidad and Tobago              | Gabon                            |
+| Trinidad and Tobago              | Guyana                           |
+| Trinidad and Tobago              | Iceland                          |
+| Trinidad and Tobago              | Indonesia                        |
+| Trinidad and Tobago              | Iraq                             |
+| Trinidad and Tobago              | Israel                           |
+| Trinidad and Tobago              | Ivory Coast                      |
+| Trinidad and Tobago              | Japan                            |
+| Trinidad and Tobago              | Kosovo                           |
+| Trinidad and Tobago              | Liberia                          |
+| Trinidad and Tobago              | Libya                            |
+| Trinidad and Tobago              | Luxembourg                       |
+| Trinidad and Tobago              | Mexico                           |
+| Trinidad and Tobago              | Moldova                          |
+| Trinidad and Tobago              | Nigeria                          |
+| Trinidad and Tobago              | Panama                           |
+| Trinidad and Tobago              | Paraguay                         |
+| Trinidad and Tobago              | Peru                             |
+| Trinidad and Tobago              | Saint Kitts and Nevis            |
+| Trinidad and Tobago              | Saudi Arabia                     |
+| Trinidad and Tobago              | Singapore                        |
+| Trinidad and Tobago              | Slovenia                         |
+| Trinidad and Tobago              | Solomon Islands                  |
+| Trinidad and Tobago              | South Sudan                      |
+| Trinidad and Tobago              | Sri Lanka                        |
+| Trinidad and Tobago              | Sudan                            |
+| Trinidad and Tobago              | Venezuela                        |
+| Trinidad and Tobago              | Vietnam                          |
+| Tunisia                          | Afghanistan                      |
+| Tunisia                          | Angola                           |
+| Tunisia                          | Argentina                        |
+| Tunisia                          | Bahrain                          |
+| Tunisia                          | Belgium                          |
+| Tunisia                          | Benin                            |
+| Tunisia                          | British Virgin Islands           |
+| Tunisia                          | Brunei                           |
+| Tunisia                          | Bulgaria                         |
+| Tunisia                          | Burkina Faso                     |
+| Tunisia                          | Dominican Republic               |
+| Tunisia                          | Finland                          |
+| Tunisia                          | Gabon                            |
+| Tunisia                          | Ghana                            |
+| Tunisia                          | Guernsey                         |
+| Tunisia                          | Kazakhstan                       |
+| Tunisia                          | Kenya                            |
+| Tunisia                          | Latvia                           |
+| Tunisia                          | Luxembourg                       |
+| Tunisia                          | Malawi                           |
+| Tunisia                          | Malaysia                         |
+| Tunisia                          | Mauritania                       |
+| Tunisia                          | Mongolia                         |
+| Tunisia                          | Pakistan                         |
+| Tunisia                          | Qatar                            |
+| Tunisia                          | Romania                          |
+| Tunisia                          | Saint Lucia                      |
+| Tunisia                          | Saint Vincent and the Grenadines |
+| Tunisia                          | São Tomé and Príncipe            |
+| Tunisia                          | Saudi Arabia                     |
+| Tunisia                          | Sierra Leone                     |
+| Tunisia                          | Slovenia                         |
+| Tunisia                          | Suriname                         |
+| Tunisia                          | Sweden                           |
+| Tunisia                          | United Kingdom                   |
+| Tunisia                          | Uzbekistan                       |
+| Tunisia                          | Vietnam                          |
+| Turkey                           | Bosnia and Herzegovina           |
+| Turkey                           | Botswana                         |
+| Turkey                           | Burkina Faso                     |
+| Turkey                           | Cambodia                         |
+| Turkey                           | Canada                           |
+| Turkey                           | Curaçao                          |
+| Turkey                           | Dominica                         |
+| Turkey                           | Egypt                            |
+| Turkey                           | El Salvador                      |
+| Turkey                           | Eritrea                          |
+| Turkey                           | France                           |
+| Turkey                           | Guatemala                        |
+| Turkey                           | Guernsey                         |
+| Turkey                           | Iraq                             |
+| Turkey                           | Latvia                           |
+| Turkey                           | Mali                             |
+| Turkey                           | Mauritania                       |
+| Turkey                           | Mongolia                         |
+| Turkey                           | Nicaragua                        |
+| Turkey                           | North Korea                      |
+| Turkey                           | Oman                             |
+| Turkey                           | Paraguay                         |
+| Turkey                           | Rwanda                           |
+| Turkey                           | Saint Lucia                      |
+| Turkey                           | Saudi Arabia                     |
+| Turkey                           | Sierra Leone                     |
+| Turkey                           | Slovakia                         |
+| Turkey                           | Somalia                          |
+| Turkey                           | South Africa                     |
+| Turkey                           | South Korea                      |
+| Turkey                           | Spain                            |
+| Turkey                           | State of Palestine               |
+| Turkey                           | Taiwan                           |
+| Turkey                           | Tajikistan                       |
+| Turkey                           | Thailand                         |
+| Turkey                           | The Gambia                       |
+| Turkey                           | United States of America         |
+| Turkmenistan                     | Algeria                          |
+| Turkmenistan                     | Angola                           |
+| Turkmenistan                     | Australia                        |
+| Turkmenistan                     | Austria                          |
+| Turkmenistan                     | Bangladesh                       |
+| Turkmenistan                     | Bosnia and Herzegovina           |
+| Turkmenistan                     | Botswana                         |
+| Turkmenistan                     | Brazil                           |
+| Turkmenistan                     | Burkina Faso                     |
+| Turkmenistan                     | Cambodia                         |
+| Turkmenistan                     | Costa Rica                       |
+| Turkmenistan                     | Croatia                          |
+| Turkmenistan                     | Cyprus                           |
+| Turkmenistan                     | Czech Republic                   |
+| Turkmenistan                     | Democratic Republic of the Congo |
+| Turkmenistan                     | Djibouti                         |
+| Turkmenistan                     | Egypt                            |
+| Turkmenistan                     | El Salvador                      |
+| Turkmenistan                     | Estonia                          |
+| Turkmenistan                     | Finland                          |
+| Turkmenistan                     | Greenland                        |
+| Turkmenistan                     | Grenada                          |
+| Turkmenistan                     | Honduras                         |
+| Turkmenistan                     | Hungary                          |
+| Turkmenistan                     | Iran                             |
+| Turkmenistan                     | Ivory Coast                      |
+| Turkmenistan                     | Malawi                           |
+| Turkmenistan                     | Malta                            |
+| Turkmenistan                     | Mongolia                         |
+| Turkmenistan                     | Nicaragua                        |
+| Turkmenistan                     | North Korea                      |
+| Turkmenistan                     | Qatar                            |
+| Turkmenistan                     | Rwanda                           |
+| Turkmenistan                     | Saint Vincent and the Grenadines |
+| Turkmenistan                     | Saudi Arabia                     |
+| Turkmenistan                     | Solomon Islands                  |
+| Turkmenistan                     | South Sudan                      |
+| Turkmenistan                     | Suriname                         |
+| Turkmenistan                     | Sweden                           |
+| Uganda                           | Austria                          |
+| Uganda                           | Bangladesh                       |
+| Uganda                           | Benin                            |
+| Uganda                           | British Virgin Islands           |
+| Uganda                           | Burkina Faso                     |
+| Uganda                           | Chile                            |
+| Uganda                           | Czech Republic                   |
+| Uganda                           | Dominican Republic               |
+| Uganda                           | Finland                          |
+| Uganda                           | Gabon                            |
+| Uganda                           | Indonesia                        |
+| Uganda                           | Iran                             |
+| Uganda                           | Italy                            |
+| Uganda                           | Kuwait                           |
+| Uganda                           | Laos                             |
+| Uganda                           | Latvia                           |
+| Uganda                           | Lebanon                          |
+| Uganda                           | Libya                            |
+| Uganda                           | Liechtenstein                    |
+| Uganda                           | Mauritius                        |
+| Uganda                           | Morocco                          |
+| Uganda                           | New Zealand                      |
+| Uganda                           | Nigeria                          |
+| Uganda                           | Oman                             |
+| Uganda                           | Republic of Abkhazia             |
+| Uganda                           | Romania                          |
+| Uganda                           | São Tomé and Príncipe            |
+| Uganda                           | Slovenia                         |
+| Uganda                           | State of Palestine               |
+| Uganda                           | Sudan                            |
+| Uganda                           | Switzerland                      |
+| Uganda                           | Turkmenistan                     |
+| Uganda                           | Venezuela                        |
+| Ukraine                          | Albania                          |
+| Ukraine                          | Argentina                        |
+| Ukraine                          | Armenia                          |
+| Ukraine                          | Belarus                          |
+| Ukraine                          | Belgium                          |
+| Ukraine                          | Botswana                         |
+| Ukraine                          | Brunei                           |
+| Ukraine                          | Cambodia                         |
+| Ukraine                          | Canada                           |
+| Ukraine                          | Colombia                         |
+| Ukraine                          | Costa Rica                       |
+| Ukraine                          | Ecuador                          |
+| Ukraine                          | El Salvador                      |
+| Ukraine                          | Eritrea                          |
+| Ukraine                          | Estonia                          |
+| Ukraine                          | Greece                           |
+| Ukraine                          | Guatemala                        |
+| Ukraine                          | Honduras                         |
+| Ukraine                          | Ivory Coast                      |
+| Ukraine                          | Liechtenstein                    |
+| Ukraine                          | Lithuania                        |
+| Ukraine                          | Malaysia                         |
+| Ukraine                          | Papua New Guinea                 |
+| Ukraine                          | People's Republic of China       |
+| Ukraine                          | Philippines                      |
+| Ukraine                          | Saudi Arabia                     |
+| Ukraine                          | Serbia                           |
+| Ukraine                          | Singapore                        |
+| Ukraine                          | Slovakia                         |
+| Ukraine                          | Solomon Islands                  |
+| Ukraine                          | South Africa                     |
+| Ukraine                          | State of Palestine               |
+| Ukraine                          | Switzerland                      |
+| Ukraine                          | Trinidad and Tobago              |
+| Ukraine                          | United States of America         |
+| Ukraine                          | Uzbekistan                       |
+| United Arab Emirates             | Afghanistan                      |
+| United Arab Emirates             | Algeria                          |
+| United Arab Emirates             | Australia                        |
+| United Arab Emirates             | Belgium                          |
+| United Arab Emirates             | Benin                            |
+| United Arab Emirates             | Bhutan                           |
+| United Arab Emirates             | Botswana                         |
+| United Arab Emirates             | Cambodia                         |
+| United Arab Emirates             | Cyprus                           |
+| United Arab Emirates             | Denmark                          |
+| United Arab Emirates             | El Salvador                      |
+| United Arab Emirates             | Ethiopia                         |
+| United Arab Emirates             | Finland                          |
+| United Arab Emirates             | Georgia                          |
+| United Arab Emirates             | Germany                          |
+| United Arab Emirates             | Greece                           |
+| United Arab Emirates             | Iceland                          |
+| United Arab Emirates             | Indonesia                        |
+| United Arab Emirates             | Jordan                           |
+| United Arab Emirates             | Kazakhstan                       |
+| United Arab Emirates             | Libya                            |
+| United Arab Emirates             | Lithuania                        |
+| United Arab Emirates             | Malawi                           |
+| United Arab Emirates             | Myanmar                          |
+| United Arab Emirates             | Nicaragua                        |
+| United Arab Emirates             | Norway                           |
+| United Arab Emirates             | Papua New Guinea                 |
+| United Arab Emirates             | Poland                           |
+| United Arab Emirates             | Portugal                         |
+| United Arab Emirates             | Romania                          |
+| United Arab Emirates             | Saint Kitts and Nevis            |
+| United Arab Emirates             | Saudi Arabia                     |
+| United Arab Emirates             | Slovakia                         |
+| United Arab Emirates             | South Sudan                      |
+| United Arab Emirates             | Spain                            |
+| United Arab Emirates             | Tajikistan                       |
+| United Arab Emirates             | Trinidad and Tobago              |
+| United Arab Emirates             | Tunisia                          |
+| United Arab Emirates             | Uzbekistan                       |
+| United Kingdom                   | Antigua and Barbuda              |
+| United Kingdom                   | Belarus                          |
+| United Kingdom                   | Bolivia                          |
+| United Kingdom                   | Burkina Faso                     |
+| United Kingdom                   | Canada                           |
+| United Kingdom                   | Cape Verde                       |
+| United Kingdom                   | Colombia                         |
+| United Kingdom                   | Djibouti                         |
+| United Kingdom                   | Dominican Republic               |
+| United Kingdom                   | Faroe Islands                    |
+| United Kingdom                   | Fiji                             |
+| United Kingdom                   | Ghana                            |
+| United Kingdom                   | Greenland                        |
+| United Kingdom                   | Guatemala                        |
+| United Kingdom                   | Honduras                         |
+| United Kingdom                   | Malta                            |
+| United Kingdom                   | Moldova                          |
+| United Kingdom                   | Myanmar                          |
+| United Kingdom                   | Nigeria                          |
+| United Kingdom                   | North Korea                      |
+| United Kingdom                   | Norway                           |
+| United Kingdom                   | Pakistan                         |
+| United Kingdom                   | People's Republic of China       |
+| United Kingdom                   | Peru                             |
+| United Kingdom                   | Romania                          |
+| United Kingdom                   | Singapore                        |
+| United Kingdom                   | Solomon Islands                  |
+| United Kingdom                   | Switzerland                      |
+| United Kingdom                   | Thailand                         |
+| United Kingdom                   | Turkmenistan                     |
+| United States of America         | Afghanistan                      |
+| United States of America         | Antigua and Barbuda              |
+| United States of America         | Austria                          |
+| United States of America         | Azerbaijan                       |
+| United States of America         | Bangladesh                       |
+| United States of America         | Benin                            |
+| United States of America         | Bosnia and Herzegovina           |
+| United States of America         | Botswana                         |
+| United States of America         | Cambodia                         |
+| United States of America         | Chile                            |
+| United States of America         | Cuba                             |
+| United States of America         | Curaçao                          |
+| United States of America         | Cyprus                           |
+| United States of America         | Dominica                         |
 | United States of America         | Egypt                            |
+| United States of America         | Estonia                          |
+| United States of America         | Finland                          |
+| United States of America         | France                           |
+| United States of America         | Georgia                          |
+| United States of America         | Greenland                        |
+| United States of America         | Guyana                           |
+| United States of America         | Italy                            |
+| United States of America         | Kazakhstan                       |
+| United States of America         | Kenya                            |
+| United States of America         | Kuwait                           |
+| United States of America         | Liberia                          |
+| United States of America         | Liechtenstein                    |
+| United States of America         | Luxembourg                       |
+| United States of America         | Malawi                           |
+| United States of America         | Montenegro                       |
+| United States of America         | Nigeria                          |
+| United States of America         | People's Republic of China       |
+| United States of America         | Portugal                         |
+| United States of America         | Republic of Abkhazia             |
+| United States of America         | Saint Vincent and the Grenadines |
+| United States of America         | São Tomé and Príncipe            |
+| United States of America         | Sierra Leone                     |
+| United States of America         | Spain                            |
+| United States of America         | Thailand                         |
+| United States of America         | Uganda                           |
+| Uruguay                          | Argentina                        |
+| Uruguay                          | Armenia                          |
+| Uruguay                          | Australia                        |
+| Uruguay                          | Bhutan                           |
+| Uruguay                          | Brunei                           |
+| Uruguay                          | Burkina Faso                     |
+| Uruguay                          | Cambodia                         |
+| Uruguay                          | Croatia                          |
+| Uruguay                          | El Salvador                      |
+| Uruguay                          | Faroe Islands                    |
+| Uruguay                          | France                           |
+| Uruguay                          | Gabon                            |
+| Uruguay                          | Ghana                            |
+| Uruguay                          | Guyana                           |
+| Uruguay                          | Hungary                          |
+| Uruguay                          | Kenya                            |
+| Uruguay                          | Kuwait                           |
+| Uruguay                          | Lithuania                        |
+| Uruguay                          | Morocco                          |
+| Uruguay                          | New Zealand                      |
+| Uruguay                          | Nicaragua                        |
+| Uruguay                          | Nigeria                          |
+| Uruguay                          | Norway                           |
+| Uruguay                          | Panama                           |
+| Uruguay                          | People's Republic of China       |
+| Uruguay                          | Republic of Abkhazia             |
+| Uruguay                          | San Marino                       |
+| Uruguay                          | Saudi Arabia                     |
+| Uruguay                          | Slovakia                         |
+| Uruguay                          | Slovenia                         |
+| Uruguay                          | South Africa                     |
+| Uruguay                          | South Korea                      |
+| Uruguay                          | South Sudan                      |
+| Uruguay                          | Sudan                            |
+| Uruguay                          | Suriname                         |
+| Uruguay                          | Tajikistan                       |
+| Uruguay                          | Thailand                         |
+| Uruguay                          | Trinidad and Tobago              |
+| Uruguay                          | Uganda                           |
+| Uruguay                          | Ukraine                          |
+| Uruguay                          | United States of America         |
+| Uruguay                          | Venezuela                        |
+| Uruguay                          | Zimbabwe                         |
+| Uzbekistan                       | Angola                           |
+| Uzbekistan                       | Antigua and Barbuda              |
+| Uzbekistan                       | Austria                          |
+| Uzbekistan                       | Belgium                          |
+| Uzbekistan                       | Bhutan                           |
+| Uzbekistan                       | Brazil                           |
+| Uzbekistan                       | Brunei                           |
+| Uzbekistan                       | Burundi                          |
+| Uzbekistan                       | Cambodia                         |
+| Uzbekistan                       | Colombia                         |
+| Uzbekistan                       | Costa Rica                       |
+| Uzbekistan                       | Croatia                          |
+| Uzbekistan                       | Curaçao                          |
+| Uzbekistan                       | Cyprus                           |
+| Uzbekistan                       | Egypt                            |
+| Uzbekistan                       | Eritrea                          |
+| Uzbekistan                       | Ethiopia                         |
+| Uzbekistan                       | Fiji                             |
+| Uzbekistan                       | Greece                           |
+| Uzbekistan                       | Guyana                           |
+| Uzbekistan                       | Hungary                          |
+| Uzbekistan                       | Iraq                             |
+| Uzbekistan                       | Kazakhstan                       |
+| Uzbekistan                       | Kyrgyzstan                       |
+| Uzbekistan                       | Latvia                           |
+| Uzbekistan                       | Lebanon                          |
+| Uzbekistan                       | Malaysia                         |
+| Uzbekistan                       | Mexico                           |
+| Uzbekistan                       | Papua New Guinea                 |
+| Uzbekistan                       | Peru                             |
+| Uzbekistan                       | Philippines                      |
+| Uzbekistan                       | Portugal                         |
+| Uzbekistan                       | Rwanda                           |
+| Uzbekistan                       | Saint Lucia                      |
+| Uzbekistan                       | San Marino                       |
+| Uzbekistan                       | São Tomé and Príncipe            |
+| Uzbekistan                       | Serbia                           |
+| Uzbekistan                       | Sierra Leone                     |
+| Uzbekistan                       | Solomon Islands                  |
+| Uzbekistan                       | Sri Lanka                        |
+| Uzbekistan                       | Thailand                         |
+| Uzbekistan                       | Trinidad and Tobago              |
+| Uzbekistan                       | United Kingdom                   |
+| Uzbekistan                       | Venezuela                        |
+| Uzbekistan                       | Zimbabwe                         |
+| Venezuela                        | Austria                          |
+| Venezuela                        | Belarus                          |
+| Venezuela                        | British Virgin Islands           |
+| Venezuela                        | Brunei                           |
+| Venezuela                        | Cuba                             |
+| Venezuela                        | Egypt                            |
+| Venezuela                        | Estonia                          |
+| Venezuela                        | Georgia                          |
+| Venezuela                        | Greece                           |
+| Venezuela                        | Guernsey                         |
+| Venezuela                        | Iraq                             |
+| Venezuela                        | Ireland                          |
+| Venezuela                        | Kuwait                           |
+| Venezuela                        | Malawi                           |
+| Venezuela                        | Malaysia                         |
+| Venezuela                        | Moldova                          |
+| Venezuela                        | New Zealand                      |
+| Venezuela                        | North Macedonia                  |
+| Venezuela                        | Papua New Guinea                 |
+| Venezuela                        | Paraguay                         |
+| Venezuela                        | Philippines                      |
+| Venezuela                        | Russia                           |
+| Venezuela                        | Rwanda                           |
+| Venezuela                        | Saint Kitts and Nevis            |
+| Venezuela                        | Saudi Arabia                     |
+| Venezuela                        | Serbia                           |
+| Venezuela                        | Slovenia                         |
+| Venezuela                        | South Africa                     |
+| Venezuela                        | South Korea                      |
+| Venezuela                        | Sudan                            |
+| Venezuela                        | United Arab Emirates             |
+| Venezuela                        | Zambia                           |
+| Vietnam                          | Algeria                          |
+| Vietnam                          | Antigua and Barbuda              |
+| Vietnam                          | Armenia                          |
+| Vietnam                          | Bangladesh                       |
+| Vietnam                          | Bhutan                           |
+| Vietnam                          | Burkina Faso                     |
+| Vietnam                          | Burundi                          |
+| Vietnam                          | Chile                            |
+| Vietnam                          | Curaçao                          |
+| Vietnam                          | Cyprus                           |
+| Vietnam                          | Djibouti                         |
+| Vietnam                          | France                           |
+| Vietnam                          | Georgia                          |
+| Vietnam                          | Grenada                          |
+| Vietnam                          | Indonesia                        |
+| Vietnam                          | Israel                           |
+| Vietnam                          | Italy                            |
+| Vietnam                          | Kyrgyzstan                       |
+| Vietnam                          | Lebanon                          |
+| Vietnam                          | Lithuania                        |
+| Vietnam                          | Myanmar                          |
+| Vietnam                          | Netherlands                      |
+| Vietnam                          | Pakistan                         |
+| Vietnam                          | Peru                             |
+| Vietnam                          | Poland                           |
+| Vietnam                          | Qatar                            |
+| Vietnam                          | São Tomé and Príncipe            |
+| Vietnam                          | South Africa                     |
+| Vietnam                          | Spain                            |
+| Vietnam                          | State of Palestine               |
+| Vietnam                          | Turkey                           |
+| Vietnam                          | United Kingdom                   |
+| Vietnam                          | Zimbabwe                         |
+| Zambia                           | Afghanistan                      |
+| Zambia                           | Argentina                        |
+| Zambia                           | Bolivia                          |
+| Zambia                           | Bosnia and Herzegovina           |
+| Zambia                           | Botswana                         |
+| Zambia                           | Brazil                           |
+| Zambia                           | British Virgin Islands           |
+| Zambia                           | Burkina Faso                     |
+| Zambia                           | Cameroon                         |
+| Zambia                           | Czech Republic                   |
+| Zambia                           | Dominica                         |
+| Zambia                           | Dominican Republic               |
+| Zambia                           | Faroe Islands                    |
+| Zambia                           | Fiji                             |
+| Zambia                           | Finland                          |
+| Zambia                           | France                           |
+| Zambia                           | Ghana                            |
+| Zambia                           | Greece                           |
+| Zambia                           | Guernsey                         |
+| Zambia                           | Guyana                           |
+| Zambia                           | Jordan                           |
+| Zambia                           | Kazakhstan                       |
+| Zambia                           | Liechtenstein                    |
+| Zambia                           | Luxembourg                       |
+| Zambia                           | Mali                             |
+| Zambia                           | Mauritius                        |
+| Zambia                           | Moldova                          |
+| Zambia                           | Netherlands                      |
+| Zambia                           | Qatar                            |
+| Zambia                           | Saint Vincent and the Grenadines |
+| Zambia                           | Saudi Arabia                     |
+| Zambia                           | Suriname                         |
+| Zambia                           | Sweden                           |
+| Zambia                           | Tunisia                          |
+| Zambia                           | Ukraine                          |
+| Zambia                           | Uzbekistan                       |
+| Zimbabwe                         | Afghanistan                      |
+| Zimbabwe                         | Australia                        |
+| Zimbabwe                         | Bangladesh                       |
+| Zimbabwe                         | Bosnia and Herzegovina           |
+| Zimbabwe                         | Botswana                         |
+| Zimbabwe                         | British Virgin Islands           |
+| Zimbabwe                         | Colombia                         |
+| Zimbabwe                         | Costa Rica                       |
+| Zimbabwe                         | Cuba                             |
+| Zimbabwe                         | Curaçao                          |
+| Zimbabwe                         | Denmark                          |
+| Zimbabwe                         | Ecuador                          |
+| Zimbabwe                         | Fiji                             |
+| Zimbabwe                         | France                           |
+| Zimbabwe                         | Guernsey                         |
+| Zimbabwe                         | Iceland                          |
+| Zimbabwe                         | India                            |
+| Zimbabwe                         | Kosovo                           |
+| Zimbabwe                         | Liberia                          |
+| Zimbabwe                         | Moldova                          |
+| Zimbabwe                         | Mongolia                         |
+| Zimbabwe                         | Morocco                          |
+| Zimbabwe                         | Nepal                            |
+| Zimbabwe                         | Nicaragua                        |
+| Zimbabwe                         | Papua New Guinea                 |
+| Zimbabwe                         | Philippines                      |
+| Zimbabwe                         | Rwanda                           |
+| Zimbabwe                         | Saint Vincent and the Grenadines |
+| Zimbabwe                         | São Tomé and Príncipe            |
+| Zimbabwe                         | Singapore                        |
+| Zimbabwe                         | State of Palestine               |
+| Zimbabwe                         | Sweden                           |
+| Zimbabwe                         | Syria                            |
+| Zimbabwe                         | Tunisia                          |
+| Zimbabwe                         | Venezuela                        |
+| Zimbabwe                         | Zambia                           |
+
+
