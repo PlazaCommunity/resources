@@ -1,6 +1,10 @@
 # Query 10 Solution
 
-| home                             | guest                            |
+List all matchup (team_1, team_2), where there exists a match (team_1 vs team_2) but no (team_2 vs team_1).
+
+*(6286 rows)*
+
+| team_1                           | team_2                           |
 | :------------------------------- | :------------------------------- |
 | Qatar                            | Djibouti                         |
 | Cameroon                         | Mexico                           |

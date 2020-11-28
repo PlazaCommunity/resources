@@ -3,6 +3,7 @@
 List the capacity for each stadium (i.e stadium, capacity) used for matches of at least one
 European team ('Europe') from group 'A'.
 
+*(801 rows)*  
 _(Ordered by stadium's name)_
 
 | name                                                | capacity |
